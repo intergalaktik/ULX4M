@@ -194,19 +194,6 @@ F 3 "" H 7250 3400 50  0000 C CNN
 	1    7250 3400
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	7400 3400 7750 3400
-Wire Wire Line
-	7750 3100 7750 3200
-Wire Wire Line
-	7750 3100 7800 3100
-Connection ~ 7750 3400
-Wire Wire Line
-	7800 3200 7750 3200
-Connection ~ 7750 3200
-Wire Wire Line
-	7800 3300 7750 3300
-Connection ~ 7750 3300
 Text GLabel 8400 3100 2    60   Input ~ 0
 SW1
 Text GLabel 8400 3200 2    60   Input ~ 0
@@ -227,8 +214,6 @@ Text Label 4750 5850 0    60   ~ 0
 LED_WIFI
 Wire Wire Line
 	4400 5850 4250 5850
-Text Label 7450 3400 0    60   ~ 0
-SWPU
 Text Notes 6350 5400 0    60   ~ 0
 TXLED blinks when FPGA sends data to FTDI
 Text Notes 4450 2300 0    60   ~ 0
@@ -373,35 +358,8 @@ Wire Wire Line
 	4250 2950 4250 3150
 Wire Wire Line
 	4250 2750 4250 2950
-Wire Wire Line
-	7750 3400 7800 3400
-Wire Wire Line
-	7750 3200 7750 3300
-Wire Wire Line
-	7750 3300 7750 3400
 Text GLabel 7100 3400 0    60   Input ~ 0
 2V5_3V3
-$Comp
-L Switch:SW_DIP_x04 SW1
-U 1 1 5B1DD3B8
-P 8100 3300
-F 0 "SW1" H 8100 3767 50  0000 C CNN
-F 1 "SW_DIP_x04" H 8100 3676 50  0000 C CNN
-F 2 "dipswitch:SW_DIP_x4_W8.61mm_Slide_LowProfile" H 8100 3300 50  0001 C CNN
-F 3 "https://www.ctscorp.com/wp-content/uploads/219.pdf" H 8100 3300 50  0001 C CNN
-F 4 "www.jameco.com" H 8100 3300 50  0001 C CNN "MNF1_URL"
-F 5 "219-4MST" H 8100 3300 50  0001 C CNN "MPN"
-F 6 "https://datasheet.lcsc.com/szlcsc/1912111437_XKB-Enterprise-DSHP04TS-S_C319050.pdf" H 8100 3300 50  0001 C CNN "MNF2_URL"
-F 7 "DSHP04TS-S" H 8100 3300 50  0001 C CNN "MPN2"
-F 8 "774-2194MST" H 8100 3300 50  0001 C CNN "Mouser"
-F 9 "CT2194MST-ND" H 8100 3300 50  0001 C CNN "Digikey"
-F 10 "29P1768" H 8100 3300 50  0001 C CNN "Newark"
-F 11 "C319050" H 8100 3300 50  0001 C CNN "LCSC"
-F 12 "FSW002" H 8100 3300 50  0001 C CNN "Koncar"
-F 13 "T" H 8100 3300 50  0001 C CNN "Side"
-	1    8100 3300
-	1    0    0    -1  
-$EndComp
 Text GLabel 4850 1950 2    60   Input ~ 0
 OLED_BL
 Wire Wire Line
