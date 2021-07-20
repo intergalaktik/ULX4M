@@ -14,166 +14,123 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Wire Wire Line
-	5450 2200 5450 2100
+	5900 2300 5900 2200
 Wire Wire Line
-	5450 2100 5550 2100
+	5900 2200 6000 2200
 Wire Wire Line
-	5750 2100 5750 2200
+	6200 2200 6200 2300
 Wire Wire Line
-	5550 2000 5550 2100
-Connection ~ 5550 2100
+	6000 2100 6000 2200
+Connection ~ 6000 2200
 Wire Wire Line
-	5650 2200 5650 2100
-Connection ~ 5650 2100
+	6100 2300 6100 2200
+Connection ~ 6100 2200
 Wire Wire Line
-	5150 2200 5150 2100
+	5600 2300 5600 2200
 Wire Wire Line
-	5150 2100 5250 2100
+	5600 2200 5700 2200
 Wire Wire Line
-	5350 2100 5350 2200
+	5800 2200 5800 2300
 Wire Wire Line
-	5250 2000 5250 2100
-Connection ~ 5250 2100
+	5700 2100 5700 2200
+Connection ~ 5700 2200
 $Comp
 L power:+3V3 #PWR0124
 U 1 1 58D928FF
-P 5250 2000
-F 0 "#PWR0124" H 5250 1850 50  0001 C CNN
-F 1 "+3V3" H 5250 2140 50  0000 C CNN
-F 2 "" H 5250 2000 50  0000 C CNN
-F 3 "" H 5250 2000 50  0000 C CNN
-	1    5250 2000
+P 5700 2100
+F 0 "#PWR0124" H 5700 1950 50  0001 C CNN
+F 1 "+3V3" H 5700 2240 50  0000 C CNN
+F 2 "" H 5700 2100 50  0000 C CNN
+F 3 "" H 5700 2100 50  0000 C CNN
+	1    5700 2100
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3V3 #PWR0128
 U 1 1 58D92915
-P 5550 2000
-F 0 "#PWR0128" H 5550 1850 50  0001 C CNN
-F 1 "+3V3" H 5550 2140 50  0000 C CNN
-F 2 "" H 5550 2000 50  0000 C CNN
-F 3 "" H 5550 2000 50  0000 C CNN
-	1    5550 2000
+P 6000 2100
+F 0 "#PWR0128" H 6000 1950 50  0001 C CNN
+F 1 "+3V3" H 6000 2240 50  0000 C CNN
+F 2 "" H 6000 2100 50  0000 C CNN
+F 3 "" H 6000 2100 50  0000 C CNN
+	1    6000 2100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5150 4800 5150 4900
-Wire Wire Line
-	5150 4900 5250 4900
-Wire Wire Line
-	5350 4900 5350 4800
-Wire Wire Line
-	5250 4800 5250 4900
-Connection ~ 5250 4900
-Wire Wire Line
-	5450 4800 5450 4900
-Wire Wire Line
-	5450 4900 5550 4900
-Wire Wire Line
-	5750 4900 5750 4800
-Wire Wire Line
-	5550 4800 5550 4900
-Connection ~ 5550 4900
-Wire Wire Line
-	5650 4800 5650 4900
-Connection ~ 5650 4900
-$Comp
-L power:GND #PWR0125
-U 1 1 58D929C8
-P 5250 5000
-F 0 "#PWR0125" H 5250 4750 50  0001 C CNN
-F 1 "GND" H 5250 4850 50  0000 C CNN
-F 2 "" H 5250 5000 50  0000 C CNN
-F 3 "" H 5250 5000 50  0000 C CNN
-	1    5250 5000
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0129
-U 1 1 58D929DE
-P 5550 5000
-F 0 "#PWR0129" H 5550 4750 50  0001 C CNN
-F 1 "GND" H 5550 4850 50  0000 C CNN
-F 2 "" H 5550 5000 50  0000 C CNN
-F 3 "" H 5550 5000 50  0000 C CNN
-	1    5550 5000
-	1    0    0    -1  
-$EndComp
-Text GLabel 6250 2450 2    60   Input ~ 0
+Text GLabel 6700 2550 2    60   Input ~ 0
 SDRAM_D0
-Text GLabel 6250 2550 2    60   Input ~ 0
+Text GLabel 6700 2650 2    60   Input ~ 0
 SDRAM_D1
-Text GLabel 6250 2650 2    60   Input ~ 0
+Text GLabel 6700 2750 2    60   Input ~ 0
 SDRAM_D2
-Text GLabel 6250 2750 2    60   Input ~ 0
+Text GLabel 6700 2850 2    60   Input ~ 0
 SDRAM_D3
-Text GLabel 6250 2850 2    60   Input ~ 0
+Text GLabel 6700 2950 2    60   Input ~ 0
 SDRAM_D4
-Text GLabel 6250 2950 2    60   Input ~ 0
+Text GLabel 6700 3050 2    60   Input ~ 0
 SDRAM_D5
-Text GLabel 6250 3050 2    60   Input ~ 0
+Text GLabel 6700 3150 2    60   Input ~ 0
 SDRAM_D6
-Text GLabel 6250 3150 2    60   Input ~ 0
+Text GLabel 6700 3250 2    60   Input ~ 0
 SDRAM_D7
-Text GLabel 6250 3250 2    60   Input ~ 0
+Text GLabel 6700 3350 2    60   Input ~ 0
 SDRAM_D8
-Text GLabel 6250 3350 2    60   Input ~ 0
+Text GLabel 6700 3450 2    60   Input ~ 0
 SDRAM_D9
-Text GLabel 6250 3450 2    60   Input ~ 0
+Text GLabel 6700 3550 2    60   Input ~ 0
 SDRAM_D10
-Text GLabel 6250 3550 2    60   Input ~ 0
+Text GLabel 6700 3650 2    60   Input ~ 0
 SDRAM_D11
-Text GLabel 6250 3650 2    60   Input ~ 0
+Text GLabel 6700 3750 2    60   Input ~ 0
 SDRAM_D12
-Text GLabel 6250 3750 2    60   Input ~ 0
+Text GLabel 6700 3850 2    60   Input ~ 0
 SDRAM_D13
-Text GLabel 6250 3850 2    60   Input ~ 0
+Text GLabel 6700 3950 2    60   Input ~ 0
 SDRAM_D14
-Text GLabel 6250 3950 2    60   Input ~ 0
+Text GLabel 6700 4050 2    60   Input ~ 0
 SDRAM_D15
-Text GLabel 6250 4200 2    60   Input ~ 0
+Text GLabel 6700 4300 2    60   Input ~ 0
 SDRAM_DQM0
-Text GLabel 6250 4300 2    60   Input ~ 0
+Text GLabel 6700 4400 2    60   Input ~ 0
 SDRAM_DQM1
-Text GLabel 4650 2450 0    60   Input ~ 0
+Text GLabel 5100 2550 0    60   Input ~ 0
 SDRAM_A0
-Text GLabel 4650 2550 0    60   Input ~ 0
+Text GLabel 5100 2650 0    60   Input ~ 0
 SDRAM_A1
-Text GLabel 4650 2650 0    60   Input ~ 0
+Text GLabel 5100 2750 0    60   Input ~ 0
 SDRAM_A2
-Text GLabel 4650 2750 0    60   Input ~ 0
+Text GLabel 5100 2850 0    60   Input ~ 0
 SDRAM_A3
-Text GLabel 4650 2850 0    60   Input ~ 0
+Text GLabel 5100 2950 0    60   Input ~ 0
 SDRAM_A4
-Text GLabel 4650 2950 0    60   Input ~ 0
+Text GLabel 5100 3050 0    60   Input ~ 0
 SDRAM_A5
-Text GLabel 4650 3050 0    60   Input ~ 0
+Text GLabel 5100 3150 0    60   Input ~ 0
 SDRAM_A6
-Text GLabel 4650 3150 0    60   Input ~ 0
+Text GLabel 5100 3250 0    60   Input ~ 0
 SDRAM_A7
-Text GLabel 4650 3250 0    60   Input ~ 0
+Text GLabel 5100 3350 0    60   Input ~ 0
 SDRAM_A8
-Text GLabel 4650 3350 0    60   Input ~ 0
+Text GLabel 5100 3450 0    60   Input ~ 0
 SDRAM_A9
-Text GLabel 4650 3450 0    60   Input ~ 0
+Text GLabel 5100 3550 0    60   Input ~ 0
 SDRAM_A10
-Text GLabel 4650 3550 0    60   Input ~ 0
+Text GLabel 5100 3650 0    60   Input ~ 0
 SDRAM_A11
-Text GLabel 4650 3750 0    60   Input ~ 0
+Text GLabel 5100 3850 0    60   Input ~ 0
 SDRAM_BA0
-Text GLabel 4650 3850 0    60   Input ~ 0
+Text GLabel 5100 3950 0    60   Input ~ 0
 SDRAM_BA1
-Text GLabel 4650 4000 0    60   Input ~ 0
+Text GLabel 5100 4100 0    60   Input ~ 0
 SDRAM_CLK
-Text GLabel 4650 4100 0    60   Input ~ 0
+Text GLabel 5100 4200 0    60   Input ~ 0
 SDRAM_CKE
-Text GLabel 4650 4200 0    60   Input ~ 0
+Text GLabel 5100 4300 0    60   Input ~ 0
 SDRAM_nRAS
-Text GLabel 4650 4300 0    60   Input ~ 0
+Text GLabel 5100 4400 0    60   Input ~ 0
 SDRAM_nCAS
-Text GLabel 4650 4400 0    60   Input ~ 0
+Text GLabel 5100 4500 0    60   Input ~ 0
 SDRAM_nWE
-Text GLabel 4650 4550 0    60   Input ~ 0
+Text GLabel 5100 4650 0    60   Input ~ 0
 SDRAM_nCS
 Text GLabel 10050 3250 2    60   Input ~ 0
 SDRAM_D0
@@ -328,47 +285,8 @@ Text GLabel 8550 3850 0    60   Input ~ 0
 USB_FPGA_D+
 Text GLabel 10050 3850 2    60   Input ~ 0
 USB_FPGA_D-
-Text GLabel 4650 3650 0    60   Input ~ 0
+Text GLabel 5100 3750 0    60   Input ~ 0
 SDRAM_A12
-$Comp
-L mt48lc16m16a2tg:MT48LC16M16A2TG U9
-U 1 1 5A04F49A
-P 5450 3500
-AR Path="/5A04F49A" Ref="U9"  Part="1" 
-AR Path="/58D6D507/5A04F49A" Ref="U2"  Part="1" 
-F 0 "U2" H 4850 4700 50  0000 C CNN
-F 1 "MT48LC16M16A2TG" H 6150 2300 50  0000 C CNN
-F 2 "TSOP54:TSOP54" H 5450 3500 50  0001 C CIN
-F 3 "https://www.micron.com/~/media/Documents/Products/Data%20Sheet/DRAM/256Mb_sdr.pdf" H 5450 3250 50  0001 C CNN
-F 4 "www.micron.com" H 5450 3500 60  0001 C CNN "MNF1_URL"
-F 5 "Micron" H 5450 3500 50  0001 C CNN "MFG1"
-F 6 "MT48LC16M16A2TG-6A" H 5450 3500 60  0001 C CNN "MPN"
-F 7 "www.issi.com" H 5450 3500 50  0001 C CNN "MNF2_URL"
-F 8 "ISSI" H 5450 3500 50  0001 C CNN "MFG2"
-F 9 "IS42S16160G-7TL-TR" H 5450 3500 50  0001 C CNN "MPN2"
-F 10 "Winbond" H 5450 3500 50  0001 C CNN "MFG3"
-F 11 "W9812G6KH-6" H 5450 3500 50  0001 C CNN "MP_N3"
-F 12 "https://www.alliancememory.com/wp-content/uploads/pdf/dram/512M%20SDRAM_%20B%20die_AS4C32M16SB-7TCN-7TIN-6TIN_Rev%201.0%20June%202016.pdf" H 5450 3500 50  0001 C CNN "Datasheet4"
-F 13 "Alliance" H 5450 3500 50  0001 C CNN "MFG4"
-F 14 "AS4C32M16SB-7TCN" H 5450 3500 50  0001 C CNN "MPN4"
-F 15 "M12L2561616A-6TG2T" H 5450 3500 50  0001 C CNN "MPN5"
-F 16 "870-IS42S16160G7TLTR" H 5450 3500 50  0001 C CNN "Mouser"
-F 17 "913-AS4C32M16SB-7TCN" H 5450 3500 50  0001 C CNN "Mouse_r0"
-F 18 "913-4816M16A2TG6AGTR" H 5450 3500 60  0001 C CNN "Mouse_r2"
-F 19 "870-42S16320F7TL" H 5450 3500 50  0001 C CNN "Mouse_r3"
-F 20 "454-W9825G6KH-5" H 5450 3500 50  0001 C CNN "Mouse_r4"
-F 21 "454-W9825G6KH-6" H 5450 3500 50  0001 C CNN "Mouse_r5"
-F 22 "2.3€" H 5450 3500 50  0001 C CNN "price100_Mouse_r"
-F 23 "1450-1385-1-ND" H 5450 3500 50  0001 C CNN "Digikey"
-F 24 "1450-1352-1-ND" H 5450 3500 50  0001 C CNN "Digike_y2"
-F 25 "C492195" H 5450 3500 50  0001 C CNN "LCSC"
-F 26 "C524867" H 5450 3500 50  0001 C CNN "LCS_C1"
-F 27 "0.9227$" H 5450 3500 50  0001 C CNN "price500_LCSC"
-F 28 "FU007" H 5450 3500 50  0001 C CNN "Koncar"
-F 29 "T" H 5450 3500 50  0001 C CNN "Side"
-	1    5450 3500
-	1    0    0    -1  
-$EndComp
 Text GLabel 8550 2750 0    60   Input ~ 0
 SDRAM_A12
 $Comp
@@ -542,26 +460,80 @@ F 3 "" H 6800 5750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5550 2100 5650 2100
+	6000 2200 6100 2200
 Wire Wire Line
-	5550 2100 5550 2200
+	6000 2200 6000 2300
 Wire Wire Line
-	5650 2100 5750 2100
+	6100 2200 6200 2200
 Wire Wire Line
-	5250 2100 5350 2100
+	5700 2200 5800 2200
 Wire Wire Line
-	5250 2100 5250 2200
-Wire Wire Line
-	5250 4900 5350 4900
-Wire Wire Line
-	5250 4900 5250 5000
-Wire Wire Line
-	5550 4900 5650 4900
-Wire Wire Line
-	5550 4900 5550 5000
-Wire Wire Line
-	5650 4900 5750 4900
+	5700 2200 5700 2300
 NoConn ~ 8550 4050
 NoConn ~ 10050 4050
 NoConn ~ 8550 6150
+$Comp
+L mt48lc16m16a2tg:IS42S16320D-6BLI U2
+U 1 1 60F939B5
+P 5900 3600
+F 0 "U2" H 5300 4800 50  0000 C CNN
+F 1 "IS42S16320D-6BLI" H 6650 2400 50  0000 C CNN
+F 2 "IS42S16320D:IS42S16320D-6BLI" H 5900 3600 50  0001 C CIN
+F 3 "" H 5900 3350 50  0001 C CNN
+	1    5900 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 5000 6200 5000
+Wire Wire Line
+	6000 5000 6000 5100
+Wire Wire Line
+	6000 5000 6100 5000
+Wire Wire Line
+	5700 5000 5700 5100
+Wire Wire Line
+	5700 5000 5800 5000
+$Comp
+L power:GND #PWR0129
+U 1 1 58D929DE
+P 6000 5100
+F 0 "#PWR0129" H 6000 4850 50  0001 C CNN
+F 1 "GND" H 6000 4950 50  0000 C CNN
+F 2 "" H 6000 5100 50  0000 C CNN
+F 3 "" H 6000 5100 50  0000 C CNN
+	1    6000 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0125
+U 1 1 58D929C8
+P 5700 5100
+F 0 "#PWR0125" H 5700 4850 50  0001 C CNN
+F 1 "GND" H 5700 4950 50  0000 C CNN
+F 2 "" H 5700 5100 50  0000 C CNN
+F 3 "" H 5700 5100 50  0000 C CNN
+	1    5700 5100
+	1    0    0    -1  
+$EndComp
+Connection ~ 6100 5000
+Wire Wire Line
+	6100 4900 6100 5000
+Connection ~ 6000 5000
+Wire Wire Line
+	6000 4900 6000 5000
+Wire Wire Line
+	6200 5000 6200 4900
+Wire Wire Line
+	5900 5000 6000 5000
+Wire Wire Line
+	5900 4900 5900 5000
+Connection ~ 5700 5000
+Wire Wire Line
+	5700 4900 5700 5000
+Wire Wire Line
+	5800 5000 5800 4900
+Wire Wire Line
+	5600 5000 5700 5000
+Wire Wire Line
+	5600 4900 5600 5000
 $EndSCHEMATC
