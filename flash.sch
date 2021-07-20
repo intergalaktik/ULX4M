@@ -373,17 +373,6 @@ Wire Wire Line
 	5500 4400 6500 4400
 Text Label 5550 4400 0    60   ~ 0
 FPGA_INITN
-$Comp
-L Device:R R33
-U 1 1 58EC72FD
-P 5600 2350
-F 0 "R33" V 5680 2350 50  0000 C CNN
-F 1 "15k" V 5600 2350 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 5530 2350 50  0001 C CNN
-F 3 "" H 5600 2350 50  0000 C CNN
-	1    5600 2350
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5600 2500 5600 3350
 Text Label 5600 3300 1    60   ~ 0
@@ -520,4 +509,15 @@ Text Notes 4000 3800 0    60   ~ 0
 USER_PROGRAMN\non "usb" sheet
 Text Notes 4100 3300 0    60   ~ 0
 PWRBTn\non "power" sheet
+$Comp
+L Device:R R33
+U 1 1 58EC72FD
+P 5600 2350
+F 0 "R33" V 5680 2350 50  0000 C CNN
+F 1 "15k" V 5600 2350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5530 2350 50  0001 C CNN
+F 3 "" H 5600 2350 50  0000 C CNN
+	1    5600 2350
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

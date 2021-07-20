@@ -49,108 +49,6 @@ F 3 "" H 9000 3600 60  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x20_Odd_Even J1
-U 1 1 58E6B835
-P 1950 4550
-F 0 "J1" H 2000 5550 50  0000 C CNN
-F 1 "CONN_02X20" H 2000 3450 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Angled_2x20" H 1950 3600 50  0001 C CNN
-F 3 "" H 1950 3600 50  0000 C CNN
-F 4 "Leave empty" H 1950 4550 60  0001 C CNN "Note"
-	1    1950 4550
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	2700 5550 2150 5550
-Wire Wire Line
-	1650 5550 1150 5550
-$Comp
-L power:GND #PWR05
-U 1 1 58E710CC
-P 2550 3750
-F 0 "#PWR05" H 2550 3500 50  0001 C CNN
-F 1 "GND" H 2550 3600 50  0000 C CNN
-F 2 "" H 2550 3750 60  0000 C CNN
-F 3 "" H 2550 3750 60  0000 C CNN
-	1    2550 3750
-	0    -1   1    0   
-$EndComp
-$Comp
-L power:GND #PWR06
-U 1 1 58E710E6
-P 2550 4650
-F 0 "#PWR06" H 2550 4400 50  0001 C CNN
-F 1 "GND" H 2550 4500 50  0000 C CNN
-F 2 "" H 2550 4650 60  0000 C CNN
-F 3 "" H 2550 4650 60  0000 C CNN
-	1    2550 4650
-	0    -1   1    0   
-$EndComp
-$Comp
-L power:GND #PWR07
-U 1 1 58E710F2
-P 2550 5450
-F 0 "#PWR07" H 2550 5200 50  0001 C CNN
-F 1 "GND" H 2550 5300 50  0000 C CNN
-F 2 "" H 2550 5450 60  0000 C CNN
-F 3 "" H 2550 5450 60  0000 C CNN
-	1    2550 5450
-	0    -1   1    0   
-$EndComp
-Wire Wire Line
-	2550 3750 2150 3750
-Wire Wire Line
-	2150 3650 2700 3650
-Wire Wire Line
-	2550 4650 2150 4650
-Wire Wire Line
-	2700 4550 2150 4550
-Wire Wire Line
-	2550 5450 2150 5450
-$Comp
-L power:GND #PWR010
-U 1 1 58E7117D
-P 1200 3750
-F 0 "#PWR010" H 1200 3500 50  0001 C CNN
-F 1 "GND" H 1200 3600 50  0000 C CNN
-F 2 "" H 1200 3750 60  0000 C CNN
-F 3 "" H 1200 3750 60  0000 C CNN
-	1    1200 3750
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR08
-U 1 1 58E71197
-P 1250 4650
-F 0 "#PWR08" H 1250 4400 50  0001 C CNN
-F 1 "GND" H 1250 4500 50  0000 C CNN
-F 2 "" H 1250 4650 60  0000 C CNN
-F 3 "" H 1250 4650 60  0000 C CNN
-	1    1250 4650
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR09
-U 1 1 58E711A3
-P 1250 5450
-F 0 "#PWR09" H 1250 5200 50  0001 C CNN
-F 1 "GND" H 1250 5300 50  0000 C CNN
-F 2 "" H 1250 5450 60  0000 C CNN
-F 3 "" H 1250 5450 60  0000 C CNN
-	1    1250 5450
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	1200 3750 1650 3750
-Wire Wire Line
-	1650 3650 1050 3650
-Wire Wire Line
-	1250 4650 1650 4650
-Wire Wire Line
-	1650 4550 1100 4550
-Wire Wire Line
-	1650 5450 1250 5450
-$Comp
 L power:+5V #PWR022
 U 1 1 58E75077
 P 10100 3600
@@ -187,8 +85,6 @@ Text GLabel 2150 4350 2    60   Input ~ 0
 GN5
 Text GLabel 2150 4450 2    60   Input ~ 0
 GN6
-Text GLabel 1650 4450 0    60   Input ~ 0
-GP6
 Text GLabel 2150 4750 2    60   Input ~ 0
 GN7
 Text GLabel 1650 4750 0    60   Input ~ 0
@@ -429,18 +325,6 @@ Text Notes 2800 2250 0    60   ~ 0
 NC v1.7
 Text Notes 6750 2250 0    60   ~ 0
 NC v1.7
-Text GLabel 2700 3650 2    60   Input ~ 0
-2V5_3V3
-Text GLabel 2700 4550 2    60   Input ~ 0
-2V5_3V3
-Text GLabel 2700 5550 2    60   Input ~ 0
-2V5_3V3
-Text GLabel 1150 5550 0    60   Input ~ 0
-2V5_3V3
-Text GLabel 1100 4550 0    60   Input ~ 0
-2V5_3V3
-Text GLabel 1050 3650 0    60   Input ~ 0
-2V5_3V3
 Wire Notes Line
 	9250 3450 9150 3450
 Wire Notes Line
@@ -522,4 +406,6 @@ Text GLabel 9900 5150 2    60   Input ~ 0
 GP15
 Text GLabel 9900 5250 2    60   Input ~ 0
 GP14
+Text GLabel 1650 4450 0    60   Input ~ 0
+GP6
 $EndSCHEMATC
