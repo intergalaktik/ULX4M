@@ -14,37 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Device:D_Schottky_Small D8
-U 1 1 58D6C83A
-P 2300 1700
-F 0 "D8" H 2350 1650 50  0000 L CNN
-F 1 "STPS2L40AF" H 1800 1650 50  0000 L CNN
-F 2 "Diode_SMD:D_SMA" V 2300 1700 60  0001 C CNN
-F 3 "" V 2300 1700 60  0000 C CNN
-F 4 "www.st.com" H 2300 1700 50  0001 C CNN "MNF1_URL"
-F 5 "STPS2L30AF" H 2300 1700 60  0001 C CNN "MPN"
-F 6 "511-STPS2L40AF" H 2300 1700 60  0001 C CNN "Mouser"
-F 7 "497-12310-1-ND" H 2300 1700 50  0001 C CNN "Digikey"
-F 8 "69AH2828" H 2300 1700 50  0001 C CNN "Newark"
-F 9 "STPS2L30AF" H 2300 1700 50  0001 C CNN "AvnetEU"
-F 10 "C111630" H 2300 1700 50  0001 C CNN "LCSC"
-F 11 "0.22121$" H 2300 1700 50  0001 C CNN "price100_AvnetEU"
-F 12 "FV008" H 2300 1700 50  0001 C CNN "Koncar"
-	1    2300 1700
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:+5V #PWR0107
-U 1 1 58D6C83B
-P 2800 1700
-F 0 "#PWR0107" H 2800 1550 50  0001 C CNN
-F 1 "+5V" H 2800 1840 50  0000 C CNN
-F 2 "" H 2800 1700 60  0000 C CNN
-F 3 "" H 2800 1700 60  0000 C CNN
-	1    2800 1700
-	0    1    1    0   
-$EndComp
-$Comp
 L Device:Jumper_NC_Small D9
 U 1 1 58D6C83C
 P 2650 2650
@@ -72,17 +41,6 @@ F 3 "" H 2800 2650 60  0000 C CNN
 	1    2800 2650
 	0    1    1    0   
 $EndComp
-$Comp
-L power:GND #PWR0104
-U 1 1 58D6C842
-P 1850 2100
-F 0 "#PWR0104" H 1850 1850 50  0001 C CNN
-F 1 "GND" H 1850 1950 50  0000 C CNN
-F 2 "" H 1850 2100 50  0000 C CNN
-F 3 "" H 1850 2100 50  0000 C CNN
-	1    1850 2100
-	0    -1   -1   0   
-$EndComp
 Text GLabel 3000 1800 2    60   Input ~ 0
 USB_FTDI_D-
 Text GLabel 3000 1900 2    60   Input ~ 0
@@ -91,7 +49,6 @@ Text GLabel 3000 2750 2    60   Input ~ 0
 USB_FPGA_D-
 Text GLabel 3000 2850 2    60   Input ~ 0
 USB_FPGA_D+
-NoConn ~ 1850 2000
 $Comp
 L power:GND #PWR0102
 U 1 1 58D82518
@@ -134,24 +91,7 @@ JTAG_TMS
 Text GLabel 2150 1500 2    60   Input ~ 0
 USB5V
 Wire Wire Line
-	1800 1700 1950 1700
-Wire Wire Line
-	2400 1700 2800 1700
-Wire Wire Line
 	2750 2650 2800 2650
-Wire Wire Line
-	1800 2100 1850 2100
-Wire Wire Line
-	1800 1800 2150 1800
-Wire Wire Line
-	1800 1900 2150 1900
-Wire Wire Line
-	1800 2000 1850 2000
-Wire Wire Line
-	2150 1500 1950 1500
-Wire Wire Line
-	1950 1500 1950 1700
-Connection ~ 1950 1700
 Text GLabel 4850 3400 0    60   Input ~ 0
 nRESET
 Text GLabel 10150 2650 2    60   Input ~ 0
@@ -243,14 +183,6 @@ Text GLabel 9650 5000 2    60   Input ~ 0
 JTAG_TCK
 Text GLabel 9150 5100 0    60   Input ~ 0
 JTAG_TMS
-Wire Wire Line
-	2450 1800 3000 1800
-Wire Wire Line
-	2450 1900 3000 1900
-Text Label 1850 1800 0    60   ~ 0
-FTD-
-Text Label 1850 1900 0    60   ~ 0
-FTD+
 Text Notes 2850 3250 0    60   ~ 0
 USB_FPGA connected to\nBANK1 on "gpdi" sheet and\nBANK2 on "ram" sheet
 Wire Wire Line
@@ -518,8 +450,6 @@ Text GLabel 2750 5450 2    60   Input ~ 0
 USB_FPGA_D-
 Text Notes 2750 5700 0    60   ~ 0
 D+,D- 15k pulldown \nfor host mode
-Wire Wire Line
-	1950 1700 2200 1700
 Wire Wire Line
 	2650 3200 2700 3200
 Wire Wire Line

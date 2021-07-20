@@ -1141,18 +1141,11 @@ Wire Wire Line
 Wire Wire Line
 	7450 4700 6950 4700
 Wire Wire Line
-	3950 4950 4100 4950
-Wire Wire Line
 	4100 1050 4200 1050
 Wire Wire Line
 	4600 1050 4600 1150
 Wire Wire Line
 	4850 4950 4850 4850
-Wire Wire Line
-	4100 4950 4100 5050
-Connection ~ 4100 4950
-Wire Wire Line
-	2850 4950 3650 4950
 Wire Wire Line
 	7750 1050 7750 1150
 Wire Wire Line
@@ -1164,8 +1157,6 @@ Text GLabel 2500 4950 0    60   Input ~ 0
 FTDI_nSLEEP
 Wire Wire Line
 	2500 4950 2550 4950
-Text Label 2900 4950 0    60   ~ 0
-FTDI_nSUSPEND
 $Comp
 L Device:C C17
 U 1 1 592462C1
@@ -2433,17 +2424,6 @@ F 6 "595-TLV62569DBVR" H 8050 5800 50  0001 C CNN "Mouser"
 	1    8050 5800
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:D_Schottky D12
-U 1 1 5AF673FF
-P 3800 4950
-F 0 "D12" H 3800 5050 50  0000 C CNN
-F 1 "BAT54W" H 3800 4850 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 3800 4950 50  0001 C CNN
-F 3 "" H 3800 4950 50  0001 C CNN
-	1    3800 4950
-	-1   0    0    1   
-$EndComp
 Text Notes 850  5050 0    60   ~ 0
 FTDI_nSLEEP is 2.5V\nD12 must be schottky
 Wire Wire Line
@@ -2537,6 +2517,4 @@ Text Notes 4400 5300 0    60   ~ 0
 D11 (2V), R2, R4 hold PWREN on 1V\nin the middle of 0.4-1.5V hysteresis
 Wire Wire Line
 	2900 3700 2900 3800
-Wire Wire Line
-	4100 4950 4850 4950
 $EndSCHEMATC
