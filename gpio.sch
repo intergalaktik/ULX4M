@@ -14,30 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Device:Jumper_NC_Small D51
-U 1 1 56AC483B
-P 9100 3600
-F 0 "D51" H 9100 3700 50  0000 C CNN
-F 1 "0" H 9100 3550 50  0000 C CNN
-F 2 "jumper:D_SMA_Jumper_NC" V 9100 3600 60  0001 C CNN
-F 3 "" V 9100 3600 60  0000 C CNN
-F 4 "Leave empty" H 9100 3600 50  0001 C CNN "Note"
-	1    9100 3600
-	1    0    0    1   
-$EndComp
-$Comp
-L Device:Jumper_NC_Small D52
-U 1 1 56AC4846
-P 10000 3600
-F 0 "D52" H 10000 3700 50  0000 C CNN
-F 1 "0" H 10000 3550 50  0000 C CNN
-F 2 "jumper:D_SMA_Jumper_NC" V 10000 3600 60  0001 C CNN
-F 3 "" V 10000 3600 60  0000 C CNN
-F 4 "Leave empty" H 10000 3600 50  0001 C CNN "Note"
-	1    10000 3600
-	1    0    0    1   
-$EndComp
-$Comp
 L power:+5V #PWR011
 U 1 1 56AC484F
 P 9000 3600
