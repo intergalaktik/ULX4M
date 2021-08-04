@@ -401,8 +401,6 @@ F 7 "Manufacturer Recommendations" H 7150 3400 50  0001 L BNN "STANDARD"
 	1    7150 3400
 	1    0    0    -1  
 $EndComp
-Text GLabel 7700 1400 2    60   Input ~ 0
-ETH_0N
 Text GLabel 6600 1500 0    60   Input ~ 0
 ETH_2P
 Text GLabel 7700 1500 2    60   Input ~ 0
@@ -1206,4 +1204,250 @@ Wire Wire Line
 	6350 4900 6350 5050
 Wire Wire Line
 	6200 5050 6100 5050
+Text GLabel 16600 5200 0    60   Input ~ 0
+HDMI0_SDA
+Text GLabel 16600 5300 0    60   Input ~ 0
+HDMI0_SCL
+Text GLabel 16600 5450 0    60   Input ~ 0
+GND
+Text GLabel 16600 5600 0    60   Input ~ 0
+HDMI0_CLK_N
+Text GLabel 16600 5700 0    60   Input ~ 0
+HDMI0_CLK_P
+Text GLabel 16600 5850 0    60   Input ~ 0
+HDMI0_TX0_N
+Text GLabel 16600 5950 0    60   Input ~ 0
+HDMI0_TX0_P
+Text GLabel 16600 6100 0    60   Input ~ 0
+HDMI0_TX1_N
+Text GLabel 16600 6200 0    60   Input ~ 0
+HDMI0_TX1_P
+Text GLabel 16600 6350 0    60   Input ~ 0
+HDMI0_TX2_N
+Text GLabel 16600 6450 0    60   Input ~ 0
+HDMI0_TX2_P
+Text GLabel 16600 6600 0    60   Input ~ 0
+HDMI0_HOTPLUG
+Text GLabel 16600 6700 0    60   Input ~ 0
+HDMI0_CEC
+Text GLabel 18050 5600 0    60   Input ~ 0
+HDMI1_CLK_N
+Text GLabel 18050 5700 0    60   Input ~ 0
+HDMI1_CLK_P
+Text GLabel 18050 5850 0    60   Input ~ 0
+HDMI1_TX0_N
+Text GLabel 18050 5950 0    60   Input ~ 0
+HDMI1_TX0_P
+Text GLabel 18050 6100 0    60   Input ~ 0
+HDMI1_TX1_N
+Text GLabel 18050 6200 0    60   Input ~ 0
+HDMI1_TX1_P
+Text GLabel 18050 6350 0    60   Input ~ 0
+HDMI1_TX2_N
+Text GLabel 18050 6450 0    60   Input ~ 0
+HDMI1_TX2_P
+Text GLabel 18050 6600 0    60   Input ~ 0
+HDMI1_HOTPLUG
+Text GLabel 18050 6700 0    60   Input ~ 0
+HDMI1_CEC
+Text GLabel 18050 5200 0    60   Input ~ 0
+HDMI1_SDA
+Text GLabel 18050 5300 0    60   Input ~ 0
+HDMI1_SCL
+Text GLabel 18050 5450 0    60   Input ~ 0
+GND
+Text GLabel 13400 3450 0    60   Input ~ 0
+SD_DAT2
+Text GLabel 13400 3350 0    60   Input ~ 0
+SD_DAT1
+Text GLabel 13400 3650 0    60   Input ~ 0
+SD_DAT4
+Text GLabel 13400 3750 0    60   Input ~ 0
+SD_DAT5
+Text GLabel 13400 3850 0    60   Input ~ 0
+SD_DAT6
+Text GLabel 13400 3950 0    60   Input ~ 0
+SD_DAT7
+Text GLabel 13400 3150 0    60   Input ~ 0
+SD_CLK
+Text GLabel 13400 3550 0    60   Input ~ 0
+SD_DAT3
+Text GLabel 13400 3250 0    60   Input ~ 0
+SD_DAT0
+Text GLabel 13400 3050 0    60   Input ~ 0
+SD_PWR_ON
+Text GLabel 18150 350  0    60   Input ~ 0
+SCL0
+Text GLabel 18150 250  0    60   Input ~ 0
+SDA0
+Text GLabel 13150 250  0    60   Input ~ 0
+ETH_3P
+Text GLabel 13150 350  0    60   Input ~ 0
+ETH_3N
+Text GLabel 13150 500  0    60   Input ~ 0
+ETH_2N
+Text GLabel 13150 600  0    60   Input ~ 0
+ETH_2P
+Text GLabel 13150 1350 0    60   Input ~ 0
+ETH_nLED2
+Text GLabel 13150 1450 0    60   Input ~ 0
+ETH_nLED1
+Text GLabel 13150 1600 0    60   Input ~ 0
+ETH_SYNC_IN
+Text GLabel 13150 1700 0    60   Input ~ 0
+ETH_SYNC_OUT
+Text GLabel 13150 1100 0    60   Input ~ 0
+ETH_0P
+Text GLabel 13150 1250 0    60   Input ~ 0
+ETH_nLED3
+Text GLabel 7700 1400 2    60   Input ~ 0
+ETH_0N
+Text GLabel 13150 1000 0    60   Input ~ 0
+ETH_0N
+Text GLabel 13150 750  0    60   Input ~ 0
+ETH_1N
+Text GLabel 13150 850  0    60   Input ~ 0
+ETH_1P
+Text GLabel 13400 2950 0    60   Input ~ 0
+SD_CMD
+Text GLabel 13900 2150 0    60   Input ~ 0
+ID_SC
+Text GLabel 13900 2250 0    60   Input ~ 0
+ID_SD
+Text GLabel 18150 2850 0    60   Input ~ 0
+GPIO26
+Text GLabel 18150 2150 0    60   Input ~ 0
+GPIO19
+Text GLabel 18150 1550 0    60   Input ~ 0
+GPIO13
+Text GLabel 18150 850  0    60   Input ~ 0
+GPIO6
+Text GLabel 18150 750  0    60   Input ~ 0
+GPIO5
+Text GLabel 18150 1350 0    60   Input ~ 0
+GPIO11
+Text GLabel 18150 1150 0    60   Input ~ 0
+GPIO9
+Text GLabel 18150 1250 0    60   Input ~ 0
+GPIO10
+Text GLabel 18150 2450 0    60   Input ~ 0
+GPIO22
+Text GLabel 18150 2950 0    60   Input ~ 0
+GPIO27
+Text GLabel 18150 1950 0    60   Input ~ 0
+GPIO17
+Text GLabel 18150 650  0    60   Input ~ 0
+GPIO4
+Text GLabel 18150 550  0    60   Input ~ 0
+GPIO3
+Text GLabel 18150 450  0    60   Input ~ 0
+GPIO2
+Text GLabel 18150 1650 0    60   Input ~ 0
+GPIO14
+Text GLabel 18150 1750 0    60   Input ~ 0
+GPIO15
+Text GLabel 18150 2050 0    60   Input ~ 0
+GPIO18
+Text GLabel 18150 2550 0    60   Input ~ 0
+GPIO23
+Text GLabel 18150 2650 0    60   Input ~ 0
+GPIO24
+Text GLabel 18150 2750 0    60   Input ~ 0
+GPIO25
+Text GLabel 18150 1050 0    60   Input ~ 0
+GPIO8
+Text GLabel 18150 950  0    60   Input ~ 0
+GPIO7
+Text GLabel 18150 1450 0    60   Input ~ 0
+GPIO12
+Text GLabel 18150 1850 0    60   Input ~ 0
+GPIO16
+Text GLabel 18150 2250 0    60   Input ~ 0
+GPIO20
+Text GLabel 18150 2350 0    60   Input ~ 0
+GPIO21
+Text GLabel 14650 150  0    60   Input ~ 0
+USB_OTG_ID
+Text GLabel 14650 250  0    60   Input ~ 0
+USB_N
+Text GLabel 14650 350  0    60   Input ~ 0
+USB_P
+Text GLabel 14700 1350 2    60   Input ~ 0
+PCIe_CLK_nREQ
+Text GLabel 14700 1450 2    60   Input ~ 0
+PCIe_CLK_P
+Text GLabel 14700 1550 2    60   Input ~ 0
+PCIe_CLK_N
+Text GLabel 14700 1650 2    60   Input ~ 0
+PCIe_RX_P
+Text GLabel 14700 1750 2    60   Input ~ 0
+PCIe_RX_N
+Text GLabel 14700 1850 2    60   Input ~ 0
+PCIe_TX_P
+Text GLabel 14700 1950 2    60   Input ~ 0
+PCIe_TX_N
+Text GLabel 16500 4150 0    60   Input ~ 0
+CAM0_D0_N
+Text GLabel 16500 4050 0    60   Input ~ 0
+CAM0_D0_P
+Text GLabel 16500 3950 0    60   Input ~ 0
+CAM0_D1_N
+Text GLabel 16500 3850 0    60   Input ~ 0
+CAM0_D1_P
+Text GLabel 16500 3750 0    60   Input ~ 0
+CAM0_C_N
+Text GLabel 16500 3650 0    60   Input ~ 0
+CAM0_C_P
+Text GLabel 15100 3650 0    60   Input ~ 0
+CAM1_D0_N
+Text GLabel 15100 3750 0    60   Input ~ 0
+CAM1_D0_P
+Text GLabel 15100 4050 0    60   Input ~ 0
+CAM1_C_N
+Text GLabel 15100 4150 0    60   Input ~ 0
+CAM1_C_P
+Text GLabel 15100 4250 0    60   Input ~ 0
+CAM1_D2_N
+Text GLabel 15100 4350 0    60   Input ~ 0
+CAM1_D2_P
+Text GLabel 15100 4450 0    60   Input ~ 0
+CAM1_D3_N
+Text GLabel 15100 4550 0    60   Input ~ 0
+CAM1_D3_P
+Text GLabel 15100 3850 0    60   Input ~ 0
+CAM1_D1_N
+Text GLabel 15100 3950 0    60   Input ~ 0
+CAM1_D1_P
+Text GLabel 13000 6300 0    60   Input ~ 0
+DSI1_D3_P
+Text GLabel 13000 6400 0    60   Input ~ 0
+DSI1_D3_N
+Text GLabel 13000 6200 0    60   Input ~ 0
+DSI1_D2_P
+Text GLabel 13000 6100 0    60   Input ~ 0
+DSI1_D2_N
+Text GLabel 13000 6000 0    60   Input ~ 0
+DSI1_C_P
+Text GLabel 13000 5900 0    60   Input ~ 0
+DSI1_C_N
+Text GLabel 13000 5800 0    60   Input ~ 0
+DSI1_D1_P
+Text GLabel 13000 5700 0    60   Input ~ 0
+DSI1_D1_N
+Text GLabel 13000 5600 0    60   Input ~ 0
+DSI1_D0_P
+Text GLabel 13000 5500 0    60   Input ~ 0
+DSI1_D0_N
+Text GLabel 14100 6450 0    60   Input ~ 0
+DSI0_C_P
+Text GLabel 14100 6350 0    60   Input ~ 0
+DSI0_C_N
+Text GLabel 14100 6250 0    60   Input ~ 0
+DSI0_D1_P
+Text GLabel 14100 6150 0    60   Input ~ 0
+DSI0_D1_N
+Text GLabel 14100 6050 0    60   Input ~ 0
+DSI0_D0_P
+Text GLabel 14100 5950 0    60   Input ~ 0
+DSI0_D0_N
 $EndSCHEMATC
