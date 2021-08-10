@@ -120,142 +120,142 @@ Text GLabel 5350 6300 2    60   Input ~ 0
 GP26
 Text GLabel 5350 6200 2    60   Input ~ 0
 GP27
-Text GLabel 3250 3950 2    60   Input ~ 0
+Text GLabel 2550 3900 2    60   Input ~ 0
 GN13
-Text GLabel 1750 3950 0    60   Input ~ 0
+Text GLabel 1050 3900 0    60   Input ~ 0
 GP13
-Text GLabel 1750 4150 0    60   Input ~ 0
+Text GLabel 1050 4100 0    60   Input ~ 0
 GP12
-Text GLabel 3250 4150 2    60   Input ~ 0
+Text GLabel 2550 4100 2    60   Input ~ 0
 GN12
-Text GLabel 3250 3350 2    60   Input ~ 0
+Text GLabel 2550 3300 2    60   Input ~ 0
 GN11
-Text GLabel 1750 3350 0    60   Input ~ 0
+Text GLabel 1050 3300 0    60   Input ~ 0
 GP11
-Text GLabel 3250 3550 2    60   Input ~ 0
+Text GLabel 2550 3500 2    60   Input ~ 0
 GN9
-Text GLabel 1750 3550 0    60   Input ~ 0
+Text GLabel 1050 3500 0    60   Input ~ 0
 GP9
-Text GLabel 3250 2950 2    60   Input ~ 0
+Text GLabel 2550 2900 2    60   Input ~ 0
 GN10
-Text GLabel 1750 2950 0    60   Input ~ 0
+Text GLabel 1050 2900 0    60   Input ~ 0
 GP10
-Text GLabel 3250 2750 2    60   Input ~ 0
+Text GLabel 2550 2700 2    60   Input ~ 0
 GN8
-Text GLabel 1750 2750 0    60   Input ~ 0
+Text GLabel 1050 2700 0    60   Input ~ 0
 GP8
-Text GLabel 3250 1950 2    60   Input ~ 0
+Text GLabel 2600 1900 2    60   Input ~ 0
 GN7
-Text GLabel 1750 1950 0    60   Input ~ 0
+Text GLabel 1100 1900 0    60   Input ~ 0
 GP7
-Text GLabel 3250 1650 2    60   Input ~ 0
+Text GLabel 2600 1600 2    60   Input ~ 0
 GN6
-Text GLabel 1750 1650 0    60   Input ~ 0
+Text GLabel 1100 1600 0    60   Input ~ 0
 GP6
-Text GLabel 3250 850  2    60   Input ~ 0
+Text GLabel 2600 800  2    60   Input ~ 0
 GN0
-Text GLabel 3250 950  2    60   Input ~ 0
+Text GLabel 2600 900  2    60   Input ~ 0
 GN1
-Text GLabel 3250 1050 2    60   Input ~ 0
+Text GLabel 2600 1000 2    60   Input ~ 0
 GN2
-Text GLabel 3250 1350 2    60   Input ~ 0
+Text GLabel 2600 1300 2    60   Input ~ 0
 GN4
-Text GLabel 1750 850  0    60   Input ~ 0
+Text GLabel 1100 800  0    60   Input ~ 0
 GP0
-Text GLabel 1750 950  0    60   Input ~ 0
+Text GLabel 1100 900  0    60   Input ~ 0
 GP1
-Text GLabel 1750 1050 0    60   Input ~ 0
+Text GLabel 1100 1000 0    60   Input ~ 0
 GP2
-Text GLabel 1750 1350 0    60   Input ~ 0
+Text GLabel 1100 1300 0    60   Input ~ 0
 GP4
-Text GLabel 1750 1450 0    60   Input ~ 0
+Text GLabel 1100 1400 0    60   Input ~ 0
 GP5
-Text GLabel 3250 1450 2    60   Input ~ 0
+Text GLabel 2600 1400 2    60   Input ~ 0
 GN5
-Text GLabel 3250 1150 2    60   Input ~ 0
+Text GLabel 2600 1100 2    60   Input ~ 0
 GN3
-Text GLabel 1750 1150 0    60   Input ~ 0
+Text GLabel 1100 1100 0    60   Input ~ 0
 GP3
-Text GLabel 1750 3150 0    60   Input ~ 0
+Text GLabel 1050 3100 0    60   Input ~ 0
 AUDIO_L0
-Text GLabel 3250 3050 2    60   Input ~ 0
+Text GLabel 2550 3000 2    60   Input ~ 0
 AUDIO_L1
-Text GLabel 1750 3050 0    60   Input ~ 0
+Text GLabel 1050 3000 0    60   Input ~ 0
 AUDIO_L2
-Text GLabel 3250 2850 2    60   Input ~ 0
+Text GLabel 2550 2800 2    60   Input ~ 0
 AUDIO_L3
-Text GLabel 1750 2850 0    60   Input ~ 0
+Text GLabel 1050 2800 0    60   Input ~ 0
 AUDIO_R0
-Text GLabel 1750 2650 0    60   Input ~ 0
+Text GLabel 1050 2600 0    60   Input ~ 0
 AUDIO_R1
-Text GLabel 3250 3150 2    60   Input ~ 0
+Text GLabel 2550 3100 2    60   Input ~ 0
 AUDIO_R2
-Text GLabel 3250 2650 2    60   Input ~ 0
+Text GLabel 2550 2600 2    60   Input ~ 0
 AUDIO_R3
-Text GLabel 1750 3450 0    60   Input ~ 0
+Text GLabel 1050 3400 0    60   Input ~ 0
 LED0
-Text GLabel 3250 4050 2    60   Input ~ 0
+Text GLabel 2550 4000 2    60   Input ~ 0
 LED5
-Text GLabel 1750 3750 0    60   Input ~ 0
+Text GLabel 1050 3700 0    60   Input ~ 0
 LED2
-Text GLabel 1750 3650 0    60   Input ~ 0
+Text GLabel 1050 3600 0    60   Input ~ 0
 LED3
-Text GLabel 3250 3750 2    60   Input ~ 0
+Text GLabel 2550 3700 2    60   Input ~ 0
 LED4
-Text GLabel 3250 3450 2    60   Input ~ 0
+Text GLabel 2550 3400 2    60   Input ~ 0
 LED1
-Text GLabel 3250 3650 2    60   Input ~ 0
+Text GLabel 2550 3600 2    60   Input ~ 0
 LED6
-Text GLabel 3250 3850 2    60   Input ~ 0
+Text GLabel 2550 3800 2    60   Input ~ 0
 LED7
 Text Notes 950  7550 0    60   ~ 0
 GPIO route only A/B pairs as those are differential bidirectional\ndon't route C/D pairs to GPIO as those can be differential input only\nBANK0,1 are single-ended (non-differential)
-Text GLabel 3250 1850 2    60   Input ~ 0
+Text GLabel 2600 1800 2    60   Input ~ 0
 BTN_PWRn
 Text Notes 950  7200 0    60   ~ 0
 GP,GN 14-21 differential bidirectional connected to BANK2,3 on "ram" sheet\nGP,GN 22-27 single-ended connected to BANK1 on "gpdi" sheet
-Text GLabel 1750 1550 0    60   Input ~ 0
+Text GLabel 1100 1500 0    60   Input ~ 0
 SW1
-Text GLabel 3250 1550 2    60   Input ~ 0
+Text GLabel 2600 1500 2    60   Input ~ 0
 SW2
-Text GLabel 3250 1750 2    60   Input ~ 0
+Text GLabel 2600 1700 2    60   Input ~ 0
 SW3
-Text GLabel 1750 1750 0    60   Input ~ 0
+Text GLabel 1100 1700 0    60   Input ~ 0
 SW4
-Text GLabel 1750 3250 0    60   Input ~ 0
+Text GLabel 1050 3200 0    60   Input ~ 0
 AUDIO_V3
-Text GLabel 3250 3250 2    60   Input ~ 0
+Text GLabel 2550 3200 2    60   Input ~ 0
 AUDIO_V2
-Text GLabel 1750 4050 0    60   Input ~ 0
+Text GLabel 1050 4000 0    60   Input ~ 0
 AUDIO_V1
-Text GLabel 1750 3850 0    60   Input ~ 0
+Text GLabel 1050 3800 0    60   Input ~ 0
 AUDIO_V0
 $Comp
 L lfe5bg381:LFE5UM-85F-6BG381C U1
 U 6 1 5A0783C9
-P 2500 3350
+P 1800 3300
 AR Path="/5A0783C9" Ref="U1"  Part="6" 
 AR Path="/56AC389C/5A0783C9" Ref="U1"  Part="6" 
-F 0 "U1" H 2500 4300 60  0000 C CNN
-F 1 "LFE5U-85F-6BG381C" H 2500 4200 60  0000 C CNN
-F 2 "lfe5bg381:BGA-381_pitch0.8mm_dia0.4mm" H 1450 4300 60  0001 C CNN
-F 3 "http://www.latticesemi.com/~/media/LatticeSemi/Documents/DataSheets/ECP5/FPGA-DS-02012.pdf" H 1450 4300 60  0001 C CNN
-F 4 "LFE5U-85F-6BG381C" H 2500 3350 60  0001 C CNN "MPN"
-	6    2500 3350
+F 0 "U1" H 1800 4250 60  0000 C CNN
+F 1 "LFE5U-85F-6BG381C" H 1800 4150 60  0000 C CNN
+F 2 "lfe5bg381:BGA-381_pitch0.8mm_dia0.4mm" H 750 4250 60  0001 C CNN
+F 3 "http://www.latticesemi.com/~/media/LatticeSemi/Documents/DataSheets/ECP5/FPGA-DS-02012.pdf" H 750 4250 60  0001 C CNN
+F 4 "LFE5U-85F-6BG381C" H 1800 3300 60  0001 C CNN "MPN"
+	6    1800 3300
 	1    0    0    -1  
 $EndComp
 $Comp
 L lfe5bg381:LFE5UM-85F-6BG381C U1
 U 1 1 5A0737C6
-P 2500 1550
+P 1850 1500
 AR Path="/5A0737C6" Ref="U1"  Part="1" 
 AR Path="/56AC389C/5A0737C6" Ref="U1"  Part="1" 
-F 0 "U1" H 2500 2500 60  0000 C CNN
-F 1 "LFE5U-85F-6BG381C" H 2500 2400 60  0000 C CNN
-F 2 "lfe5bg381:BGA-381_pitch0.8mm_dia0.4mm" H 1450 2500 60  0001 C CNN
-F 3 "http://www.latticesemi.com/~/media/LatticeSemi/Documents/DataSheets/ECP5/FPGA-DS-02012.pdf" H 1450 2500 60  0001 C CNN
-F 4 "LFE5U-85F-6BG381C" H 2500 1550 60  0001 C CNN "MPN"
-	1    2500 1550
+F 0 "U1" H 1850 2450 60  0000 C CNN
+F 1 "LFE5U-85F-6BG381C" H 1850 2350 60  0000 C CNN
+F 2 "lfe5bg381:BGA-381_pitch0.8mm_dia0.4mm" H 800 2450 60  0001 C CNN
+F 3 "http://www.latticesemi.com/~/media/LatticeSemi/Documents/DataSheets/ECP5/FPGA-DS-02012.pdf" H 800 2450 60  0001 C CNN
+F 4 "LFE5U-85F-6BG381C" H 1850 1500 60  0001 C CNN "MPN"
+	1    1850 1500
 	1    0    0    -1  
 $EndComp
 Text Notes 2150 4600 2    60   ~ 0
@@ -300,9 +300,9 @@ Wire Notes Line
 	6500 7250 6400 7250
 Text Notes 6300 7150 0    60   ~ 0
 STPS2L40AF
-NoConn ~ 1750 2050
-NoConn ~ 1750 2150
-NoConn ~ 3250 2050
+NoConn ~ 1100 2000
+NoConn ~ 1100 2100
+NoConn ~ 2600 2000
 Text Notes 1500 6100 2    60   ~ 0
 GR_PCLK7_1
 Text Notes 1500 6000 2    60   ~ 0
@@ -321,7 +321,7 @@ Text Notes 1550 4800 2    60   ~ 0
 GR_PCLK0_1
 Text Notes 3200 4800 2    60   ~ 0
 GR_PCLK0_0
-Text Notes 1350 4250 2    60   ~ 0
+Text Notes 1300 4500 2    60   ~ 0
 DAC WIFI_GPIO25
 Text Notes 1500 5900 2    60   ~ 0
 DAC WIFI_GPIO26
@@ -331,9 +331,9 @@ Text Notes 950  6700 0    60   ~ 0
 J1 J2 PIN numbering 1-40 is for FEMALE 90° ANGLED header.\nFor MALE VERTICAL header, SWAP EVEN and ODD pin numbers.
 Text Notes 950  6450 0    60   ~ 0
 J1 J2 PIN numbering 1-40 is for FEMALE 90° ANGLED header.\nFor MALE VERTICAL header, SWAP EVEN and ODD pin numbers.
-Text GLabel 3250 1250 2    60   Input ~ 0
+Text GLabel 2600 1200 2    60   Input ~ 0
 WIFI_GPIO25
-Text GLabel 1750 1850 0    60   Input ~ 0
+Text GLabel 1100 1800 0    60   Input ~ 0
 WIFI_GPIO35
 Text Notes 5700 7350 0    60   ~ 0
 GR_PCLK3_0

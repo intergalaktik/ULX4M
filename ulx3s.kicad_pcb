@@ -928,11 +928,11 @@
   )
 
   (module Mounting_Holes:MountingHole_3.2mm_M3_ISO14580_Pad (layer F.Cu) (tedit 6107A1DF) (tstamp 610BA808)
-    (at 146.213 76.221 180)
+    (at 146.213 75.12 180)
     (descr "Mounting Hole 3.2mm, M3, ISO14580")
     (tags "mounting hole 3.2mm m3 iso14580")
     (path /58E6BAEF)
-    (fp_text reference H3 (at 0.025 -1.375) (layer F.SilkS) hide
+    (fp_text reference H3 (at 0.025 1.101) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value HOLE (at 0.025 0.8) (layer F.Fab) hide
@@ -4272,7 +4272,7 @@
   )
 
   (module LED_SMD:LED_0603_1608Metric (layer F.Cu) (tedit 5F68FEF1) (tstamp 610B9F3C)
-    (at 106.525 78.870001 270)
+    (at 104.830001 78.870001 270)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags LED)
     (path /58D6547C/5A54DCF9)
@@ -4310,7 +4310,7 @@
   )
 
   (module LED_SMD:LED_0603_1608Metric (layer F.Cu) (tedit 5F68FEF1) (tstamp 610B9F06)
-    (at 104.830001 78.870001 270)
+    (at 106.525 78.870001 270)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags LED)
     (path /58D6547C/5A54DD03)
@@ -4784,7 +4784,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 610B9D48)
-    (at 106.255001 81.37 90)
+    (at 104.565 81.37 90)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /58D6547C/591E1845)
@@ -4820,7 +4820,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 610B9D18)
-    (at 104.565 81.369999 90)
+    (at 106.255001 81.369999 90)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /58D6547C/591E199B)
@@ -5707,8 +5707,8 @@
   (gr_line (start 95.1 112.22) (end 148.22 112.22) (layer F.Fab) (width 0.1) (tstamp 610B992B))
   (gr_circle (center 97.113 75.12) (end 94.913 75.12) (layer F.Fab) (width 0.2) (tstamp 610B9928))
   (gr_circle (center 97.113 75.12) (end 94.913 75.12) (layer B.Fab) (width 0.2) (tstamp 610B9925))
-  (gr_circle (center 146.213 76.281) (end 144.013 76.281) (layer B.Fab) (width 0.2) (tstamp 610B9922))
-  (gr_circle (center 146.212999 76.181) (end 144.012999 76.181) (layer F.Fab) (width 0.2) (tstamp 610B991F))
+  (gr_circle (center 146.213 75.12) (end 148.413 75.12) (layer B.Fab) (width 0.2) (tstamp 610B9922))
+  (gr_circle (center 146.212999 75.12) (end 148.412999 75.12) (layer F.Fab) (width 0.2) (tstamp 610B991F))
   (gr_circle (center 97.073 109.295) (end 94.873 109.295) (layer F.Fab) (width 0.2) (tstamp 610B991C))
   (gr_circle (center 97.073 109.295) (end 94.873 109.295) (layer B.Fab) (width 0.2) (tstamp 610B9919))
   (gr_circle (center 146.213 109.25) (end 144.013 109.25) (layer B.Fab) (width 0.2) (tstamp 610B9916))
