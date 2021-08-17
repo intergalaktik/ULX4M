@@ -13,14 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 7050 4500 3    60   Input ~ 0
-SD_D0
-Text GLabel 7550 3950 2    60   Input ~ 0
-SD_D1
-Text GLabel 6250 4500 3    60   Input ~ 0
-SD_D3
-Text GLabel 6950 4500 3    60   Input ~ 0
-SD_CMD
 Text GLabel 2000 3850 0    60   Input ~ 0
 SD_CLK
 Text GLabel 2000 3950 0    60   Input ~ 0
@@ -119,26 +111,12 @@ Text Notes 9350 3900 0    60   ~ 0
 WROVER GPIO16,17\nused internally for PSRAM
 Text GLabel 2000 3650 0    60   Input ~ 0
 WIFI_GPIO26
-Text GLabel 9250 5000 0    60   Input ~ 0
-SD_D2
-Text GLabel 9250 5100 0    60   Input ~ 0
-SD_D3
-Text GLabel 9250 5200 0    60   Input ~ 0
-SD_CMD
-Text GLabel 9250 5400 0    60   Input ~ 0
-SD_CLK
-Text GLabel 9250 5600 0    60   Input ~ 0
-SD_D0
-Text GLabel 9250 5700 0    60   Input ~ 0
-SD_D1
 Text Notes 8250 6450 0    60   ~ 0
 minimum pins for compatible mode\nSD_CLK, SD_CMD, SD_D0, SD_D3
-Text Notes 8250 6100 0    60   ~ 0
+Text Notes 8250 6200 0    60   ~ 0
 SDcard connected to\nBANK6 on "usb" sheet
 Text Notes 8350 3700 0    60   ~ 0
 NC v1.7, WIFI_GPIO5 <v3.1 LED >=3.1.2
 Text GLabel 8100 4250 0    60   Input ~ 0
 WIFI_GPIO0
-Text Notes 7550 4650 0    60   ~ 0
-R56 makes ESP32 boot at power up\nno R56: FPGA should pull up GPIO0\nand pulse EN for ESP32 to boot
 $EndSCHEMATC

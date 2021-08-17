@@ -567,7 +567,7 @@ U 1 1 58E82B1D
 P 3150 4150
 F 0 "D17" H 3150 4050 50  0000 C CNN
 F 1 "1N914" H 3200 4250 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 3150 4150 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323" H 3150 4150 50  0001 C CNN
 F 3 "" H 3150 4150 50  0000 C CNN
 	1    3150 4150
 	1    0    0    -1  
@@ -2354,51 +2354,4 @@ Text Notes 2500 4850 0    60   ~ 0
 to PROGRAMN\non "flash" sheet
 Text Notes 4400 5300 0    60   ~ 0
 D11 (2V), R2, R4 hold PWREN on 1V\nin the middle of 0.4-1.5V hysteresis
-Wire Wire Line
-	1350 1850 1350 1800
-$Comp
-L power:+2V5 #PWR023
-U 1 1 5AA2ABFC
-P 1350 1850
-F 0 "#PWR023" H 1350 1700 50  0001 C CNN
-F 1 "+2V5" H 1400 2000 50  0000 C CNN
-F 2 "" H 1350 1850 50  0001 C CNN
-F 3 "" H 1350 1850 50  0001 C CNN
-	1    1350 1850
-	1    0    0    1   
-$EndComp
-Wire Wire Line
-	1350 1800 1400 1800
-Wire Wire Line
-	1100 1700 1400 1700
-$Comp
-L power:+3V3 #PWR024
-U 1 1 5AA2AD24
-P 1350 1550
-F 0 "#PWR024" H 1350 1400 50  0001 C CNN
-F 1 "+3V3" H 1300 1700 50  0000 C CNN
-F 2 "" H 1350 1550 50  0001 C CNN
-F 3 "" H 1350 1550 50  0001 C CNN
-	1    1350 1550
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	1350 1550 1350 1600
-Wire Wire Line
-	1350 1600 1400 1600
-$Comp
-L Connector_Generic:Conn_01x03 J5
-U 1 1 5AA2A24D
-P 1600 1700
-AR Path="/5AA2A24D" Ref="J5"  Part="1" 
-AR Path="/58D51CAD/5AA2A24D" Ref="J5"  Part="1" 
-F 0 "J5" H 1600 1900 50  0000 C CNN
-F 1 "VJ1" H 1600 1500 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 1600 1700 50  0001 C CNN
-F 3 "" H 1600 1700 50  0001 C CNN
-F 4 "Leave empty" H 1600 1700 60  0001 C CNN "Note"
-F 5 "T" H 1600 1700 50  0001 C CNN "Side"
-	1    1600 1700
-	1    0    0    1   
-$EndComp
 $EndSCHEMATC

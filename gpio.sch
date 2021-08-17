@@ -24,32 +24,6 @@ F 3 "" H 6100 5050 60  0000 C CNN
 	1    6100 5050
 	0    -1   1    0   
 $EndComp
-Text GLabel 2350 4550 2    60   Input ~ 0
-GN0
-Text GLabel 1850 4550 0    60   Input ~ 0
-GP0
-Text GLabel 2350 4650 2    60   Input ~ 0
-GN1
-Text GLabel 1850 4650 0    60   Input ~ 0
-GP1
-Text GLabel 2350 4750 2    60   Input ~ 0
-GN2
-Text GLabel 1850 4750 0    60   Input ~ 0
-GP2
-Text GLabel 1850 4850 0    60   Input ~ 0
-GP3
-Text GLabel 2350 4850 2    60   Input ~ 0
-GN3
-Text GLabel 2350 4950 2    60   Input ~ 0
-GN4
-Text GLabel 1850 4950 0    60   Input ~ 0
-GP4
-Text GLabel 1850 5050 0    60   Input ~ 0
-GP5
-Text GLabel 2350 5050 2    60   Input ~ 0
-GN5
-Text GLabel 2350 5150 2    60   Input ~ 0
-GN6
 Text GLabel 2350 5450 2    60   Input ~ 0
 GN7
 Text GLabel 1850 5450 0    60   Input ~ 0
@@ -258,22 +232,8 @@ F 4 "LFE5U-85F-6BG381C" H 1850 1500 60  0001 C CNN "MPN"
 	1    1850 1500
 	1    0    0    -1  
 $EndComp
-Text Notes 2150 4600 2    60   ~ 0
-0
-Text Notes 2150 4700 2    60   ~ 0
-1
-Text Notes 2150 4800 2    60   ~ 0
-2
-Text Notes 2150 4900 2    60   ~ 0
-3
 Text Notes 2150 5800 2    60   ~ 0
 10
-Text Notes 2150 5000 2    60   ~ 0
-4
-Text Notes 2150 5100 2    60   ~ 0
-5
-Text Notes 2150 5200 2    60   ~ 0
-6
 Text Notes 2150 5500 2    60   ~ 0
 7
 Text Notes 2150 5600 2    60   ~ 0
@@ -309,20 +269,6 @@ Text Notes 1500 6000 2    60   ~ 0
 PCLKT7_1
 Text Notes 3150 6000 2    60   ~ 0
 PCLKC7_1
-Text Notes 1550 4600 2    60   ~ 0
-PCLKT0_0
-Text Notes 3100 4600 2    60   ~ 0
-PCLKC0_0
-Text Notes 1550 4700 2    60   ~ 0
-PCLKT0_1
-Text Notes 3100 4700 2    60   ~ 0
-PCLKC0_1
-Text Notes 1550 4800 2    60   ~ 0
-GR_PCLK0_1
-Text Notes 3200 4800 2    60   ~ 0
-GR_PCLK0_0
-Text Notes 1300 4500 2    60   ~ 0
-DAC WIFI_GPIO25
 Text Notes 1500 5900 2    60   ~ 0
 DAC WIFI_GPIO26
 Text Notes 950  6950 0    60   ~ 0
@@ -351,8 +297,6 @@ Text GLabel 5350 7500 2    60   Input ~ 0
 GP15
 Text GLabel 5350 7600 2    60   Input ~ 0
 GP14
-Text GLabel 1850 5150 0    60   Input ~ 0
-GP6
 $Comp
 L DF40C-100DP-0.4V_51_:DF40C-100DP-0.4V(51) J2
 U 1 1 6111E66F
@@ -1204,89 +1148,17 @@ Wire Wire Line
 	6350 4900 6350 5050
 Wire Wire Line
 	6200 5050 6100 5050
-Text GLabel 16600 5200 0    60   Input ~ 0
-HDMI0_SDA
-Text GLabel 16600 5300 0    60   Input ~ 0
-HDMI0_SCL
-Text GLabel 16600 5450 0    60   Input ~ 0
-GND
-Text GLabel 16600 5600 0    60   Input ~ 0
-HDMI0_CLK_N
-Text GLabel 16600 5700 0    60   Input ~ 0
-HDMI0_CLK_P
-Text GLabel 16600 5850 0    60   Input ~ 0
-HDMI0_TX0_N
-Text GLabel 16600 5950 0    60   Input ~ 0
-HDMI0_TX0_P
-Text GLabel 16600 6100 0    60   Input ~ 0
-HDMI0_TX1_N
-Text GLabel 16600 6200 0    60   Input ~ 0
-HDMI0_TX1_P
-Text GLabel 16600 6350 0    60   Input ~ 0
-HDMI0_TX2_N
-Text GLabel 16600 6450 0    60   Input ~ 0
-HDMI0_TX2_P
-Text GLabel 16600 6600 0    60   Input ~ 0
-HDMI0_HOTPLUG
-Text GLabel 16600 6700 0    60   Input ~ 0
-HDMI0_CEC
-Text GLabel 18050 5600 0    60   Input ~ 0
-HDMI1_CLK_N
-Text GLabel 18050 5700 0    60   Input ~ 0
-HDMI1_CLK_P
-Text GLabel 18050 5850 0    60   Input ~ 0
-HDMI1_TX0_N
-Text GLabel 18050 5950 0    60   Input ~ 0
-HDMI1_TX0_P
-Text GLabel 18050 6100 0    60   Input ~ 0
-HDMI1_TX1_N
-Text GLabel 18050 6200 0    60   Input ~ 0
-HDMI1_TX1_P
-Text GLabel 18050 6350 0    60   Input ~ 0
-HDMI1_TX2_N
-Text GLabel 18050 6450 0    60   Input ~ 0
-HDMI1_TX2_P
-Text GLabel 18050 6600 0    60   Input ~ 0
-HDMI1_HOTPLUG
-Text GLabel 18050 6700 0    60   Input ~ 0
-HDMI1_CEC
-Text GLabel 18050 5200 0    60   Input ~ 0
-HDMI1_SDA
-Text GLabel 18050 5300 0    60   Input ~ 0
-HDMI1_SCL
-Text GLabel 18050 5450 0    60   Input ~ 0
-GND
-Text GLabel 13400 3450 0    60   Input ~ 0
-SD_DAT2
-Text GLabel 13400 3350 0    60   Input ~ 0
-SD_DAT1
-Text GLabel 13400 3650 0    60   Input ~ 0
-SD_DAT4
-Text GLabel 13400 3750 0    60   Input ~ 0
-SD_DAT5
-Text GLabel 13400 3850 0    60   Input ~ 0
-SD_DAT6
-Text GLabel 13400 3950 0    60   Input ~ 0
-SD_DAT7
-Text GLabel 13400 3150 0    60   Input ~ 0
-SD_CLK
-Text GLabel 13400 3550 0    60   Input ~ 0
-SD_DAT3
-Text GLabel 13400 3250 0    60   Input ~ 0
-SD_DAT0
-Text GLabel 13400 3050 0    60   Input ~ 0
-SD_PWR_ON
 Text GLabel 18150 350  0    60   Input ~ 0
 SCL0
 Text GLabel 18150 250  0    60   Input ~ 0
 SDA0
-Text GLabel 13150 250  0    60   Input ~ 0
+Text GLabel 13100 200  0    60   Input ~ 0
 ETH_3P
-Text GLabel 13150 350  0    60   Input ~ 0
+Text GLabel 13100 300  0    60   Input ~ 0
 ETH_3N
-Text GLabel 13150 500  0    60   Input ~ 0
+Text GLabel 13100 450  0    60   Input ~ 0
 ETH_2N
-Text GLabel 13150 600  0    60   Input ~ 0
+Text GLabel 13100 550  0    60   Input ~ 0
 ETH_2P
 Text GLabel 13150 1350 0    60   Input ~ 0
 ETH_nLED2
@@ -1304,12 +1176,10 @@ Text GLabel 7700 1400 2    60   Input ~ 0
 ETH_0N
 Text GLabel 13150 1000 0    60   Input ~ 0
 ETH_0N
-Text GLabel 13150 750  0    60   Input ~ 0
+Text GLabel 13100 700  0    60   Input ~ 0
 ETH_1N
 Text GLabel 13150 850  0    60   Input ~ 0
 ETH_1P
-Text GLabel 13400 2950 0    60   Input ~ 0
-SD_CMD
 Text GLabel 13900 2150 0    60   Input ~ 0
 ID_SC
 Text GLabel 13900 2250 0    60   Input ~ 0
@@ -1366,26 +1236,6 @@ Text GLabel 18150 2250 0    60   Input ~ 0
 GPIO20
 Text GLabel 18150 2350 0    60   Input ~ 0
 GPIO21
-Text GLabel 14650 150  0    60   Input ~ 0
-USB_OTG_ID
-Text GLabel 14650 250  0    60   Input ~ 0
-USB_N
-Text GLabel 14650 350  0    60   Input ~ 0
-USB_P
-Text GLabel 14700 1350 2    60   Input ~ 0
-PCIe_CLK_nREQ
-Text GLabel 14700 1450 2    60   Input ~ 0
-PCIe_CLK_P
-Text GLabel 14700 1550 2    60   Input ~ 0
-PCIe_CLK_N
-Text GLabel 14700 1650 2    60   Input ~ 0
-PCIe_RX_P
-Text GLabel 14700 1750 2    60   Input ~ 0
-PCIe_RX_N
-Text GLabel 14700 1850 2    60   Input ~ 0
-PCIe_TX_P
-Text GLabel 14700 1950 2    60   Input ~ 0
-PCIe_TX_N
 Text GLabel 16500 4150 0    60   Input ~ 0
 CAM0_D0_N
 Text GLabel 16500 4050 0    60   Input ~ 0
@@ -1450,4 +1300,38 @@ Text GLabel 14100 6050 0    60   Input ~ 0
 DSI0_D0_P
 Text GLabel 14100 5950 0    60   Input ~ 0
 DSI0_D0_N
+Text GLabel 4450 1050 0    60   Input ~ 0
+SD_D2
+Text GLabel 4450 1150 0    60   Input ~ 0
+SD_D3
+Text GLabel 4450 850  0    60   Input ~ 0
+SD_D0
+Text GLabel 4450 950  0    60   Input ~ 0
+SD_D1
+Text GLabel 4600 1050 2    60   Input ~ 0
+SD_DAT2
+Text GLabel 4600 950  2    60   Input ~ 0
+SD_DAT1
+Text GLabel 4600 1300 2    60   Input ~ 0
+SD_DAT4
+Text GLabel 4600 1400 2    60   Input ~ 0
+SD_DAT5
+Text GLabel 4600 1500 2    60   Input ~ 0
+SD_DAT6
+Text GLabel 4600 1600 2    60   Input ~ 0
+SD_DAT7
+Text GLabel 4600 1150 2    60   Input ~ 0
+SD_DAT3
+Text GLabel 4600 850  2    60   Input ~ 0
+SD_DAT0
+Text GLabel 4600 1750 2    60   Input ~ 0
+SD_PWR_ON
+Wire Wire Line
+	4450 850  4600 850 
+Wire Wire Line
+	4600 950  4450 950 
+Wire Wire Line
+	4450 1050 4600 1050
+Wire Wire Line
+	4600 1150 4450 1150
 $EndSCHEMATC
