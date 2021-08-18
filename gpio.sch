@@ -475,8 +475,6 @@ Text GLabel 7700 4600 2    60   Input ~ 0
 GND
 Text GLabel 6600 4700 0    60   Input ~ 0
 SD_PWR_ON
-Text GLabel 7700 4700 2    60   Input ~ 0
-Reserved
 Text GLabel 7700 4800 2    60   Input ~ 0
 GPIO_VREF
 Text GLabel 7700 4900 2    60   Input ~ 0
@@ -626,8 +624,6 @@ Wire Wire Line
 Wire Wire Line
 	7700 4800 7650 4800
 Wire Wire Line
-	7650 4700 7700 4700
-Wire Wire Line
 	7700 4600 7650 4600
 Wire Wire Line
 	7650 4500 7700 4500
@@ -707,12 +703,8 @@ Text GLabel 10350 1000 2    60   Input ~ 0
 PCIe_CLK_nREQ
 Text GLabel 9250 1100 0    60   Input ~ 0
 USB_N
-Text GLabel 10350 1100 2    60   Input ~ 0
-Reserved
 Text GLabel 9250 1200 0    60   Input ~ 0
 USB_P
-Text GLabel 10350 1200 2    60   Input ~ 0
-Reserved
 Text GLabel 9250 1300 0    60   Input ~ 0
 GND
 Text GLabel 10350 1300 2    60   Input ~ 0
@@ -1095,10 +1087,6 @@ Wire Wire Line
 	10300 1400 10350 1400
 Wire Wire Line
 	10350 1300 10300 1300
-Wire Wire Line
-	10300 1200 10350 1200
-Wire Wire Line
-	10350 1100 10300 1100
 Wire Wire Line
 	10300 1000 10350 1000
 Text Notes 6300 7500 0    60   ~ 0
