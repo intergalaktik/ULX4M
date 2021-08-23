@@ -122,10 +122,6 @@ Text GLabel 4350 2800 2    60   Input ~ 0
 USB_FPGA_D-
 Text Notes 5400 3650 0    60   ~ 0
 FPDI SCL v1.7
-Text GLabel 2850 3600 0    60   Input ~ 0
-USB_FPGA_PULL_D+
-Text GLabel 4350 3600 2    60   Input ~ 0
-USB_FPGA_PULL_D-
 Text Notes 7550 6200 0    60   ~ 0
 PCB v1.8.1 and higher accept FCI 10029449-111RLF\nwww.amphenol-icc.com\nmouser PN: 649-10029449-111RLF\nhttp://portal.fciconnect.com/Comergent/fci/drawing/10029449.pdf\n\nPCB v1.7 and v1.8 accept\nmouser PN: 538-47151-1001 (Molex)\nhttps://www.molex.com/pdm_docs/sd/471511001_sd.pdf\nmouser PN: 710-685119134923 (Wurth)\nhttps://katalog.we-online.com/em/datasheet/685119134923.pdf
 NoConn ~ 2850 3700

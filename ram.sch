@@ -214,8 +214,6 @@ Text GLabel 10050 5450 2    60   Input ~ 0
 GN15
 Text GLabel 8550 5450 0    60   Input ~ 0
 GP15
-Text GLabel 8550 4650 0    60   Input ~ 0
-GP14
 Text GLabel 8550 5650 0    60   Input ~ 0
 GP16
 Text GLabel 10050 5650 2    60   Input ~ 0
@@ -536,4 +534,8 @@ Wire Wire Line
 	5600 5000 5700 5000
 Wire Wire Line
 	5600 4900 5600 5000
+Text GLabel 8550 4650 0    60   Input ~ 0
+BTN_PWRn
+Text GLabel 7850 4650 0    60   Input ~ 0
+GP14
 $EndSCHEMATC

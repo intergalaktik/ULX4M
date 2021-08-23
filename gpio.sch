@@ -108,7 +108,7 @@ Text GLabel 1050 3300 0    60   Input ~ 0
 GP11
 Text GLabel 2550 3500 2    60   Input ~ 0
 GN9
-Text GLabel 1050 3500 0    60   Input ~ 0
+Text GLabel -600 3450 0    60   Input ~ 0
 GP9
 Text GLabel 2550 2900 2    60   Input ~ 0
 GN10
@@ -158,7 +158,7 @@ Text GLabel 1050 3000 0    60   Input ~ 0
 AUDIO_L2
 Text GLabel 2550 2800 2    60   Input ~ 0
 AUDIO_L3
-Text GLabel 1050 2800 0    60   Input ~ 0
+Text GLabel -500 3300 0    60   Input ~ 0
 AUDIO_R0
 Text GLabel 1050 2600 0    60   Input ~ 0
 AUDIO_R1
@@ -184,8 +184,6 @@ Text GLabel 2550 3800 2    60   Input ~ 0
 LED7
 Text Notes 950  7550 0    60   ~ 0
 GPIO route only A/B pairs as those are differential bidirectional\ndon't route C/D pairs to GPIO as those can be differential input only\nBANK0,1 are single-ended (non-differential)
-Text GLabel 2600 1800 2    60   Input ~ 0
-BTN_PWRn
 Text Notes 950  7200 0    60   ~ 0
 GP,GN 14-21 differential bidirectional connected to BANK2,3 on "ram" sheet\nGP,GN 22-27 single-ended connected to BANK1 on "gpdi" sheet
 Text GLabel 1100 1500 0    60   Input ~ 0
@@ -1322,4 +1320,32 @@ Wire Wire Line
 	4450 1050 4600 1050
 Wire Wire Line
 	4600 1150 4450 1150
+Text GLabel 1050 3500 0    60   Input ~ 0
+USB_FPGA_PULL_D+
+Text GLabel 1050 2800 0    60   Input ~ 0
+USB_FPGA_PULL_D-
+Text GLabel 5300 2550 0    60   Input ~ 0
+JTAG_TDI
+Text GLabel 5300 2650 0    60   Input ~ 0
+JTAG_TMS
+Text GLabel 5300 2750 0    60   Input ~ 0
+JTAG_TCK
+Text GLabel 5300 2850 0    60   Input ~ 0
+JTAG_TDO
+Text GLabel 5400 2550 2    60   Input ~ 0
+GPIO26
+Text GLabel 5400 2650 2    60   Input ~ 0
+GPIO19
+Text GLabel 5400 2850 2    60   Input ~ 0
+GPIO16
+Wire Wire Line
+	5300 2550 5400 2550
+Wire Wire Line
+	5400 2650 5300 2650
+Text GLabel 5400 2750 2    60   Input ~ 0
+GPIO20
+Wire Wire Line
+	5300 2750 5400 2750
+Wire Wire Line
+	5400 2850 5300 2850
 $EndSCHEMATC
