@@ -1222,17 +1222,17 @@ Text GLabel 18150 2250 0    60   Input ~ 0
 GPIO20
 Text GLabel 18150 2350 0    60   Input ~ 0
 GPIO21
-Text GLabel 16500 4150 0    60   Input ~ 0
+Text GLabel 14950 6500 0    60   Input ~ 0
 CAM0_D0_N
-Text GLabel 16500 4050 0    60   Input ~ 0
+Text GLabel 14950 6400 0    60   Input ~ 0
 CAM0_D0_P
-Text GLabel 16500 3950 0    60   Input ~ 0
+Text GLabel 14950 6300 0    60   Input ~ 0
 CAM0_D1_N
-Text GLabel 16500 3850 0    60   Input ~ 0
+Text GLabel 14950 6200 0    60   Input ~ 0
 CAM0_D1_P
-Text GLabel 16500 3750 0    60   Input ~ 0
+Text GLabel 14950 6100 0    60   Input ~ 0
 CAM0_C_N
-Text GLabel 16500 3650 0    60   Input ~ 0
+Text GLabel 14950 6000 0    60   Input ~ 0
 CAM0_C_P
 Text GLabel 15100 3650 0    60   Input ~ 0
 CAM1_D0_N
@@ -1286,66 +1286,8 @@ Text GLabel 14100 6050 0    60   Input ~ 0
 DSI0_D0_P
 Text GLabel 14100 5950 0    60   Input ~ 0
 DSI0_D0_N
-Text GLabel 4450 1050 0    60   Input ~ 0
-SD_D2
-Text GLabel 4450 1150 0    60   Input ~ 0
-SD_D3
-Text GLabel 4450 850  0    60   Input ~ 0
-SD_D0
-Text GLabel 4450 950  0    60   Input ~ 0
-SD_D1
-Text GLabel 4600 1050 2    60   Input ~ 0
-SD_DAT2
-Text GLabel 4600 950  2    60   Input ~ 0
-SD_DAT1
-Text GLabel 4600 1300 2    60   Input ~ 0
-SD_DAT4
-Text GLabel 4600 1400 2    60   Input ~ 0
-SD_DAT5
-Text GLabel 4600 1500 2    60   Input ~ 0
-SD_DAT6
-Text GLabel 4600 1600 2    60   Input ~ 0
-SD_DAT7
-Text GLabel 4600 1150 2    60   Input ~ 0
-SD_DAT3
-Text GLabel 4600 850  2    60   Input ~ 0
-SD_DAT0
-Text GLabel 4600 1750 2    60   Input ~ 0
-SD_PWR_ON
-Wire Wire Line
-	4450 850  4600 850 
-Wire Wire Line
-	4600 950  4450 950 
-Wire Wire Line
-	4450 1050 4600 1050
-Wire Wire Line
-	4600 1150 4450 1150
 Text GLabel 1050 3500 0    60   Input ~ 0
 USB_FPGA_PULL_D+
 Text GLabel 1050 2800 0    60   Input ~ 0
 USB_FPGA_PULL_D-
-Text GLabel 5300 2550 0    60   Input ~ 0
-JTAG_TDI
-Text GLabel 5300 2650 0    60   Input ~ 0
-JTAG_TMS
-Text GLabel 5300 2750 0    60   Input ~ 0
-JTAG_TCK
-Text GLabel 5300 2850 0    60   Input ~ 0
-JTAG_TDO
-Text GLabel 5400 2550 2    60   Input ~ 0
-GPIO26
-Text GLabel 5400 2650 2    60   Input ~ 0
-GPIO19
-Text GLabel 5400 2850 2    60   Input ~ 0
-GPIO16
-Wire Wire Line
-	5300 2550 5400 2550
-Wire Wire Line
-	5400 2650 5300 2650
-Text GLabel 5400 2750 2    60   Input ~ 0
-GPIO20
-Wire Wire Line
-	5300 2750 5400 2750
-Wire Wire Line
-	5400 2850 5300 2850
 $EndSCHEMATC

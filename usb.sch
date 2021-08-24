@@ -520,4 +520,62 @@ Wire Wire Line
 	7550 5400 7600 5400
 Wire Wire Line
 	7550 5500 7600 5500
+Text GLabel 9600 5150 0    60   Input ~ 0
+JTAG_TDI
+Text GLabel 9600 5250 0    60   Input ~ 0
+JTAG_TMS
+Text GLabel 9600 5350 0    60   Input ~ 0
+JTAG_TCK
+Text GLabel 9600 5450 0    60   Input ~ 0
+JTAG_TDO
+Text GLabel 9700 5450 2    60   Input ~ 0
+GPIO16
+Wire Wire Line
+	9600 5150 9700 5150
+Wire Wire Line
+	9700 5250 9600 5250
+Text GLabel 9700 5350 2    60   Input ~ 0
+GPIO20
+Wire Wire Line
+	9600 5350 9700 5350
+Wire Wire Line
+	9700 5450 9600 5450
+Text GLabel 9700 5250 2    60   Input ~ 0
+GPIO21
+Text GLabel 9700 5150 2    60   Input ~ 0
+GPIO12
+Text GLabel 5250 5100 0    60   Input ~ 0
+SD_D2
+Text GLabel 5250 5200 0    60   Input ~ 0
+SD_D3
+Text GLabel 5250 4900 0    60   Input ~ 0
+SD_D0
+Text GLabel 5250 5000 0    60   Input ~ 0
+SD_D1
+Text GLabel 5400 5100 2    60   Input ~ 0
+SD_DAT2
+Text GLabel 5400 5000 2    60   Input ~ 0
+SD_DAT1
+Text GLabel 5400 5350 2    60   Input ~ 0
+SD_DAT4
+Text GLabel 5400 5450 2    60   Input ~ 0
+SD_DAT5
+Text GLabel 5400 5550 2    60   Input ~ 0
+SD_DAT6
+Text GLabel 5400 5650 2    60   Input ~ 0
+SD_DAT7
+Text GLabel 5400 5200 2    60   Input ~ 0
+SD_DAT3
+Text GLabel 5400 4900 2    60   Input ~ 0
+SD_DAT0
+Text GLabel 5400 5800 2    60   Input ~ 0
+SD_PWR_ON
+Wire Wire Line
+	5250 4900 5400 4900
+Wire Wire Line
+	5400 5000 5250 5000
+Wire Wire Line
+	5250 5100 5400 5100
+Wire Wire Line
+	5400 5200 5250 5200
 $EndSCHEMATC
