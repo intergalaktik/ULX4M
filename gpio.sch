@@ -138,7 +138,7 @@ Text GLabel 1100 800  0    60   Input ~ 0
 GP0
 Text GLabel 1100 900  0    60   Input ~ 0
 GP1
-Text GLabel 1100 1000 0    60   Input ~ 0
+Text GLabel 350  600  0    60   Input ~ 0
 GP2
 Text GLabel 1100 1300 0    60   Input ~ 0
 GP4
@@ -1222,18 +1222,6 @@ Text GLabel 18150 2250 0    60   Input ~ 0
 GPIO20
 Text GLabel 18150 2350 0    60   Input ~ 0
 GPIO21
-Text GLabel 14950 6500 0    60   Input ~ 0
-CAM0_D0_N
-Text GLabel 14950 6400 0    60   Input ~ 0
-CAM0_D0_P
-Text GLabel 14950 6300 0    60   Input ~ 0
-CAM0_D1_N
-Text GLabel 14950 6200 0    60   Input ~ 0
-CAM0_D1_P
-Text GLabel 14950 6100 0    60   Input ~ 0
-CAM0_C_N
-Text GLabel 14950 6000 0    60   Input ~ 0
-CAM0_C_P
 Text GLabel 15100 3650 0    60   Input ~ 0
 CAM1_D0_N
 Text GLabel 15100 3750 0    60   Input ~ 0
@@ -1274,20 +1262,12 @@ Text GLabel 13000 5600 0    60   Input ~ 0
 DSI1_D0_P
 Text GLabel 13000 5500 0    60   Input ~ 0
 DSI1_D0_N
-Text GLabel 14100 6450 0    60   Input ~ 0
-DSI0_C_P
-Text GLabel 14100 6350 0    60   Input ~ 0
-DSI0_C_N
-Text GLabel 14100 6250 0    60   Input ~ 0
-DSI0_D1_P
-Text GLabel 14100 6150 0    60   Input ~ 0
-DSI0_D1_N
-Text GLabel 14100 6050 0    60   Input ~ 0
-DSI0_D0_P
-Text GLabel 14100 5950 0    60   Input ~ 0
-DSI0_D0_N
 Text GLabel 1050 3500 0    60   Input ~ 0
 USB_FPGA_PULL_D+
 Text GLabel 1050 2800 0    60   Input ~ 0
 USB_FPGA_PULL_D-
+Text GLabel 1100 1000 0    60   Input ~ 0
+PCIe_CLK_nREQ
+Text GLabel 1100 1200 0    60   Input ~ 0
+PCIe_nRST
 $EndSCHEMATC

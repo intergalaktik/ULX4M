@@ -1,4 +1,4 @@
-update=utorak, 17. kolovoza 2021. 19:20:46 CEST
+update=srijeda, 25. kolovoza 2021. 10:47:13 CEST
 version=1
 last_client=kicad
 [cvpcb]
@@ -47,8 +47,8 @@ ViaDiameter2=0.42
 ViaDrill2=0.2
 ViaDiameter3=0.6
 ViaDrill3=0.3
-dPairWidth1=0.2
-dPairGap1=0.2
+dPairWidth1=0.127
+dPairGap1=0.127
 dPairViaGap1=0.25
 SilkLineWidth=0.15
 SilkTextSizeV=1
@@ -249,8 +249,8 @@ ViaDiameter=0.419
 ViaDrill=0.2
 uViaDiameter=0.3
 uViaDrill=0.1
-dPairWidth=0.2
-dPairGap=0.2
+dPairWidth=0.127
+dPairGap=0.127
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
 Name=BGA
@@ -260,8 +260,8 @@ ViaDiameter=0.419
 ViaDrill=0.2
 uViaDiameter=0.3
 uViaDrill=0.1
-dPairWidth=0.2
-dPairGap=0.2
+dPairWidth=0.127
+dPairGap=0.127
 dPairViaGap=0.25
 [pcbnew/Netclasses/2]
 Name=Medium
@@ -271,6 +271,6 @@ ViaDiameter=0.419
 ViaDrill=0.2
 uViaDiameter=0.3
 uViaDrill=0.1
-dPairWidth=0.2
-dPairGap=0.2
+dPairWidth=0.127
+dPairGap=0.127
 dPairViaGap=0.25

@@ -43,27 +43,11 @@ Text GLabel 3250 5800 0    60   Input ~ 0
 FPDI_SCL
 Text GLabel 3250 5950 0    60   Input ~ 0
 FPDI_SDA
-Text GLabel 2850 2700 0    60   Input ~ 0
-FPDI_D0+
-Text GLabel 4350 2700 2    60   Input ~ 0
-FPDI_D0-
-Text GLabel 4350 3100 2    60   Input ~ 0
-FPDI_D1-
-Text GLabel 4350 3400 2    60   Input ~ 0
-FPDI_D2-
-Text GLabel 4350 2400 2    60   Input ~ 0
-FPDI_CLK-
 Text GLabel 4350 2200 2    60   Input ~ 0
 FPDI_HPD
-Text GLabel 2850 3100 0    60   Input ~ 0
-FPDI_D1+
-Text GLabel 2850 3400 0    60   Input ~ 0
-FPDI_D2+
-Text GLabel 2850 2400 0    60   Input ~ 0
-FPDI_CLK+
 Text GLabel 2850 2200 0    60   Input ~ 0
 FPDI_UTIL
-Text GLabel 4350 3500 2    60   Input ~ 0
+Text GLabel 4550 4050 2    60   Input ~ 0
 FPDI_SCL
 Text GLabel 4350 2300 2    60   Input ~ 0
 FPDI_SDA
@@ -77,17 +61,17 @@ Text GLabel 4350 2600 2    60   Input ~ 0
 GN24
 Text GLabel 4350 3000 2    60   Input ~ 0
 GN25
-Text GLabel 4350 3300 2    60   Input ~ 0
+Text GLabel 1050 3500 2    60   Input ~ 0
 GN26
-Text GLabel 4350 3200 2    60   Input ~ 0
+Text GLabel 1600 3600 2    60   Input ~ 0
 GN27
-Text GLabel 2850 3200 0    60   Input ~ 0
+Text GLabel 1800 3200 0    60   Input ~ 0
 GP27
 Text GLabel 2850 2600 0    60   Input ~ 0
 GP24
 Text GLabel 2850 2500 0    60   Input ~ 0
 GP23
-Text GLabel 2850 3300 0    60   Input ~ 0
+Text GLabel 1350 3350 0    60   Input ~ 0
 GP26
 Text GLabel 2850 2900 0    60   Input ~ 0
 GP22
@@ -680,4 +664,28 @@ F 3 "" H 8150 4500 50  0000 C CNN
 	1    8150 4500
 	0    -1   -1   0   
 $EndComp
+Text GLabel 4350 3400 2    60   Input ~ 0
+CAM0_D0_N
+Text GLabel 2850 3400 0    60   Input ~ 0
+CAM0_D0_P
+Text GLabel 4350 3300 2    60   Input ~ 0
+CAM0_D1_N
+Text GLabel 2850 3300 0    60   Input ~ 0
+CAM0_D1_P
+Text GLabel 4350 3600 2    60   Input ~ 0
+CAM0_C_N
+Text GLabel 2850 3600 0    60   Input ~ 0
+CAM0_C_P
+Text GLabel 2850 3500 0    60   Input ~ 0
+DSI0_C_P
+Text GLabel 4350 3500 2    60   Input ~ 0
+DSI0_C_N
+Text GLabel 2850 3100 0    60   Input ~ 0
+DSI0_D1_P
+Text GLabel 4350 3100 2    60   Input ~ 0
+DSI0_D1_N
+Text GLabel 2850 3200 0    60   Input ~ 0
+DSI0_D0_P
+Text GLabel 4350 3200 2    60   Input ~ 0
+DSI0_D0_N
 $EndSCHEMATC

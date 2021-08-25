@@ -589,8 +589,6 @@ Text Label 6650 3700 0    60   ~ 0
 S_7_N
 Text Label 6650 3800 0    60   ~ 0
 S_5_N
-Text GLabel 10250 1450 2    60   Input ~ 0
-PCIe_CLK_nREQ
 Text GLabel 10250 1550 2    60   Input ~ 0
 PCIe_CLK_P
 Text GLabel 10250 1650 2    60   Input ~ 0

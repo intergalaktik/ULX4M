@@ -156,7 +156,7 @@ Text GLabel 10050 2650 2    60   Input ~ 0
 SDRAM_D10
 Text GLabel 8550 2650 0    60   Input ~ 0
 SDRAM_D11
-Text GLabel 8550 2450 0    60   Input ~ 0
+Text GLabel 8550 3350 0    60   Input ~ 0
 SDRAM_D12
 Text GLabel 10050 3250 2    60   Input ~ 0
 SDRAM_D13
@@ -170,7 +170,7 @@ Text GLabel 8550 6050 0    60   Input ~ 0
 SDRAM_A1
 Text GLabel 10050 5950 2    60   Input ~ 0
 SDRAM_A2
-Text GLabel 10050 2450 2    60   Input ~ 0
+Text GLabel 10050 3350 2    60   Input ~ 0
 SDRAM_A3
 Text GLabel 8550 2850 0    60   Input ~ 0
 SDRAM_A4
@@ -218,21 +218,17 @@ Text GLabel 8550 5650 0    60   Input ~ 0
 GP16
 Text GLabel 10050 5650 2    60   Input ~ 0
 GN16
-Text GLabel 10050 3350 2    60   Input ~ 0
-GN18
-Text GLabel 10050 3950 2    60   Input ~ 0
+Text GLabel 13200 4250 2    60   Input ~ 0
 GN21
-Text GLabel 10050 3750 2    60   Input ~ 0
+Text GLabel 13200 4100 2    60   Input ~ 0
 GN20
-Text GLabel 8550 3350 0    60   Input ~ 0
-GP18
-Text GLabel 8550 3950 0    60   Input ~ 0
+Text GLabel 13050 4250 0    60   Input ~ 0
 GP21
-Text GLabel 8550 3750 0    60   Input ~ 0
+Text GLabel 13000 4100 0    60   Input ~ 0
 GP20
-Text GLabel 10050 3550 2    60   Input ~ 0
+Text GLabel 13200 3950 2    60   Input ~ 0
 GN19
-Text GLabel 8550 3550 0    60   Input ~ 0
+Text GLabel 12950 3900 0    60   Input ~ 0
 GP19
 Text GLabel 10050 5850 2    60   Input ~ 0
 GN17
@@ -538,4 +534,24 @@ Text GLabel 8550 4650 0    60   Input ~ 0
 BTN_PWRn
 Text GLabel 7850 4650 0    60   Input ~ 0
 GP14
+Text GLabel 7850 3350 0    60   Input ~ 0
+GP18
+Text GLabel 11000 3300 2    60   Input ~ 0
+GN18
+Text GLabel 8550 3950 0    60   Input ~ 0
+FPDI_D2+
+Text GLabel 10050 3950 2    60   Input ~ 0
+FPDI_D2-
+Text GLabel 8550 3750 0    60   Input ~ 0
+FPDI_D1+
+Text GLabel 10050 3750 2    60   Input ~ 0
+FPDI_D1-
+Text GLabel 8550 3550 0    60   Input ~ 0
+FPDI_D0+
+Text GLabel 10050 3550 2    60   Input ~ 0
+FPDI_D0-
+Text GLabel 8550 2450 0    60   Input ~ 0
+FPDI_CLK+
+Text GLabel 10050 2450 2    60   Input ~ 0
+FPDI_CLK-
 $EndSCHEMATC
