@@ -116,7 +116,7 @@ Text GLabel 1050 2900 0    60   Input ~ 0
 GP10
 Text GLabel 2550 2700 2    60   Input ~ 0
 GN8
-Text GLabel 1050 2700 0    60   Input ~ 0
+Text GLabel -50  2700 0    60   Input ~ 0
 GP8
 Text GLabel 2600 1900 2    60   Input ~ 0
 GN7
@@ -1166,10 +1166,6 @@ Text GLabel 13100 700  0    60   Input ~ 0
 ETH_1N
 Text GLabel 13150 850  0    60   Input ~ 0
 ETH_1P
-Text GLabel 13900 2150 0    60   Input ~ 0
-ID_SC
-Text GLabel 13900 2250 0    60   Input ~ 0
-ID_SD
 Text GLabel 18150 2850 0    60   Input ~ 0
 GPIO26
 Text GLabel 18150 2150 0    60   Input ~ 0
@@ -1270,4 +1266,6 @@ Text GLabel 1100 1000 0    60   Input ~ 0
 PCIe_CLK_nREQ
 Text GLabel 1100 1200 0    60   Input ~ 0
 PCIe_nRST
+Text GLabel 1050 2700 0    60   Input ~ 0
+USB_OTG_ID
 $EndSCHEMATC

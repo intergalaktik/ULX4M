@@ -208,9 +208,9 @@ Text GLabel 10050 5250 2    60   Input ~ 0
 SDRAM_nWE
 Text GLabel 10050 5150 2    60   Input ~ 0
 SDRAM_nCS
-Text GLabel 10050 4650 2    60   Input ~ 0
+Text GLabel 10850 4550 2    60   Input ~ 0
 GN14
-Text GLabel 10050 5450 2    60   Input ~ 0
+Text GLabel 12100 5800 2    60   Input ~ 0
 GN15
 Text GLabel 8550 5450 0    60   Input ~ 0
 GP15
@@ -267,13 +267,13 @@ F 3 "" H 5350 5750 50  0000 C CNN
 	1    5350 5750
 	1    0    0    -1  
 $EndComp
-Text GLabel 8550 4550 0    60   Input ~ 0
+Text GLabel 8500 4350 0    60   Input ~ 0
 ADC_MISO
-Text GLabel 8550 5350 0    60   Input ~ 0
+Text GLabel 7700 5350 0    60   Input ~ 0
 ADC_MOSI
-Text GLabel 10050 5350 2    60   Input ~ 0
+Text GLabel 11300 5300 2    60   Input ~ 0
 ADC_CSn
-Text GLabel 10050 5550 2    60   Input ~ 0
+Text GLabel 11950 6200 2    60   Input ~ 0
 ADC_SCLK
 Text GLabel 8550 3850 0    60   Input ~ 0
 USB_FPGA_D+
@@ -313,7 +313,7 @@ F 4 "LFE5U-85F-6BG381C" H 9300 5250 60  0001 C CNN "MPN"
 $EndComp
 Text GLabel 8550 3450 0    60   Input ~ 0
 SHUTDOWN
-Text GLabel 10050 4850 2    60   Input ~ 0
+Text GLabel 10850 4850 2    60   Input ~ 0
 BTN_U
 Text GLabel 10050 3450 2    60   Input ~ 0
 BTN_R
@@ -530,7 +530,7 @@ Wire Wire Line
 	5600 5000 5700 5000
 Wire Wire Line
 	5600 4900 5600 5000
-Text GLabel 8550 4650 0    60   Input ~ 0
+Text GLabel 7750 4900 0    60   Input ~ 0
 BTN_PWRn
 Text GLabel 7850 4650 0    60   Input ~ 0
 GP14
@@ -554,4 +554,18 @@ Text GLabel 8550 2450 0    60   Input ~ 0
 FPDI_CLK+
 Text GLabel 10050 2450 2    60   Input ~ 0
 FPDI_CLK-
+Text GLabel 10050 4650 2    60   Input ~ 0
+SD_PWR_ON
+Text GLabel 8550 4550 0    60   Input ~ 0
+nEXTRST
+Text GLabel 10050 4850 2    60   Input ~ 0
+Camera_GPIO
+Text GLabel 10050 5350 2    60   Input ~ 0
+ID_SC
+Text GLabel 8550 5350 0    60   Input ~ 0
+ID_SD
+Text GLabel 10050 5550 2    60   Input ~ 0
+SDA0
+Text GLabel 10050 5450 2    60   Input ~ 0
+SCL0
 $EndSCHEMATC

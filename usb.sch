@@ -568,8 +568,6 @@ Text GLabel 5400 5200 2    60   Input ~ 0
 SD_DAT3
 Text GLabel 5400 4900 2    60   Input ~ 0
 SD_DAT0
-Text GLabel 5400 5800 2    60   Input ~ 0
-SD_PWR_ON
 Wire Wire Line
 	5250 4900 5400 4900
 Wire Wire Line
