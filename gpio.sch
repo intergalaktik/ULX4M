@@ -1138,14 +1138,6 @@ Text GLabel 18150 350  0    60   Input ~ 0
 SCL0
 Text GLabel 18150 250  0    60   Input ~ 0
 SDA0
-Text GLabel 13100 200  0    60   Input ~ 0
-ETH_3P
-Text GLabel 13100 300  0    60   Input ~ 0
-ETH_3N
-Text GLabel 13100 450  0    60   Input ~ 0
-ETH_2N
-Text GLabel 13100 550  0    60   Input ~ 0
-ETH_2P
 Text GLabel 13150 1350 0    60   Input ~ 0
 ETH_nLED2
 Text GLabel 13150 1450 0    60   Input ~ 0
@@ -1154,18 +1146,10 @@ Text GLabel 13150 1600 0    60   Input ~ 0
 ETH_SYNC_IN
 Text GLabel 13150 1700 0    60   Input ~ 0
 ETH_SYNC_OUT
-Text GLabel 13150 1100 0    60   Input ~ 0
-ETH_0P
 Text GLabel 13150 1250 0    60   Input ~ 0
 ETH_nLED3
 Text GLabel 7700 1400 2    60   Input ~ 0
 ETH_0N
-Text GLabel 13150 1000 0    60   Input ~ 0
-ETH_0N
-Text GLabel 13100 700  0    60   Input ~ 0
-ETH_1N
-Text GLabel 13150 850  0    60   Input ~ 0
-ETH_1P
 Text GLabel 18150 2850 0    60   Input ~ 0
 GPIO26
 Text GLabel 18150 2150 0    60   Input ~ 0
@@ -1268,4 +1252,40 @@ Text GLabel 1100 1200 0    60   Input ~ 0
 PCIe_nRST
 Text GLabel 1050 2700 0    60   Input ~ 0
 USB_OTG_ID
+Text GLabel 4550 3150 0    60   Input ~ 0
+SRX11P
+Text GLabel 4550 3250 0    60   Input ~ 0
+SRX11N
+Text GLabel 4550 3050 0    60   Input ~ 0
+STX11P
+Text GLabel 4550 2950 0    60   Input ~ 0
+STX11N
+Text GLabel 4550 2700 0    60   Input ~ 0
+SRCLK1P
+Text GLabel 4550 2800 0    60   Input ~ 0
+SRCLK1N
+Text GLabel 4700 3150 2    60   Input ~ 0
+GPIO11
+Text GLabel 4700 3250 2    60   Input ~ 0
+GPIO9
+Text GLabel 4700 3050 2    60   Input ~ 0
+GPIO10
+Text GLabel 4700 2950 2    60   Input ~ 0
+GPIO22
+Text GLabel 4700 2700 2    60   Input ~ 0
+GPIO27
+Text GLabel 4700 2800 2    60   Input ~ 0
+GPIO17
+Wire Wire Line
+	4550 2700 4700 2700
+Wire Wire Line
+	4700 2800 4550 2800
+Wire Wire Line
+	4550 2950 4700 2950
+Wire Wire Line
+	4700 3050 4550 3050
+Wire Wire Line
+	4550 3150 4700 3150
+Wire Wire Line
+	4700 3250 4550 3250
 $EndSCHEMATC

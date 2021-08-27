@@ -174,7 +174,7 @@ Wire Wire Line
 Wire Wire Line
 	4300 2150 4850 2150
 Text GLabel 7400 2150 2    60   Input ~ 0
-SRXN00
+SRX00N
 Wire Wire Line
 	6550 2350 7100 2350
 Wire Wire Line
@@ -189,8 +189,6 @@ Text Label 6650 2150 0    60   ~ 0
 S_0_N
 Text GLabel 4050 2350 0    60   Input ~ 0
 SRX01P
-Text GLabel 7400 2350 2    60   Input ~ 0
-SRXN01
 Text Label 4450 1950 0    60   ~ 0
 CLK_0_P
 Text Label 6650 1950 0    60   ~ 0
@@ -401,8 +399,6 @@ Wire Wire Line
 	4050 2150 4100 2150
 Wire Wire Line
 	4050 2350 4100 2350
-Text GLabel 3400 2250 0    60   Input ~ 0
-STX01P
 Wire Wire Line
 	3400 2250 3450 2250
 $Comp
@@ -431,8 +427,6 @@ F 3 "~" H 7900 2050 50  0001 C CNN
 	1    7900 2050
 	0    -1   -1   0   
 $EndComp
-Text GLabel 8100 2050 2    60   Input ~ 0
-STXN00
 Wire Wire Line
 	7300 1950 7400 1950
 Wire Wire Line
@@ -459,8 +453,6 @@ Text GLabel 4050 3800 0    60   Input ~ 0
 SRX11P
 Wire Wire Line
 	8000 2250 8100 2250
-Text GLabel 8100 2250 2    60   Input ~ 0
-STXN01
 Wire Wire Line
 	6550 2050 7800 2050
 Wire Wire Line
@@ -545,8 +537,6 @@ F 3 "~" H 7900 3700 50  0001 C CNN
 	1    7900 3700
 	0    -1   -1   0   
 $EndComp
-Text GLabel 3350 3500 0    60   Input ~ 0
-STX10P
 Text GLabel 3350 3700 0    60   Input ~ 0
 STX11P
 Wire Wire Line
@@ -557,8 +547,6 @@ Wire Wire Line
 	7800 3500 6550 3500
 Wire Wire Line
 	6550 3700 7800 3700
-Text GLabel 8100 3500 2    60   Input ~ 0
-STX10N
 Wire Wire Line
 	8000 3500 8100 3500
 Wire Wire Line
@@ -606,13 +594,13 @@ SRCLK0N
 Text GLabel 10050 1550 0    60   Input ~ 0
 SRCLK0P
 Text GLabel 10050 1850 0    60   Input ~ 0
-SRXN00
+SRX00N
 Text GLabel 10050 1750 0    60   Input ~ 0
 SRX00P
 Text GLabel 10050 1950 0    60   Input ~ 0
 STX00P
 Text GLabel 10050 2050 0    60   Input ~ 0
-STXN00
+STX00N
 Wire Wire Line
 	10050 1550 10250 1550
 Wire Wire Line
@@ -625,4 +613,64 @@ Wire Wire Line
 	10050 1950 10250 1950
 Wire Wire Line
 	10250 2050 10050 2050
+Text GLabel 3400 2250 0    60   Input ~ 0
+STX01P
+Text GLabel 3350 3500 0    60   Input ~ 0
+STX10P
+Text GLabel 8100 3500 2    60   Input ~ 0
+STX10N
+Text GLabel 7400 2350 2    60   Input ~ 0
+SRX01N
+Text GLabel 8100 2050 2    60   Input ~ 0
+STX00N
+Text GLabel 8100 2250 2    60   Input ~ 0
+STX01N
+Text GLabel 10150 2450 0    60   Input ~ 0
+SRX10N
+Text GLabel 10150 2350 0    60   Input ~ 0
+SRX10P
+Text GLabel 10150 2700 0    60   Input ~ 0
+STX10N
+Text GLabel 10150 2600 0    60   Input ~ 0
+STX10P
+Text GLabel 10150 3200 0    60   Input ~ 0
+STX01N
+Text GLabel 10150 3100 0    60   Input ~ 0
+STX01P
+Text GLabel 10150 2950 0    60   Input ~ 0
+SRX01N
+Text GLabel 10150 2850 0    60   Input ~ 0
+SRX01P
+Text GLabel 10350 2850 2    60   Input ~ 0
+ETH_3P
+Text GLabel 10350 2950 2    60   Input ~ 0
+ETH_3N
+Text GLabel 10350 3200 2    60   Input ~ 0
+ETH_2N
+Text GLabel 10350 3100 2    60   Input ~ 0
+ETH_2P
+Text GLabel 10350 2700 2    60   Input ~ 0
+ETH_1N
+Text GLabel 10350 2600 2    60   Input ~ 0
+ETH_1P
+Wire Wire Line
+	10150 2350 10350 2350
+Wire Wire Line
+	10350 2450 10150 2450
+Wire Wire Line
+	10150 2600 10350 2600
+Wire Wire Line
+	10350 2700 10150 2700
+Wire Wire Line
+	10150 2850 10350 2850
+Wire Wire Line
+	10350 2950 10150 2950
+Wire Wire Line
+	10150 3100 10350 3100
+Wire Wire Line
+	10350 3200 10150 3200
+Text GLabel 10350 2450 2    60   Input ~ 0
+ETH_0N
+Text GLabel 10350 2350 2    60   Input ~ 0
+ETH_0P
 $EndSCHEMATC
