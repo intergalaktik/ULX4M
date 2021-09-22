@@ -1,4 +1,4 @@
-# ULX3S PCB
+# ULX4M PCB
 
 [ULX4M] = University digital Logic Learning Xtensible board release 4 Moduler successor of [ULX3S](http://radiona.org/ulx3s) = [University digital Logic](https://www.fer.unizg.hr/en/course/diglog) Learning
 Xtensible board release 3 with SDRAM,
