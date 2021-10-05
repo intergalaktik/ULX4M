@@ -16,4 +16,6 @@
   (lib (name pca9306d)(type Legacy)(uri ${KIPRJMOD}/footprints/level-translator/pca9306d.lib)(options "")(descr ""))
   (lib (name st7789)(type Legacy)(uri ${KIPRJMOD}/footprints/lcd/st7789.lib)(options "")(descr ""))
   (lib (name micro_sd_slide)(type Legacy)(uri ${KIPRJMOD}/footprints/micro-sd/104031-0811.lib)(options "")(descr ""))
+  (lib (name DF40C-100DP-0.4V_51_)(type Legacy)(uri ${KIPRJMOD}/footprints/connectors/DF40C-100DP-0.4V_51_.lib)(options "")(descr ""))
+  (lib (name Raspberry_Pi_Compute_Module_4)(type Legacy)(uri ${KIPRJMOD}/CM4/RPi-CM4-Kicad/Raspberry_Pi_Compute_Module_4.lib)(options "")(descr ""))
 )

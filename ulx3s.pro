@@ -1,4 +1,4 @@
-update=srijeda, 25. kolovoza 2021. 10:47:13 CEST
+update=petak, 27. kolovoza 2021. 15:03:52 CEST
 version=1
 last_client=kicad
 [cvpcb]
@@ -70,8 +70,8 @@ OthersTextSizeH=1
 OthersTextSizeThickness=0.15
 OthersTextItalic=0
 OthersTextUpright=1
-SolderMaskClearance=0.05
-SolderMaskMinWidth=0.25
+SolderMaskClearance=0
+SolderMaskMinWidth=0
 SolderPasteClearance=-0.05
 SolderPasteRatio=-0
 [pcbnew/Layer.F.Cu]
