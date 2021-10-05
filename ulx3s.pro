@@ -1,4 +1,4 @@
-update=utorak, 05. listopada 2021. 10:46:44 CEST
+update=utorak, 05. listopada 2021. 10:50:34 CEST
 version=1
 last_client=kicad
 [cvpcb]
@@ -79,20 +79,20 @@ Name=F.Cu
 Type=0
 Enabled=1
 [pcbnew/Layer.In1.Cu]
-Name=In1.Cu
-Type=0
+Name=GND1.Cu
+Type=1
 Enabled=1
 [pcbnew/Layer.In2.Cu]
-Name=In2.Cu
+Name=In2signal.Cu
 Type=0
 Enabled=1
 [pcbnew/Layer.In3.Cu]
-Name=In3.Cu
-Type=0
+Name=POWER.Cu
+Type=1
 Enabled=1
 [pcbnew/Layer.In4.Cu]
-Name=In4.Cu
-Type=0
+Name=GND2.Cu
+Type=1
 Enabled=1
 [pcbnew/Layer.In5.Cu]
 Name=In5.Cu
