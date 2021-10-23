@@ -106,8 +106,8 @@ Text GLabel 2550 3300 2    60   Input ~ 0
 GN11
 Text GLabel 1050 3300 0    60   Input ~ 0
 GP11
-Text GLabel 2550 3500 2    60   Input ~ 0
-GN9
+Text GLabel 2550 3400 2    60   Input ~ 0
+BTN1
 Text GLabel -600 3450 0    60   Input ~ 0
 GP9
 Text GLabel 2550 2900 2    60   Input ~ 0
@@ -154,10 +154,10 @@ Text GLabel 1050 3100 0    60   Input ~ 0
 AUDIO_L0
 Text GLabel 2550 3000 2    60   Input ~ 0
 AUDIO_L1
-Text GLabel 1050 3000 0    60   Input ~ 0
+Text GLabel 3850 4250 0    60   Input ~ 0
 AUDIO_L2
-Text GLabel 2550 2800 2    60   Input ~ 0
-AUDIO_L3
+Text GLabel 1050 3000 0    60   Input ~ 0
+BTN2
 Text GLabel -500 3300 0    60   Input ~ 0
 AUDIO_R0
 Text GLabel 1050 2600 0    60   Input ~ 0
@@ -168,19 +168,17 @@ Text GLabel 2550 2600 2    60   Input ~ 0
 AUDIO_R3
 Text GLabel 1050 3400 0    60   Input ~ 0
 LED0
-Text GLabel 2550 4000 2    60   Input ~ 0
+Text GLabel 3200 3700 2    60   Input ~ 0
 LED5
-Text GLabel 1050 3700 0    60   Input ~ 0
+Text GLabel 2550 2800 2    60   Input ~ 0
 LED2
-Text GLabel 1050 3600 0    60   Input ~ 0
+Text GLabel 1050 3700 0    60   Input ~ 0
 LED3
-Text GLabel 2550 3700 2    60   Input ~ 0
+Text GLabel 3200 3500 2    60   Input ~ 0
 LED4
-Text GLabel 2550 3400 2    60   Input ~ 0
-LED1
 Text GLabel 2550 3600 2    60   Input ~ 0
 LED6
-Text GLabel 2550 3800 2    60   Input ~ 0
+Text GLabel 3200 3600 2    60   Input ~ 0
 LED7
 Text Notes 950  7550 0    60   ~ 0
 GPIO route only A/B pairs as those are differential bidirectional\ndon't route C/D pairs to GPIO as those can be differential input only\nBANK0,1 are single-ended (non-differential)
@@ -1291,10 +1289,10 @@ Wire Wire Line
 Text GLabel 5200 4700 1    60   Input ~ 0
 CM4_3.3V
 $Comp
-L power:+3V3 #PWR?
+L power:+3V3 #PWR0111
 U 1 1 61646D74
 P 5200 4900
-F 0 "#PWR?" H 5200 4750 50  0001 C CNN
+F 0 "#PWR0111" H 5200 4750 50  0001 C CNN
 F 1 "+3V3" H 5200 5040 50  0000 C CNN
 F 2 "" H 5200 4900 50  0000 C CNN
 F 3 "" H 5200 4900 50  0000 C CNN
@@ -1305,4 +1303,6 @@ Wire Wire Line
 	5200 4900 5200 4700
 Text Notes 5050 5600 1    60   ~ 0
 CM4 needs to provide 3.3V to CM4 IO board
+Text GLabel 2550 3500 2    60   Input ~ 0
+LED1
 $EndSCHEMATC

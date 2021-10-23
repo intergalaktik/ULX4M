@@ -34,10 +34,6 @@ OLED_DC
 Text GLabel 4850 1850 2    60   Input ~ 0
 OLED_CS
 Wire Wire Line
-	3250 2950 3350 2950
-Wire Wire Line
-	3250 3150 3350 3150
-Wire Wire Line
 	3250 3350 3350 3350
 Wire Wire Line
 	3250 3550 3350 3550
@@ -46,9 +42,9 @@ Wire Wire Line
 Wire Wire Line
 	3250 3950 3350 3950
 Text GLabel 3350 2950 2    60   Input ~ 0
-BTN_F1
+BTN1
 Text GLabel 3350 3150 2    60   Input ~ 0
-BTN_F2
+BTN2
 Text GLabel 3350 3350 2    60   Input ~ 0
 BTN_U
 Text GLabel 3350 3550 2    60   Input ~ 0
@@ -375,6 +371,69 @@ F 1 "GND" H 4250 3150 50  0000 C CNN
 F 2 "" H 4250 3300 50  0000 C CNN
 F 3 "" H 4250 3300 50  0000 C CNN
 	1    4250 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW1
+U 1 1 6256B27F
+P 2900 2950
+F 0 "SW1" H 3100 3000 50  0000 C CNN
+F 1 "SW_Push" H 2600 3000 50  0000 C CNN
+F 2 "Switch_EVPAA:Switch_EVPAA" H 2900 3150 50  0001 C CNN
+F 3 "https://www.mouser.in/datasheet/2/315/PANA_S_A0001791376_1-2560543.pdf" H 2900 3150 50  0001 C CNN
+F 4 "https://www.mouser.in/ProductDetail/Panasonic/EVP-AA302K?qs=qvwOHSmaRMmnf4H35tvzww==" H 2900 2950 50  0001 C CNN "Mouser"
+F 5 "https://www.digikey.com/en/products/detail/panasonic-electronic-components/EVP-AA302K/2810555" H 2900 2950 50  0001 C CNN "DigiKey"
+	1    2900 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 2950 3350 2950
+Wire Wire Line
+	3100 3150 3350 3150
+$Comp
+L Device:R R18
+U 1 1 625797F0
+P 2150 2950
+F 0 "R18" V 2230 2950 50  0000 C CNN
+F 1 "130" V 2150 2950 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" V 2080 2950 50  0001 C CNN
+F 3 "" H 2150 2950 50  0000 C CNN
+	1    2150 2950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2300 2950 2400 2950
+Wire Wire Line
+	2400 2950 2400 3150
+Wire Wire Line
+	2400 3150 2700 3150
+Connection ~ 2400 2950
+Wire Wire Line
+	2400 2950 2700 2950
+$Comp
+L power:+3V3 #PWR0112
+U 1 1 6257D2AA
+P 1850 2950
+F 0 "#PWR0112" H 1850 2800 50  0001 C CNN
+F 1 "+3V3" H 1850 3090 50  0000 C CNN
+F 2 "" H 1850 2950 50  0000 C CNN
+F 3 "" H 1850 2950 50  0000 C CNN
+	1    1850 2950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1850 2950 2000 2950
+$Comp
+L Switch:SW_Push SW2
+U 1 1 6258110E
+P 2900 3150
+F 0 "SW2" H 3100 3200 50  0000 C CNN
+F 1 "SW_Push" H 2600 3200 50  0000 C CNN
+F 2 "Switch_EVPAA:Switch_EVPAA" H 2900 3350 50  0001 C CNN
+F 3 "https://www.mouser.in/datasheet/2/315/PANA_S_A0001791376_1-2560543.pdf" H 2900 3350 50  0001 C CNN
+F 4 "https://www.mouser.in/ProductDetail/Panasonic/EVP-AA302K?qs=qvwOHSmaRMmnf4H35tvzww==" H 2900 3150 50  0001 C CNN "Mouser"
+F 5 "https://www.digikey.com/en/products/detail/panasonic-electronic-components/EVP-AA302K/2810555" H 2900 3150 50  0001 C CNN "DigiKey"
+	1    2900 3150
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
