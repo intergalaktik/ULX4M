@@ -51,25 +51,25 @@ Text GLabel 4250 1450 0    60   Input ~ 0
 nRESET
 Text GLabel 10150 2650 2    60   Input ~ 0
 FTDI_TXD
-Text GLabel 8650 1950 0    60   Input ~ 0
+Text GLabel 7550 1950 0    60   Input ~ 0
 FTDI_RXD
 Text GLabel 10150 2450 2    60   Input ~ 0
 FTDI_nRTS
 Text GLabel 10150 2550 2    60   Input ~ 0
 FTDI_nDTR
-Text GLabel 8650 2050 0    60   Input ~ 0
+Text GLabel 7550 2050 0    60   Input ~ 0
 WIFI_TXD
 Text GLabel 10150 1550 2    60   Input ~ 0
 WIFI_RXD
 Text GLabel 10150 1450 2    60   Input ~ 0
 WIFI_GPIO0
-Text GLabel 10150 1650 2    60   Input ~ 0
+Text GLabel 10850 1650 2    60   Input ~ 0
 WIFI_EN
 Text GLabel 10150 2850 2    60   Input ~ 0
 OLED_RES
-Text GLabel 8650 2750 0    60   Input ~ 0
+Text GLabel 8200 2750 0    60   Input ~ 0
 OLED_MOSI
-Text GLabel 10150 2750 2    60   Input ~ 0
+Text GLabel 11250 2750 2    60   Input ~ 0
 OLED_CLK
 Text GLabel 8650 2850 0    60   Input ~ 0
 OLED_DC
@@ -85,10 +85,8 @@ Text GLabel 8650 1350 0    60   Input ~ 0
 SD_CLK
 Text GLabel 10150 1850 2    60   Input ~ 0
 SD_CMD
-Text GLabel 10150 2150 2    60   Input ~ 0
+Text GLabel 11150 2150 2    60   Input ~ 0
 SD_WP
-Text GLabel 10150 2250 2    60   Input ~ 0
-SD_CD
 Text Notes 7200 3150 0    60   ~ 0
 WiFi programming pins:\nTXD RXD RTS DTR
 Text Notes 7400 3750 0    60   ~ 0
@@ -230,9 +228,7 @@ Text GLabel 5600 2500 1    60   Input ~ 0
 USB5V
 Text Notes 6300 2500 0    60   ~ 0
 WIFI_GPIO15 v1.7 WIFI_GPIO17 <v3.1
-Text GLabel 8650 2150 0    60   Input ~ 0
-WIFI_GPIO19
-Text GLabel 8650 2450 0    60   Input ~ 0
+Text GLabel 7750 2450 0    60   Input ~ 0
 WIFI_GPIO27
 Text Notes 7450 1400 0    60   ~ 0
 SD_D2 v1.7
@@ -275,13 +271,13 @@ USER_PROGRAMN
 Text Notes 7350 2300 0    60   ~ 0
 NC v1.7
 NoConn ~ 8650 2950
-Text GLabel 10150 1950 2    60   Input ~ 0
+Text GLabel 11500 1950 2    60   Input ~ 0
 FTDI_nRXLED
 Text Notes 10950 2000 0    60   ~ 0
 NC <v3.0.5
 Text Notes 6700 2200 0    60   ~ 0
 NC v1.7 WIFI_GPIO5 <v3.1
-Text GLabel 10150 2050 2    60   Input ~ 0
+Text GLabel 11100 2050 2    60   Input ~ 0
 WIFI_GPIO21
 Text Notes 10950 2100 0    60   ~ 0
 NC <v3.1
@@ -576,4 +572,30 @@ Wire Wire Line
 	5250 5100 5400 5100
 Wire Wire Line
 	5400 5200 5250 5200
+Text GLabel 8650 2750 0    60   Input ~ 0
+GPIO7
+Text GLabel 10150 2750 2    60   Input ~ 0
+GPIO8
+Text GLabel 10150 2150 2    60   Input ~ 0
+GPIO25
+Text GLabel 10150 2250 2    60   Input ~ 0
+GPIO18
+Text GLabel 10150 1950 2    60   Input ~ 0
+GPIO15
+Text GLabel 8650 2150 0    60   Input ~ 0
+GPIO23
+Text GLabel 10750 2250 2    60   Input ~ 0
+SD_CD
+Text GLabel 8650 2450 0    60   Input ~ 0
+GPIO24
+Text GLabel 7700 2150 0    60   Input ~ 0
+WIFI_GPIO19
+Text GLabel 8650 1950 0    60   Input ~ 0
+GPIO14
+Text GLabel 8650 2050 0    60   Input ~ 0
+GPIO4
+Text GLabel 10150 1650 2    60   Input ~ 0
+GPIO3
+Text GLabel 10150 2050 2    60   Input ~ 0
+GPIO2
 $EndSCHEMATC

@@ -421,13 +421,13 @@ F 3 "" H 8000 4200 50  0000 C CNN
 	1    8000 4200
 	0    1    1    0   
 $EndComp
-Text GLabel 6500 3800 0    60   Input ~ 0
+Text GLabel 8400 3300 0    60   Input ~ 0
 BTN_F1
-Text GLabel 8000 3800 2    60   Input ~ 0
+Text GLabel 9000 3650 2    60   Input ~ 0
 BTN_F2
-Text GLabel 8000 3900 2    60   Input ~ 0
+Text GLabel 9050 3500 2    60   Input ~ 0
 BTN_D
-Text GLabel 6500 3900 0    60   Input ~ 0
+Text GLabel 8650 3450 0    60   Input ~ 0
 BTN_L
 Text Notes 4700 1950 0    60   ~ 0
 pullups to allow entering USER mode\nTN1260: lattice ECP5 sysCONFIG guide p.6, p.8, p.13
@@ -520,4 +520,12 @@ F 3 "" H 5600 2350 50  0000 C CNN
 	1    5600 2350
 	1    0    0    -1  
 $EndComp
+Text GLabel 8000 3900 2    60   Input ~ 0
+GPIO26
+Text GLabel 6500 3900 0    60   Input ~ 0
+GPIO19
+Text GLabel 8000 3800 2    60   Input ~ 0
+GPIO13
+Text GLabel 6500 3800 0    60   Input ~ 0
+GPIO6
 $EndSCHEMATC

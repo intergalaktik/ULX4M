@@ -106,7 +106,7 @@ Text GLabel 2550 3300 2    60   Input ~ 0
 GN11
 Text GLabel 1050 3300 0    60   Input ~ 0
 GP11
-Text GLabel 2550 3400 2    60   Input ~ 0
+Text GLabel 1050 3000 0    60   Input ~ 0
 BTN1
 Text GLabel -600 3450 0    60   Input ~ 0
 GP9
@@ -156,7 +156,7 @@ Text GLabel 2550 3000 2    60   Input ~ 0
 AUDIO_L1
 Text GLabel 3850 4250 0    60   Input ~ 0
 AUDIO_L2
-Text GLabel 1050 3000 0    60   Input ~ 0
+Text GLabel 2550 3400 2    60   Input ~ 0
 BTN2
 Text GLabel -500 3300 0    60   Input ~ 0
 AUDIO_R0

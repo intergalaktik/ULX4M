@@ -84,9 +84,9 @@ Text GLabel 6700 3750 2    60   Input ~ 0
 SDRAM_D12
 Text GLabel 6700 3850 2    60   Input ~ 0
 SDRAM_D13
-Text GLabel 6700 3950 2    60   Input ~ 0
-SDRAM_D14
 Text GLabel 6700 4050 2    60   Input ~ 0
+SDRAM_D14
+Text GLabel 6700 3950 2    60   Input ~ 0
 SDRAM_D15
 Text GLabel 6700 4300 2    60   Input ~ 0
 SDRAM_DQM0
@@ -315,7 +315,7 @@ Text GLabel 8550 3450 0    60   Input ~ 0
 SHUTDOWN
 Text GLabel 10850 4850 2    60   Input ~ 0
 BTN_U
-Text GLabel 10050 3450 2    60   Input ~ 0
+Text GLabel 10650 3450 2    60   Input ~ 0
 BTN_R
 $Comp
 L Device:C C33
@@ -568,4 +568,6 @@ Text GLabel 10050 5550 2    60   Input ~ 0
 SDA0
 Text GLabel 10050 5450 2    60   Input ~ 0
 SCL0
+Text GLabel 10050 3450 2    60   Input ~ 0
+GPIO5
 $EndSCHEMATC
