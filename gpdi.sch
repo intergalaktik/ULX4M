@@ -43,15 +43,15 @@ Text GLabel 3250 5800 0    60   Input ~ 0
 FPDI_SCL
 Text GLabel 3250 5950 0    60   Input ~ 0
 FPDI_SDA
-Text GLabel 4350 2200 2    60   Input ~ 0
+Text GLabel 5000 1750 2    60   Input ~ 0
 FPDI_HPD
-Text GLabel 2850 2200 0    60   Input ~ 0
+Text GLabel 1900 2150 0    60   Input ~ 0
 FPDI_UTIL
 Text GLabel 4550 4050 2    60   Input ~ 0
 FPDI_SCL
-Text GLabel 4350 2300 2    60   Input ~ 0
+Text GLabel 5050 1875 2    60   Input ~ 0
 FPDI_SDA
-Text GLabel 2850 2300 0    60   Input ~ 0
+Text GLabel 1900 2250 0    60   Input ~ 0
 FPDI_CEC
 Text GLabel 4350 2900 2    60   Input ~ 0
 GN22
@@ -688,4 +688,12 @@ Text GLabel 2850 3200 0    60   Input ~ 0
 DSI0_D0_P
 Text GLabel 4350 3200 2    60   Input ~ 0
 DSI0_D0_N
+Text GLabel 4350 2200 2    60   Input ~ 0
+DSI1_D2_N
+Text GLabel 2850 2200 0    60   Input ~ 0
+DSI1_D2_P
+Text GLabel 4350 2300 2    60   Input ~ 0
+DSI1_D3_N
+Text GLabel 2850 2300 0    60   Input ~ 0
+DSI1_D3_P
 $EndSCHEMATC

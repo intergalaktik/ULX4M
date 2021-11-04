@@ -212,7 +212,7 @@ Text GLabel 10850 4550 2    60   Input ~ 0
 GN14
 Text GLabel 12100 5800 2    60   Input ~ 0
 GN15
-Text GLabel 8550 5450 0    60   Input ~ 0
+Text GLabel 7625 5775 0    60   Input ~ 0
 GP15
 Text GLabel 8550 5650 0    60   Input ~ 0
 GP16
@@ -233,7 +233,7 @@ GP19
 Text GLabel 10050 5850 2    60   Input ~ 0
 GN17
 Text GLabel 8550 5850 0    60   Input ~ 0
-GP17
+GPIO11
 $Comp
 L Device:C C16
 U 1 1 59131F17
@@ -312,7 +312,7 @@ F 4 "LFE5U-85F-6BG381C" H 9300 5250 60  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 Text GLabel 8550 3450 0    60   Input ~ 0
-SHUTDOWN
+GPIO9
 Text GLabel 10850 4850 2    60   Input ~ 0
 BTN_U
 Text GLabel 10650 3450 2    60   Input ~ 0
@@ -570,4 +570,8 @@ Text GLabel 10050 5450 2    60   Input ~ 0
 SCL0
 Text GLabel 10050 3450 2    60   Input ~ 0
 GPIO5
+Text GLabel 8550 4650 0    60   Input ~ 0
+GPIO22
+Text GLabel 8550 5450 0    60   Input ~ 0
+GPIO10
 $EndSCHEMATC

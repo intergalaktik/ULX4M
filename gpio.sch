@@ -453,8 +453,6 @@ Text GLabel 6600 4200 0    60   Input ~ 0
 GND
 Text GLabel 7700 4200 2    60   Input ~ 0
 GND
-Text GLabel 6600 4300 0    60   Input ~ 0
-SD_DAT1
 Text GLabel 7700 4300 2    60   Input ~ 0
 SD_DAT4
 Text GLabel 6600 4400 0    60   Input ~ 0
@@ -1228,17 +1226,17 @@ Text GLabel 13000 6200 0    60   Input ~ 0
 DSI1_D2_P
 Text GLabel 13000 6100 0    60   Input ~ 0
 DSI1_D2_N
-Text GLabel 13000 6000 0    60   Input ~ 0
+Text GLabel 13000 5650 0    60   Input ~ 0
 DSI1_C_P
-Text GLabel 13000 5900 0    60   Input ~ 0
+Text GLabel 13000 5550 0    60   Input ~ 0
 DSI1_C_N
-Text GLabel 13000 5800 0    60   Input ~ 0
+Text GLabel 13000 5450 0    60   Input ~ 0
 DSI1_D1_P
-Text GLabel 13000 5700 0    60   Input ~ 0
+Text GLabel 13000 5350 0    60   Input ~ 0
 DSI1_D1_N
-Text GLabel 13000 5600 0    60   Input ~ 0
+Text GLabel 13000 5250 0    60   Input ~ 0
 DSI1_D0_P
-Text GLabel 13000 5500 0    60   Input ~ 0
+Text GLabel 13000 5150 0    60   Input ~ 0
 DSI1_D0_N
 Text GLabel 1050 3500 0    60   Input ~ 0
 USB_FPGA_PULL_D+
@@ -1250,18 +1248,6 @@ Text GLabel 1100 1200 0    60   Input ~ 0
 PCIe_nRST
 Text GLabel 1050 2700 0    60   Input ~ 0
 USB_OTG_ID
-Text GLabel 4550 3150 0    60   Input ~ 0
-SRX11P
-Text GLabel 4550 3250 0    60   Input ~ 0
-SRX11N
-Text GLabel 4550 3050 0    60   Input ~ 0
-STX11P
-Text GLabel 4550 2950 0    60   Input ~ 0
-STX11N
-Text GLabel 4550 2700 0    60   Input ~ 0
-SRCLK1P
-Text GLabel 4550 2800 0    60   Input ~ 0
-SRCLK1N
 Text GLabel 4700 3150 2    60   Input ~ 0
 GPIO11
 Text GLabel 4700 3250 2    60   Input ~ 0
@@ -1286,23 +1272,85 @@ Wire Wire Line
 	4550 3150 4700 3150
 Wire Wire Line
 	4700 3250 4550 3250
-Text GLabel 5200 4700 1    60   Input ~ 0
+Text GLabel 4950 4975 1    60   Input ~ 0
 CM4_3.3V
 $Comp
 L power:+3V3 #PWR0111
 U 1 1 61646D74
-P 5200 4900
-F 0 "#PWR0111" H 5200 4750 50  0001 C CNN
-F 1 "+3V3" H 5200 5040 50  0000 C CNN
-F 2 "" H 5200 4900 50  0000 C CNN
-F 3 "" H 5200 4900 50  0000 C CNN
-	1    5200 4900
+P 4950 5175
+F 0 "#PWR0111" H 4950 5025 50  0001 C CNN
+F 1 "+3V3" H 4950 5315 50  0000 C CNN
+F 2 "" H 4950 5175 50  0000 C CNN
+F 3 "" H 4950 5175 50  0000 C CNN
+	1    4950 5175
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	5200 4900 5200 4700
-Text Notes 5050 5600 1    60   ~ 0
+	4950 5175 4950 4975
+Text Notes 4825 5550 1    60   ~ 0
 CM4 needs to provide 3.3V to CM4 IO board
 Text GLabel 2550 3500 2    60   Input ~ 0
 LED1
+Text GLabel 4550 2700 0    60   Input ~ 0
+GP16
+Text GLabel 4550 2800 0    60   Input ~ 0
+GN16
+Text GLabel 13175 5250 2    60   Input ~ 0
+SRX11P
+Text GLabel 13175 5150 2    60   Input ~ 0
+SRX11N
+Text GLabel 13175 5350 2    60   Input ~ 0
+STX11P
+Text GLabel 13175 5450 2    60   Input ~ 0
+STX11N
+Text GLabel 13175 5650 2    60   Input ~ 0
+SRCLK1P
+Text GLabel 13175 5550 2    60   Input ~ 0
+SRCLK1N
+Wire Wire Line
+	13000 5150 13175 5150
+Wire Wire Line
+	13175 5250 13000 5250
+Wire Wire Line
+	13000 5350 13175 5350
+Wire Wire Line
+	13175 5450 13000 5450
+Wire Wire Line
+	13000 5550 13175 5550
+Wire Wire Line
+	13175 5650 13000 5650
+Text GLabel 5325 3650 0    60   Input ~ 0
+GPIO15
+Text GLabel 5375 3650 2    60   Input ~ 0
+SD_CLK
+Wire Wire Line
+	5325 3650 5375 3650
+Text GLabel 5300 3750 0    60   Input ~ 0
+GPIO14
+Text GLabel 5375 3750 2    60   Input ~ 0
+SD_DAT3
+Wire Wire Line
+	5300 3750 5375 3750
+Text GLabel 5375 3850 2    60   Input ~ 0
+SD_DAT0
+Text GLabel 6600 4300 0    60   Input ~ 0
+SD_DAT1
+Text GLabel 5375 3950 2    60   Input ~ 0
+SD_DAT1
+Text GLabel 5375 4050 2    60   Input ~ 0
+SD_DAT2
+Text GLabel 5375 4150 2    60   Input ~ 0
+SD_CMD
+Text GLabel 5300 3850 0    60   Input ~ 0
+GPIO4
+Text GLabel 5300 3950 0    60   Input ~ 0
+GPIO3
+Text GLabel 5300 4050 0    60   Input ~ 0
+GPIO2
+Wire Wire Line
+	5300 3850 5375 3850
+Wire Wire Line
+	5375 3950 5300 3950
+Wire Wire Line
+	5300 4050 5375 4050
 $EndSCHEMATC
