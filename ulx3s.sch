@@ -4,10 +4,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 11
-Title "ULX3S"
-Date ""
-Rev "3.1.7"
-Comp "EMARD"
+Title "ULX4M"
+Date "2021-11-05"
+Rev "0.0.2"
+Comp "Intergalaktik d.o.o."
 Comment1 "Root sheet"
 Comment2 ""
 Comment3 ""
@@ -172,4 +172,17 @@ U 58DA7327
 F0 "serdes" 60
 F1 "serdes.sch" 60
 $EndSheet
+$Comp
+L Graphic:Logo_Open_Hardware_Small #LOGO?
+U 1 1 61CAE62B
+P 7950 6875
+AR Path="/58DA7327/61CAE62B" Ref="#LOGO?"  Part="1" 
+AR Path="/61CAE62B" Ref="#LOGO1"  Part="1" 
+F 0 "#LOGO1" H 7950 7150 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 7950 6650 50  0001 C CNN
+F 2 "" H 7950 6875 50  0001 C CNN
+F 3 "~" H 7950 6875 50  0001 C CNN
+	1    7950 6875
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -1299,9 +1299,9 @@ Text GLabel 13175 5250 2    60   Input ~ 0
 SRX11P
 Text GLabel 13175 5150 2    60   Input ~ 0
 SRX11N
-Text GLabel 13175 5350 2    60   Input ~ 0
-STX11P
 Text GLabel 13175 5450 2    60   Input ~ 0
+STX11P
+Text GLabel 13175 5350 2    60   Input ~ 0
 STX11N
 Text GLabel 13175 5650 2    60   Input ~ 0
 SRCLK1P

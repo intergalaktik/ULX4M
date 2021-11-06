@@ -119,15 +119,4 @@ Text Notes 8350 3700 0    60   ~ 0
 NC v1.7, WIFI_GPIO5 <v3.1 LED >=3.1.2
 Text GLabel 8100 4250 0    60   Input ~ 0
 WIFI_GPIO0
-$Comp
-L Device:Antenna AE1
-U 1 1 61DC15E3
-P 8650 1650
-F 0 "AE1" H 8730 1639 50  0000 L CNN
-F 1 "Antenna" H 8730 1548 50  0000 L CNN
-F 2 "Connector_Coaxial:CoaxialSwitch_Hirose_MS-156C3_Horizontal" H 8650 1650 50  0001 C CNN
-F 3 "~" H 8650 1650 50  0001 C CNN
-	1    8650 1650
-	1    0    0    -1  
-$EndComp
 $EndSCHEMATC

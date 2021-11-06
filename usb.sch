@@ -464,9 +464,9 @@ Wire Wire Line
 Text GLabel 1700 3200 2    60   Input ~ 0
 US2_ID
 Wire Wire Line
-	1850 3000 2500 3000
+	1850 3000 2325 3000
 Wire Wire Line
-	1850 3100 2500 3100
+	1850 3100 2125 3100
 $Comp
 L Connector_Generic:Conn_02x03_Odd_Even J3
 U 1 1 611DE8D2
@@ -598,4 +598,119 @@ Text GLabel 10150 1650 2    60   Input ~ 0
 GPIO3
 Text GLabel 10150 2050 2    60   Input ~ 0
 GPIO2
+Text GLabel 1375 2025 2    60   Input ~ 0
+USB_N
+Text GLabel 1375 2125 2    60   Input ~ 0
+USB_P
+Text GLabel 1375 2225 2    60   Input ~ 0
+USB_OTG_ID
+$Comp
+L power:GND #PWR0113
+U 1 1 61CF3ABC
+P 875 2525
+F 0 "#PWR0113" H 875 2275 50  0001 C CNN
+F 1 "GND" H 875 2375 50  0000 C CNN
+F 2 "" H 875 2525 50  0001 C CNN
+F 3 "" H 875 2525 50  0001 C CNN
+	1    875  2525
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0114
+U 1 1 61CF86CC
+P 1325 2525
+F 0 "#PWR0114" H 1325 2275 50  0001 C CNN
+F 1 "GND" H 1325 2375 50  0000 C CNN
+F 2 "" H 1325 2525 50  0001 C CNN
+F 3 "" H 1325 2525 50  0001 C CNN
+	1    1325 2525
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1275 2325 1325 2325
+Wire Wire Line
+	1325 2325 1325 2525
+Wire Wire Line
+	1275 2225 1375 2225
+Wire Wire Line
+	1375 2125 1275 2125
+Wire Wire Line
+	1275 2025 1375 2025
+$Comp
+L power:+5V #PWR?
+U 1 1 61D2FC87
+P 1400 1775
+AR Path="/56AC389C/61D2FC87" Ref="#PWR?"  Part="1" 
+AR Path="/58D6BF46/61D2FC87" Ref="#PWR0115"  Part="1" 
+F 0 "#PWR0115" H 1400 1625 50  0001 C CNN
+F 1 "+5V" H 1400 1915 50  0000 C CNN
+F 2 "" H 1400 1775 60  0000 C CNN
+F 3 "" H 1400 1775 60  0000 C CNN
+	1    1400 1775
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1275 1925 1400 1925
+Wire Wire Line
+	1400 1925 1400 1775
+$Comp
+L Device:D_Zener_Small_ALT D8
+U 1 1 61D59D98
+P 2125 3425
+F 0 "D8" V 2079 3495 50  0000 L CNN
+F 1 "3.6V" H 2200 3500 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 2125 3425 50  0001 C CNN
+F 3 "http://www.taiwansemi.com/products/datasheet/BZT52C2V4S%20SERIES_H1709.pdf" V 2125 3425 50  0001 C CNN
+F 4 "www.taiwansemi.com" V 2125 3425 50  0001 C CNN "MNF1_URL"
+F 5 "BZT52C3V6S" V 2125 3425 50  0001 C CNN "MPN"
+F 6 "833-BZT52C3V6S-TP" V 2125 3425 50  0001 C CNN "Mouser"
+	1    2125 3425
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2125 3325 2125 3100
+Connection ~ 2125 3100
+Wire Wire Line
+	2125 3100 2500 3100
+Wire Wire Line
+	2325 3325 2325 3000
+Connection ~ 2325 3000
+Wire Wire Line
+	2325 3000 2500 3000
+Wire Wire Line
+	2125 3525 2125 3750
+Wire Wire Line
+	2125 3750 2225 3750
+Wire Wire Line
+	2325 3750 2325 3525
+$Comp
+L power:GND #PWR?
+U 1 1 61D61C4B
+P 2225 3750
+AR Path="/58D51CAD/61D61C4B" Ref="#PWR?"  Part="1" 
+AR Path="/58D6BF46/61D61C4B" Ref="#PWR07"  Part="1" 
+F 0 "#PWR07" H 2225 3500 50  0001 C CNN
+F 1 "GND" H 2225 3600 50  0000 C CNN
+F 2 "" H 2225 3750 50  0000 C CNN
+F 3 "" H 2225 3750 50  0000 C CNN
+	1    2225 3750
+	1    0    0    -1  
+$EndComp
+Connection ~ 2225 3750
+Wire Wire Line
+	2225 3750 2325 3750
+$Comp
+L Device:D_Zener_Small_ALT D9
+U 1 1 61D77D59
+P 2325 3425
+F 0 "D9" V 2279 3495 50  0000 L CNN
+F 1 "3.6V" H 2400 3500 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 2325 3425 50  0001 C CNN
+F 3 "http://www.taiwansemi.com/products/datasheet/BZT52C2V4S%20SERIES_H1709.pdf" V 2325 3425 50  0001 C CNN
+F 4 "www.taiwansemi.com" V 2325 3425 50  0001 C CNN "MNF1_URL"
+F 5 "BZT52C3V6S" V 2325 3425 50  0001 C CNN "MPN"
+F 6 "833-BZT52C3V6S-TP" V 2325 3425 50  0001 C CNN "Mouser"
+	1    2325 3425
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
