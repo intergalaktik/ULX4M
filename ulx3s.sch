@@ -4,7 +4,7 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 11
-Title "ULX4M"
+Title "ULX4M-LS"
 Date "2021-11-05"
 Rev "0.0.2"
 Comp "Intergalaktik d.o.o."

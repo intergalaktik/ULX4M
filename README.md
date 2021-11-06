@@ -6,21 +6,8 @@ Successor of [ULX2S](http://github.com/emard/ulx2s).
 
 3D preview
 
-![TOP](/pic/ulx4mt.jpg)
-![BOTTOM](/pic/ulx4mb.jpg)
-
-This is a small (94x51 mm) standalone FPGA board 
-for education, research and general purpose, with a full 
-featured selection of chips which I all wanted on
-a low-cost PCB, but haven't found on the market.
-It's open source and open hardware because if it is
-good for our development of [f32c](http://github.com/f32c/f32c) SOC,
-it should be also good to other projects.
-
-ULX4M is sufficiently equipped to
-emulate [Amiga](https://github.com/emard/Minimig_ECS) retro
-computer and run its games, but can do much more like
-running [Linux](https://twitter.com/fpga_dave/status/1053290842809683968).
+![TOP](/pic/ULX4M_top_v002.png)
+![BOTTOM](/pic/ULX4M_bottom_v002.png)
 
 [Schematics](/doc/schematics.pdf) and PCB KiCAD 5 PCB editor:
 
