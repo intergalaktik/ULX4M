@@ -1,9 +1,18 @@
-Copyright (c) 2016-2018 EMARD
+# License
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this hardware, software, and associated documentation files (the "Product"), to deal in the Product without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Product, and to permit persons to whom the Product is furnished to do so, subject to the following conditions:
+## Hardware
+This hardware is licensed under CERN-OHL-P v2 or later.
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Product.
+Copyright © 2020 Intergalaktik d.o.o.
 
-The logotypes "EMARD", "RADIONA" and "FER" shall remain unmodified, visible, and in the original location, shape and size on the top PCB silkscreen layer.
+Source: https://github.com/intergalaktik/ulx4m
 
-THE PRODUCT IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE PRODUCT OR THE USE OR OTHER DEALINGS IN THE PRODUCT. 
+This source describes Open Hardware and is licensed under the CERN-OHL-P v2
+You may redistribute and modify this documentation and make products
+using it under the terms of the CERN-OHL-P v2 or later (https:/cern.ch/cern-ohl).
+This documentation is distributed WITHOUT ANY EXPRESS OR IMPLIED
+WARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY
+AND FITNESS FOR A PARTICULAR PURPOSE. Please see the CERN-OHL-P v2
+for applicable conditions
+
+[![License: CERN-OHL-P v2](https://img.shields.io/badge/License-CERN--OHL--P_v2-GREEN.svg)](https://opensource.org/CERN-OHL-P)
