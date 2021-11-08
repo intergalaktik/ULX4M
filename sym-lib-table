@@ -18,4 +18,5 @@
   (lib (name micro_sd_slide)(type Legacy)(uri ${KIPRJMOD}/footprints/micro-sd/104031-0811.lib)(options "")(descr ""))
   (lib (name DF40C-100DP-0.4V_51_)(type Legacy)(uri ${KIPRJMOD}/footprints/connectors/DF40C-100DP-0.4V_51_.lib)(options "")(descr ""))
   (lib (name Raspberry_Pi_Compute_Module_4)(type Legacy)(uri ${KIPRJMOD}/CM4/RPi-CM4-Kicad/Raspberry_Pi_Compute_Module_4.lib)(options "")(descr ""))
+  (lib (name VSC8530XMW-04)(type Legacy)(uri ${KIPRJMOD}/footprints/network/VSC8530XMW-04/VSC8530XMW-04.lib)(options "")(descr ""))
 )
