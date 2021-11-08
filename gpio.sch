@@ -1256,14 +1256,6 @@ Text GLabel 4700 3050 2    60   Input ~ 0
 GPIO10
 Text GLabel 4700 2950 2    60   Input ~ 0
 GPIO22
-Text GLabel 4700 2700 2    60   Input ~ 0
-GPIO27
-Text GLabel 4700 2800 2    60   Input ~ 0
-GPIO17
-Wire Wire Line
-	4550 2700 4700 2700
-Wire Wire Line
-	4700 2800 4550 2800
 Wire Wire Line
 	4550 2950 4700 2950
 Wire Wire Line
@@ -1291,10 +1283,6 @@ Text Notes 4825 5550 1    60   ~ 0
 CM4 needs to provide 3.3V to CM4 IO board
 Text GLabel 2550 3500 2    60   Input ~ 0
 LED1
-Text GLabel 4550 2700 0    60   Input ~ 0
-GP16
-Text GLabel 4550 2800 0    60   Input ~ 0
-GN16
 Text GLabel 13175 5250 2    60   Input ~ 0
 SRX11P
 Text GLabel 13175 5150 2    60   Input ~ 0
@@ -1353,4 +1341,8 @@ Wire Wire Line
 	5375 3950 5300 3950
 Wire Wire Line
 	5300 4050 5375 4050
+Text GLabel 5300 4150 0    60   Input ~ 0
+GPIO27
+Wire Wire Line
+	5300 4150 5375 4150
 $EndSCHEMATC
