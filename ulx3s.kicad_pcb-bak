@@ -11,11 +11,14 @@
 
   (page A4)
   (title_block
-    (rev v3.1.1)
+    (title ULX4M-LS)
+    (date 2021-11-08)
+    (rev v0.0.2)
+    (company "Intergalaktik d.o.o.")
   )
 
   (layers
-    (0 F.Cu signal hide)
+    (0 F.Cu signal)
     (1 GND1.Cu power)
     (2 In2signal.Cu signal)
     (3 POWER.Cu power)
@@ -8600,7 +8603,7 @@
   (gr_text 2.5V (at 95.35 80.92 270) (layer B.SilkS) (tstamp 5AB79331)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
   )
-  (gr_text "03.11.2021. v0.0.2" (at 135.79 111.04) (layer F.SilkS) (tstamp 60F8E6EF)
+  (gr_text "08.11.2021. v0.0.2" (at 135.79 111.04) (layer F.SilkS) (tstamp 60F8E6EF)
     (effects (font (size 1 1) (thickness 0.2)))
   )
   (gr_text 2.5/3.3V (at 104.61 73.3) (layer F.SilkS)

@@ -11,7 +11,10 @@
 
   (page A4)
   (title_block
-    (rev v3.1.1)
+    (title ULX4M-LS)
+    (date 2021-11-08)
+    (rev v0.0.2)
+    (company "Intergalaktik d.o.o.")
   )
 
   (layers
