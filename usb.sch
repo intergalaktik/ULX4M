@@ -123,7 +123,7 @@ Text GLabel 7000 5500 0    60   Input ~ 0
 JTAG_TMS
 Text Notes 2900 3500 0    60   ~ 0
 USB_FPGA connected to\nBANK1 on "gpdi" sheet and\nBANK2 on "ram" sheet
-Text GLabel 8650 2550 0    60   Input ~ 0
+Text GLabel 6925 1975 0    60   Input ~ 0
 WIFI_GPIO26
 Wire Wire Line
 	10150 1350 10750 1350
@@ -228,8 +228,8 @@ Text GLabel 5600 2500 1    60   Input ~ 0
 USB5V
 Text Notes 6300 2500 0    60   ~ 0
 WIFI_GPIO15 v1.7 WIFI_GPIO17 <v3.1
-Text GLabel 7750 2450 0    60   Input ~ 0
-WIFI_GPIO27
+Text GLabel 8650 2550 0    60   Input ~ 0
+SD_CMD
 Text Notes 7450 1400 0    60   ~ 0
 SD_D2 v1.7
 Text Notes 11150 1900 0    60   ~ 0
