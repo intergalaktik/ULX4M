@@ -8,6 +8,7 @@ Successor of [ULX2S](http://github.com/emard/ulx2s).
 
 ![TOP](/pic/ULX4M_top_v002.png)
 ![BOTTOM](/pic/ULX4M_bottom_v002.png)
+![RoutedV002](/pic/ULX4M_routed_V002.png)
 
 [Schematics](/doc/schematics.pdf) and PCB KiCAD 5 PCB editor:
 

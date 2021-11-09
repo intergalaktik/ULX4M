@@ -536,4 +536,30 @@ Text GLabel 6600 4900 0    60   Input ~ 0
 GPIO27
 Text GLabel 8100 4900 2    60   Input ~ 0
 GPIO17
+Text GLabel 9950 3700 3    60   Input ~ 0
+SD_PWR_ON
+$Comp
+L power:+3V3 #PWR09
+U 1 1 6191DD07
+P 9950 3500
+F 0 "#PWR09" H 9950 3350 50  0001 C CNN
+F 1 "+3V3" H 9950 3640 50  0000 C CNN
+F 2 "" H 9950 3500 50  0000 C CNN
+F 3 "" H 9950 3500 50  0000 C CNN
+	1    9950 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 6193A2B3
+P 9950 3600
+AR Path="/58D6BF46/6193A2B3" Ref="R?"  Part="1" 
+AR Path="/58D6D507/6193A2B3" Ref="R20"  Part="1" 
+F 0 "R20" V 10000 3450 50  0000 C CNN
+F 1 "4.7K" V 9950 3600 39  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 9950 3600 50  0001 C CNN
+F 3 "~" H 9950 3600 50  0001 C CNN
+	1    9950 3600
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
