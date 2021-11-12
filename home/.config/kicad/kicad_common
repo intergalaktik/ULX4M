@@ -1,4 +1,4 @@
-WorkingDir=/home/davor/src/circuits/fpga/ulx3s
+WorkingDir=/media/internal/FPGA/ulx4m
 ShowEnvVarWarningDialog=1
 UseIconsInMenus=1
 kicad_fplib_url=https://github.com/KiCad

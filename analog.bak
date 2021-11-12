@@ -1,11 +1,11 @@
 EESchema Schematic File Version 4
-LIBS:ulx3s-cache
+LIBS:ulx4m-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 9 11
-Title "ULX3S"
+Title "ULX4M"
 Date ""
 Rev "1.0.4"
 Comp "EMARD"

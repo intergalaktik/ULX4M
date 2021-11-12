@@ -1,5 +1,5 @@
-file1=/home/davor/src/circuits/fpga/ulx3s/ulx3s.kicad_pcb
-file2=/home/davor/src/circuits/cssth1/th1.kicad_pcb
+file1=/media/internal/FPGA/ulx4m/ulx4m.kicad_pcb
+file2=/media/internal/FPGA/ulx4m/src/circuits/cssth1/th1.kicad_pcb
 file3=
 file4=
 file5=
@@ -186,7 +186,7 @@ ShowSolderPasteLayers=1
 ShowCommentsLayers=1
 ShowEcoLayers=1
 ShowBoardBody=1
-import_last_path=/home/davor/src/circuits/fpga/ulx3s/footprints/hdmi-d/hdmi-d.pretty
+import_last_path=/media/internal/FPGA/ulx4m/footprints/hdmi-d/hdmi-d.pretty
 ModEditColor4DPCBLayer_F.Cu=rgb(132, 0, 0)
 ModEditColor4DPCBLayer_In1.Cu=rgb(194, 194, 0)
 ModEditColor4DPCBLayer_In2.Cu=rgb(194, 0, 194)

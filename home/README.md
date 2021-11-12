@@ -7,7 +7,7 @@ This is copy of my home config kicad directory
 It seems that newly installed kicad 5 debian
 doesn't by default set all paths correctly.
 
-Opening ulx3s project shows many schematics simbols
+Opening ulx4m project shows many schematics simbols
 as question marks.
 
 Manually copying this config to user's home config

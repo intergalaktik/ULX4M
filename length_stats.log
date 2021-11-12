@@ -1,0 +1,91 @@
+11-05 10:14:53 length_stats.action_length_stats 304:Plugin executed on: 'linux'
+11-05 10:14:53 length_stats.action_length_stats 305:Plugin executed with python version: '3.7.3 (default, Jan 22 2021, 20:04:44) \n[GCC 8.3.0]'
+11-05 10:14:53 length_stats.action_length_stats 306:KiCad build version: 5.1.9+dfsg1-1~bpo10+1
+11-05 10:14:53 length_stats.action_length_stats 307:Length stats plugin version: 30 started
+11-05 10:14:54 STDERR 345:/home/mistery/.kicad_plugins/length_stats/action_length_stats.py:55: wxPyDeprecationWarning: Call to deprecated item. Use SetSizeHints instead.
+11-05 10:14:54 STDERR 345:  self.SetSizeHintsSz(sz1, sz2)
+11-05 10:14:54 STDERR 345:/home/mistery/.kicad_plugins/length_stats/action_length_stats.py:76: wxPyDeprecationWarning: Call to deprecated item. Use InsertItem instead.
+11-05 10:14:54 STDERR 345:  index = self.net_list.InsertStringItem(index_net, net)
+11-05 10:14:54 STDERR 345:/home/mistery/.kicad_plugins/length_stats/action_length_stats.py:77: wxPyDeprecationWarning: Call to deprecated item. Use SetItem instead.
+11-05 10:14:54 STDERR 345:  self.net_list.SetStringItem(index, 1, "0.0")
+11-05 10:14:54 length_stats.action_length_stats 207:Sorting list
+11-05 10:14:54 STDERR 345:/home/mistery/.kicad_plugins/length_stats/action_length_stats.py:242: wxPyDeprecationWarning: Call to deprecated item. Use InsertItem instead.
+11-05 10:14:54 STDERR 345:  index = self.net_list.InsertStringItem(index_net, net[0])
+11-05 10:14:54 STDERR 345:/home/mistery/.kicad_plugins/length_stats/action_length_stats.py:243: wxPyDeprecationWarning: Call to deprecated item. Use SetItem instead.
+11-05 10:14:54 STDERR 345:  self.net_list.SetStringItem(index, 1, "%.2f" % net[1])
+11-05 10:14:54 length_stats.action_length_stats 95:Length stats gui initialized
+11-05 10:14:54 length_stats.action_length_stats 96:Nets for stats are;
+['SDRAM_nWE', 'SDRAM_nRAS', 'SDRAM_nCS', 'SDRAM_nCAS', 'SDRAM_DQM1', 'SDRAM_DQM0', 'SDRAM_D9', 'SDRAM_D8', 'SDRAM_D7', 'SDRAM_D6', 'SDRAM_D5', 'SDRAM_D4', 'SDRAM_D3', 'SDRAM_D2', 'SDRAM_D15', 'SDRAM_D14', 'SDRAM_D13', 'SDRAM_D12', 'SDRAM_D11', 'SDRAM_D10', 'SDRAM_D1', 'SDRAM_D0', 'SDRAM_CLK', 'SDRAM_CKE', 'SDRAM_BA1', 'SDRAM_BA0', 'SDRAM_A9', 'SDRAM_A8', 'SDRAM_A7', 'SDRAM_A6', 'SDRAM_A5', 'SDRAM_A4', 'SDRAM_A3', 'SDRAM_A2', 'SDRAM_A12', 'SDRAM_A11', 'SDRAM_A10', 'SDRAM_A1', 'SDRAM_A0', 'GND', 'CM4_3.3V']
+11-05 10:15:09 length_stats.action_length_stats 108:Refreshing manually
+11-05 10:15:09 length_stats.action_length_stats 132:Refreshing net lengths
+11-05 10:15:09 STDERR 345:/home/mistery/.kicad_plugins/length_stats/action_length_stats.py:148: wxPyDeprecationWarning: Call to deprecated item. Use SetItem instead.
+11-05 10:15:09 STDERR 345:  self.net_list.SetStringItem(index_net, 1, "%.2f" % length)
+11-05 10:15:17 length_stats.action_length_stats 187:Removing highlights for nets:
+['SDRAM_nWE', 'SDRAM_nRAS', 'SDRAM_nCS', 'SDRAM_nCAS', 'SDRAM_DQM1', 'SDRAM_DQM0', 'SDRAM_D9', 'SDRAM_D8', 'SDRAM_D7', 'SDRAM_D6', 'SDRAM_D5', 'SDRAM_D4', 'SDRAM_D3', 'SDRAM_D2', 'SDRAM_D15', 'SDRAM_D14', 'SDRAM_D13', 'SDRAM_D12', 'SDRAM_D11', 'SDRAM_D10', 'SDRAM_D1', 'SDRAM_D0', 'SDRAM_CLK', 'SDRAM_CKE', 'SDRAM_BA1', 'SDRAM_BA0', 'SDRAM_A9', 'SDRAM_A8', 'SDRAM_A7', 'SDRAM_A6', 'SDRAM_A5', 'SDRAM_A4', 'SDRAM_A3', 'SDRAM_A2', 'SDRAM_A12', 'SDRAM_A11', 'SDRAM_A10', 'SDRAM_A1', 'SDRAM_A0', 'GND', 'CM4_3.3V']
+11-05 10:15:19 length_stats.action_length_stats 198:Adding highlights for nets:
+['SDRAM_nWE']
+11-05 10:15:21 length_stats.action_length_stats 187:Removing highlights for nets:
+['SDRAM_nWE', 'SDRAM_nRAS', 'SDRAM_nCS', 'SDRAM_nCAS', 'SDRAM_DQM1', 'SDRAM_DQM0', 'SDRAM_D9', 'SDRAM_D8', 'SDRAM_D7', 'SDRAM_D6', 'SDRAM_D5', 'SDRAM_D4', 'SDRAM_D3', 'SDRAM_D2', 'SDRAM_D15', 'SDRAM_D14', 'SDRAM_D13', 'SDRAM_D12', 'SDRAM_D11', 'SDRAM_D10', 'SDRAM_D1', 'SDRAM_D0', 'SDRAM_CLK', 'SDRAM_CKE', 'SDRAM_BA1', 'SDRAM_BA0', 'SDRAM_A9', 'SDRAM_A8', 'SDRAM_A7', 'SDRAM_A6', 'SDRAM_A5', 'SDRAM_A4', 'SDRAM_A3', 'SDRAM_A2', 'SDRAM_A12', 'SDRAM_A11', 'SDRAM_A10', 'SDRAM_A1', 'SDRAM_A0', 'GND', 'CM4_3.3V']
+11-05 10:15:22 length_stats.action_length_stats 198:Adding highlights for nets:
+[]
+11-05 10:15:23 length_stats.action_length_stats 187:Removing highlights for nets:
+['SDRAM_nWE', 'SDRAM_nRAS', 'SDRAM_nCS', 'SDRAM_nCAS', 'SDRAM_DQM1', 'SDRAM_DQM0', 'SDRAM_D9', 'SDRAM_D8', 'SDRAM_D7', 'SDRAM_D6', 'SDRAM_D5', 'SDRAM_D4', 'SDRAM_D3', 'SDRAM_D2', 'SDRAM_D15', 'SDRAM_D14', 'SDRAM_D13', 'SDRAM_D12', 'SDRAM_D11', 'SDRAM_D10', 'SDRAM_D1', 'SDRAM_D0', 'SDRAM_CLK', 'SDRAM_CKE', 'SDRAM_BA1', 'SDRAM_BA0', 'SDRAM_A9', 'SDRAM_A8', 'SDRAM_A7', 'SDRAM_A6', 'SDRAM_A5', 'SDRAM_A4', 'SDRAM_A3', 'SDRAM_A2', 'SDRAM_A12', 'SDRAM_A11', 'SDRAM_A10', 'SDRAM_A1', 'SDRAM_A0', 'GND', 'CM4_3.3V']
+11-05 10:15:25 length_stats.action_length_stats 198:Adding highlights for nets:
+['SDRAM_nWE']
+11-05 10:16:10 length_stats.action_length_stats 108:Refreshing manually
+11-05 10:16:10 length_stats.action_length_stats 132:Refreshing net lengths
+11-05 10:16:14 length_stats.action_length_stats 187:Removing highlights for nets:
+['SDRAM_nWE', 'SDRAM_nRAS', 'SDRAM_nCS', 'SDRAM_nCAS', 'SDRAM_DQM1', 'SDRAM_DQM0', 'SDRAM_D9', 'SDRAM_D8', 'SDRAM_D7', 'SDRAM_D6', 'SDRAM_D5', 'SDRAM_D4', 'SDRAM_D3', 'SDRAM_D2', 'SDRAM_D15', 'SDRAM_D14', 'SDRAM_D13', 'SDRAM_D12', 'SDRAM_D11', 'SDRAM_D10', 'SDRAM_D1', 'SDRAM_D0', 'SDRAM_CLK', 'SDRAM_CKE', 'SDRAM_BA1', 'SDRAM_BA0', 'SDRAM_A9', 'SDRAM_A8', 'SDRAM_A7', 'SDRAM_A6', 'SDRAM_A5', 'SDRAM_A4', 'SDRAM_A3', 'SDRAM_A2', 'SDRAM_A12', 'SDRAM_A11', 'SDRAM_A10', 'SDRAM_A1', 'SDRAM_A0', 'GND', 'CM4_3.3V']
+11-05 10:16:15 length_stats.action_length_stats 198:Adding highlights for nets:
+[]
+11-05 10:16:17 length_stats.action_length_stats 187:Removing highlights for nets:
+['SDRAM_nWE', 'SDRAM_nRAS', 'SDRAM_nCS', 'SDRAM_nCAS', 'SDRAM_DQM1', 'SDRAM_DQM0', 'SDRAM_D9', 'SDRAM_D8', 'SDRAM_D7', 'SDRAM_D6', 'SDRAM_D5', 'SDRAM_D4', 'SDRAM_D3', 'SDRAM_D2', 'SDRAM_D15', 'SDRAM_D14', 'SDRAM_D13', 'SDRAM_D12', 'SDRAM_D11', 'SDRAM_D10', 'SDRAM_D1', 'SDRAM_D0', 'SDRAM_CLK', 'SDRAM_CKE', 'SDRAM_BA1', 'SDRAM_BA0', 'SDRAM_A9', 'SDRAM_A8', 'SDRAM_A7', 'SDRAM_A6', 'SDRAM_A5', 'SDRAM_A4', 'SDRAM_A3', 'SDRAM_A2', 'SDRAM_A12', 'SDRAM_A11', 'SDRAM_A10', 'SDRAM_A1', 'SDRAM_A0', 'GND', 'CM4_3.3V']
+11-05 10:16:18 length_stats.action_length_stats 198:Adding highlights for nets:
+['SDRAM_nRAS']
+11-05 10:16:54 length_stats.action_length_stats 108:Refreshing manually
+11-05 10:16:54 length_stats.action_length_stats 132:Refreshing net lengths
+11-05 10:17:07 length_stats.action_length_stats 108:Refreshing manually
+11-05 10:17:07 length_stats.action_length_stats 132:Refreshing net lengths
+11-05 10:17:10 length_stats.action_length_stats 187:Removing highlights for nets:
+['SDRAM_nWE', 'SDRAM_nRAS', 'SDRAM_nCS', 'SDRAM_nCAS', 'SDRAM_DQM1', 'SDRAM_DQM0', 'SDRAM_D9', 'SDRAM_D8', 'SDRAM_D7', 'SDRAM_D6', 'SDRAM_D5', 'SDRAM_D4', 'SDRAM_D3', 'SDRAM_D2', 'SDRAM_D15', 'SDRAM_D14', 'SDRAM_D13', 'SDRAM_D12', 'SDRAM_D11', 'SDRAM_D10', 'SDRAM_D1', 'SDRAM_D0', 'SDRAM_CLK', 'SDRAM_CKE', 'SDRAM_BA1', 'SDRAM_BA0', 'SDRAM_A9', 'SDRAM_A8', 'SDRAM_A7', 'SDRAM_A6', 'SDRAM_A5', 'SDRAM_A4', 'SDRAM_A3', 'SDRAM_A2', 'SDRAM_A12', 'SDRAM_A11', 'SDRAM_A10', 'SDRAM_A1', 'SDRAM_A0', 'GND', 'CM4_3.3V']
+11-05 10:17:11 length_stats.action_length_stats 198:Adding highlights for nets:
+[]
+11-05 10:17:13 length_stats.action_length_stats 187:Removing highlights for nets:
+['SDRAM_nWE', 'SDRAM_nRAS', 'SDRAM_nCS', 'SDRAM_nCAS', 'SDRAM_DQM1', 'SDRAM_DQM0', 'SDRAM_D9', 'SDRAM_D8', 'SDRAM_D7', 'SDRAM_D6', 'SDRAM_D5', 'SDRAM_D4', 'SDRAM_D3', 'SDRAM_D2', 'SDRAM_D15', 'SDRAM_D14', 'SDRAM_D13', 'SDRAM_D12', 'SDRAM_D11', 'SDRAM_D10', 'SDRAM_D1', 'SDRAM_D0', 'SDRAM_CLK', 'SDRAM_CKE', 'SDRAM_BA1', 'SDRAM_BA0', 'SDRAM_A9', 'SDRAM_A8', 'SDRAM_A7', 'SDRAM_A6', 'SDRAM_A5', 'SDRAM_A4', 'SDRAM_A3', 'SDRAM_A2', 'SDRAM_A12', 'SDRAM_A11', 'SDRAM_A10', 'SDRAM_A1', 'SDRAM_A0', 'GND', 'CM4_3.3V']
+11-05 10:17:14 length_stats.action_length_stats 198:Adding highlights for nets:
+['SDRAM_nCS']
+11-05 10:17:31 length_stats.action_length_stats 108:Refreshing manually
+11-05 10:17:31 length_stats.action_length_stats 132:Refreshing net lengths
+11-05 10:18:01 length_stats.action_length_stats 108:Refreshing manually
+11-05 10:18:01 length_stats.action_length_stats 132:Refreshing net lengths
+11-05 10:18:05 length_stats.action_length_stats 187:Removing highlights for nets:
+['SDRAM_nWE', 'SDRAM_nRAS', 'SDRAM_nCS', 'SDRAM_nCAS', 'SDRAM_DQM1', 'SDRAM_DQM0', 'SDRAM_D9', 'SDRAM_D8', 'SDRAM_D7', 'SDRAM_D6', 'SDRAM_D5', 'SDRAM_D4', 'SDRAM_D3', 'SDRAM_D2', 'SDRAM_D15', 'SDRAM_D14', 'SDRAM_D13', 'SDRAM_D12', 'SDRAM_D11', 'SDRAM_D10', 'SDRAM_D1', 'SDRAM_D0', 'SDRAM_CLK', 'SDRAM_CKE', 'SDRAM_BA1', 'SDRAM_BA0', 'SDRAM_A9', 'SDRAM_A8', 'SDRAM_A7', 'SDRAM_A6', 'SDRAM_A5', 'SDRAM_A4', 'SDRAM_A3', 'SDRAM_A2', 'SDRAM_A12', 'SDRAM_A11', 'SDRAM_A10', 'SDRAM_A1', 'SDRAM_A0', 'GND', 'CM4_3.3V']
+11-05 10:18:06 length_stats.action_length_stats 198:Adding highlights for nets:
+[]
+11-05 10:18:08 length_stats.action_length_stats 187:Removing highlights for nets:
+['SDRAM_nWE', 'SDRAM_nRAS', 'SDRAM_nCS', 'SDRAM_nCAS', 'SDRAM_DQM1', 'SDRAM_DQM0', 'SDRAM_D9', 'SDRAM_D8', 'SDRAM_D7', 'SDRAM_D6', 'SDRAM_D5', 'SDRAM_D4', 'SDRAM_D3', 'SDRAM_D2', 'SDRAM_D15', 'SDRAM_D14', 'SDRAM_D13', 'SDRAM_D12', 'SDRAM_D11', 'SDRAM_D10', 'SDRAM_D1', 'SDRAM_D0', 'SDRAM_CLK', 'SDRAM_CKE', 'SDRAM_BA1', 'SDRAM_BA0', 'SDRAM_A9', 'SDRAM_A8', 'SDRAM_A7', 'SDRAM_A6', 'SDRAM_A5', 'SDRAM_A4', 'SDRAM_A3', 'SDRAM_A2', 'SDRAM_A12', 'SDRAM_A11', 'SDRAM_A10', 'SDRAM_A1', 'SDRAM_A0', 'GND', 'CM4_3.3V']
+11-05 10:18:09 length_stats.action_length_stats 198:Adding highlights for nets:
+['SDRAM_DQM0']
+11-05 10:18:23 length_stats.action_length_stats 108:Refreshing manually
+11-05 10:18:23 length_stats.action_length_stats 132:Refreshing net lengths
+11-05 10:18:26 length_stats.action_length_stats 187:Removing highlights for nets:
+['SDRAM_nWE', 'SDRAM_nRAS', 'SDRAM_nCS', 'SDRAM_nCAS', 'SDRAM_DQM1', 'SDRAM_DQM0', 'SDRAM_D9', 'SDRAM_D8', 'SDRAM_D7', 'SDRAM_D6', 'SDRAM_D5', 'SDRAM_D4', 'SDRAM_D3', 'SDRAM_D2', 'SDRAM_D15', 'SDRAM_D14', 'SDRAM_D13', 'SDRAM_D12', 'SDRAM_D11', 'SDRAM_D10', 'SDRAM_D1', 'SDRAM_D0', 'SDRAM_CLK', 'SDRAM_CKE', 'SDRAM_BA1', 'SDRAM_BA0', 'SDRAM_A9', 'SDRAM_A8', 'SDRAM_A7', 'SDRAM_A6', 'SDRAM_A5', 'SDRAM_A4', 'SDRAM_A3', 'SDRAM_A2', 'SDRAM_A12', 'SDRAM_A11', 'SDRAM_A10', 'SDRAM_A1', 'SDRAM_A0', 'GND', 'CM4_3.3V']
+11-05 10:18:27 length_stats.action_length_stats 198:Adding highlights for nets:
+[]
+11-05 10:18:29 length_stats.action_length_stats 187:Removing highlights for nets:
+['SDRAM_nWE', 'SDRAM_nRAS', 'SDRAM_nCS', 'SDRAM_nCAS', 'SDRAM_DQM1', 'SDRAM_DQM0', 'SDRAM_D9', 'SDRAM_D8', 'SDRAM_D7', 'SDRAM_D6', 'SDRAM_D5', 'SDRAM_D4', 'SDRAM_D3', 'SDRAM_D2', 'SDRAM_D15', 'SDRAM_D14', 'SDRAM_D13', 'SDRAM_D12', 'SDRAM_D11', 'SDRAM_D10', 'SDRAM_D1', 'SDRAM_D0', 'SDRAM_CLK', 'SDRAM_CKE', 'SDRAM_BA1', 'SDRAM_BA0', 'SDRAM_A9', 'SDRAM_A8', 'SDRAM_A7', 'SDRAM_A6', 'SDRAM_A5', 'SDRAM_A4', 'SDRAM_A3', 'SDRAM_A2', 'SDRAM_A12', 'SDRAM_A11', 'SDRAM_A10', 'SDRAM_A1', 'SDRAM_A0', 'GND', 'CM4_3.3V']
+11-05 10:18:30 length_stats.action_length_stats 198:Adding highlights for nets:
+['SDRAM_D7']
+11-05 10:18:42 length_stats.action_length_stats 108:Refreshing manually
+11-05 10:18:42 length_stats.action_length_stats 132:Refreshing net lengths
+11-05 10:18:45 length_stats.action_length_stats 187:Removing highlights for nets:
+['SDRAM_nWE', 'SDRAM_nRAS', 'SDRAM_nCS', 'SDRAM_nCAS', 'SDRAM_DQM1', 'SDRAM_DQM0', 'SDRAM_D9', 'SDRAM_D8', 'SDRAM_D7', 'SDRAM_D6', 'SDRAM_D5', 'SDRAM_D4', 'SDRAM_D3', 'SDRAM_D2', 'SDRAM_D15', 'SDRAM_D14', 'SDRAM_D13', 'SDRAM_D12', 'SDRAM_D11', 'SDRAM_D10', 'SDRAM_D1', 'SDRAM_D0', 'SDRAM_CLK', 'SDRAM_CKE', 'SDRAM_BA1', 'SDRAM_BA0', 'SDRAM_A9', 'SDRAM_A8', 'SDRAM_A7', 'SDRAM_A6', 'SDRAM_A5', 'SDRAM_A4', 'SDRAM_A3', 'SDRAM_A2', 'SDRAM_A12', 'SDRAM_A11', 'SDRAM_A10', 'SDRAM_A1', 'SDRAM_A0', 'GND', 'CM4_3.3V']
+11-05 10:18:46 length_stats.action_length_stats 198:Adding highlights for nets:
+[]
+11-05 10:18:48 length_stats.action_length_stats 187:Removing highlights for nets:
+['SDRAM_nWE', 'SDRAM_nRAS', 'SDRAM_nCS', 'SDRAM_nCAS', 'SDRAM_DQM1', 'SDRAM_DQM0', 'SDRAM_D9', 'SDRAM_D8', 'SDRAM_D7', 'SDRAM_D6', 'SDRAM_D5', 'SDRAM_D4', 'SDRAM_D3', 'SDRAM_D2', 'SDRAM_D15', 'SDRAM_D14', 'SDRAM_D13', 'SDRAM_D12', 'SDRAM_D11', 'SDRAM_D10', 'SDRAM_D1', 'SDRAM_D0', 'SDRAM_CLK', 'SDRAM_CKE', 'SDRAM_BA1', 'SDRAM_BA0', 'SDRAM_A9', 'SDRAM_A8', 'SDRAM_A7', 'SDRAM_A6', 'SDRAM_A5', 'SDRAM_A4', 'SDRAM_A3', 'SDRAM_A2', 'SDRAM_A12', 'SDRAM_A11', 'SDRAM_A10', 'SDRAM_A1', 'SDRAM_A0', 'GND', 'CM4_3.3V']
+11-05 10:18:49 length_stats.action_length_stats 198:Adding highlights for nets:
+['SDRAM_D8']
+11-05 10:19:18 length_stats.action_length_stats 108:Refreshing manually
+11-05 10:19:18 length_stats.action_length_stats 132:Refreshing net lengths
+11-05 10:19:28 length_stats.action_length_stats 121:Closing GUI

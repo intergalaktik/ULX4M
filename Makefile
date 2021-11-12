@@ -12,7 +12,7 @@
 
 .PHONY: all clean
 
-BOARDS = ulx3s
+BOARDS = ulx4m
 DESTINATION = plot/panel
 
 BOARDSFILES = $(addprefix $(DESTINATION)/, $(BOARDS:=.kicad_pcb))
@@ -30,7 +30,7 @@ Y_SIZE=70
 
 all: $(GERBERS) $(RAR)
 
-$(DESTINATION)/ulx3s.kicad_pcb: ulx3s.kicad_pcb $(DESTINATION)
+$(DESTINATION)/ulx4m.kicad_pcb: ulx4m.kicad_pcb $(DESTINATION)
 	$(KIKIT) panelize extractboard \
 		--sourcearea $(X_ORIGIN) $(Y_ORIGIN) $(X_SIZE) $(Y_SIZE) \
 		$< $@
@@ -39,7 +39,7 @@ $(DESTINATION)/ulx3s.kicad_pcb: ulx3s.kicad_pcb $(DESTINATION)
 # space should be cut more by radius to the left and right
 # currently cuts will leave "dents" at the edges.
 # workaround now is to have radius 0 instead of 2 mm
-$(DESTINATION)/ulx3s-panel.kicad_pcb: $(DESTINATION)/ulx3s.kicad_pcb
+$(DESTINATION)/ulx4m-panel.kicad_pcb: $(DESTINATION)/ulx4m.kicad_pcb
 	$(KIKIT) panelize grid      \
 		--gridsize  4 2     \
 		--space     9       \
@@ -85,7 +85,7 @@ $(DESTINATION)/ulx3s-panel.kicad_pcb: $(DESTINATION)/ulx3s.kicad_pcb
 $(DESTINATION):
 	mkdir -p $(DESTINATION)
 
-view: $(DESTINATION)/ulx3s-panel.kicad_pcb
+view: $(DESTINATION)/ulx4m-panel.kicad_pcb
 	pcbnew $<
 
 clean:

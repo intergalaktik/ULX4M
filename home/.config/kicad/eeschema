@@ -28,7 +28,7 @@ LibeditFrameSize_x=1366
 LibeditFrameSize_y=741
 LibeditFrameMaximized=1
 LibeditFramePerspective=layout2|name=m_mainToolBar;caption=;state=139632;dir=1;layer=10;row=0;pos=0;prop=100000;bestw=1173;besth=38;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=m_VToolBar;caption=;state=139596;dir=2;layer=10;row=0;pos=0;prop=100000;bestw=36;besth=382;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=m_optionsToolBar;caption=;state=139596;dir=4;layer=10;row=0;pos=0;prop=100000;bestw=36;besth=212;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=DrawFrame;caption=;state=256;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=455;besth=232;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MsgPanel;caption=;state=131388;dir=3;layer=10;row=0;pos=0;prop=100000;bestw=470;besth=40;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=ComponentTree;caption=;state=1532;dir=4;layer=0;row=1;pos=0;prop=100000;bestw=250;besth=400;minw=250;minh=400;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(1,10,0)=38|dock_size(2,10,0)=36|dock_size(4,10,0)=36|dock_size(5,0,0)=409|dock_size(3,10,0)=40|dock_size(4,0,1)=252|
-LibeditFrameMostRecentlyUsedPath=/home/davor/src/circuits/fpga/ulx3s/footprints/audio-jack
+LibeditFrameMostRecentlyUsedPath=/home/davor/src/circuits/fpga/ulx4m/footprints/audio-jack
 LibeditFrameShowGrid=1
 LibeditFrameGridColor=rgb(132, 132, 132)
 LibeditFrame_LastGridSize=5
@@ -132,7 +132,7 @@ Color4DErcEEx=rgb(132, 0, 0)
 Color4DGridEx=rgb(132, 132, 132)
 Color4DBgCanvasEx=rgb(255, 255, 255)
 Color4DBrighenedEx=rgb(255, 0, 255)
-file1=/home/davor/src/circuits/fpga/ulx3s/ulx3s.sch
+file1=/home/davor/src/circuits/fpga/ulx4m/ulx4m.sch
 file2=/home/davor/src/circuits/cssth1/th1.sch
 file3=
 file4=
