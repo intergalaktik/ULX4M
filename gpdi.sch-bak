@@ -29,22 +29,6 @@ Text GLabel 6950 3300 0    60   Input ~ 0
 FPDI_CLK+
 Text GLabel 6950 3500 0    60   Input ~ 0
 FPDI_CLK-
-Text GLabel 4350 2900 2    60   Input ~ 0
-GN22
-Text GLabel 4350 2500 2    60   Input ~ 0
-GN23
-Text GLabel 4350 2600 2    60   Input ~ 0
-GN24
-Text GLabel 4350 3000 2    60   Input ~ 0
-GN25
-Text GLabel 2850 2600 0    60   Input ~ 0
-GP24
-Text GLabel 2850 2500 0    60   Input ~ 0
-GP23
-Text GLabel 2850 2900 0    60   Input ~ 0
-GP22
-Text GLabel 2850 3000 0    60   Input ~ 0
-GP25
 $Comp
 L lfe5bg381:LFE5UM-85F-6BG381C U1
 U 2 1 5A07A906

@@ -9,7 +9,7 @@ Date ""
 Rev "1.0.5"
 Comp "EMARD"
 Comment1 "General Purpose Differential Interface"
-Comment2 "Digital Video and Ethernet"
+Comment2 "License: CERN-OHL-S v2"
 Comment3 ""
 Comment4 ""
 $EndDescr

@@ -185,4 +185,6 @@ F 3 "~" H 7950 6875 50  0001 C CNN
 	1    7950 6875
 	1    0    0    -1  
 $EndComp
+Text Notes 8275 7050 0    60   ~ 0
+License: CERN-OHL-S v2
 $EndSCHEMATC

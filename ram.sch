@@ -9,7 +9,7 @@ Date "2021-11-08"
 Rev "0.0.2"
 Comp "Intergalaktik d.o.o."
 Comment1 "SDRAM memory"
-Comment2 ""
+Comment2 "License: CERN-OHL-S v2"
 Comment3 ""
 Comment4 ""
 $EndDescr

@@ -9,7 +9,7 @@ Date ""
 Rev "1.0.2"
 Comp "EMARD"
 Comment1 "GPIO 2.54 mm connectors"
-Comment2 ""
+Comment2 "License: CERN-OHL-S v2"
 Comment3 ""
 Comment4 ""
 $EndDescr

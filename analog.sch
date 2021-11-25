@@ -9,7 +9,7 @@ Date ""
 Rev "1.0.4"
 Comp "EMARD"
 Comment1 "Analog audio and video"
-Comment2 ""
+Comment2 "License: CERN-OHL-S v2"
 Comment3 ""
 Comment4 ""
 $EndDescr

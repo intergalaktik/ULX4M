@@ -9,7 +9,7 @@ Date ""
 Rev "1.0.9"
 Comp "EMARD"
 Comment1 "WIFI module ESP32"
-Comment2 ""
+Comment2 "License: CERN-OHL-S v2"
 Comment3 ""
 Comment4 ""
 $EndDescr
