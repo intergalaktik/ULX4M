@@ -1,3 +1,6 @@
 site: https://github.com/intergalaktik/ULX4M
 color: black
 gerbers: plot/gerbers
+eda:
+  type: kicad
+  pcb: ulx4m.kicad_pcb
