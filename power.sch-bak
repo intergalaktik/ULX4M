@@ -520,10 +520,6 @@ F 3 "" H 6950 950 50  0000 C CNN
 	1    6950 950 
 	1    0    0    -1  
 $EndComp
-Text GLabel 1250 3950 2    60   Input ~ 0
-FPDI_SCL
-Text GLabel 1250 4100 2    60   Input ~ 0
-FPDI_SDA
 Text Notes 6250 3350 0    60   ~ 0
 PWREN\nabove +1.5V turns ON\nbelow +0.4V turns OFF
 Text Notes 3100 3700 0    60   ~ 0
@@ -532,10 +528,6 @@ Text Notes 2750 6250 0    60   ~ 0
 R5, C14 to hold 0.5s shutdown
 Text Notes 3450 4750 0    60   ~ 0
 D13 discharges\nC13 at shutdown
-Text Notes 2450 5400 0    60   ~ 0
-D14 discharges\nC14 at shutdown
-Text GLabel 2700 5600 0    60   Input ~ 0
-SHUTDOWN
 $Comp
 L Device:R R3
 U 1 1 58E810CC
@@ -1075,8 +1067,6 @@ Wire Wire Line
 Connection ~ 7650 1050
 Text Notes 2100 3200 0    60   ~ 0
 RC network for proper switchover\nto battery at fast fall of VDD.\nSee page 54 NXP PCF8523T datasheet.\nRTC can also be powered from 2.5V\nbut it is easier to route 3.3V
-Text GLabel 1750 4300 0    60   Input ~ 0
-FTDI_nSLEEP
 $Comp
 L Device:C C17
 U 1 1 592462C1
@@ -1314,8 +1304,6 @@ F 3 "" H 10850 3050 50  0001 C CNN
 $EndComp
 Text Notes 8000 7050 0    60   ~ 0
 Switching regulators 2A SOT23-5\nTexas instruments TLV62569DBV (2A) (best)\nDioo microcircuits DIO6015B (1.5A) (osc. acceptable)\nMicrosemi LX7172 (1.2A) (osc. unacceptable)\nDiodes AP3429/A (2A) - (will damage board)\n
-Text Notes 950  5700 0    60   ~ 0
-SHUTDOWN connected to\nBANK2 on "ram" sheet
 Text Notes 2750 6350 0    60   ~ 0
 Works without R5
 Text Notes 7900 1200 0    60   ~ 0
@@ -2304,8 +2292,6 @@ F 6 "595-TLV62569DBVR" H 8050 5800 50  0001 C CNN "Mouser"
 	1    8050 5800
 	1    0    0    -1  
 $EndComp
-Text Notes 850  5050 0    60   ~ 0
-FTDI_nSLEEP is 2.5V\nD12 must be schottky
 Wire Wire Line
 	1100 1600 1100 1700
 Wire Wire Line

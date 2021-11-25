@@ -17,26 +17,6 @@ Text GLabel 2500 3000 2    60   Input ~ 0
 USB_FPGA_D-
 Text GLabel 2500 3100 2    60   Input ~ 0
 USB_FPGA_D+
-Text GLabel 3600 1100 0    60   Input ~ 0
-USB_FTDI_D-
-Text GLabel 3600 1200 0    60   Input ~ 0
-USB_FTDI_D+
-Text GLabel 6550 3300 2    60   Input ~ 0
-JTAG_TCK
-Text GLabel 6550 3500 2    60   Input ~ 0
-JTAG_TDI
-Text GLabel 6550 3100 2    60   Input ~ 0
-JTAG_TDO
-Text GLabel 6550 3400 2    60   Input ~ 0
-JTAG_TMS
-Text GLabel 6550 2800 2    60   Input ~ 0
-FTDI_TXD
-Text GLabel 6550 2900 2    60   Input ~ 0
-FTDI_RXD
-Text GLabel 6550 3000 2    60   Input ~ 0
-FTDI_nRTS
-Text GLabel 6550 3200 2    60   Input ~ 0
-FTDI_nDTR
 Text GLabel 9300 3800 2    60   Input ~ 0
 JTAG_TDI
 Text GLabel 9300 3900 2    60   Input ~ 0
@@ -45,34 +25,6 @@ Text GLabel 9300 4000 2    60   Input ~ 0
 JTAG_TCK
 Text GLabel 9300 4100 2    60   Input ~ 0
 JTAG_TMS
-Text GLabel 2150 1500 2    60   Input ~ 0
-USB5V
-Text GLabel 4250 1450 0    60   Input ~ 0
-nRESET
-Text GLabel 10150 2650 2    60   Input ~ 0
-FTDI_TXD
-Text GLabel 7550 1950 0    60   Input ~ 0
-FTDI_RXD
-Text GLabel 10150 2450 2    60   Input ~ 0
-FTDI_nRTS
-Text GLabel 10150 2550 2    60   Input ~ 0
-FTDI_nDTR
-Text GLabel 7550 2050 0    60   Input ~ 0
-WIFI_TXD
-Text GLabel 10150 1550 2    60   Input ~ 0
-WIFI_RXD
-Text GLabel 10150 1450 2    60   Input ~ 0
-WIFI_GPIO0
-Text GLabel 10850 1650 2    60   Input ~ 0
-WIFI_EN
-Text GLabel 10150 2850 2    60   Input ~ 0
-OLED_RES
-Text GLabel 8200 2750 0    60   Input ~ 0
-OLED_MOSI
-Text GLabel 8650 2850 0    60   Input ~ 0
-OLED_DC
-Text GLabel 8650 2650 0    60   Input ~ 0
-OLED_CS
 Text GLabel 8650 1550 0    60   Input ~ 0
 SD_D0
 Text GLabel 10150 1750 2    60   Input ~ 0
@@ -95,14 +47,6 @@ Text Notes 7400 4050 0    60   ~ 0
 CBUS3=nSLEEP
 Text Notes 7400 3650 0    60   ~ 0
 FTDI default
-Text GLabel 6550 4000 2    60   Input ~ 0
-FTDI_nSLEEP
-Text GLabel 6550 3700 2    60   Input ~ 0
-FTDI_TXDEN
-Text GLabel 6550 3800 2    60   Input ~ 0
-FTDI_nRXLED
-Text GLabel 6550 3900 2    60   Input ~ 0
-FTDI_nTXLED
 Text Notes 7200 3450 0    60   ~ 0
 VNC2 programming pins:\nTXD RXD TXDEN
 Text Notes 2750 4750 0    60   ~ 0
@@ -119,16 +63,8 @@ Text GLabel 7000 5500 0    60   Input ~ 0
 JTAG_TMS
 Text Notes 2900 3500 0    60   ~ 0
 USB_FPGA connected to\nBANK1 on "gpdi" sheet and\nBANK2 on "ram" sheet
-Text GLabel 6925 1975 0    60   Input ~ 0
-WIFI_GPIO26
-Wire Wire Line
-	10150 1350 10750 1350
-Text Label 10200 1350 0    60   ~ 0
-ANT_433MHz
 Text Notes 2750 5350 0    60   ~ 0
 D- 1.5k pullp for \nlow speed device\nmode USB1.0
-Text GLabel 8650 2350 0    60   Input ~ 0
-FTDI_TXDEN
 $Comp
 L lfe5bg381:LFE5UM-85F-6BG381C U1
 U 5 1 5A079A7A
@@ -214,20 +150,6 @@ F 3 "" H 5450 1150 50  0001 C CNN
 	1    5450 1150
 	1    0    0    -1  
 $EndComp
-Text GLabel 4500 1100 0    60   Input ~ 0
-FT2V5
-Text GLabel 5800 2500 1    60   Input ~ 0
-FT2V5
-Text GLabel 4400 850  0    60   Input ~ 0
-FT2V5
-Text GLabel 5600 2500 1    60   Input ~ 0
-USB5V
-Text Notes 6300 2500 0    60   ~ 0
-WIFI_GPIO15 v1.7 WIFI_GPIO17 <v3.1
-Text Notes 7450 1400 0    60   ~ 0
-SD_D2 v1.7
-Text Notes 11150 1900 0    60   ~ 0
-SD_CLK v1.7
 Text GLabel 1600 4850 0    60   Input ~ 0
 USB_FPGA_PULL_D+
 Text GLabel 1600 5450 0    60   Input ~ 0
@@ -244,16 +166,6 @@ Text Notes 2750 5700 0    60   ~ 0
 D+,D- 15k pulldown \nfor host mode
 Wire Wire Line
 	5450 1200 5450 1250
-Text Notes 10600 1900 0    60   ~ 0
-SD_D2 v1.8
-Text Notes 10600 1800 0    60   ~ 0
-SD_D1 v1.8
-Text Notes 7450 1600 0    60   ~ 0
-SD_CMD v1.8
-Text Notes 7450 1800 0    60   ~ 0
-SD_D3 v1.8
-Text Notes 7450 1900 0    60   ~ 0
-SD_D0 v1.8
 Text GLabel 8650 1750 0    60   Input ~ 0
 SD_D1
 Text Notes 750  6050 0    60   ~ 0
@@ -262,29 +174,7 @@ Text Notes 1100 3600 0    60   ~ 0
 US2_ID to RTC\non "power" sheet
 Text GLabel 8650 2250 0    60   Input ~ 0
 USER_PROGRAMN
-Text Notes 7350 2300 0    60   ~ 0
-NC v1.7
 NoConn ~ 8650 2950
-Text GLabel 11500 1950 2    60   Input ~ 0
-FTDI_nRXLED
-Text Notes 10950 2000 0    60   ~ 0
-NC <v3.0.5
-Text Notes 6700 2200 0    60   ~ 0
-NC v1.7 WIFI_GPIO5 <v3.1
-Text Notes 10950 2100 0    60   ~ 0
-NC <v3.1
-Text GLabel 10150 2350 2    60   Input ~ 0
-WIFI_GPIO22
-Text Notes 10950 1700 0    60   ~ 0
-NC <v3.1
-Text GLabel 8650 1650 0    60   Input ~ 0
-OLED_BL
-Text Notes 7450 1700 0    60   ~ 0
-NC <v3.1
-Text Notes 7150 2600 0    60   ~ 0
-WIFI_GPIO16 <v3.1
-Text Notes 10950 1500 0    60   ~ 0
-WIFI_EN <=v3.1.4
 Wire Wire Line
 	1300 3100 1650 3100
 Text Label 1350 3100 0    60   ~ 0
@@ -578,8 +468,6 @@ Text GLabel 8650 2150 0    60   Input ~ 0
 GPIO23
 Text GLabel 8650 2450 0    60   Input ~ 0
 GPIO24
-Text GLabel 7700 2150 0    60   Input ~ 0
-WIFI_GPIO19
 Text GLabel 8650 1950 0    60   Input ~ 0
 GPIO14
 Text GLabel 8650 2050 0    60   Input ~ 0
@@ -703,8 +591,6 @@ F 6 "833-BZT52C3V6S-TP" V 2325 3425 50  0001 C CNN "Mouser"
 	1    2325 3425
 	0    1    1    0   
 $EndComp
-Text GLabel 11525 2050 2    60   Input ~ 0
-WIFI_GPIO21
 $Comp
 L Device:R_Small R19
 U 1 1 618ED2BD

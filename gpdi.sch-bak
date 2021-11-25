@@ -13,10 +13,6 @@ Comment2 "Digital Video and Ethernet"
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 2600 6000 0    60   Input ~ 0
-FPDI_HPD
-Text GLabel 3250 6100 0    60   Input ~ 0
-FPDI_UTIL
 Text GLabel 6950 2100 0    60   Input ~ 0
 FPDI_D2+
 Text GLabel 6950 2300 0    60   Input ~ 0
@@ -33,26 +29,6 @@ Text GLabel 6950 3300 0    60   Input ~ 0
 FPDI_CLK+
 Text GLabel 6950 3500 0    60   Input ~ 0
 FPDI_CLK-
-Text GLabel 2600 6100 0    60   Input ~ 0
-FPDI_CEC
-Text GLabel 2850 6450 2    60   Input ~ 0
-GPDI_SDA
-Text GLabel 2850 6300 2    60   Input ~ 0
-GPDI_SCL
-Text GLabel 3250 5800 0    60   Input ~ 0
-FPDI_SCL
-Text GLabel 3250 5950 0    60   Input ~ 0
-FPDI_SDA
-Text GLabel 5000 1750 2    60   Input ~ 0
-FPDI_HPD
-Text GLabel 1900 2150 0    60   Input ~ 0
-FPDI_UTIL
-Text GLabel 4550 4050 2    60   Input ~ 0
-FPDI_SCL
-Text GLabel 5050 1875 2    60   Input ~ 0
-FPDI_SDA
-Text GLabel 1900 2250 0    60   Input ~ 0
-FPDI_CEC
 Text GLabel 4350 2900 2    60   Input ~ 0
 GN22
 Text GLabel 4350 2500 2    60   Input ~ 0
@@ -61,18 +37,10 @@ Text GLabel 4350 2600 2    60   Input ~ 0
 GN24
 Text GLabel 4350 3000 2    60   Input ~ 0
 GN25
-Text GLabel 1050 3500 2    60   Input ~ 0
-GN26
-Text GLabel 1600 3600 2    60   Input ~ 0
-GN27
-Text GLabel 1800 3200 0    60   Input ~ 0
-GP27
 Text GLabel 2850 2600 0    60   Input ~ 0
 GP24
 Text GLabel 2850 2500 0    60   Input ~ 0
 GP23
-Text GLabel 1350 3350 0    60   Input ~ 0
-GP26
 Text GLabel 2850 2900 0    60   Input ~ 0
 GP22
 Text GLabel 2850 3000 0    60   Input ~ 0
@@ -92,22 +60,10 @@ F 5 "www.mouser.com" H 3600 2900 60  0001 C CNN "Mouser_URL"
 	2    3600 2900
 	1    0    0    -1  
 $EndComp
-Text Notes 1600 2850 0    60   ~ 0
-GP22 v1.7
-Text Notes 5100 2850 0    60   ~ 0
-GN22 v1.7
-Text Notes 1600 2950 0    60   ~ 0
-GP25 v1.7
-Text Notes 5100 2950 0    60   ~ 0
-GN25 v1.7
 Text GLabel 2850 2800 0    60   Input ~ 0
 USB_FPGA_D+
 Text GLabel 4350 2800 2    60   Input ~ 0
 USB_FPGA_D-
-Text Notes 5400 3650 0    60   ~ 0
-FPDI SCL v1.7
-Text Notes 7550 6200 0    60   ~ 0
-PCB v1.8.1 and higher accept FCI 10029449-111RLF\nwww.amphenol-icc.com\nmouser PN: 649-10029449-111RLF\nhttp://portal.fciconnect.com/Comergent/fci/drawing/10029449.pdf\n\nPCB v1.7 and v1.8 accept\nmouser PN: 538-47151-1001 (Molex)\nhttps://www.molex.com/pdm_docs/sd/471511001_sd.pdf\nmouser PN: 710-685119134923 (Wurth)\nhttps://katalog.we-online.com/em/datasheet/685119134923.pdf
 NoConn ~ 2850 3700
 NoConn ~ 2850 3800
 NoConn ~ 4350 3700
@@ -115,8 +71,6 @@ Text GLabel 8550 4700 2    60   Input ~ 0
 HDMI0_SDA
 Text GLabel 8550 4600 2    60   Input ~ 0
 HDMI0_SCL
-Text GLabel 3150 5600 0    60   Input ~ 0
-GND
 Text GLabel 7500 3500 2    60   Input ~ 0
 HDMI0_CLK_N
 Text GLabel 7500 3300 2    60   Input ~ 0
@@ -405,14 +359,6 @@ Text GLabel 8900 3500 0    60   Input ~ 0
 GN0
 Text GLabel 8900 3300 0    60   Input ~ 0
 GP0
-Text GLabel 3500 7000 2    60   Input ~ 0
-GN1
-Text GLabel 3000 7000 0    60   Input ~ 0
-GP1
-Text GLabel 3500 7100 2    60   Input ~ 0
-GN2
-Text GLabel 3000 7100 0    60   Input ~ 0
-GP2
 Text GLabel 8900 2900 0    60   Input ~ 0
 GP3
 Text GLabel 8900 3100 0    60   Input ~ 0
@@ -425,38 +371,6 @@ Text GLabel 8900 2100 0    60   Input ~ 0
 GP5
 Text GLabel 8900 2300 0    60   Input ~ 0
 GN5
-Text Notes 3300 6950 2    60   ~ 0
-0
-Text Notes 3300 7050 2    60   ~ 0
-1
-Text Notes 3300 7150 2    60   ~ 0
-2
-Text Notes 3300 7250 2    60   ~ 0
-3
-Text Notes 3300 7350 2    60   ~ 0
-4
-Text Notes 3300 7450 2    60   ~ 0
-5
-Text Notes 3300 7550 2    60   ~ 0
-6
-Text Notes 2700 6950 2    60   ~ 0
-PCLKT0_0
-Text Notes 4250 6950 2    60   ~ 0
-PCLKC0_0
-Text Notes 2700 7050 2    60   ~ 0
-PCLKT0_1
-Text Notes 4250 7050 2    60   ~ 0
-PCLKC0_1
-Text Notes 2700 7150 2    60   ~ 0
-GR_PCLK0_1
-Text Notes 4350 7150 2    60   ~ 0
-GR_PCLK0_0
-Text Notes 2450 6850 2    60   ~ 0
-DAC WIFI_GPIO25
-Text GLabel 3000 7500 0    60   Input ~ 0
-GP6
-Text GLabel 3500 7500 2    60   Input ~ 0
-GN6
 $Comp
 L Device:R_Small R?
 U 1 1 617A8D23

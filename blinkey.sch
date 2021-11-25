@@ -13,46 +13,10 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Wire Wire Line
-	4750 1450 4850 1450
-Wire Wire Line
-	4750 1550 4850 1550
-Wire Wire Line
-	4750 1650 4850 1650
-Wire Wire Line
-	4750 1750 4850 1750
-Wire Wire Line
-	4750 1850 4850 1850
-Text GLabel 4850 1450 2    60   Input ~ 0
-OLED_CLK
-Text GLabel 4850 1550 2    60   Input ~ 0
-OLED_MOSI
-Text GLabel 4850 1650 2    60   Input ~ 0
-OLED_RES
-Text GLabel 4850 1750 2    60   Input ~ 0
-OLED_DC
-Text GLabel 4850 1850 2    60   Input ~ 0
-OLED_CS
-Wire Wire Line
-	3250 3350 3350 3350
-Wire Wire Line
-	3250 3550 3350 3550
-Wire Wire Line
-	3250 3750 3350 3750
-Wire Wire Line
-	3250 3950 3350 3950
 Text GLabel 3350 2950 2    60   Input ~ 0
 BTN1
 Text GLabel 3350 3150 2    60   Input ~ 0
 BTN2
-Text GLabel 3350 3350 2    60   Input ~ 0
-BTN_U
-Text GLabel 3350 3550 2    60   Input ~ 0
-BTN_D
-Text GLabel 3350 3750 2    60   Input ~ 0
-BTN_L
-Text GLabel 3350 3950 2    60   Input ~ 0
-BTN_R
 Text Notes 4450 1050 0    60   ~ 0
 ST7789/SSD1331/SSD1351/SSD1306\ncompatible LCD/OLED 0.96/1.3/1.54" PCB \n14x14 units\n1 unit = 2.54 mm
 Wire Wire Line
@@ -84,45 +48,6 @@ Text GLabel 5400 2950 2    60   Input ~ 0
 LED2
 Text GLabel 5400 3150 2    60   Input ~ 0
 LED3
-Text GLabel 5400 3350 2    60   Input ~ 0
-LED4
-Text GLabel 5400 3550 2    60   Input ~ 0
-LED5
-Text GLabel 5400 3750 2    60   Input ~ 0
-LED6
-Text GLabel 5400 3950 2    60   Input ~ 0
-LED7
-Text GLabel 5650 4600 2    60   Input ~ 0
-FTDI_nSLEEP
-Wire Wire Line
-	4700 4600 5350 4600
-Text Label 4750 4600 0    60   ~ 0
-LED_PWREN
-Wire Wire Line
-	4400 4600 4250 4600
-Wire Wire Line
-	4250 4600 4250 4950
-$Comp
-L power:GND #PWR084
-U 1 1 590B5B6D
-P 4250 4950
-F 0 "#PWR084" H 4250 4700 50  0001 C CNN
-F 1 "GND" H 4250 4800 50  0000 C CNN
-F 2 "" H 4250 4950 50  0000 C CNN
-F 3 "" H 4250 4950 50  0000 C CNN
-	1    4250 4950
-	1    0    0    -1  
-$EndComp
-Text GLabel 5650 5350 2    60   Input ~ 0
-FTDI_nTXLED
-Wire Wire Line
-	4700 5350 5350 5350
-Text Label 4750 5350 0    60   ~ 0
-LED_TXLED
-Text GLabel 4300 5350 0    60   Input ~ 0
-FT2V5
-Wire Wire Line
-	4300 5350 4400 5350
 $Comp
 L Device:R R41
 U 1 1 591E1845
@@ -175,34 +100,6 @@ Text Label 4750 2950 0    60   ~ 0
 ALED2
 Text Label 4750 3150 0    60   ~ 0
 ALED3
-Text Notes 4600 4300 0    60   ~ 0
-LEDs connected to\nBANK7 on "gpio" sheet
-Text Notes 2100 4400 0    60   ~ 0
-BTN_R,U to BANK2,3 on "ram" sheet\nBTN_F1,F2,D,L to BANK8 on "flash" sheet
-Text GLabel 8400 3100 2    60   Input ~ 0
-SW1
-Text GLabel 8400 3200 2    60   Input ~ 0
-SW2
-Text GLabel 8400 3300 2    60   Input ~ 0
-SW3
-Text GLabel 8400 3400 2    60   Input ~ 0
-SW4
-Text Notes 7700 3750 0    60   ~ 0
-DIP switch connected to\nBANK0 on 'gpio' sheet
-Text Notes 8000 4550 0    60   ~ 0
-To fix issues with FT231XS rev A,B,C\nShort-circuit D18 LED, but then\nboard cannot keep awake by USB.\nchip rev D works properly\nSee TN140_FT231X Errata\n
-Text GLabel 5650 5850 2    60   Input ~ 0
-JTAG_TMS
-Wire Wire Line
-	4700 5850 5350 5850
-Text Label 4750 5850 0    60   ~ 0
-LED_WIFI
-Wire Wire Line
-	4400 5850 4250 5850
-Text Notes 6350 5400 0    60   ~ 0
-TXLED blinks when FPGA sends data to FTDI
-Text Notes 4450 2300 0    60   ~ 0
-OLED connected to\nBANK6 on "usb" sheet
 $Comp
 L Device:LED_ALT D3
 U 1 1 5A54DCE5
@@ -302,8 +199,6 @@ F 16 "T" H 4550 2750 50  0001 C CNN "Side"
 	1    4550 2750
 	1    0    0    -1  
 $EndComp
-Text Notes 6400 5900 0    60   ~ 0
-WIFI_GPIO2 v1.7, WIFI_GPIO5 <v3.1
 $Comp
 L Device:C C46
 U 1 1 5A881E8B
@@ -343,23 +238,6 @@ Wire Wire Line
 	4250 2950 4250 3150
 Wire Wire Line
 	4250 2750 4250 2950
-Text GLabel 7100 3400 0    60   Input ~ 0
-2V5_3V3
-Text GLabel 4850 1950 2    60   Input ~ 0
-OLED_BL
-Wire Wire Line
-	4750 1950 4850 1950
-$Comp
-L power:+3V3 #PWR0122
-U 1 1 5F0C55F7
-P 4250 5850
-F 0 "#PWR0122" H 4250 5700 50  0001 C CNN
-F 1 "+3V3" H 4250 5990 50  0000 C CNN
-F 2 "" H 4250 5850 50  0000 C CNN
-F 3 "" H 4250 5850 50  0000 C CNN
-	1    4250 5850
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	4250 3150 4250 3300
 $Comp
