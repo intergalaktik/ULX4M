@@ -44,10 +44,6 @@ F 5 "www.mouser.com" H 3600 2900 60  0001 C CNN "Mouser_URL"
 	2    3600 2900
 	1    0    0    -1  
 $EndComp
-Text GLabel 2850 2800 0    60   Input ~ 0
-USB_FPGA_D+
-Text GLabel 4350 2800 2    60   Input ~ 0
-USB_FPGA_D-
 NoConn ~ 2850 3700
 NoConn ~ 2850 3800
 NoConn ~ 4350 3700
@@ -562,18 +558,8 @@ F 3 "" H 8150 4500 50  0000 C CNN
 	1    8150 4500
 	0    -1   -1   0   
 $EndComp
-Text GLabel 4350 3400 2    60   Input ~ 0
-CAM0_D0_N
-Text GLabel 2850 3400 0    60   Input ~ 0
-CAM0_D0_P
-Text GLabel 4350 3300 2    60   Input ~ 0
-CAM0_D1_N
-Text GLabel 2850 3300 0    60   Input ~ 0
-CAM0_D1_P
-Text GLabel 4350 3600 2    60   Input ~ 0
-CAM0_C_N
-Text GLabel 2850 3600 0    60   Input ~ 0
-CAM0_C_P
+Text Notes 2850 4100 0    60   ~ 0
+SINGLE ENDED - NOT DIFFERENTIAL
 Text GLabel 2850 3500 0    60   Input ~ 0
 DSI0_C_P
 Text GLabel 4350 3500 2    60   Input ~ 0

@@ -243,10 +243,6 @@ F 3 "" H 3400 5000 50  0000 C CNN
 	1    3400 5000
 	1    0    0    -1  
 $EndComp
-Text GLabel 6600 3100 0    60   Input ~ 0
-USB_FPGA_D+
-Text GLabel 8100 3100 2    60   Input ~ 0
-USB_FPGA_D-
 Text GLabel 3150 3000 0    60   Input ~ 0
 SDRAM_A12
 Text GLabel 6600 2900 0    60   Input ~ 0
@@ -279,8 +275,6 @@ F 4 "LFE5U-85F-6BG381C" H 7350 4500 60  0001 C CNN "MPN"
 	4    7350 4500
 	1    0    0    -1  
 $EndComp
-Text GLabel 6600 2700 0    60   Input ~ 0
-GPIO9
 $Comp
 L Device:C C33
 U 1 1 5A5FD142
@@ -530,9 +524,9 @@ Text GLabel 6600 3900 0    60   Input ~ 0
 GPIO22
 Text GLabel 6600 4700 0    60   Input ~ 0
 GPIO10
-Text GLabel 6600 4900 0    60   Input ~ 0
+Text GLabel 5900 4900 0    60   Input ~ 0
 GPIO27
-Text GLabel 8100 4900 2    60   Input ~ 0
+Text GLabel 8100 5100 2    60   Input ~ 0
 GPIO17
 Text GLabel 9950 3700 3    60   Input ~ 0
 SD_PWR_ON
@@ -560,4 +554,10 @@ F 3 "~" H 9950 3600 50  0001 C CNN
 	1    9950 3600
 	-1   0    0    1   
 $EndComp
+Text GLabel 6600 2700 0    60   Input ~ 0
+SD_D2
+Text GLabel 8100 3100 2    60   Input ~ 0
+SD_D1
+Text GLabel 6600 3100 0    60   Input ~ 0
+SD_D0
 $EndSCHEMATC

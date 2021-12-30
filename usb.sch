@@ -25,15 +25,11 @@ Text GLabel 9300 4000 2    60   Input ~ 0
 JTAG_TCK
 Text GLabel 9300 4100 2    60   Input ~ 0
 JTAG_TMS
-Text GLabel 8650 1550 0    60   Input ~ 0
-SD_D0
-Text GLabel 10150 1750 2    60   Input ~ 0
-SD_D2
-Text GLabel 8650 1850 0    60   Input ~ 0
+Text GLabel 10150 2850 2    60   Input ~ 0
 SD_D3
-Text GLabel 8650 1350 0    60   Input ~ 0
+Text GLabel 10150 1350 2    60   Input ~ 0
 SD_CLK
-Text GLabel 10150 1850 2    60   Input ~ 0
+Text GLabel 8650 2850 0    60   Input ~ 0
 SD_CMD
 Text Notes 7200 3150 0    60   ~ 0
 WiFi programming pins:\nTXD RXD RTS DTR
@@ -166,8 +162,6 @@ Text Notes 2750 5700 0    60   ~ 0
 D+,D- 15k pulldown \nfor host mode
 Wire Wire Line
 	5450 1200 5450 1250
-Text GLabel 8650 1750 0    60   Input ~ 0
-SD_D1
 Text Notes 750  6050 0    60   ~ 0
 Deviation from USB specification in\npulldowns for BOM simplificaton.\nWith series diode, correct value R63 R64 \nshould be 12k but 15k is used.
 Text Notes 1100 3600 0    60   ~ 0
@@ -462,19 +456,19 @@ Text GLabel 10150 2150 2    60   Input ~ 0
 GPIO25
 Text GLabel 10150 2250 2    60   Input ~ 0
 GPIO18
-Text GLabel 10150 1950 2    60   Input ~ 0
+Text GLabel 8225 1350 0    60   Input ~ 0
 GPIO15
 Text GLabel 8650 2150 0    60   Input ~ 0
 GPIO23
 Text GLabel 8650 2450 0    60   Input ~ 0
 GPIO24
-Text GLabel 8650 1950 0    60   Input ~ 0
+Text GLabel 8275 1950 0    60   Input ~ 0
 GPIO14
-Text GLabel 8650 2050 0    60   Input ~ 0
+Text GLabel 8275 2050 0    60   Input ~ 0
 GPIO4
-Text GLabel 10150 1650 2    60   Input ~ 0
+Text GLabel 10475 900  2    60   Input ~ 0
 GPIO3
-Text GLabel 10150 2050 2    60   Input ~ 0
+Text GLabel 10600 1750 2    60   Input ~ 0
 GPIO2
 Text GLabel 1375 2025 2    60   Input ~ 0
 USB_N
@@ -615,4 +609,10 @@ F 3 "" H 975 2225 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	975  2225 1075 2225
+Text GLabel 10375 1450 2    60   Input ~ 0
+PCIe_CLK_nREQ
+Wire Wire Line
+	10150 1450 10375 1450
+Text GLabel 10150 2650 2    60   Input ~ 0
+GPIO9
 $EndSCHEMATC
