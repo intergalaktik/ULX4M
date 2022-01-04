@@ -2373,4 +2373,28 @@ F 3 "" H 6950 5900 50  0000 C CNN
 	1    6950 5900
 	0    -1   -1   0   
 $EndComp
+$Comp
+L Connector:TestPoint_Small 1.1V_1
+U 1 1 638D858E
+P 1250 3750
+F 0 "1.1V_1" H 1298 3796 50  0000 L CNN
+F 1 "1.1V" H 1298 3705 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 1450 3750 50  0001 C CNN
+F 3 "~" H 1450 3750 50  0001 C CNN
+	1    1250 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+1V1 #PWR012
+U 1 1 638DDA16
+P 1250 3925
+F 0 "#PWR012" H 1250 3775 50  0001 C CNN
+F 1 "+1V1" H 1250 4065 50  0000 C CNN
+F 2 "" H 1250 3925 50  0001 C CNN
+F 3 "" H 1250 3925 50  0001 C CNN
+	1    1250 3925
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1250 3750 1250 3925
 $EndSCHEMATC

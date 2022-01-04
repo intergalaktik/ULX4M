@@ -896,17 +896,17 @@ Wire Wire Line
 	6200 5050 6100 5050
 Text GLabel 7700 1400 2    60   Input ~ 0
 ETH_0N
-Text GLabel 4650 1325 0    60   Input ~ 0
+Text GLabel 5300 3075 0    60   Input ~ 0
 DSI1_C_P
-Text GLabel 4650 1225 0    60   Input ~ 0
+Text GLabel 5300 2975 0    60   Input ~ 0
 DSI1_C_N
-Text GLabel 4650 1125 0    60   Input ~ 0
+Text GLabel 5300 2875 0    60   Input ~ 0
 DSI1_D1_P
-Text GLabel 4650 1025 0    60   Input ~ 0
+Text GLabel 5300 2775 0    60   Input ~ 0
 DSI1_D1_N
-Text GLabel 4650 925  0    60   Input ~ 0
+Text GLabel 5300 2675 0    60   Input ~ 0
 DSI1_D0_P
-Text GLabel 4650 825  0    60   Input ~ 0
+Text GLabel 5300 2575 0    60   Input ~ 0
 DSI1_D0_N
 Text GLabel 3425 3850 2    60   Input ~ 0
 USB_FPGA_PULL_D+
@@ -929,30 +929,30 @@ Wire Wire Line
 	4950 5175 4950 4975
 Text Notes 4825 5550 1    60   ~ 0
 CM4 needs to provide 3.3V to CM4 IO board
-Text GLabel 4825 925  2    60   Input ~ 0
+Text GLabel 5475 2675 2    60   Input ~ 0
 SRX11P
-Text GLabel 4825 825  2    60   Input ~ 0
+Text GLabel 5475 2575 2    60   Input ~ 0
 SRX11N
-Text GLabel 4825 1125 2    60   Input ~ 0
+Text GLabel 5475 2875 2    60   Input ~ 0
 STX11P
-Text GLabel 4825 1025 2    60   Input ~ 0
+Text GLabel 5475 2775 2    60   Input ~ 0
 STX11N
-Text GLabel 4825 1325 2    60   Input ~ 0
+Text GLabel 5475 3075 2    60   Input ~ 0
 SRCLK1P
-Text GLabel 4825 1225 2    60   Input ~ 0
+Text GLabel 5475 2975 2    60   Input ~ 0
 SRCLK1N
 Wire Wire Line
-	4650 825  4825 825 
+	5300 2575 5475 2575
 Wire Wire Line
-	4825 925  4650 925 
+	5475 2675 5300 2675
 Wire Wire Line
-	4650 1025 4825 1025
+	5300 2775 5475 2775
 Wire Wire Line
-	4825 1125 4650 1125
+	5475 2875 5300 2875
 Wire Wire Line
-	4650 1225 4825 1225
+	5300 2975 5475 2975
 Wire Wire Line
-	4825 1325 4650 1325
+	5475 3075 5300 3075
 Text GLabel 5325 3650 0    60   Input ~ 0
 GPIO15
 Text GLabel 5375 3650 2    60   Input ~ 0
@@ -991,9 +991,9 @@ Text GLabel 5300 4150 0    60   Input ~ 0
 GPIO27
 Wire Wire Line
 	5300 4150 5375 4150
-Text GLabel 1000 4950 0    60   Input ~ 0
+Text GLabel 2900 6400 0    60   Input ~ 0
 SDA0
-Text GLabel 1000 5050 0    60   Input ~ 0
+Text GLabel 2900 6500 0    60   Input ~ 0
 SCL0
 Text GLabel 2175 7325 0    60   Input ~ 0
 DSI1_D2_N
@@ -1031,9 +1031,9 @@ Text GLabel 1000 6550 0    60   Input ~ 0
 GPIO16
 Text GLabel 1000 6150 0    60   Input ~ 0
 GPIO12
-Text GLabel 1000 5650 0    60   Input ~ 0
+Text GLabel 2900 7100 0    60   Input ~ 0
 GPIO7
-Text GLabel 1000 5750 0    60   Input ~ 0
+Text GLabel 2900 7200 0    60   Input ~ 0
 GPIO8
 Text GLabel 1000 7450 0    60   Input ~ 0
 GPIO25
@@ -1047,11 +1047,11 @@ Text GLabel 1000 6450 0    60   Input ~ 0
 GPIO15
 Text GLabel 1000 6350 0    60   Input ~ 0
 GPIO14
-Text GLabel 1000 5150 0    60   Input ~ 0
+Text GLabel 2900 6600 0    60   Input ~ 0
 GPIO2
-Text GLabel 1000 5250 0    60   Input ~ 0
+Text GLabel 2900 6700 0    60   Input ~ 0
 GPIO3
-Text GLabel 1000 5350 0    60   Input ~ 0
+Text GLabel 2900 6800 0    60   Input ~ 0
 GPIO4
 Text GLabel 1000 6650 0    60   Input ~ 0
 GPIO17
@@ -1061,13 +1061,13 @@ Text GLabel 1000 7150 0    60   Input ~ 0
 GPIO22
 Text GLabel 1000 5950 0    60   Input ~ 0
 GPIO10
-Text GLabel 1000 5850 0    60   Input ~ 0
+Text GLabel 2900 7300 0    60   Input ~ 0
 GPIO9
 Text GLabel 1000 6050 0    60   Input ~ 0
 GPIO11
-Text GLabel 1000 5450 0    60   Input ~ 0
+Text GLabel 2900 6900 0    60   Input ~ 0
 GPIO5
-Text GLabel 1000 5550 0    60   Input ~ 0
+Text GLabel 2900 7000 0    60   Input ~ 0
 GPIO6
 Text GLabel 1000 6250 0    60   Input ~ 0
 GPIO13
