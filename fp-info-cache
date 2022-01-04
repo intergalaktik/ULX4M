@@ -1,4 +1,4 @@
-18527697733032274
+18586658718245614
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -50441,27 +50441,6 @@ ESP32-WROOM or ESP32-WROVER
 0
 36
 32
-ESP32-WROOM-stencil
-ESP32-WROOM-stencil
-
-
-0
-39
-39
-ESP32-WROOM32
-ESP32-WROOM32
-
-
-0
-39
-39
-ESP32-WROVER-E
-ESP32-WROVER-E
-
-
-0
-38
-38
 Fiducial
 Fiducial_0.5mm_Mask1.5mm
 Circular Fiducial, 0.5mm bare copper, 1.5mm soldermask opening
@@ -54830,6 +54809,13 @@ solder jumper open
 0
 5
 3
+Keystone_3000_1x12mm-CoinCell
+Keystone_3000_1x12mm-CoinCell
+http://www.keyelco.com/product-pdf.cfm?p=777
+Keystone type 3000 coin cell retainer
+0
+3
+2
 LED_SMD
 LED-APA102-2020
 http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf
@@ -55947,6 +55933,13 @@ LED_THT
 LED_VCCLite_5381H7_6.35x6.35mm
 Yellow 5381 Series LED VCCLite https://vcclite.com/wp-content/uploads/wpallimport/files/files/5381Series.pdf http://static.vcclite.com/pdf/Mounting%20Hole%20Pattern%202.pdf
 Yellow 5381 Series LED
+0
+2
+2
+L_1008_1210
+L_1008_1210
+Inductor SMD 1008-1210 (2520-3225 Metric), square (rectangular) end terminal
+inductor
 0
 2
 2
@@ -74507,6 +74500,34 @@ rotary encoder
 0
 5
 4
+SM8
+SM8
+TI SM8 SOIC-8 150 mil
+SOIC-8 1.27 150 mil SOT96-1
+0
+8
+8
+SOA008-150mil
+SOA008-150-208mil
+Cypress SOA008 SOIC-8 150/208 mil
+SOA008 SOIC-8 1.27 150 208 mil
+0
+8
+8
+SOA008-150mil
+SOA008-150mil
+Cypress SOA008 SOIC-8 150 mil
+SOA008 SOIC-8 1.27 150 mil
+0
+8
+8
+SOT96-1
+SOT96-1
+NXP SOT96-1 SOIC-8 150 mil
+SOIC-8 1.27 150 mil SOT96-1
+0
+8
+8
 Sensor_Audio
 CUI_CMC-4013-SMT
 Omnidirectional, -42dB, reflowable, electret condenser microphone https://www.cuidevices.com/product/resource/cmc-4013-smt-tr.pdf
@@ -75900,6 +75921,20 @@ Logo WEEE
 0
 0
 0
+TSOP54
+TSOP54
+TSOPII-54: Plastic Thin Small Outline Package; 54 leads; body width 10.16mm; (see 128m-as4c4m32s-tsopii.pdf and http://www.infineon.com/cms/packages/SMD_-_Surface_Mounted_Devices/P-PG-TSOPII/P-TSOPII-54-1.html)
+TSOPII 0.8
+0
+54
+54
+TSOT-25
+TSOT-25
+
+
+0
+5
+5
 TerminalBlock
 TerminalBlock_Altech_AK300-2_P5.00mm
 Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
@@ -80184,6 +80219,13 @@ transformer flyback
 0
 10
 10
+VSC8530XMW-04
+QFN40P600X600X90-49N-D
+QFN-48
+Integrated Circuit
+0
+49
+49
 Valve
 Valve_ECC-83-1
 Valve ECC-83-1 round pins
@@ -80954,6 +80996,69 @@ varistor SIOV
 0
 2
 2
+abs25
+Crystal_SMD_ABS25
+Abracon ABS25 Plastic SMD Crystal http://www.abracon.com/Resonators/abs25.pdf
+plastic smd crystal
+0
+4
+4
+antena
+CoaxialSwitch_Hirose_MS-156C3_Horizontal
+Subminiature Coaxial Switch 1.35mm High, DC to 11GHz
+Switch Coaxial RF
+0
+12
+3
+audio-jack
+CUI_SJ-43516-SMT
+CUI 6-pin audio jack SMT
+audio jack
+0
+6
+6
+conn-fci
+CONN-10029449-111RLF
+
+
+0
+23
+20
+dipswitch
+SW_DIP_x4_W8.61mm_Slide_LowProfile
+4x-dip-switch, Slide, row spacing 8.61 mm (338 mils), SMD, LowProfile
+DIP Switch Slide 8.61mm 338mil SMD LowProfile
+0
+8
+8
+emard
+emard5mm
+EMARD
+emard
+0
+0
+0
+emard
+emard12mm
+EMARD
+emard
+0
+0
+0
+fer
+fer
+FER
+fer
+0
+0
+0
+fer
+fer4mm6
+FER
+fer
+0
+0
+0
 ft231x
 FT231X-QFN-20-1EP_4x4mm_P0.5mm_EP2x2mm
 QFN, 20 Pin, FT231XQ
@@ -80968,6 +81073,153 @@ FT231X SSOP 0.65
 0
 20
 20
+hrvatski_proizvod
+hrvatski
+HRVATSKI PROIZVOD
+Hrvatski
+0
+0
+0
+hrvatski_proizvod_veci
+hrvatski
+HRVATSKI PROIZVOD
+Hrvatski
+0
+0
+0
+inem
+inem
+
+
+0
+0
+0
+intergalaktik
+intergalaktik
+
+
+0
+0
+0
+jumper
+D_SMA_Jumper_NC
+Diode SMA (DO-214AC)
+Diode SMA (DO-214AC)
+0
+2
+2
+jumper
+R_0805_2012Metric_Pad1.29x1.40mm_HandSolder_Jumper_NC
+Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+resistor handsolder
+0
+2
+2
+koncar
+koncar
+Imported from /tmp/koncar.svg
+svg2mod
+0
+0
+0
+lfe5bg381
+BGA-381_pitch0.8mm_dia0.4mm
+
+
+0
+389
+382
+max1112x-tqfn28
+MAX1112x-TQFN-28-1EP_5x5mm_Pitch0.5mm
+28-Lead Plastic Quad Flat, No Lead Package (MQ) - 5x5x0.9 mm Body [QFN or VQFN]; (see Microchip Packaging Specification 00000049BS.pdf)
+TQFN 0.5
+0
+32
+29
+micro-sd
+MicroSD_TF001A
+
+
+0
+12
+10
+micro-sd
+MicroSD_TF001B
+
+
+0
+12
+10
+micro-sd
+MicroSD_TF02D
+
+
+0
+12
+10
+micro-sd
+SCHD3A100
+Micro SD card slot SCHD3A0100 from ALPS or ON-STARS
+Micro SD SCHD3A0100
+0
+14
+11
+micro-sd-104031-811
+MOLEX_104031-0811
+
+
+0
+14
+14
+micro-sd-schd3a0100-104031-811
+SCHD3A100-104031-0811
+Micro SD card slot SCHD3A0100 from ALPS or ON-STARS or 104031-811 from MOLEX
+Micro SD SCHD3A0100 1040311-811
+0
+20
+19
+nlnet
+nlnet
+
+
+0
+0
+0
+oled
+oled_13xx
+SPI OLED 0.96"
+SPI OLED socket strip
+0
+7
+7
+oscxo
+Crystal_SMD_7050_4Pads
+Crystal oscillator, 7.0x5.0mm, 4 Pads
+crystal oscillator quartz SMD SMT 7050
+0
+4
+4
+radiona
+radiona
+Imported from emard.svg
+svg2mod
+0
+0
+0
+riz
+riz
+RIZ
+riz
+0
+0
+0
+st7789
+st7789
+SPI LCD 1.3"
+SPI LCD socket
+0
+8
+8
 usb_otg
 USB-MICRO-B-FCI-10118192-0001LF
 

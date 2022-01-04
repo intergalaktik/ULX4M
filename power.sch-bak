@@ -9,7 +9,7 @@ Date ""
 Rev "1.0.8"
 Comp "EMARD"
 Comment1 "Power"
-Comment2 ""
+Comment2 "License: CERN-OHL-S v2"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -1302,7 +1302,7 @@ F 3 "" H 10850 3050 50  0001 C CNN
 	1    10850 3050
 	1    0    0    -1  
 $EndComp
-Text Notes 8000 7050 0    60   ~ 0
+Text Notes 8475 7025 0    60   ~ 0
 Switching regulators 2A SOT23-5\nTexas instruments TLV62569DBV (2A) (best)\nDioo microcircuits DIO6015B (1.5A) (osc. acceptable)\nMicrosemi LX7172 (1.2A) (osc. unacceptable)\nDiodes AP3429/A (2A) - (will damage board)\n
 Text Notes 2750 6350 0    60   ~ 0
 Works without R5

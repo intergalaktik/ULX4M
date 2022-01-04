@@ -560,24 +560,335 @@ F 3 "" H 8150 4500 50  0000 C CNN
 $EndComp
 Text Notes 2850 4100 0    60   ~ 0
 SINGLE ENDED - NOT DIFFERENTIAL
-Text GLabel 2850 3500 0    60   Input ~ 0
+Text GLabel 2475 3500 0    60   Input ~ 0
 DSI0_C_P
-Text GLabel 4350 3500 2    60   Input ~ 0
+Text GLabel 4750 3500 2    60   Input ~ 0
 DSI0_C_N
-Text GLabel 2850 3100 0    60   Input ~ 0
+Text GLabel 2475 3100 0    60   Input ~ 0
 DSI0_D1_P
-Text GLabel 4350 3100 2    60   Input ~ 0
+Text GLabel 4750 3100 2    60   Input ~ 0
 DSI0_D1_N
-Text GLabel 2850 3200 0    60   Input ~ 0
+Text GLabel 2475 3200 0    60   Input ~ 0
 DSI0_D0_P
-Text GLabel 4350 3200 2    60   Input ~ 0
+Text GLabel 4750 3200 2    60   Input ~ 0
 DSI0_D0_N
-Text GLabel 4350 2200 2    60   Input ~ 0
+Text GLabel 4775 2200 2    60   Input ~ 0
 DSI1_D2_N
-Text GLabel 2850 2200 0    60   Input ~ 0
+Text GLabel 2475 2200 0    60   Input ~ 0
 DSI1_D2_P
-Text GLabel 4350 2300 2    60   Input ~ 0
+Text GLabel 4775 2300 2    60   Input ~ 0
 DSI1_D3_N
-Text GLabel 2850 2300 0    60   Input ~ 0
+Text GLabel 2475 2300 0    60   Input ~ 0
 DSI1_D3_P
+$Comp
+L Device:R_Small R?
+U 1 1 633225C2
+P 2650 2200
+AR Path="/58D6BF46/633225C2" Ref="R?"  Part="1" 
+AR Path="/58D686D9/633225C2" Ref="R22"  Part="1" 
+F 0 "R22" V 2700 2075 50  0000 C CNN
+F 1 "300" V 2650 2200 39  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 2650 2200 50  0001 C CNN
+F 3 "~" H 2650 2200 50  0001 C CNN
+	1    2650 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 63323E47
+P 2650 2300
+AR Path="/58D6BF46/63323E47" Ref="R?"  Part="1" 
+AR Path="/58D686D9/63323E47" Ref="R23"  Part="1" 
+F 0 "R23" V 2700 2175 50  0000 C CNN
+F 1 "300" V 2650 2300 39  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 2650 2300 50  0001 C CNN
+F 3 "~" H 2650 2300 50  0001 C CNN
+	1    2650 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 6333DBBC
+P 2675 3100
+AR Path="/58D6BF46/6333DBBC" Ref="R?"  Part="1" 
+AR Path="/58D686D9/6333DBBC" Ref="R24"  Part="1" 
+F 0 "R24" V 2725 2975 50  0000 C CNN
+F 1 "300" V 2675 3100 39  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 2675 3100 50  0001 C CNN
+F 3 "~" H 2675 3100 50  0001 C CNN
+	1    2675 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 6333E576
+P 2675 3200
+AR Path="/58D6BF46/6333E576" Ref="R?"  Part="1" 
+AR Path="/58D686D9/6333E576" Ref="R25"  Part="1" 
+F 0 "R25" V 2725 3075 50  0000 C CNN
+F 1 "300" V 2675 3200 39  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 2675 3200 50  0001 C CNN
+F 3 "~" H 2675 3200 50  0001 C CNN
+	1    2675 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 6334EB36
+P 2675 3500
+AR Path="/58D6BF46/6334EB36" Ref="R?"  Part="1" 
+AR Path="/58D686D9/6334EB36" Ref="R26"  Part="1" 
+F 0 "R26" V 2725 3375 50  0000 C CNN
+F 1 "300" V 2675 3500 39  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 2675 3500 50  0001 C CNN
+F 3 "~" H 2675 3500 50  0001 C CNN
+	1    2675 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 63356A99
+P 4525 2200
+AR Path="/58D6BF46/63356A99" Ref="R?"  Part="1" 
+AR Path="/58D686D9/63356A99" Ref="R34"  Part="1" 
+F 0 "R34" V 4575 2075 50  0000 C CNN
+F 1 "300" V 4525 2200 39  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 4525 2200 50  0001 C CNN
+F 3 "~" H 4525 2200 50  0001 C CNN
+	1    4525 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 63357478
+P 4525 2300
+AR Path="/58D6BF46/63357478" Ref="R?"  Part="1" 
+AR Path="/58D686D9/63357478" Ref="R35"  Part="1" 
+F 0 "R35" V 4575 2175 50  0000 C CNN
+F 1 "300" V 4525 2300 39  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 4525 2300 50  0001 C CNN
+F 3 "~" H 4525 2300 50  0001 C CNN
+	1    4525 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 63365DA3
+P 4525 3100
+AR Path="/58D6BF46/63365DA3" Ref="R?"  Part="1" 
+AR Path="/58D686D9/63365DA3" Ref="R36"  Part="1" 
+F 0 "R36" V 4575 2975 50  0000 C CNN
+F 1 "300" V 4525 3100 39  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 4525 3100 50  0001 C CNN
+F 3 "~" H 4525 3100 50  0001 C CNN
+	1    4525 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 6336678A
+P 4525 3200
+AR Path="/58D6BF46/6336678A" Ref="R?"  Part="1" 
+AR Path="/58D686D9/6336678A" Ref="R37"  Part="1" 
+F 0 "R37" V 4575 3075 50  0000 C CNN
+F 1 "300" V 4525 3200 39  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 4525 3200 50  0001 C CNN
+F 3 "~" H 4525 3200 50  0001 C CNN
+	1    4525 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 6336F73E
+P 4525 3500
+AR Path="/58D6BF46/6336F73E" Ref="R?"  Part="1" 
+AR Path="/58D686D9/6336F73E" Ref="R38"  Part="1" 
+F 0 "R38" V 4575 3375 50  0000 C CNN
+F 1 "300" V 4525 3500 39  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 4525 3500 50  0001 C CNN
+F 3 "~" H 4525 3500 50  0001 C CNN
+	1    4525 3500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4350 2200 4425 2200
+Wire Wire Line
+	4350 2300 4425 2300
+Wire Wire Line
+	4625 2200 4775 2200
+Wire Wire Line
+	4775 2300 4625 2300
+Wire Wire Line
+	4350 3100 4425 3100
+Wire Wire Line
+	4625 3100 4750 3100
+Wire Wire Line
+	4750 3200 4625 3200
+Wire Wire Line
+	4350 3200 4425 3200
+Wire Wire Line
+	4350 3500 4425 3500
+Wire Wire Line
+	4625 3500 4750 3500
+Wire Wire Line
+	2775 3500 2850 3500
+Wire Wire Line
+	2575 3500 2475 3500
+Wire Wire Line
+	2475 3200 2575 3200
+Wire Wire Line
+	2775 3200 2850 3200
+Wire Wire Line
+	2475 3100 2575 3100
+Wire Wire Line
+	2775 3100 2850 3100
+Wire Wire Line
+	2475 2300 2550 2300
+Wire Wire Line
+	2750 2300 2850 2300
+Wire Wire Line
+	2475 2200 2550 2200
+Wire Wire Line
+	2750 2200 2850 2200
+Text GLabel 3250 4650 1    60   Input ~ 0
+DSI0_C_N
+Text GLabel 3375 4650 1    60   Input ~ 0
+DSI0_C_P
+$Comp
+L Device:R_Small R?
+U 1 1 634A8E66
+P 3250 4825
+AR Path="/58D6BF46/634A8E66" Ref="R?"  Part="1" 
+AR Path="/58D686D9/634A8E66" Ref="R39"  Part="1" 
+F 0 "R39" V 3175 4825 50  0000 C CNN
+F 1 "70" V 3250 4825 39  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 3250 4825 50  0001 C CNN
+F 3 "~" H 3250 4825 50  0001 C CNN
+	1    3250 4825
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 634A9BEB
+P 3375 4825
+AR Path="/58D6BF46/634A9BEB" Ref="R?"  Part="1" 
+AR Path="/58D686D9/634A9BEB" Ref="R40"  Part="1" 
+F 0 "R40" V 3450 4825 50  0000 C CNN
+F 1 "70" V 3375 4825 39  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 3375 4825 50  0001 C CNN
+F 3 "~" H 3375 4825 50  0001 C CNN
+	1    3375 4825
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 4650 3250 4725
+Wire Wire Line
+	3375 4650 3375 4725
+Text GLabel 3600 4650 1    60   Input ~ 0
+DSI0_D0_P
+Text GLabel 3725 4650 1    60   Input ~ 0
+DSI0_D0_N
+Text GLabel 4075 4650 1    60   Input ~ 0
+DSI0_D1_N
+Text GLabel 3950 4650 1    60   Input ~ 0
+DSI0_D1_P
+$Comp
+L Device:R_Small R?
+U 1 1 634E7C26
+P 3950 4825
+AR Path="/58D6BF46/634E7C26" Ref="R?"  Part="1" 
+AR Path="/58D686D9/634E7C26" Ref="R47"  Part="1" 
+F 0 "R47" V 3875 4825 50  0000 C CNN
+F 1 "70" V 3950 4825 39  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 3950 4825 50  0001 C CNN
+F 3 "~" H 3950 4825 50  0001 C CNN
+	1    3950 4825
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 634E7D28
+P 4075 4825
+AR Path="/58D6BF46/634E7D28" Ref="R?"  Part="1" 
+AR Path="/58D686D9/634E7D28" Ref="R48"  Part="1" 
+F 0 "R48" V 4150 4825 50  0000 C CNN
+F 1 "70" V 4075 4825 39  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 4075 4825 50  0001 C CNN
+F 3 "~" H 4075 4825 50  0001 C CNN
+	1    4075 4825
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 634E1082
+P 3725 4825
+AR Path="/58D6BF46/634E1082" Ref="R?"  Part="1" 
+AR Path="/58D686D9/634E1082" Ref="R46"  Part="1" 
+F 0 "R46" V 3800 4825 50  0000 C CNN
+F 1 "70" V 3725 4825 39  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 3725 4825 50  0001 C CNN
+F 3 "~" H 3725 4825 50  0001 C CNN
+	1    3725 4825
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 634E0FA0
+P 3600 4825
+AR Path="/58D6BF46/634E0FA0" Ref="R?"  Part="1" 
+AR Path="/58D686D9/634E0FA0" Ref="R45"  Part="1" 
+F 0 "R45" V 3525 4825 50  0000 C CNN
+F 1 "70" V 3600 4825 39  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 3600 4825 50  0001 C CNN
+F 3 "~" H 3600 4825 50  0001 C CNN
+	1    3600 4825
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 4925 3250 5050
+Wire Wire Line
+	3250 5050 3375 5050
+Wire Wire Line
+	4075 5050 4075 4925
+Wire Wire Line
+	3950 4925 3950 5050
+Connection ~ 3950 5050
+Wire Wire Line
+	3950 5050 4075 5050
+Wire Wire Line
+	3725 4925 3725 5050
+Connection ~ 3725 5050
+Wire Wire Line
+	3725 5050 3950 5050
+Wire Wire Line
+	3600 4925 3600 5050
+Connection ~ 3600 5050
+Wire Wire Line
+	3600 5050 3725 5050
+Wire Wire Line
+	3375 4925 3375 5050
+Connection ~ 3375 5050
+Wire Wire Line
+	3375 5050 3600 5050
+$Comp
+L power:GND #PWR010
+U 1 1 6353C558
+P 3725 5125
+F 0 "#PWR010" H 3725 4875 50  0001 C CNN
+F 1 "GND" V 3730 4997 50  0000 R CNN
+F 2 "" H 3725 5125 50  0001 C CNN
+F 3 "" H 3725 5125 50  0001 C CNN
+	1    3725 5125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3725 5125 3725 5050
+Wire Wire Line
+	4075 4650 4075 4725
+Wire Wire Line
+	3950 4650 3950 4725
+Wire Wire Line
+	3725 4650 3725 4725
+Wire Wire Line
+	3600 4650 3600 4725
 $EndSCHEMATC

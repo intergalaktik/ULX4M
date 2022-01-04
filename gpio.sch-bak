@@ -9,7 +9,7 @@ Date ""
 Rev "1.0.2"
 Comp "EMARD"
 Comment1 "GPIO 2.54 mm connectors"
-Comment2 ""
+Comment2 "License: CERN-OHL-S v2"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -24,32 +24,22 @@ F 3 "" H 6100 5050 60  0000 C CNN
 	1    6100 5050
 	0    -1   1    0   
 $EndComp
-Text GLabel 1925 3650 0    60   Input ~ 0
-BTN1
-Text GLabel 3475 1450 2    60   Input ~ 0
+Text GLabel 3225 825  2    60   Input ~ 0
 GN0
-Text GLabel 3475 1950 2    60   Input ~ 0
+Text GLabel 3225 1325 2    60   Input ~ 0
 GN4
-Text GLabel 1975 1450 0    60   Input ~ 0
+Text GLabel 1725 825  0    60   Input ~ 0
 GP0
-Text GLabel 1975 1950 0    60   Input ~ 0
+Text GLabel 1725 1325 0    60   Input ~ 0
 GP4
-Text GLabel 1975 2050 0    60   Input ~ 0
+Text GLabel 1725 1425 0    60   Input ~ 0
 GP5
-Text GLabel 3475 2050 2    60   Input ~ 0
+Text GLabel 3225 1425 2    60   Input ~ 0
 GN5
-Text GLabel 3475 1750 2    60   Input ~ 0
+Text GLabel 3225 1125 2    60   Input ~ 0
 GN3
-Text GLabel 1975 1750 0    60   Input ~ 0
+Text GLabel 1725 1125 0    60   Input ~ 0
 GP3
-Text GLabel 3425 4050 2    60   Input ~ 0
-BTN2
-Text GLabel 1925 4050 0    60   Input ~ 0
-LED0
-Text GLabel 3425 3450 2    60   Input ~ 0
-LED2
-Text GLabel 1925 4350 0    60   Input ~ 0
-LED3
 $Comp
 L lfe5bg381:LFE5UM-85F-6BG381C U1
 U 6 1 5A0783C9
@@ -67,20 +57,20 @@ $EndComp
 $Comp
 L lfe5bg381:LFE5UM-85F-6BG381C U1
 U 1 1 5A0737C6
-P 2725 2150
+P 2475 1525
 AR Path="/5A0737C6" Ref="U1"  Part="1" 
 AR Path="/56AC389C/5A0737C6" Ref="U1"  Part="1" 
-F 0 "U1" H 2725 3100 60  0000 C CNN
-F 1 "LFE5U-85F-6BG381C" H 2725 3000 60  0000 C CNN
-F 2 "lfe5bg381:BGA-381_pitch0.8mm_dia0.4mm" H 1675 3100 60  0001 C CNN
-F 3 "http://www.latticesemi.com/~/media/LatticeSemi/Documents/DataSheets/ECP5/FPGA-DS-02012.pdf" H 1675 3100 60  0001 C CNN
-F 4 "LFE5U-85F-6BG381C" H 2725 2150 60  0001 C CNN "MPN"
-	1    2725 2150
+F 0 "U1" H 2475 2475 60  0000 C CNN
+F 1 "LFE5U-85F-6BG381C" H 2475 2375 60  0000 C CNN
+F 2 "lfe5bg381:BGA-381_pitch0.8mm_dia0.4mm" H 1425 2475 60  0001 C CNN
+F 3 "http://www.latticesemi.com/~/media/LatticeSemi/Documents/DataSheets/ECP5/FPGA-DS-02012.pdf" H 1425 2475 60  0001 C CNN
+F 4 "LFE5U-85F-6BG381C" H 2475 1525 60  0001 C CNN "MPN"
+	1    2475 1525
 	1    0    0    -1  
 $EndComp
-NoConn ~ 1975 2650
-NoConn ~ 1975 2750
-NoConn ~ 3475 2650
+NoConn ~ 1725 2025
+NoConn ~ 1725 2125
+NoConn ~ 3225 2025
 $Comp
 L DF40C-100DP-0.4V_51_:DF40C-100DP-0.4V(51) J2
 U 1 1 6111E66F
@@ -918,16 +908,10 @@ Text GLabel 4650 925  0    60   Input ~ 0
 DSI1_D0_P
 Text GLabel 4650 825  0    60   Input ~ 0
 DSI1_D0_N
-Text GLabel 1925 4150 0    60   Input ~ 0
+Text GLabel 3425 3850 2    60   Input ~ 0
 USB_FPGA_PULL_D+
-Text GLabel 1925 3450 0    60   Input ~ 0
+Text GLabel 1925 3850 0    60   Input ~ 0
 USB_FPGA_PULL_D-
-Text GLabel 1975 1650 0    60   Input ~ 0
-PCIe_CLK_nREQ
-Text GLabel 1975 1850 0    60   Input ~ 0
-PCIe_nRST
-Text GLabel 1925 3350 0    60   Input ~ 0
-USB_OTG_ID
 Text GLabel 4950 4975 1    60   Input ~ 0
 CM4_3.3V
 $Comp
@@ -945,8 +929,6 @@ Wire Wire Line
 	4950 5175 4950 4975
 Text Notes 4825 5550 1    60   ~ 0
 CM4 needs to provide 3.3V to CM4 IO board
-Text GLabel 3425 4150 2    60   Input ~ 0
-LED1
 Text GLabel 4825 925  2    60   Input ~ 0
 SRX11P
 Text GLabel 4825 825  2    60   Input ~ 0
@@ -1103,4 +1085,114 @@ Text GLabel 2200 5550 0    60   Input ~ 0
 ETH_nLED1
 Text GLabel 2200 5450 0    60   Input ~ 0
 ETH_nLED2
+Text Notes 1700 2400 0    60   ~ 0
+SINGLE ENDED - NOT DIFFERENTIAL
+Text GLabel 3500 3350 2    60   Input ~ 0
+CAM0_D0_N
+Text GLabel 1850 3350 0    60   Input ~ 0
+CAM0_D0_P
+Text GLabel 3525 4150 2    60   Input ~ 0
+CAM0_D1_N
+Text GLabel 1800 4150 0    60   Input ~ 0
+CAM0_D1_P
+Text GLabel 3500 4650 2    60   Input ~ 0
+CAM0_C_N
+Text GLabel 1825 4650 0    60   Input ~ 0
+CAM0_C_P
+Text GLabel 1725 1225 0    60   Input ~ 0
+USB_OTG_ID
+Wire Wire Line
+	1800 4150 1925 4150
+Wire Wire Line
+	3425 4150 3525 4150
+Wire Wire Line
+	3425 3350 3500 3350
+Wire Wire Line
+	1850 3350 1925 3350
+Wire Wire Line
+	3500 4650 3425 4650
+Wire Wire Line
+	1825 4650 1925 4650
+Text GLabel 1150 3250 0    60   Input ~ 0
+CAM0_D0_P
+$Comp
+L Device:R_Small R?
+U 1 1 625E5FDB
+P 1325 3250
+AR Path="/58D6BF46/625E5FDB" Ref="R?"  Part="1" 
+AR Path="/58D686D9/625E5FDB" Ref="R?"  Part="1" 
+AR Path="/56AC389C/625E5FDB" Ref="R21"  Part="1" 
+F 0 "R21" V 1400 3250 50  0000 C CNN
+F 1 "220" V 1325 3250 39  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 1325 3250 50  0001 C CNN
+F 3 "~" H 1325 3250 50  0001 C CNN
+	1    1325 3250
+	0    -1   -1   0   
+$EndComp
+Text GLabel 1725 1025 0    60   Input ~ 0
+PCIe_nRST
+Text Label 1950 3250 2    60   ~ 0
+CAM0_D0_LP
+Wire Wire Line
+	1425 3250 1925 3250
+Wire Wire Line
+	1150 3250 1225 3250
+Text GLabel 3425 4250 2    60   Input ~ 0
+BTN1
+Text GLabel 1925 4250 0    60   Input ~ 0
+BTN2
+Text GLabel 1725 1925 0    60   Input ~ 0
+USB_FPGA_D+
+Text GLabel 3225 1925 2    60   Input ~ 0
+USB_FPGA_D-
+Text GLabel 1925 3650 0    60   Input ~ 0
+LED2
+Text GLabel 3425 4050 2    60   Input ~ 0
+LED3
+Text GLabel 1925 3450 0    60   Input ~ 0
+LED0
+Text GLabel 3425 3450 2    60   Input ~ 0
+LED1
+Text GLabel 1925 3950 0    60   Input ~ 0
+USB_FPGA_PULL_D+
+Text GLabel 3425 3950 2    60   Input ~ 0
+USB_FPGA_PULL_D-
+Text GLabel 1825 4750 0    60   Input ~ 0
+CAM1_C_P
+Text GLabel 3500 4750 2    60   Input ~ 0
+CAM1_C_N
+Wire Wire Line
+	3500 4750 3425 4750
+Wire Wire Line
+	1825 4750 1925 4750
+Text GLabel 1925 3550 0    60   Input ~ 0
+CAM1_D0_P
+Text GLabel 3425 3550 2    60   Input ~ 0
+CAM1_D0_N
+Text GLabel 1925 3750 0    60   Input ~ 0
+CAM1_D1_P
+Text GLabel 3425 3750 2    60   Input ~ 0
+CAM1_D1_N
+Text GLabel 4175 3650 2    60   Input ~ 0
+CAM1_D0_P
+$Comp
+L Device:R_Small R?
+U 1 1 635EA24E
+P 3775 3650
+AR Path="/58D6BF46/635EA24E" Ref="R?"  Part="1" 
+AR Path="/58D686D9/635EA24E" Ref="R?"  Part="1" 
+AR Path="/56AC389C/635EA24E" Ref="R?"  Part="1" 
+F 0 "R?" V 3850 3650 50  0000 C CNN
+F 1 "220" V 3775 3650 39  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 3775 3650 50  0001 C CNN
+F 3 "~" H 3775 3650 50  0001 C CNN
+	1    3775 3650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3425 3650 3675 3650
+Wire Wire Line
+	3875 3650 4175 3650
+Text Label 3500 3650 0    60   ~ 0
+CAM1_D0_LP
 $EndSCHEMATC

@@ -9,7 +9,7 @@ Date "2021-11-05"
 Rev "0.0.2"
 Comp "Intergalaktik d.o.o."
 Comment1 "Root sheet"
-Comment2 ""
+Comment2 "License: CERN-OHL-S v2"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -175,16 +175,14 @@ $EndSheet
 $Comp
 L Graphic:Logo_Open_Hardware_Small #LOGO?
 U 1 1 61CAE62B
-P 7950 6875
+P 8475 6875
 AR Path="/58DA7327/61CAE62B" Ref="#LOGO?"  Part="1" 
 AR Path="/61CAE62B" Ref="#LOGO1"  Part="1" 
-F 0 "#LOGO1" H 7950 7150 50  0001 C CNN
-F 1 "Logo_Open_Hardware_Small" H 7950 6650 50  0001 C CNN
-F 2 "" H 7950 6875 50  0001 C CNN
-F 3 "~" H 7950 6875 50  0001 C CNN
-	1    7950 6875
+F 0 "#LOGO1" H 8475 7150 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 8475 6650 50  0001 C CNN
+F 2 "" H 8475 6875 50  0001 C CNN
+F 3 "~" H 8475 6875 50  0001 C CNN
+	1    8475 6875
 	1    0    0    -1  
 $EndComp
-Text Notes 8275 7050 0    60   ~ 0
-License: CERN-OHL-S v2
 $EndSCHEMATC
