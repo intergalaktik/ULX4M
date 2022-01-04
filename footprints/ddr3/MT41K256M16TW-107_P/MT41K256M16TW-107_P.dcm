@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MT41K256M16TW-107_P
+D MICRON - MT41K256M16TW-107:P - SDRAM, 256M X 16BIT, 0 TO 95DEG C
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/DKDS42/DSANUWW0045409.pdf
+$ENDCMP
+#
+#End Doc Library
