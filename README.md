@@ -4,7 +4,11 @@
 Xtensible board release 3 with SDRAM,
 Successor of [ULX2S](http://github.com/emard/ulx2s).
 
-3D preview
+### ULX4M on TOFU carrier board
+
+![TOFU](/pic/ULX4M_TOFU.png)
+
+### 3D preview
 
 ![TOP](/pic/ULX4M_top_v002.png)
 ![BOTTOM](/pic/ULX4M_bottom_v002.png)
@@ -14,7 +18,7 @@ Successor of [ULX2S](http://github.com/emard/ulx2s).
 
     kicad ulx4m.pro
 
-# Features
+## Features
 
 FPGA: Lattice ECP5 [LFE5U-85F-6BG381C](http://www.latticesemi.com/~/media/LatticeSemi/Documents/DataSheets/ECP5/FPGA-DS-02012.pdf?document_id=50461) (12/25/45/85K LUT)
 
