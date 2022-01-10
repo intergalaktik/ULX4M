@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 11
+Sheet 8 12
 Title "ULX4M"
 Date "2021-11-08"
 Rev "0.0.2"
@@ -13,125 +13,6 @@ Comment2 "License: CERN-OHL-S v2"
 Comment3 ""
 Comment4 ""
 $EndDescr
-Wire Wire Line
-	2950 950  2950 850 
-Wire Wire Line
-	2950 850  3050 850 
-Wire Wire Line
-	3250 850  3250 950 
-Wire Wire Line
-	3050 750  3050 850 
-Connection ~ 3050 850 
-Wire Wire Line
-	3150 950  3150 850 
-Connection ~ 3150 850 
-Wire Wire Line
-	2650 950  2650 850 
-Wire Wire Line
-	2650 850  2750 850 
-Wire Wire Line
-	2850 850  2850 950 
-Wire Wire Line
-	2750 750  2750 850 
-Connection ~ 2750 850 
-$Comp
-L power:+3V3 #PWR0124
-U 1 1 58D928FF
-P 2750 750
-F 0 "#PWR0124" H 2750 600 50  0001 C CNN
-F 1 "+3V3" H 2750 890 50  0000 C CNN
-F 2 "" H 2750 750 50  0000 C CNN
-F 3 "" H 2750 750 50  0000 C CNN
-	1    2750 750 
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3V3 #PWR0128
-U 1 1 58D92915
-P 3050 750
-F 0 "#PWR0128" H 3050 600 50  0001 C CNN
-F 1 "+3V3" H 3050 890 50  0000 C CNN
-F 2 "" H 3050 750 50  0000 C CNN
-F 3 "" H 3050 750 50  0000 C CNN
-	1    3050 750 
-	1    0    0    -1  
-$EndComp
-Text GLabel 4750 1800 2    60   Input ~ 0
-SDRAM_D0
-Text GLabel 4750 1900 2    60   Input ~ 0
-SDRAM_D1
-Text GLabel 4750 2000 2    60   Input ~ 0
-SDRAM_D2
-Text GLabel 4750 2100 2    60   Input ~ 0
-SDRAM_D3
-Text GLabel 4750 2200 2    60   Input ~ 0
-SDRAM_D4
-Text GLabel 4750 2300 2    60   Input ~ 0
-SDRAM_D5
-Text GLabel 4750 2400 2    60   Input ~ 0
-SDRAM_D6
-Text GLabel 4750 2500 2    60   Input ~ 0
-SDRAM_D7
-Text GLabel 4750 2600 2    60   Input ~ 0
-SDRAM_D8
-Text GLabel 4750 2700 2    60   Input ~ 0
-SDRAM_D9
-Text GLabel 4750 2800 2    60   Input ~ 0
-SDRAM_D10
-Text GLabel 4750 2900 2    60   Input ~ 0
-SDRAM_D11
-Text GLabel 4750 3000 2    60   Input ~ 0
-SDRAM_D12
-Text GLabel 4750 3100 2    60   Input ~ 0
-SDRAM_D13
-Text GLabel 4750 3300 2    60   Input ~ 0
-SDRAM_D14
-Text GLabel 4750 3200 2    60   Input ~ 0
-SDRAM_D15
-Text GLabel 4750 3550 2    60   Input ~ 0
-SDRAM_DQM0
-Text GLabel 4750 3650 2    60   Input ~ 0
-SDRAM_DQM1
-Text GLabel 1225 1800 0    60   Input ~ 0
-SDRAM_A0
-Text GLabel 1225 1900 0    60   Input ~ 0
-SDRAM_A1
-Text GLabel 1225 2000 0    60   Input ~ 0
-SDRAM_A2
-Text GLabel 1225 2100 0    60   Input ~ 0
-SDRAM_A3
-Text GLabel 1225 2200 0    60   Input ~ 0
-SDRAM_A4
-Text GLabel 1225 2300 0    60   Input ~ 0
-SDRAM_A5
-Text GLabel 1225 2400 0    60   Input ~ 0
-SDRAM_A6
-Text GLabel 1225 2500 0    60   Input ~ 0
-SDRAM_A7
-Text GLabel 1225 2600 0    60   Input ~ 0
-SDRAM_A8
-Text GLabel 1225 2700 0    60   Input ~ 0
-SDRAM_A9
-Text GLabel 1225 2800 0    60   Input ~ 0
-SDRAM_A10
-Text GLabel 1225 2900 0    60   Input ~ 0
-SDRAM_A11
-Text GLabel 1225 3100 0    60   Input ~ 0
-SDRAM_BA0
-Text GLabel 1225 3200 0    60   Input ~ 0
-SDRAM_BA1
-Text GLabel 1225 3350 0    60   Input ~ 0
-SDRAM_CLK
-Text GLabel 1225 3450 0    60   Input ~ 0
-SDRAM_CKE
-Text GLabel 1225 3550 0    60   Input ~ 0
-SDRAM_nRAS
-Text GLabel 1225 3650 0    60   Input ~ 0
-SDRAM_nCAS
-Text GLabel 1225 3750 0    60   Input ~ 0
-SDRAM_nWE
-Text GLabel 1225 3900 0    60   Input ~ 0
-SDRAM_nCS
 Text GLabel 8100 4200 2    60   Input ~ 0
 SDRAM_D0
 Text GLabel 6600 4200 0    60   Input ~ 0
@@ -150,50 +31,24 @@ Text GLabel 6600 4400 0    60   Input ~ 0
 SDRAM_D7
 Text GLabel 8100 2000 2    60   Input ~ 0
 SDRAM_D8
-Text GLabel 6600 1800 0    60   Input ~ 0
-SDRAM_D9
 Text GLabel 8100 1900 2    60   Input ~ 0
 SDRAM_D10
-Text GLabel 6600 1900 0    60   Input ~ 0
-SDRAM_D11
-Text GLabel 6600 2600 0    60   Input ~ 0
-SDRAM_D12
 Text GLabel 8100 2500 2    60   Input ~ 0
 SDRAM_D13
 Text GLabel 8100 1800 2    60   Input ~ 0
 SDRAM_D14
-Text GLabel 6600 2500 0    60   Input ~ 0
-SDRAM_D15
-Text GLabel 6600 5200 0    60   Input ~ 0
-SDRAM_A0
-Text GLabel 6600 5300 0    60   Input ~ 0
-SDRAM_A1
-Text GLabel 8100 5200 2    60   Input ~ 0
-SDRAM_A2
 Text GLabel 8100 2600 2    60   Input ~ 0
 SDRAM_A3
-Text GLabel 6600 2100 0    60   Input ~ 0
-SDRAM_A4
 Text GLabel 8100 2900 2    60   Input ~ 0
 SDRAM_A5
 Text GLabel 8100 2300 2    60   Input ~ 0
 SDRAM_A6
 Text GLabel 8100 2200 2    60   Input ~ 0
 SDRAM_A7
-Text GLabel 6600 2200 0    60   Input ~ 0
-SDRAM_A8
-Text GLabel 6600 2400 0    60   Input ~ 0
-SDRAM_A9
 Text GLabel 6600 4500 0    60   Input ~ 0
 SDRAM_A10
-Text GLabel 6600 2300 0    60   Input ~ 0
-SDRAM_A11
 Text GLabel 6600 5000 0    60   Input ~ 0
 SDRAM_BA0
-Text GLabel 8100 5300 2    60   Input ~ 0
-SDRAM_BA1
-Text GLabel 6600 2000 0    60   Input ~ 0
-SDRAM_CLK
 Text GLabel 8100 2100 2    60   Input ~ 0
 SDRAM_CKE
 Text GLabel 6600 4300 0    60   Input ~ 0
@@ -208,8 +63,6 @@ Text GLabel 8100 4500 2    60   Input ~ 0
 SDRAM_nWE
 Text GLabel 8100 4400 2    60   Input ~ 0
 SDRAM_nCS
-Text GLabel 6600 5100 0    60   Input ~ 0
-GPIO11
 $Comp
 L Device:C C16
 U 1 1 59131F17
@@ -243,10 +96,6 @@ F 3 "" H 5050 6800 50  0000 C CNN
 	1    5050 6800
 	1    0    0    -1  
 $EndComp
-Text GLabel 1225 3000 0    60   Input ~ 0
-SDRAM_A12
-Text GLabel 6600 2900 0    60   Input ~ 0
-SDRAM_A12
 $Comp
 L lfe5bg381:LFE5UM-85F-6BG381C U1
 U 3 1 5A07B063
@@ -411,72 +260,9 @@ F 3 "" H 6500 6800 50  0000 C CNN
 	1    6500 6800
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3050 850  3150 850 
-Wire Wire Line
-	3050 850  3050 950 
-Wire Wire Line
-	3150 850  3250 850 
-Wire Wire Line
-	2750 850  2850 850 
-Wire Wire Line
-	2750 850  2750 950 
 NoConn ~ 6600 3300
 NoConn ~ 8100 3300
 NoConn ~ 6600 5400
-Wire Wire Line
-	3425 6950 3525 6950
-Wire Wire Line
-	3325 6950 3325 7050
-Wire Wire Line
-	3325 6950 3425 6950
-Wire Wire Line
-	3025 6950 3025 7050
-Wire Wire Line
-	3025 6950 3125 6950
-$Comp
-L power:GND #PWR0129
-U 1 1 58D929DE
-P 3325 7050
-F 0 "#PWR0129" H 3325 6800 50  0001 C CNN
-F 1 "GND" H 3325 6900 50  0000 C CNN
-F 2 "" H 3325 7050 50  0000 C CNN
-F 3 "" H 3325 7050 50  0000 C CNN
-	1    3325 7050
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0125
-U 1 1 58D929C8
-P 3025 7050
-F 0 "#PWR0125" H 3025 6800 50  0001 C CNN
-F 1 "GND" H 3025 6900 50  0000 C CNN
-F 2 "" H 3025 7050 50  0000 C CNN
-F 3 "" H 3025 7050 50  0000 C CNN
-	1    3025 7050
-	1    0    0    -1  
-$EndComp
-Connection ~ 3425 6950
-Wire Wire Line
-	3425 6850 3425 6950
-Connection ~ 3325 6950
-Wire Wire Line
-	3325 6850 3325 6950
-Wire Wire Line
-	3525 6950 3525 6850
-Wire Wire Line
-	3225 6950 3325 6950
-Wire Wire Line
-	3225 6850 3225 6950
-Connection ~ 3025 6950
-Wire Wire Line
-	3025 6850 3025 6950
-Wire Wire Line
-	3125 6950 3125 6850
-Wire Wire Line
-	2925 6950 3025 6950
-Wire Wire Line
-	2925 6850 2925 6950
 Text GLabel 6600 3200 0    60   Input ~ 0
 FPDI_D2+
 Text GLabel 8100 3200 2    60   Input ~ 0
@@ -493,30 +279,8 @@ Text GLabel 6600 1700 0    60   Input ~ 0
 FPDI_CLK+
 Text GLabel 8100 1700 2    60   Input ~ 0
 FPDI_CLK-
-Text GLabel 8100 3900 2    60   Input ~ 0
-SD_PWR_ON
-Text GLabel 6600 3800 0    60   Input ~ 0
-nEXTRST
-Text GLabel 8100 4100 2    60   Input ~ 0
-Camera_GPIO
-Text GLabel 8100 4600 2    60   Input ~ 0
-ID_SC
-Text GLabel 6600 4600 0    60   Input ~ 0
-ID_SD
-Text GLabel 8100 4800 2    60   Input ~ 0
-SDA0
-Text GLabel 8100 4700 2    60   Input ~ 0
-SCL0
 Text GLabel 8100 2700 2    60   Input ~ 0
 GPIO5
-Text GLabel 6600 3900 0    60   Input ~ 0
-GPIO22
-Text GLabel 6600 4700 0    60   Input ~ 0
-GPIO10
-Text GLabel 5900 4900 0    60   Input ~ 0
-GPIO27
-Text GLabel 8100 5100 2    60   Input ~ 0
-GPIO17
 Text GLabel 9950 3700 3    60   Input ~ 0
 SD_PWR_ON
 $Comp
@@ -545,25 +309,162 @@ F 3 "~" H 9950 3600 50  0001 C CNN
 $EndComp
 Text GLabel 6600 2700 0    60   Input ~ 0
 SD_D2
+Text GLabel 3300 1900 0    50   Input ~ 0
+DDR3_A0
+Text GLabel 3300 2000 0    50   Input ~ 0
+DDR3_A1
+Text GLabel 3300 2100 0    50   Input ~ 0
+DDR3_A2
+Text GLabel 3300 2200 0    50   Input ~ 0
+DDR3_A3
+Text GLabel 3300 2300 0    50   Input ~ 0
+DDR3_A4
+Text GLabel 3300 2400 0    50   Input ~ 0
+DDR3_A5
+Text GLabel 3300 2500 0    50   Input ~ 0
+DDR3_A6
+Text GLabel 3300 2600 0    50   Input ~ 0
+DDR3_A7
+Text GLabel 3300 2700 0    50   Input ~ 0
+DDR3_A8
+Text GLabel 3300 2800 0    50   Input ~ 0
+DDR3_A9
+Text GLabel 3300 2900 0    50   Input ~ 0
+DDR3_A10
+Text GLabel 3300 3000 0    50   Input ~ 0
+DDR3_A11
+Text GLabel 3300 3100 0    50   Input ~ 0
+DDR3_A12
+Text GLabel 3300 3200 0    50   Input ~ 0
+DDR3_A13
+Text GLabel 3300 3300 0    50   Input ~ 0
+DDR3_A14
+Text GLabel 3300 3500 0    50   Input ~ 0
+DDR3_BA0
+Text GLabel 3300 3600 0    50   Input ~ 0
+DDR3_BA1
+Text GLabel 3300 3700 0    50   Input ~ 0
+DDR3_BA2
+Text GLabel 3300 3900 0    50   Input ~ 0
+DDR3_CLK+
+Text GLabel 3300 4000 0    50   Input ~ 0
+DDR3_CLK-
+Text GLabel 3300 4100 0    50   Input ~ 0
+DDR3_CKE
+Text GLabel 3300 4300 0    50   Input ~ 0
+DDR3_RESET
+Text GLabel 3300 4400 0    50   Input ~ 0
+DDR3_CS
+Text GLabel 3300 4600 0    50   Input ~ 0
+DDR3_CAS
+Text GLabel 3300 4500 0    50   Input ~ 0
+DDR3_RAS
+Text GLabel 3300 4700 0    50   Input ~ 0
+DDR3_WE
+Text GLabel 3300 4800 0    50   Input ~ 0
+DDR3_ODT
+Text GLabel 3600 1925 2    50   BiDi ~ 0
+DDR3_DQ0
+Text GLabel 3600 2025 2    50   BiDi ~ 0
+DDR3_DQ1
+Text GLabel 3600 2125 2    50   BiDi ~ 0
+DDR3_DQ2
+Text GLabel 3600 2225 2    50   BiDi ~ 0
+DDR3_DQ3
+Text GLabel 3600 2325 2    50   BiDi ~ 0
+DDR3_DQ4
+Text GLabel 3600 2425 2    50   BiDi ~ 0
+DDR3_DQ5
+Text GLabel 3600 2525 2    50   BiDi ~ 0
+DDR3_DQ6
+Text GLabel 3600 2625 2    50   BiDi ~ 0
+DDR3_DQ7
+Text GLabel 3600 2725 2    50   BiDi ~ 0
+DDR3_DQ8
+Text GLabel 3600 2825 2    50   BiDi ~ 0
+DDR3_DQ9
+Text GLabel 3600 2925 2    50   BiDi ~ 0
+DDR3_DQ10
+Text GLabel 3600 3025 2    50   BiDi ~ 0
+DDR3_DQ11
+Text GLabel 3600 3125 2    50   BiDi ~ 0
+DDR3_DQ12
+Text GLabel 3600 3225 2    50   BiDi ~ 0
+DDR3_DQ13
+Text GLabel 3600 3325 2    50   BiDi ~ 0
+DDR3_DQ14
+Text GLabel 3600 3425 2    50   BiDi ~ 0
+DDR3_DQ15
+Text GLabel 3600 3625 2    50   BiDi ~ 0
+DDR3_DM0
+Text GLabel 3600 3725 2    50   BiDi ~ 0
+DDR3_DM1
+Text GLabel 3600 3925 2    50   BiDi ~ 0
+DDR3_DQS0+
+Text GLabel 3600 4025 2    50   BiDi ~ 0
+DDR3_DQS0-
+Text GLabel 3600 4125 2    50   BiDi ~ 0
+DDR3_DQS1+
+Text GLabel 3600 4225 2    50   BiDi ~ 0
+DDR3_DQS1-
+Text GLabel 3725 4425 2    50   Input ~ 0
+VCC1V35
+Text GLabel 3775 4550 2    50   Input ~ 0
+VCC3V3
+Text GLabel 6600 2900 0    60   Input ~ 0
+SDRAM_A12
+Text GLabel 6600 2000 0    60   Input ~ 0
+SDRAM_CLK
+Text GLabel 6600 2300 0    60   Input ~ 0
+SDRAM_A11
+Text GLabel 6600 2400 0    60   Input ~ 0
+SDRAM_A9
+Text GLabel 6600 2200 0    60   Input ~ 0
+SDRAM_A8
+Text GLabel 6600 2100 0    60   Input ~ 0
+SDRAM_A4
+Text GLabel 6600 2500 0    60   Input ~ 0
+SDRAM_D15
+Text GLabel 6600 2600 0    60   Input ~ 0
+SDRAM_D12
+Text GLabel 6600 1900 0    60   Input ~ 0
+SDRAM_D11
+Text GLabel 6600 1800 0    60   Input ~ 0
+SDRAM_D9
 Text GLabel 8100 3100 2    60   Input ~ 0
 SD_D1
 Text GLabel 6600 3100 0    60   Input ~ 0
 SD_D0
-$Comp
-L MT41K256M16TW-107_P:MT41K256M16TW-107_P U2
-U 1 1 61DD379A
-P 2225 1375
-F 0 "U2" H 2925 1640 50  0000 C CNN
-F 1 "MT41K256M16TW-107_P" H 2925 1549 50  0000 C CNN
-F 2 "MT41K256M16TW-107_P:BGA96C80P9X16_800X1400X120" H 3475 1475 50  0001 L CNN
-F 3 "https://datasheet.datasheetarchive.com/originals/distributors/DKDS42/DSANUWW0045409.pdf" H 3475 1375 50  0001 L CNN
-F 4 "MICRON - MT41K256M16TW-107:P - SDRAM, 256M X 16BIT, 0 TO 95DEG C" H 3475 1275 50  0001 L CNN "Description"
-F 5 "1.2" H 3475 1175 50  0001 L CNN "Height"
-F 6 "340-265846-TRAY" H 3475 1075 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Micron/MT41K256M16TW-107P?qs=rrS6PyfT74eHnbmAfGvzkQ%3D%3D" H 3475 975 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Micron" H 3475 875 50  0001 L CNN "Manufacturer_Name"
-F 9 "MT41K256M16TW-107:P" H 3475 775 50  0001 L CNN "Manufacturer_Part_Number"
-	1    2225 1375
-	1    0    0    -1  
-$EndComp
+Text GLabel 6600 4700 0    60   Input ~ 0
+GPIO10
+Text GLabel 6600 4600 0    60   Input ~ 0
+ID_SD
+Text GLabel 6600 3800 0    60   Input ~ 0
+nEXTRST
+Text GLabel 6600 3900 0    60   Input ~ 0
+GPIO22
+Text GLabel 8100 3900 2    60   Input ~ 0
+SD_PWR_ON
+Text GLabel 8100 4100 2    60   Input ~ 0
+Camera_GPIO
+Text GLabel 8100 4600 2    60   Input ~ 0
+ID_SC
+Text GLabel 8100 4700 2    60   Input ~ 0
+SCL0
+Text GLabel 8100 4800 2    60   Input ~ 0
+SDA0
+Text GLabel 8100 5300 2    60   Input ~ 0
+SDRAM_BA1
+Text GLabel 8100 5200 2    60   Input ~ 0
+SDRAM_A2
+Text GLabel 6600 5200 0    60   Input ~ 0
+SDRAM_A0
+Text GLabel 5900 4900 0    60   Input ~ 0
+GPIO27
+Text GLabel 8100 5100 2    60   Input ~ 0
+GPIO17
+Text GLabel 6600 5100 0    60   Input ~ 0
+GPIO11
+Text GLabel 6600 4900 0    60   Input ~ 0
+SDRAM_A1
 $EndSCHEMATC
