@@ -289,95 +289,85 @@ F 3 "~" H 9950 3600 50  0001 C CNN
 $EndComp
 Text GLabel 1475 7250 0    60   Input ~ 0
 SD_D2
-Text GLabel 8100 3100 2    50   Input ~ 0
-DDR3_A0
-Text GLabel 8100 2100 2    50   Input ~ 0
-DDR3_A1
-Text GLabel 6600 2100 0    50   Input ~ 0
-DDR3_A2
-Text GLabel 8100 2300 2    50   Input ~ 0
-DDR3_A3
-Text GLabel 6600 2300 0    50   Input ~ 0
-DDR3_A4
-Text GLabel 8100 4200 2    50   Input ~ 0
-DDR3_A5
-Text GLabel 6600 2500 0    50   Input ~ 0
-DDR3_A6
-Text GLabel 8100 2900 2    50   Input ~ 0
-DDR3_A7
 Text GLabel 6600 2900 0    50   Input ~ 0
+DDR3_A0
+Text GLabel 6600 5000 0    50   Input ~ 0
+DDR3_A1
+Text GLabel 6600 2300 0    50   Input ~ 0
+DDR3_A2
+Text GLabel 6600 3100 0    50   Input ~ 0
+DDR3_A3
+Text GLabel 8100 2000 2    50   Input ~ 0
+DDR3_A4
+Text GLabel 6600 4600 0    50   Input ~ 0
+DDR3_A6
+Text GLabel 8100 3800 2    50   Input ~ 0
+DDR3_A7
+Text GLabel 6600 2100 0    50   Input ~ 0
 DDR3_A8
 Text GLabel 6600 4000 0    50   Input ~ 0
 DDR3_A9
-Text GLabel 6600 3800 0    50   Input ~ 0
+Text GLabel 6600 2500 0    50   Input ~ 0
 DDR3_A10
-Text GLabel 8100 4000 2    50   Input ~ 0
-DDR3_A11
-Text GLabel 8100 3800 2    50   Input ~ 0
-DDR3_A12
 Text GLabel 8100 2500 2    50   Input ~ 0
-DDR3_A13
-Text GLabel 8100 2700 2    50   Input ~ 0
-DDR3_A14
+DDR3_A11
+Text GLabel 8100 4800 2    50   Input ~ 0
+DDR3_A12
 Text GLabel 8100 4400 2    50   Input ~ 0
+DDR3_A14
+Text GLabel 6600 4400 0    50   Input ~ 0
 DDR3_BA0
-Text GLabel 6600 4200 0    50   Input ~ 0
-DDR3_BA1
 Text GLabel 6600 2700 0    50   Input ~ 0
+DDR3_BA1
+Text GLabel 8100 2300 2    50   Input ~ 0
 DDR3_BA2
 Text GLabel 6600 5300 0    50   Input ~ 0
 DDR3_CLK+
 Text GLabel 8100 5300 2    50   Input ~ 0
 DDR3_CLK-
-Text GLabel 6600 5000 0    50   Input ~ 0
+Text GLabel 8100 2100 2    50   Input ~ 0
 DDR3_CKE
-Text GLabel 8100 5000 2    50   Input ~ 0
+Text GLabel 6600 4200 0    50   Input ~ 0
 DDR3_RESET
-Text GLabel 6600 4800 0    50   Input ~ 0
+Text GLabel 8100 2900 2    50   Input ~ 0
 DDR3_CS
-Text GLabel 6600 4600 0    50   Input ~ 0
+Text GLabel 8100 3100 2    50   Input ~ 0
 DDR3_CAS
-Text GLabel 8100 4800 2    50   Input ~ 0
+Text GLabel 8100 5000 2    50   Input ~ 0
 DDR3_RAS
-Text GLabel 8100 4600 2    50   Input ~ 0
+Text GLabel 8100 2700 2    50   Input ~ 0
 DDR3_WE
-Text GLabel 6600 4400 0    50   Input ~ 0
+Text GLabel 6600 4800 0    50   Input ~ 0
 DDR3_ODT
-Text GLabel 6600 4900 0    50   BiDi ~ 0
+Text GLabel 8100 4100 2    50   BiDi ~ 0
 DDR3_DQ0
 Text GLabel 8100 4900 2    50   BiDi ~ 0
 DDR3_DQ1
-Text GLabel 6600 4500 0    50   BiDi ~ 0
-DDR3_DQ2
-Text GLabel 8100 4500 2    50   BiDi ~ 0
-DDR3_DQ3
-Text GLabel 6600 4300 0    50   BiDi ~ 0
-DDR3_DQ4
 Text GLabel 8100 4300 2    50   BiDi ~ 0
+DDR3_DQ2
+Text GLabel 8100 2600 2    50   BiDi ~ 0
+DDR3_DQ3
+Text GLabel 6600 2400 0    50   BiDi ~ 0
+DDR3_DQ4
+Text GLabel 6600 4500 0    50   BiDi ~ 0
 DDR3_DQ5
 Text GLabel 6600 4100 0    50   BiDi ~ 0
 DDR3_DQ6
-Text GLabel 8100 4100 2    50   BiDi ~ 0
+Text GLabel 6600 4900 0    50   BiDi ~ 0
 DDR3_DQ7
-Text GLabel 6600 3900 0    50   BiDi ~ 0
+Text GLabel 8100 2400 2    50   BiDi ~ 0
 DDR3_DQ8
-Text GLabel 8100 3900 2    50   BiDi ~ 0
-DDR3_DQ9
 Text GLabel 6600 2600 0    50   BiDi ~ 0
 DDR3_DQ10
-Text GLabel 8100 2600 2    50   BiDi ~ 0
+Text GLabel 8100 4500 2    50   BiDi ~ 0
 DDR3_DQ11
-Text GLabel 6600 2400 0    50   BiDi ~ 0
-DDR3_DQ12
-Text GLabel 8100 2400 2    50   BiDi ~ 0
-DDR3_DQ13
-Text GLabel 6625 2200 0    50   BiDi ~ 0
-DDR3_DQ14
-Text GLabel 8100 2200 2    50   BiDi ~ 0
-DDR3_DQ15
 Text GLabel 6600 2000 0    50   BiDi ~ 0
-DDR3_DM0
-Text GLabel 8100 2000 2    50   BiDi ~ 0
+DDR3_DQ12
+Text GLabel 8100 2200 2    50   BiDi ~ 0
+DDR3_DQ14
+Text GLabel 8100 3900 2    50   BiDi ~ 0
+DDR3_DQ15
+Text GLabel 6600 3800 0    50   BiDi ~ 0
 DDR3_DM1
 Text GLabel 6600 4700 0    50   BiDi ~ 0
 DDR3_DQS0+
@@ -421,6 +411,16 @@ Text GLabel 2100 6800 0    60   Input ~ 0
 GPIO11
 Text GLabel 2125 7000 0    60   Input ~ 0
 GPIO10
-Text GLabel 6600 3100 0    50   Input ~ 0
+Text GLabel 8100 4600 2    50   Input ~ 0
 DDR3_A15
+Text GLabel 8100 4000 2    50   Input ~ 0
+DDR3_A5
+Text GLabel 8100 4200 2    50   Input ~ 0
+DDR3_A13
+Text GLabel 6600 4300 0    50   BiDi ~ 0
+DDR3_DQ9
+Text GLabel 6600 3900 0    50   BiDi ~ 0
+DDR3_DQ13
+Text GLabel 6600 2200 0    50   BiDi ~ 0
+DDR3_DM0
 $EndSCHEMATC
