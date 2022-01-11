@@ -299,7 +299,7 @@ Text GLabel 8100 2300 2    50   Input ~ 0
 DDR3_A3
 Text GLabel 6600 2300 0    50   Input ~ 0
 DDR3_A4
-Text GLabel 8100 2500 2    50   Input ~ 0
+Text GLabel 8100 4200 2    50   Input ~ 0
 DDR3_A5
 Text GLabel 6600 2500 0    50   Input ~ 0
 DDR3_A6
@@ -307,15 +307,15 @@ Text GLabel 8100 2900 2    50   Input ~ 0
 DDR3_A7
 Text GLabel 6600 2900 0    50   Input ~ 0
 DDR3_A8
-Text GLabel 8100 3800 2    50   Input ~ 0
+Text GLabel 6600 4000 0    50   Input ~ 0
 DDR3_A9
 Text GLabel 6600 3800 0    50   Input ~ 0
 DDR3_A10
 Text GLabel 8100 4000 2    50   Input ~ 0
 DDR3_A11
-Text GLabel 6600 4000 0    50   Input ~ 0
+Text GLabel 8100 3800 2    50   Input ~ 0
 DDR3_A12
-Text GLabel 6600 2700 0    50   Input ~ 0
+Text GLabel 8100 2500 2    50   Input ~ 0
 DDR3_A13
 Text GLabel 8100 2700 2    50   Input ~ 0
 DDR3_A14
@@ -323,7 +323,7 @@ Text GLabel 8100 4400 2    50   Input ~ 0
 DDR3_BA0
 Text GLabel 6600 4200 0    50   Input ~ 0
 DDR3_BA1
-Text GLabel 8100 4200 2    50   Input ~ 0
+Text GLabel 6600 2700 0    50   Input ~ 0
 DDR3_BA2
 Text GLabel 6600 5300 0    50   Input ~ 0
 DDR3_CLK+
