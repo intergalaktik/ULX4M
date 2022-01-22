@@ -1173,4 +1173,6 @@ Text GLabel 1925 3750 0    60   Input ~ 0
 CAM1_D1_P
 Text GLabel 3425 3750 2    60   Input ~ 0
 CAM1_D1_N
+Text GLabel 1725 925  0    60   Input ~ 0
+PCIe_CLK_nREQ
 $EndSCHEMATC

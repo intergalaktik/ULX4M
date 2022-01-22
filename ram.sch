@@ -259,7 +259,7 @@ Text GLabel 6600 1700 0    60   Input ~ 0
 FPDI_CLK+
 Text GLabel 8100 1700 2    60   Input ~ 0
 FPDI_CLK-
-Text GLabel 1150 6825 2    60   Input ~ 0
+Text GLabel 3075 2375 2    60   Input ~ 0
 GPIO5
 Text GLabel 9950 3700 3    60   Input ~ 0
 SD_PWR_ON
@@ -287,7 +287,7 @@ F 3 "~" H 9950 3600 50  0001 C CNN
 	1    9950 3600
 	-1   0    0    1   
 $EndComp
-Text GLabel 1475 7250 0    60   Input ~ 0
+Text GLabel 3400 2800 0    60   Input ~ 0
 SD_D2
 Text GLabel 6600 2300 0    50   Input ~ 0
 DDR3_A0
@@ -377,25 +377,25 @@ Text GLabel 6600 5100 0    50   BiDi ~ 0
 DDR3_DQS1+
 Text GLabel 8100 5100 2    50   BiDi ~ 0
 DDR3_DQS1-
-Text GLabel 1175 7000 2    60   Input ~ 0
+Text GLabel 3100 2550 2    60   Input ~ 0
 SD_D1
-Text GLabel 1450 7150 0    60   Input ~ 0
+Text GLabel 3375 2700 0    60   Input ~ 0
 SD_D0
-Text GLabel 2100 6900 0    60   Input ~ 0
+Text GLabel 3375 3025 0    60   Input ~ 0
 ID_SD
-Text GLabel 4150 7225 0    60   Input ~ 0
+Text GLabel 3400 4100 0    60   Input ~ 0
 nEXTRST
-Text GLabel 2625 7000 0    60   Input ~ 0
+Text GLabel 3375 3375 0    60   Input ~ 0
 GPIO22
-Text GLabel 3700 6975 2    60   Input ~ 0
+Text GLabel 2950 3850 2    60   Input ~ 0
 SD_PWR_ON
-Text GLabel 3675 7075 2    60   Input ~ 0
+Text GLabel 2925 3950 2    60   Input ~ 0
 Camera_GPIO
-Text GLabel 3100 7150 2    60   Input ~ 0
+Text GLabel 3200 3750 2    60   Input ~ 0
 ID_SC
-Text GLabel 3050 7000 2    60   Input ~ 0
+Text GLabel 3150 3600 2    60   Input ~ 0
 SCL0
-Text GLabel 3000 6900 2    60   Input ~ 0
+Text GLabel 3100 3500 2    60   Input ~ 0
 SDA0
 Text GLabel -1925 5625 2    60   Input ~ 0
 SDRAM_BA1
@@ -403,13 +403,13 @@ Text GLabel -1925 5725 2    60   Input ~ 0
 SDRAM_A2
 Text GLabel -1375 3900 0    60   Input ~ 0
 SDRAM_A0
-Text GLabel 1825 7125 2    60   Input ~ 0
+Text GLabel 3100 3250 2    60   Input ~ 0
 GPIO17
 Text GLabel -1375 3600 0    60   Input ~ 0
 SDRAM_A1
-Text GLabel 2100 6800 0    60   Input ~ 0
+Text GLabel 3375 2925 0    60   Input ~ 0
 GPIO11
-Text GLabel 2125 7000 0    60   Input ~ 0
+Text GLabel 3400 3125 0    60   Input ~ 0
 GPIO10
 Text GLabel 8100 4600 2    50   Input ~ 0
 DDR3_A15
