@@ -511,4 +511,26 @@ F 3 "" H 4200 4425 50  0000 C CNN
 	1    4200 4425
 	1    0    0    -1  
 $EndComp
+$Comp
+L Switch:SW_Push SW3
+U 1 1 628C84D7
+P 2900 3375
+F 0 "SW3" H 3100 3425 50  0000 C CNN
+F 1 "SW_Push" H 2600 3425 50  0000 C CNN
+F 2 "Switch_EVPAA:Switch_EVPAA" H 2900 3575 50  0001 C CNN
+F 3 "https://www.mouser.in/datasheet/2/315/PANA_S_A0001791376_1-2560543.pdf" H 2900 3575 50  0001 C CNN
+F 4 "https://www.mouser.in/ProductDetail/Panasonic/EVP-AA302K?qs=qvwOHSmaRMmnf4H35tvzww==" H 2900 3375 50  0001 C CNN "Mouser"
+F 5 "https://www.digikey.com/en/products/detail/panasonic-electronic-components/EVP-AA302K/2810555" H 2900 3375 50  0001 C CNN "DigiKey"
+	1    2900 3375
+	1    0    0    -1  
+$EndComp
+Text GLabel 3350 3375 2    60   Input ~ 0
+BTN3
+Wire Wire Line
+	3100 3375 3350 3375
+Wire Wire Line
+	2700 3375 2400 3375
+Wire Wire Line
+	2400 3375 2400 3150
+Connection ~ 2400 3150
 $EndSCHEMATC
