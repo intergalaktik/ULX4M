@@ -1131,10 +1131,8 @@ F 3 "~" H 1325 3250 50  0001 C CNN
 $EndComp
 Text GLabel 1725 1025 0    60   Input ~ 0
 PCIe_nRST
-Text Label 1950 3250 2    60   ~ 0
+Text Label 1900 3250 2    60   ~ 0
 CAM0_D0_LP
-Wire Wire Line
-	1425 3250 1925 3250
 Wire Wire Line
 	1150 3250 1225 3250
 Text GLabel 3425 4250 2    60   Input ~ 0
@@ -1146,8 +1144,6 @@ USB_FPGA_D+
 Text GLabel 3225 1925 2    60   Input ~ 0
 USB_FPGA_D-
 Text GLabel 1925 3650 0    60   Input ~ 0
-LED2
-Text GLabel 3425 4050 2    60   Input ~ 0
 LED3
 Text GLabel 1925 3450 0    60   Input ~ 0
 LED0
@@ -1175,4 +1171,20 @@ Text GLabel 3425 3750 2    60   Input ~ 0
 CAM1_D1_N
 Text GLabel 1725 925  0    60   Input ~ 0
 PCIe_CLK_nREQ
+Text GLabel 3425 3650 2    60   Input ~ 0
+LED7
+Text GLabel 3425 4350 2    60   Input ~ 0
+LED6
+Text GLabel 1925 4050 0    60   Input ~ 0
+LED2
+Text GLabel 3425 4050 2    60   Input ~ 0
+LED4
+Text GLabel 1925 4350 0    60   Input ~ 0
+LED5
+Wire Wire Line
+	1425 3250 1925 3250
+Text GLabel 3425 4550 2    60   Input ~ 0
+GPIO10
+Text GLabel 3425 4450 2    60   Input ~ 0
+GPIO17
 $EndSCHEMATC

@@ -456,19 +456,19 @@ Text GLabel 10150 2150 2    60   Input ~ 0
 GPIO25
 Text GLabel 10150 2250 2    60   Input ~ 0
 GPIO18
-Text GLabel 8225 1350 0    60   Input ~ 0
+Text GLabel 10475 800  2    60   Input ~ 0
 GPIO15
 Text GLabel 8650 2150 0    60   Input ~ 0
 GPIO23
 Text GLabel 8650 2450 0    60   Input ~ 0
 GPIO24
-Text GLabel 8275 1950 0    60   Input ~ 0
+Text GLabel 10475 700  2    60   Input ~ 0
 GPIO14
-Text GLabel 8275 2050 0    60   Input ~ 0
+Text GLabel 10475 600  2    60   Input ~ 0
 GPIO4
 Text GLabel 10475 900  2    60   Input ~ 0
 GPIO3
-Text GLabel 10600 1750 2    60   Input ~ 0
+Text GLabel 10475 1000 2    60   Input ~ 0
 GPIO2
 Text GLabel 1375 2025 2    60   Input ~ 0
 USB_N
@@ -611,4 +611,16 @@ Wire Wire Line
 	975  2225 1075 2225
 Text GLabel 10150 2650 2    60   Input ~ 0
 GPIO9
+Text GLabel 10150 1450 2    60   Input ~ 0
+BTN3
+Text GLabel 8650 1750 0    60   Input ~ 0
+ID_SD
+Text GLabel 8650 1350 0    60   Input ~ 0
+ID_SC
+Text GLabel 10150 2550 2    60   Input ~ 0
+GPIO5
+Text GLabel 8650 2650 0    60   Input ~ 0
+GPIO11
+Text GLabel 10150 2450 2    60   Input ~ 0
+GPIO22
 $EndSCHEMATC

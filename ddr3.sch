@@ -1653,4 +1653,14 @@ Wire Wire Line
 	9025 5475 9025 5575
 Wire Wire Line
 	8700 5475 8700 5575
+Wire Notes Line
+	3600 6525 9850 6525
+Wire Notes Line
+	9850 6525 9850 11000
+Wire Notes Line
+	9850 11000 3600 11000
+Wire Notes Line
+	3600 11000 3600 6525
+Text Notes 3600 6500 0    60   ~ 0
+Not used on v001 - footprints are removed
 $EndSCHEMATC
