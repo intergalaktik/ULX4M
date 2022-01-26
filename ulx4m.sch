@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 12
+Sheet 1 13
 Title "ULX4M-LS"
 Date "2021-11-05"
 Rev "0.0.2"
@@ -186,9 +186,15 @@ F 3 "~" H 8475 6875 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Sheet
-S 6225 5900 500  450 
+S 6175 5900 500  450 
 U 61E7DB84
 F0 "DDR3" 60
 F1 "ddr3.sch" 60
+$EndSheet
+$Sheet
+S 6175 5250 500  425 
+U 633E0B89
+F0 "ethernet" 60
+F1 "ethernet.sch" 60
 $EndSheet
 $EndSCHEMATC

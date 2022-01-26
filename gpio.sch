@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 12
+Sheet 2 13
 Title "ULX3S"
 Date ""
 Rev "1.0.2"
@@ -1183,8 +1183,14 @@ Text GLabel 1925 4350 0    60   Input ~ 0
 LED5
 Wire Wire Line
 	1425 3250 1925 3250
-Text GLabel 3425 4550 2    60   Input ~ 0
-GPIO10
 Text GLabel 3425 4450 2    60   Input ~ 0
 GPIO17
+Text GLabel 1925 4450 0    50   Output ~ 0
+RGMII_RX_CLK
+Text GLabel 1925 4550 0    50   Input ~ 0
+RGMII_TX_CLK
+Text GLabel 1725 1825 0    50   BiDi ~ 0
+ETH_MDIO
+Text GLabel 3425 4550 2    50   Input ~ 0
+ETH_~RESET
 $EndSCHEMATC

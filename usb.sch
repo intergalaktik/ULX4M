@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 12
+Sheet 6 13
 Title "ULX3S"
 Date ""
 Rev "1.0.10"
@@ -349,7 +349,7 @@ U 1 1 611DE8D2
 P 7250 5400
 F 0 "J3" H 7300 5717 50  0000 C CNN
 F 1 "JTAG" H 7300 5626 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical" H 7250 5400 50  0001 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_2x03_P1.00mm_Vertical_SMD" H 7250 5400 50  0001 C CNN
 F 3 "~" H 7250 5400 50  0001 C CNN
 	1    7250 5400
 	1    0    0    -1  
@@ -609,18 +609,46 @@ F 3 "" H 975 2225 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	975  2225 1075 2225
-Text GLabel 10150 2650 2    60   Input ~ 0
+Text GLabel 10150 1950 2    60   Input ~ 0
 GPIO9
 Text GLabel 10150 1450 2    60   Input ~ 0
 BTN3
 Text GLabel 8650 1750 0    60   Input ~ 0
 ID_SD
-Text GLabel 8650 1350 0    60   Input ~ 0
+Text GLabel 8650 1550 0    60   Input ~ 0
 ID_SC
-Text GLabel 10150 2550 2    60   Input ~ 0
-GPIO5
 Text GLabel 8650 2650 0    60   Input ~ 0
 GPIO11
 Text GLabel 10150 2450 2    60   Input ~ 0
 GPIO22
+Text GLabel 10150 1650 2    50   Input ~ 0
+ETH_MDC
+Text GLabel 10150 1850 2    50   Output ~ 0
+RGMII_RX_DV
+Text GLabel 8650 1350 0    50   Output ~ 0
+RGMII_REF_CLK
+Text GLabel 10150 2650 2    50   Output ~ 0
+ETH_INT_N
+Text GLabel 8650 2550 0    50   Output ~ 0
+RGMII_RXD2
+Text GLabel 8650 1850 0    50   Output ~ 0
+RGMII_RXD1
+Text GLabel 10150 1750 2    50   Output ~ 0
+RGMII_RXD0
+Text GLabel 8650 2350 0    50   Input ~ 0
+RGMII_TXD3
+Text GLabel 8650 1950 0    50   Input ~ 0
+RGMII_TXD2
+Text GLabel 8650 1650 0    50   Input ~ 0
+RGMII_TXD1
+Text GLabel 10150 2050 2    50   Input ~ 0
+RGMII_TXD0
+Text GLabel 10150 2550 2    60   Input ~ 0
+GPIO5
+Text GLabel 10150 1550 2    50   Input ~ 0
+RGMII_TX_EN
+Text GLabel 10150 2350 2    50   Output ~ 0
+RGMII_RXD3
+Text GLabel 8650 2050 0    60   Input ~ 0
+GPIO10
 $EndSCHEMATC
