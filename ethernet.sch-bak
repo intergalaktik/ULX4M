@@ -1503,12 +1503,8 @@ Wire Wire Line
 	8125 7225 8250 7225
 Text GLabel 12825 4025 0    50   Input ~ 0
 VCC3V3
-Wire Wire Line
-	12825 4025 13250 4025
 Text GLabel 12825 3675 0    50   Input ~ 0
 VCC3V3
-Wire Wire Line
-	12825 3675 13250 3675
 $Comp
 L power:+1V1 #PWR?
 U 1 1 6351573E
@@ -1543,21 +1539,6 @@ Wire Wire Line
 	9875 1450 9950 1450
 Text GLabel 3575 3050 0    50   Input ~ 0
 VCC3V3
-Wire Wire Line
-	13350 4575 13300 4575
-Wire Wire Line
-	13300 4575 13300 4700
-$Comp
-L ecp5-dc-scm:GND #PWR039
-U 1 1 606639BC
-P 13300 4700
-F 0 "#PWR039" H 13300 4450 50  0001 C CNN
-F 1 "GND" H 13305 4527 50  0000 C CNN
-F 2 "" H 13300 4700 50  0001 C CNN
-F 3 "" H 13300 4700 50  0001 C CNN
-	1    13300 4700
-	-1   0    0    -1  
-$EndComp
 Wire Notes Line
 	5950 7650 5950 11100
 Wire Notes Line
@@ -1566,4 +1547,24 @@ Wire Notes Line
 	950  11100 950  7650
 Wire Notes Line
 	950  7650 5950 7650
+Text GLabel 13350 2575 2    60   Input ~ 0
+ETH_1P
+Text GLabel 13350 2775 2    60   Input ~ 0
+ETH_1N
+Text GLabel 13350 2175 2    60   Input ~ 0
+ETH_0P
+Text GLabel 13350 2375 2    60   Input ~ 0
+ETH_0N
+Text GLabel 13350 3375 2    60   Input ~ 0
+ETH_3P
+Text GLabel 13350 3575 2    60   Input ~ 0
+ETH_3N
+Text GLabel 13350 3175 2    60   Input ~ 0
+ETH_2N
+Text GLabel 13350 2975 2    60   Input ~ 0
+ETH_2P
+Text GLabel 13350 3875 2    60   Input ~ 0
+ETH_nLED2
+Text GLabel 13350 4225 2    60   Input ~ 0
+ETH_nLED1
 $EndSCHEMATC
