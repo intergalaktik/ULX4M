@@ -1254,10 +1254,10 @@ Wire Wire Line
 Text GLabel 4400 5150 0    50   Output ~ 0
 RGMII_RX_DV
 $Comp
-L ecp5-dc-scm:KSZ9031RNXCA U8
+L ecp5-dc-scm:KSZ9031RNXCA U4
 U 1 1 619D6509
 P 5400 3750
-F 0 "U8" H 5450 3825 50  0000 C CNN
+F 0 "U4" H 5450 3825 50  0000 C CNN
 F 1 "KSZ9031RNXCA" H 5800 850 50  0000 C CNN
 F 2 "ecp5-dc-scm:QFN-48-Microchip-QFN77-48LD-PL-2" H 5400 4250 50  0001 L CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/00002117F.pdf" H 5400 4250 50  0001 L CNN

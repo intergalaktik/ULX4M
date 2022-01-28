@@ -285,8 +285,6 @@ F 3 "~" H 9950 3600 50  0001 C CNN
 	1    9950 3600
 	-1   0    0    1   
 $EndComp
-Text GLabel 6600 3100 0    50   Input ~ 0
-DDR3_A0
 Text GLabel 6600 5000 0    50   Input ~ 0
 DDR3_A1
 Text GLabel 8100 2400 2    50   Input ~ 0
@@ -351,8 +349,6 @@ Text GLabel 6600 4100 0    50   BiDi ~ 0
 DDR3_DQ6
 Text GLabel 6600 4700 0    50   BiDi ~ 0
 DDR3_DQ7
-Text GLabel 8100 1900 2    50   BiDi ~ 0
-DDR3_DQ8
 Text GLabel 8100 2700 2    50   BiDi ~ 0
 DDR3_DQ10
 Text GLabel 8100 4500 2    50   BiDi ~ 0
@@ -397,4 +393,8 @@ Text GLabel 6600 2300 0    50   Input ~ 0
 DDR3_VREF
 Text GLabel 8100 4700 2    50   Input ~ 0
 DDR3_VREF
+Text GLabel 8100 1900 2    50   BiDi ~ 0
+DDR3_DQ8
+Text GLabel 6600 3100 0    50   Input ~ 0
+DDR3_A0
 $EndSCHEMATC
