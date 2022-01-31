@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /media/internal/FPGA/ulx4m/ulx4m.sch)
-    (date "ponedjeljak, 31. siječnja 2022. 09:49:47 CET")
+    (date "ponedjeljak, 31. siječnja 2022. 10:10:06 CET")
     (tool "Eeschema 5.1.9+dfsg1-1~bpo10+1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -640,7 +640,7 @@
       (tstamp 5AC310F3))
     (comp (ref RV2)
       (value 0)
-      (footprint Resistor_SMD:R_0805_2012Metric_Pad1.29x1.40mm_HandSolder)
+      (footprint Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder)
       (fields
         (field (name EMPTY_MPN) RC0805JR-070RL)
         (field (name MNF1_URL) www.yageo.com)
@@ -650,7 +650,7 @@
       (tstamp 5AF31FAC))
     (comp (ref RV3)
       (value 0)
-      (footprint Resistor_SMD:R_0805_2012Metric_Pad1.29x1.40mm_HandSolder)
+      (footprint Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder)
       (fields
         (field (name Digikey) YAG1327CT-ND)
         (field (name Koncar) FR014)
