@@ -58,11 +58,11 @@ USB (bootloader)
 
 - [x] GPIOs
 
-- [x] 2 Buttons
+- [x] 3 Buttons
 
 - [x] 2 DIP SW
 
-- [x] 4 LEDs
+- [x] 8 LEDs
 
 # References
 
