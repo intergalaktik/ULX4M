@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 13
+Sheet 7 11
 Title "ULX4M"
 Date "2021-11-08"
 Rev "0.0.2"
@@ -13,36 +13,6 @@ Comment2 "License: CERN-OHL-S v2"
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel -1925 4725 2    60   Input ~ 0
-SDRAM_D0
-Text GLabel -1375 2900 0    60   Input ~ 0
-SDRAM_D1
-Text GLabel -1375 2700 0    60   Input ~ 0
-SDRAM_D2
-Text GLabel -1375 2800 0    60   Input ~ 0
-SDRAM_D3
-Text GLabel -1925 4525 2    60   Input ~ 0
-SDRAM_D4
-Text GLabel -1925 4325 2    60   Input ~ 0
-SDRAM_D5
-Text GLabel -1925 4825 2    60   Input ~ 0
-SDRAM_D6
-Text GLabel -1375 3100 0    60   Input ~ 0
-SDRAM_D7
-Text GLabel -1375 3200 0    60   Input ~ 0
-SDRAM_A10
-Text GLabel -1375 3700 0    60   Input ~ 0
-SDRAM_BA0
-Text GLabel -1375 3000 0    60   Input ~ 0
-SDRAM_DQM0
-Text GLabel -1925 5525 2    60   Input ~ 0
-SDRAM_nRAS
-Text GLabel -1375 3500 0    60   Input ~ 0
-SDRAM_nCAS
-Text GLabel -1925 5025 2    60   Input ~ 0
-SDRAM_nWE
-Text GLabel -1925 4925 2    60   Input ~ 0
-SDRAM_nCS
 $Comp
 L Device:C C16
 U 1 1 59131F17
@@ -105,10 +75,10 @@ F 4 "LFE5U-85F-6BG381C" H 7350 4500 60  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C33
+L Device:C C15
 U 1 1 5A5FD142
 P 5600 6950
-F 0 "C33" H 5625 7050 50  0000 L CNN
+F 0 "C15" H 5625 7050 50  0000 L CNN
 F 1 "22nF" H 5625 6850 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 5638 6800 50  0001 C CNN
 F 3 "" H 5600 6950 50  0000 C CNN
@@ -139,10 +109,10 @@ F 3 "" H 5600 6800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C34
+L Device:C C18
 U 1 1 5A5FD1C1
 P 5900 6950
-F 0 "C34" H 5925 7050 50  0000 L CNN
+F 0 "C18" H 5925 7050 50  0000 L CNN
 F 1 "22nF" H 5925 6850 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 5938 6800 50  0001 C CNN
 F 3 "" H 5900 6950 50  0000 C CNN
@@ -173,10 +143,10 @@ F 3 "" H 5900 6800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C35
+L Device:C C21
 U 1 1 5A5FD26F
 P 6200 6950
-F 0 "C35" H 6225 7050 50  0000 L CNN
+F 0 "C21" H 6225 7050 50  0000 L CNN
 F 1 "22nF" H 6225 6850 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 6238 6800 50  0001 C CNN
 F 3 "" H 6200 6950 50  0000 C CNN
@@ -369,14 +339,6 @@ Text GLabel 6600 5100 0    50   BiDi ~ 0
 DDR3_DQS1+
 Text GLabel 8100 5100 2    50   BiDi ~ 0
 DDR3_DQS1-
-Text GLabel -1925 5625 2    60   Input ~ 0
-SDRAM_BA1
-Text GLabel -1925 5725 2    60   Input ~ 0
-SDRAM_A2
-Text GLabel -1375 3900 0    60   Input ~ 0
-SDRAM_A0
-Text GLabel -1375 3600 0    60   Input ~ 0
-SDRAM_A1
 Text GLabel 8100 4600 2    50   Input ~ 0
 DDR3_A15
 Text GLabel 6600 4200 0    50   Input ~ 0

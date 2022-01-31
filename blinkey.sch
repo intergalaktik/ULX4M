@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 13
+Sheet 4 11
 Title "ULX3S"
 Date ""
 Rev "1.0.3"
@@ -200,10 +200,10 @@ F 16 "T" H 4550 2750 50  0001 C CNN "Side"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C46
+L Device:C C54
 U 1 1 5A881E8B
 P 6650 1350
-F 0 "C46" H 6675 1450 50  0000 L CNN
+F 0 "C54" H 6675 1450 50  0000 L CNN
 F 1 "2.2uF" H 6675 1250 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 6688 1200 50  0001 C CNN
 F 3 "" H 6650 1350 50  0001 C CNN
