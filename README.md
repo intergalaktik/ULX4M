@@ -67,7 +67,10 @@ USB (bootloader)
 # References
 
 https://github.com/gatecat/TrellisBoard
+
 https://github.com/orangecrab-fpga/orangecrab-hardware
+
 https://github.com/antmicro/ecp5-dc-scm
+
 https://github.com/butterstick-fpga/butterstick-hardware
 
