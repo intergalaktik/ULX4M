@@ -893,7 +893,7 @@ Wire Wire Line
 	3600 4650 3600 4725
 Text GLabel 4350 2400 2    60   Input ~ 0
 SD_D1
-Text GLabel 5400 2750 2    60   Input ~ 0
+Text GLabel 4350 2800 2    60   Input ~ 0
 SD_PWR_ON
 Text GLabel 2400 5450 0    60   Input ~ 0
 nEXTRST
