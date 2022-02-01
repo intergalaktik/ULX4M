@@ -80,3 +80,24 @@ https://github.com/butterstick-fpga/butterstick-hardware
 
 https://nlnet.nl/project/ULX3M/
 
+## Check up our blogposts
+
+https://intergalaktik.eu/news/ulx4s-v0-0-1
+
+https://intergalaktik.eu/news/ulx4s-v0-0-2
+
+https://intergalaktik.eu/news/blending-ulx4m-nlnet-funded-fpga-board
+
+https://intergalaktik.eu/news/production-testing-automation-for-ulx3s
+
+https://intergalaktik.eu/news/blending-ulx4m-ls-v002
+
+## Contact us
+
+Discord: https://discord.gg/qwMUk6W
+
+Gitter: https://gitter.im/ulx3s/Lobby
+
+Mail: warp@intergalaktik.eu
+
+Twitter: https://twitter.com/intergalaktikEU
