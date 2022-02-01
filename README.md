@@ -64,7 +64,7 @@ USB (bootloader)
 
 - [x] 8 LEDs
 
-# References
+## References
 
 https://github.com/gatecat/TrellisBoard
 
@@ -73,4 +73,10 @@ https://github.com/orangecrab-fpga/orangecrab-hardware
 https://github.com/antmicro/ecp5-dc-scm
 
 https://github.com/butterstick-fpga/butterstick-hardware
+
+## Work on this board is financed by NLnet foundation
+
+![NLnet](/pic/banner-320x120.png)
+
+https://nlnet.nl/project/ULX3M/
 
