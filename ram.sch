@@ -229,33 +229,33 @@ Text GLabel 6600 1700 0    60   Input ~ 0
 FPDI_CLK+
 Text GLabel 8100 1700 2    60   Input ~ 0
 FPDI_CLK-
-Text GLabel 9950 3700 3    60   Input ~ 0
+Text GLabel 10925 4600 3    60   Input ~ 0
 SD_PWR_ON
 $Comp
 L power:+3V3 #PWR09
 U 1 1 6191DD07
-P 9950 3500
-F 0 "#PWR09" H 9950 3350 50  0001 C CNN
-F 1 "+3V3" H 9950 3640 50  0000 C CNN
-F 2 "" H 9950 3500 50  0000 C CNN
-F 3 "" H 9950 3500 50  0000 C CNN
-	1    9950 3500
+P 10925 4400
+F 0 "#PWR09" H 10925 4250 50  0001 C CNN
+F 1 "+3V3" H 10925 4540 50  0000 C CNN
+F 2 "" H 10925 4400 50  0000 C CNN
+F 3 "" H 10925 4400 50  0000 C CNN
+	1    10925 4400
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_Small R?
 U 1 1 6193A2B3
-P 9950 3600
+P 10925 4500
 AR Path="/58D6BF46/6193A2B3" Ref="R?"  Part="1" 
 AR Path="/58D6D507/6193A2B3" Ref="R20"  Part="1" 
-F 0 "R20" V 10025 3600 50  0000 C CNN
-F 1 "4k7" V 9950 3600 39  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 9950 3600 50  0001 C CNN
-F 3 "~" H 9950 3600 50  0001 C CNN
-	1    9950 3600
+F 0 "R20" V 11000 4500 50  0000 C CNN
+F 1 "4k7" V 10925 4500 39  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 10925 4500 50  0001 C CNN
+F 3 "~" H 10925 4500 50  0001 C CNN
+	1    10925 4500
 	-1   0    0    1   
 $EndComp
-Text GLabel 6600 5000 0    50   Input ~ 0
+Text GLabel 8100 4300 2    50   Input ~ 0
 DDR3_A1
 Text GLabel 8100 2400 2    50   Input ~ 0
 DDR3_A2
@@ -297,37 +297,37 @@ Text GLabel 6600 2000 0    50   Input ~ 0
 DDR3_CS
 Text GLabel 8100 2200 2    50   Input ~ 0
 DDR3_CAS
-Text GLabel 8100 5000 2    50   Input ~ 0
+Text GLabel 6600 2400 0    50   Input ~ 0
 DDR3_RAS
 Text GLabel 6600 2600 0    50   Input ~ 0
 DDR3_WE
-Text GLabel 6600 4800 0    50   Input ~ 0
+Text GLabel 6600 4100 0    50   Input ~ 0
 DDR3_ODT
-Text GLabel 8100 4100 2    50   BiDi ~ 0
+Text GLabel 8100 4600 2    50   BiDi ~ 0
 DDR3_DQ0
 Text GLabel 6600 5200 0    50   BiDi ~ 0
 DDR3_DQ1
-Text GLabel 8100 4300 2    50   BiDi ~ 0
+Text GLabel 6600 5000 0    50   BiDi ~ 0
 DDR3_DQ2
-Text GLabel 8100 2600 2    50   BiDi ~ 0
+Text GLabel 6600 5100 0    50   BiDi ~ 0
 DDR3_DQ3
-Text GLabel 6600 2400 0    50   BiDi ~ 0
+Text GLabel 8100 5000 2    50   BiDi ~ 0
 DDR3_DQ4
-Text GLabel 6600 4500 0    50   BiDi ~ 0
+Text GLabel 8100 5200 2    50   BiDi ~ 0
 DDR3_DQ5
-Text GLabel 6600 4100 0    50   BiDi ~ 0
+Text GLabel 6600 4800 0    50   BiDi ~ 0
 DDR3_DQ6
 Text GLabel 6600 4700 0    50   BiDi ~ 0
 DDR3_DQ7
 Text GLabel 8100 2700 2    50   BiDi ~ 0
 DDR3_DQ10
-Text GLabel 8100 4500 2    50   BiDi ~ 0
+Text GLabel 8975 2550 2    50   BiDi ~ 0
 DDR3_DQ11
 Text GLabel 8100 2900 2    50   BiDi ~ 0
 DDR3_DQ12
 Text GLabel 8100 3100 2    50   BiDi ~ 0
 DDR3_DQ14
-Text GLabel 6600 4600 0    50   BiDi ~ 0
+Text GLabel 9450 2250 0    50   BiDi ~ 0
 DDR3_DQ15
 Text GLabel 6600 3800 0    50   BiDi ~ 0
 DDR3_DM1
@@ -335,19 +335,15 @@ Text GLabel 6600 4900 0    50   BiDi ~ 0
 DDR3_DQS0+
 Text GLabel 8100 4900 2    50   BiDi ~ 0
 DDR3_DQS0-
-Text GLabel 6600 5100 0    50   BiDi ~ 0
-DDR3_DQS1+
-Text GLabel 8100 5100 2    50   BiDi ~ 0
-DDR3_DQS1-
-Text GLabel 8100 4600 2    50   Input ~ 0
+Text GLabel 6600 4600 0    50   Input ~ 0
 DDR3_A15
 Text GLabel 6600 4200 0    50   Input ~ 0
 DDR3_A5
 Text GLabel 8100 4200 2    50   Input ~ 0
 DDR3_A13
-Text GLabel 6600 4300 0    50   BiDi ~ 0
+Text GLabel 9450 2350 0    50   BiDi ~ 0
 DDR3_DQ9
-Text GLabel 6600 3900 0    50   BiDi ~ 0
+Text GLabel 9450 2450 0    50   BiDi ~ 0
 DDR3_DQ13
 Text GLabel 6600 2900 0    50   BiDi ~ 0
 DDR3_DM0
@@ -359,4 +355,8 @@ Text GLabel 8100 1900 2    50   BiDi ~ 0
 DDR3_DQ8
 Text GLabel 6600 3100 0    50   Input ~ 0
 DDR3_A0
+Text GLabel 9450 3025 0    50   BiDi ~ 0
+DDR3_DQS1+
+Text GLabel 8925 2925 2    50   BiDi ~ 0
+DDR3_DQS1-
 $EndSCHEMATC
