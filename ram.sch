@@ -295,7 +295,7 @@ Text GLabel 8100 4000 2    50   Input ~ 0
 DDR3_RESET
 Text GLabel 6600 2600 0    50   Input ~ 0
 DDR3_CS
-Text GLabel 8100 2900 2    50   Input ~ 0
+Text GLabel 6600 2100 0    50   Input ~ 0
 DDR3_CAS
 Text GLabel 8100 4300 2    50   Input ~ 0
 DDR3_RAS
@@ -353,7 +353,7 @@ Text GLabel 8100 4700 2    50   Input ~ 0
 DDR3_VREF
 Text GLabel 6600 1800 0    50   BiDi ~ 0
 DDR3_DQ8
-Text GLabel 6600 2100 0    50   Input ~ 0
+Text GLabel 8100 2900 2    50   Input ~ 0
 DDR3_A0
 Text GLabel 6600 2000 0    50   BiDi ~ 0
 DDR3_DQS1+
