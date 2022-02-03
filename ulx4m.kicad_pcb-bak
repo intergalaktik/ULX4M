@@ -12510,7 +12510,7 @@
   (gr_text 2.5V (at 95.35 80.92 270) (layer B.SilkS) (tstamp 5AB79331)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
   )
-  (gr_text "31.01.2022. v0.0.1" (at 135.79 111.04) (layer F.SilkS) (tstamp 60F8E6EF)
+  (gr_text "02.02.2022. v0.0.1" (at 135.79 111.04) (layer F.SilkS) (tstamp 60F8E6EF)
     (effects (font (size 1 1) (thickness 0.2)))
   )
   (gr_text +2.5V (at 112.134999 87.125) (layer B.SilkS) (tstamp 610B98FB)
