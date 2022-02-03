@@ -259,7 +259,7 @@ Text GLabel 8100 5100 2    50   Input ~ 0
 DDR3_A1
 Text GLabel 8100 2400 2    50   Input ~ 0
 DDR3_A2
-Text GLabel 8100 3100 2    50   Input ~ 0
+Text GLabel 6600 2900 0    50   Input ~ 0
 DDR3_A3
 Text GLabel 8100 2700 2    50   Input ~ 0
 DDR3_A4
@@ -267,7 +267,7 @@ Text GLabel 8100 3900 2    50   Input ~ 0
 DDR3_A6
 Text GLabel 8100 3800 2    50   Input ~ 0
 DDR3_A7
-Text GLabel 6600 2100 0    50   Input ~ 0
+Text GLabel 6600 3100 0    50   Input ~ 0
 DDR3_A8
 Text GLabel 6600 4000 0    50   Input ~ 0
 DDR3_A9
@@ -293,13 +293,13 @@ Text GLabel 6600 4500 0    50   Input ~ 0
 DDR3_CKE
 Text GLabel 8100 4000 2    50   Input ~ 0
 DDR3_RESET
-Text GLabel 8100 2600 2    50   Input ~ 0
+Text GLabel 6600 2600 0    50   Input ~ 0
 DDR3_CS
 Text GLabel 8100 2900 2    50   Input ~ 0
 DDR3_CAS
-Text GLabel 8100 4400 2    50   Input ~ 0
+Text GLabel 8100 4300 2    50   Input ~ 0
 DDR3_RAS
-Text GLabel 6600 2600 0    50   Input ~ 0
+Text GLabel 8100 2600 2    50   Input ~ 0
 DDR3_WE
 Text GLabel 6600 4100 0    50   Input ~ 0
 DDR3_ODT
@@ -319,11 +319,11 @@ Text GLabel 6600 4800 0    50   BiDi ~ 0
 DDR3_DQ6
 Text GLabel 6600 4700 0    50   BiDi ~ 0
 DDR3_DQ7
-Text GLabel 6600 1900 0    50   BiDi ~ 0
+Text GLabel 8100 2200 2    50   BiDi ~ 0
 DDR3_DQ10
 Text GLabel 6600 2200 0    50   BiDi ~ 0
 DDR3_DQ11
-Text GLabel 8100 2200 2    50   BiDi ~ 0
+Text GLabel 6600 1900 0    50   BiDi ~ 0
 DDR3_DQ12
 Text GLabel 8100 2300 2    50   BiDi ~ 0
 DDR3_DQ14
@@ -335,7 +335,7 @@ Text GLabel 6600 4900 0    50   BiDi ~ 0
 DDR3_DQS0+
 Text GLabel 8100 4900 2    50   BiDi ~ 0
 DDR3_DQS0-
-Text GLabel 8100 4300 2    50   Input ~ 0
+Text GLabel 8100 4400 2    50   Input ~ 0
 DDR3_A15
 Text GLabel 6600 4200 0    50   Input ~ 0
 DDR3_A5
@@ -345,7 +345,7 @@ Text GLabel 6600 2400 0    50   BiDi ~ 0
 DDR3_DQ9
 Text GLabel 8100 1800 2    50   BiDi ~ 0
 DDR3_DQ13
-Text GLabel 6600 2900 0    50   BiDi ~ 0
+Text GLabel 8100 3100 2    50   BiDi ~ 0
 DDR3_DM0
 Text GLabel 6600 2300 0    50   Input ~ 0
 DDR3_VREF
@@ -353,7 +353,7 @@ Text GLabel 8100 4700 2    50   Input ~ 0
 DDR3_VREF
 Text GLabel 6600 1800 0    50   BiDi ~ 0
 DDR3_DQ8
-Text GLabel 6600 3100 0    50   Input ~ 0
+Text GLabel 6600 2100 0    50   Input ~ 0
 DDR3_A0
 Text GLabel 6600 2000 0    50   BiDi ~ 0
 DDR3_DQS1+
