@@ -2794,4 +2794,31 @@ F 3 "" H 3675 5225 50  0001 C CNN
 	1    3675 5225
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:+1V35 #PWR?
+U 1 1 622C7816
+P 6025 5725
+F 0 "#PWR?" H 6025 5575 50  0001 C CNN
+F 1 "+1V35" H 6040 5898 50  0000 C CNN
+F 2 "" H 6025 5725 50  0001 C CNN
+F 3 "" H 6025 5725 50  0001 C CNN
+	1    6025 5725
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint_Small TP_D?
+U 1 1 622D7422
+P 6025 5875
+AR Path="/56AC389C/622D7422" Ref="TP_D?"  Part="1" 
+AR Path="/58D686D9/622D7422" Ref="TP_D?"  Part="1" 
+AR Path="/58D51CAD/622D7422" Ref="TP_1V35"  Part="1" 
+F 0 "TP_1V35" V 5925 5775 50  0000 L CNN
+F 1 "1V35" V 6125 5750 50  0000 L CNN
+F 2 "ecp5-dc-scm:Testpoint_smd_1mm" H 6225 5875 50  0001 C CNN
+F 3 "~" H 6225 5875 50  0001 C CNN
+	1    6025 5875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6025 5875 6025 5725
 $EndSCHEMATC

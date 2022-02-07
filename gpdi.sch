@@ -967,4 +967,34 @@ Wire Wire Line
 	6000 4675 6075 4675
 Wire Wire Line
 	6075 4775 6000 4775
+$Comp
+L Connector:TestPoint_Small TP_D?
+U 1 1 6226F065
+P 2650 2600
+AR Path="/56AC389C/6226F065" Ref="TP_D?"  Part="1" 
+AR Path="/58D686D9/6226F065" Ref="TP_C16"  Part="1" 
+F 0 "TP_C16" H 2875 2600 50  0000 L CNN
+F 1 "C16" H 2698 2555 50  0000 L CNN
+F 2 "ecp5-dc-scm:Testpoint_smd_1mm" H 2850 2600 50  0001 C CNN
+F 3 "~" H 2850 2600 50  0001 C CNN
+	1    2650 2600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2650 2600 2850 2600
+$Comp
+L Connector:TestPoint_Small TP_C?
+U 1 1 62286908
+P 4550 2600
+AR Path="/56AC389C/62286908" Ref="TP_C?"  Part="1" 
+AR Path="/58D686D9/62286908" Ref="TP_D16"  Part="1" 
+F 0 "TP_D16" H 4775 2600 50  0000 L CNN
+F 1 "D16" H 4598 2555 50  0000 L CNN
+F 2 "ecp5-dc-scm:Testpoint_smd_1mm" H 4750 2600 50  0001 C CNN
+F 3 "~" H 4750 2600 50  0001 C CNN
+	1    4550 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 2600 4350 2600
 $EndSCHEMATC

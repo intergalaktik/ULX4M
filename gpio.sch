@@ -1109,4 +1109,43 @@ Text GLabel 1725 1825 0    50   BiDi ~ 0
 ETH_MDIO
 Text GLabel 3425 4550 2    50   Input ~ 0
 ETH_~RESET
+$Comp
+L Connector:TestPoint_Small TP_E9
+U 1 1 620EDA38
+P 3600 1225
+F 0 "TP_E9" H 3648 1271 50  0000 L CNN
+F 1 "E9" H 3648 1180 50  0000 L CNN
+F 2 "ecp5-dc-scm:Testpoint_smd_1mm" H 3800 1225 50  0001 C CNN
+F 3 "~" H 3800 1225 50  0001 C CNN
+	1    3600 1225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3225 1225 3600 1225
+$Comp
+L Connector:TestPoint_Small TP_E8
+U 1 1 6218A56E
+P 1400 1525
+F 0 "TP_E8" H 1550 1525 50  0000 L CNN
+F 1 "E8" H 1448 1480 50  0000 L CNN
+F 2 "ecp5-dc-scm:Testpoint_smd_1mm" H 1600 1525 50  0001 C CNN
+F 3 "~" H 1600 1525 50  0001 C CNN
+	1    1400 1525
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1400 1525 1725 1525
+$Comp
+L Connector:TestPoint_Small TP_D8
+U 1 1 621D986C
+P 3500 1525
+F 0 "TP_D8" H 3650 1525 50  0000 L CNN
+F 1 "D8" H 3548 1480 50  0000 L CNN
+F 2 "ecp5-dc-scm:Testpoint_smd_1mm" H 3700 1525 50  0001 C CNN
+F 3 "~" H 3700 1525 50  0001 C CNN
+	1    3500 1525
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3225 1525 3500 1525
 $EndSCHEMATC
