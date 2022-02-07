@@ -4,12 +4,12 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 10 11
-Title "ECP5 - Datacenter Secure Control Module (DC-SCM)"
+Title "DDR3"
 Date ""
 Rev "1.0.3"
 Comp ""
-Comment1 ""
-Comment2 ""
+Comment1 "Reference - ecp5-dc-scm"
+Comment2 "Apache License 2.0"
 Comment3 ""
 Comment4 ""
 $EndDescr
