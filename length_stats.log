@@ -1,48 +1,10 @@
-02-03 15:50:41 length_stats.action_length_stats 304:Plugin executed on: 'linux'
-02-03 15:50:41 length_stats.action_length_stats 305:Plugin executed with python version: '3.7.3 (default, Jan 22 2021, 20:04:44) \n[GCC 8.3.0]'
-02-03 15:50:41 length_stats.action_length_stats 306:KiCad build version: 5.1.9+dfsg1-1~bpo10+1
-02-03 15:50:41 length_stats.action_length_stats 307:Length stats plugin version: 30 started
-02-03 15:50:42 length_stats.action_length_stats 207:Sorting list
-02-03 15:50:42 length_stats.action_length_stats 95:Length stats gui initialized
-02-03 15:50:42 length_stats.action_length_stats 96:Nets for stats are;
+02-04 16:54:24 length_stats.action_length_stats 304:Plugin executed on: 'linux'
+02-04 16:54:24 length_stats.action_length_stats 305:Plugin executed with python version: '3.7.3 (default, Jan 22 2021, 20:04:44) \n[GCC 8.3.0]'
+02-04 16:54:24 length_stats.action_length_stats 306:KiCad build version: 5.1.9+dfsg1-1~bpo10+1
+02-04 16:54:24 length_stats.action_length_stats 307:Length stats plugin version: 30 started
+02-04 16:54:25 length_stats.action_length_stats 207:Sorting list
+02-04 16:54:25 length_stats.action_length_stats 95:Length stats gui initialized
+02-04 16:54:25 length_stats.action_length_stats 96:Nets for stats are;
 ['VCC1V35', 'Net-(R81-Pad1)', 'GND', 'DDR3_WE', 'DDR3_VREF', 'DDR3_RESET', 'DDR3_RAS', 'DDR3_ODT', 'DDR3_DQS1-', 'DDR3_DQS1+', 'DDR3_DQS0-', 'DDR3_DQS0+', 'DDR3_DQ9', 'DDR3_DQ8', 'DDR3_DQ7', 'DDR3_DQ6', 'DDR3_DQ5', 'DDR3_DQ4', 'DDR3_DQ3', 'DDR3_DQ2', 'DDR3_DQ15', 'DDR3_DQ14', 'DDR3_DQ13', 'DDR3_DQ12', 'DDR3_DQ11', 'DDR3_DQ10', 'DDR3_DQ1', 'DDR3_DQ0', 'DDR3_DM1', 'DDR3_DM0', 'DDR3_CS', 'DDR3_CLK-', 'DDR3_CLK+', 'DDR3_CKE', 'DDR3_CAS', 'DDR3_BA2', 'DDR3_BA1', 'DDR3_BA0', 'DDR3_A9', 'DDR3_A8', 'DDR3_A7', 'DDR3_A6', 'DDR3_A5', 'DDR3_A4', 'DDR3_A3', 'DDR3_A2', 'DDR3_A15', 'DDR3_A14', 'DDR3_A13', 'DDR3_A12', 'DDR3_A11', 'DDR3_A10', 'DDR3_A1', 'DDR3_A0']
-02-03 15:50:48 length_stats.action_length_stats 108:Refreshing manually
-02-03 15:50:48 length_stats.action_length_stats 132:Refreshing net lengths
-02-03 15:52:05 length_stats.action_length_stats 108:Refreshing manually
-02-03 15:52:05 length_stats.action_length_stats 132:Refreshing net lengths
-02-03 15:53:07 length_stats.action_length_stats 108:Refreshing manually
-02-03 15:53:07 length_stats.action_length_stats 132:Refreshing net lengths
-02-03 15:53:41 length_stats.action_length_stats 108:Refreshing manually
-02-03 15:53:41 length_stats.action_length_stats 132:Refreshing net lengths
-02-03 15:55:11 length_stats.action_length_stats 108:Refreshing manually
-02-03 15:55:11 length_stats.action_length_stats 132:Refreshing net lengths
-02-03 15:55:30 length_stats.action_length_stats 108:Refreshing manually
-02-03 15:55:30 length_stats.action_length_stats 132:Refreshing net lengths
-02-03 15:56:13 length_stats.action_length_stats 108:Refreshing manually
-02-03 15:56:13 length_stats.action_length_stats 132:Refreshing net lengths
-02-03 15:56:27 length_stats.action_length_stats 108:Refreshing manually
-02-03 15:56:27 length_stats.action_length_stats 132:Refreshing net lengths
-02-03 15:56:36 length_stats.action_length_stats 108:Refreshing manually
-02-03 15:56:36 length_stats.action_length_stats 132:Refreshing net lengths
-02-03 15:56:42 length_stats.action_length_stats 108:Refreshing manually
-02-03 15:56:42 length_stats.action_length_stats 132:Refreshing net lengths
-02-03 15:56:55 length_stats.action_length_stats 108:Refreshing manually
-02-03 15:56:55 length_stats.action_length_stats 132:Refreshing net lengths
-02-03 15:57:42 length_stats.action_length_stats 108:Refreshing manually
-02-03 15:57:42 length_stats.action_length_stats 132:Refreshing net lengths
-02-03 15:58:32 length_stats.action_length_stats 108:Refreshing manually
-02-03 15:58:32 length_stats.action_length_stats 132:Refreshing net lengths
-02-03 15:59:36 length_stats.action_length_stats 108:Refreshing manually
-02-03 15:59:36 length_stats.action_length_stats 132:Refreshing net lengths
-02-03 16:04:50 length_stats.action_length_stats 108:Refreshing manually
-02-03 16:04:50 length_stats.action_length_stats 132:Refreshing net lengths
-02-03 16:06:42 length_stats.action_length_stats 108:Refreshing manually
-02-03 16:06:42 length_stats.action_length_stats 132:Refreshing net lengths
-02-03 16:08:19 length_stats.action_length_stats 108:Refreshing manually
-02-03 16:08:19 length_stats.action_length_stats 132:Refreshing net lengths
-02-03 16:08:56 length_stats.action_length_stats 108:Refreshing manually
-02-03 16:08:56 length_stats.action_length_stats 132:Refreshing net lengths
-02-03 16:10:57 length_stats.action_length_stats 108:Refreshing manually
-02-03 16:10:57 length_stats.action_length_stats 132:Refreshing net lengths
-02-03 16:15:45 STDERR 345:/home/mistery/InteractiveHtmlBom/dialog/settings_dialog.py:30: wxPyDeprecationWarning: Call to deprecated item. Use SetSizeHints instead.
-02-03 16:15:45 STDERR 345:  self.SetSizeHintsSz(sz1, sz2)
+02-04 16:54:29 length_stats.action_length_stats 108:Refreshing manually
+02-04 16:54:29 length_stats.action_length_stats 132:Refreshing net lengths
