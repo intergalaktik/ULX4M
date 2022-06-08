@@ -1066,9 +1066,9 @@ LED0
 Text GLabel 3425 3450 2    60   Input ~ 0
 LED1
 Text GLabel 1925 3950 0    60   Input ~ 0
-USB_FPGA_PULL_D+
+USB_FPGA_D+
 Text GLabel 3425 3950 2    60   Input ~ 0
-USB_FPGA_PULL_D-
+USB_FPGA_D-
 Text GLabel 1825 4750 0    60   Input ~ 0
 CAM1_C_P
 Text GLabel 3500 4750 2    60   Input ~ 0
