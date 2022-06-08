@@ -1,10 +1,36 @@
-02-04 16:54:24 length_stats.action_length_stats 304:Plugin executed on: 'linux'
-02-04 16:54:24 length_stats.action_length_stats 305:Plugin executed with python version: '3.7.3 (default, Jan 22 2021, 20:04:44) \n[GCC 8.3.0]'
-02-04 16:54:24 length_stats.action_length_stats 306:KiCad build version: 5.1.9+dfsg1-1~bpo10+1
-02-04 16:54:24 length_stats.action_length_stats 307:Length stats plugin version: 30 started
-02-04 16:54:25 length_stats.action_length_stats 207:Sorting list
-02-04 16:54:25 length_stats.action_length_stats 95:Length stats gui initialized
-02-04 16:54:25 length_stats.action_length_stats 96:Nets for stats are;
-['VCC1V35', 'Net-(R81-Pad1)', 'GND', 'DDR3_WE', 'DDR3_VREF', 'DDR3_RESET', 'DDR3_RAS', 'DDR3_ODT', 'DDR3_DQS1-', 'DDR3_DQS1+', 'DDR3_DQS0-', 'DDR3_DQS0+', 'DDR3_DQ9', 'DDR3_DQ8', 'DDR3_DQ7', 'DDR3_DQ6', 'DDR3_DQ5', 'DDR3_DQ4', 'DDR3_DQ3', 'DDR3_DQ2', 'DDR3_DQ15', 'DDR3_DQ14', 'DDR3_DQ13', 'DDR3_DQ12', 'DDR3_DQ11', 'DDR3_DQ10', 'DDR3_DQ1', 'DDR3_DQ0', 'DDR3_DM1', 'DDR3_DM0', 'DDR3_CS', 'DDR3_CLK-', 'DDR3_CLK+', 'DDR3_CKE', 'DDR3_CAS', 'DDR3_BA2', 'DDR3_BA1', 'DDR3_BA0', 'DDR3_A9', 'DDR3_A8', 'DDR3_A7', 'DDR3_A6', 'DDR3_A5', 'DDR3_A4', 'DDR3_A3', 'DDR3_A2', 'DDR3_A15', 'DDR3_A14', 'DDR3_A13', 'DDR3_A12', 'DDR3_A11', 'DDR3_A10', 'DDR3_A1', 'DDR3_A0']
-02-04 16:54:29 length_stats.action_length_stats 108:Refreshing manually
-02-04 16:54:29 length_stats.action_length_stats 132:Refreshing net lengths
+06-08 10:43:35 length_stats.action_length_stats 304:Plugin executed on: 'linux'
+06-08 10:43:35 length_stats.action_length_stats 305:Plugin executed with python version: '3.7.3 (default, Jan 22 2021, 20:04:44) \n[GCC 8.3.0]'
+06-08 10:43:35 length_stats.action_length_stats 306:KiCad build version: 5.1.9+dfsg1-1~bpo10+1
+06-08 10:43:35 length_stats.action_length_stats 307:Length stats plugin version: 30 started
+06-08 10:43:36 STDERR 345:/home/mistery/.kicad_plugins/length_stats/action_length_stats.py:55: wxPyDeprecationWarning: Call to deprecated item. Use SetSizeHints instead.
+06-08 10:43:36 STDERR 345:  self.SetSizeHintsSz(sz1, sz2)
+06-08 10:43:36 STDERR 345:/home/mistery/.kicad_plugins/length_stats/action_length_stats.py:76: wxPyDeprecationWarning: Call to deprecated item. Use InsertItem instead.
+06-08 10:43:36 STDERR 345:  index = self.net_list.InsertStringItem(index_net, net)
+06-08 10:43:36 STDERR 345:/home/mistery/.kicad_plugins/length_stats/action_length_stats.py:77: wxPyDeprecationWarning: Call to deprecated item. Use SetItem instead.
+06-08 10:43:36 STDERR 345:  self.net_list.SetStringItem(index, 1, "0.0")
+06-08 10:43:36 length_stats.action_length_stats 207:Sorting list
+06-08 10:43:36 STDERR 345:/home/mistery/.kicad_plugins/length_stats/action_length_stats.py:242: wxPyDeprecationWarning: Call to deprecated item. Use InsertItem instead.
+06-08 10:43:36 STDERR 345:  index = self.net_list.InsertStringItem(index_net, net[0])
+06-08 10:43:36 STDERR 345:/home/mistery/.kicad_plugins/length_stats/action_length_stats.py:243: wxPyDeprecationWarning: Call to deprecated item. Use SetItem instead.
+06-08 10:43:36 STDERR 345:  self.net_list.SetStringItem(index, 1, "%.2f" % net[1])
+06-08 10:43:36 length_stats.action_length_stats 95:Length stats gui initialized
+06-08 10:43:36 length_stats.action_length_stats 96:Nets for stats are;
+['USB_P', 'USB_N', 'US2_ID', 'PCIe_nRST', 'PCIe_TX_P', 'PCIe_TX_N', 'PCIe_RX_P', 'PCIe_RX_N', 'PCIe_CLK_nREQ', 'PCIe_CLK_P', 'PCIe_CLK_N', 'HDMI1_TX2_P', 'HDMI1_TX2_N', 'HDMI1_TX1_P', 'HDMI1_TX1_N', 'HDMI1_TX0_P', 'HDMI1_TX0_N', 'HDMI1_SDA', 'HDMI1_SCL', 'HDMI1_HOTPLUG', 'HDMI1_CLK_P', 'HDMI1_CLK_N', 'HDMI1_CEC', 'HDMI0_TX2_P', 'HDMI0_TX2_N', 'HDMI0_TX1_P', 'HDMI0_TX1_N', 'HDMI0_TX0_P', 'HDMI0_TX0_N', 'HDMI0_SDA', 'HDMI0_SCL', 'HDMI0_HOTPLUG', 'HDMI0_CLK_P', 'HDMI0_CLK_N', 'HDMI0_CEC', 'GND', 'DSI1_D3_P', 'DSI1_D3_N', 'DSI1_D2_P', 'DSI1_D2_N', 'DSI1_D1_P', 'DSI1_D1_N', 'DSI1_D0_P', 'DSI1_D0_N', 'DSI1_C_P', 'DSI1_C_N', 'DSI0_D1_P', 'DSI0_D1_N', 'DSI0_D0_P', 'DSI0_D0_N', 'DSI0_C_P', 'DSI0_C_N', 'CAM1_D1_P', 'CAM1_D1_N', 'CAM1_D0_P', 'CAM1_D0_N', 'CAM1_C_P', 'CAM1_C_N', 'CAM0_D1_P', 'CAM0_D1_N', 'CAM0_D0_P', 'CAM0_D0_N', 'CAM0_C_P', 'CAM0_C_N']
+06-08 10:43:49 length_stats.action_length_stats 108:Refreshing manually
+06-08 10:43:49 length_stats.action_length_stats 132:Refreshing net lengths
+06-08 10:43:49 STDERR 345:/home/mistery/.kicad_plugins/length_stats/action_length_stats.py:148: wxPyDeprecationWarning: Call to deprecated item. Use SetItem instead.
+06-08 10:43:49 STDERR 345:  self.net_list.SetStringItem(index_net, 1, "%.2f" % length)
+06-08 10:47:22 length_stats.action_length_stats 108:Refreshing manually
+06-08 10:47:22 length_stats.action_length_stats 132:Refreshing net lengths
+06-08 10:47:54 length_stats.action_length_stats 108:Refreshing manually
+06-08 10:47:54 length_stats.action_length_stats 132:Refreshing net lengths
+06-08 10:48:13 length_stats.action_length_stats 108:Refreshing manually
+06-08 10:48:13 length_stats.action_length_stats 132:Refreshing net lengths
+06-08 10:48:54 length_stats.action_length_stats 108:Refreshing manually
+06-08 10:48:54 length_stats.action_length_stats 132:Refreshing net lengths
+06-08 10:50:26 length_stats.action_length_stats 108:Refreshing manually
+06-08 10:50:26 length_stats.action_length_stats 132:Refreshing net lengths
+06-08 10:50:37 length_stats.action_length_stats 108:Refreshing manually
+06-08 10:50:37 length_stats.action_length_stats 132:Refreshing net lengths
+06-08 10:52:08 length_stats.action_length_stats 108:Refreshing manually
+06-08 10:52:08 length_stats.action_length_stats 132:Refreshing net lengths
