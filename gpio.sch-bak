@@ -1066,9 +1066,9 @@ LED0
 Text GLabel 3425 3450 2    60   Input ~ 0
 LED1
 Text GLabel 1925 3950 0    60   Input ~ 0
-USB_FPGA_PULL_D+
+USB_FPGA_D+
 Text GLabel 3425 3950 2    60   Input ~ 0
-USB_FPGA_PULL_D-
+USB_FPGA_D-
 Text GLabel 1825 4750 0    60   Input ~ 0
 CAM1_C_P
 Text GLabel 3500 4750 2    60   Input ~ 0
@@ -1101,8 +1101,6 @@ Wire Wire Line
 	1425 3250 1925 3250
 Text GLabel 3425 4450 2    60   Input ~ 0
 GPIO17
-Text GLabel 1925 4450 0    50   Output ~ 0
-RGMII_RX_CLK
 Text GLabel 1925 4550 0    50   Input ~ 0
 RGMII_TX_CLK
 Text GLabel 1725 1825 0    50   BiDi ~ 0

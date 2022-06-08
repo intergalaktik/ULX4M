@@ -613,7 +613,7 @@ Text GLabel 10150 1650 2    50   Input ~ 0
 ETH_MDC
 Text GLabel 10150 1850 2    50   Output ~ 0
 RGMII_RX_DV
-Text GLabel 8650 1350 0    50   Output ~ 0
+Text GLabel 7325 1375 0    50   Output ~ 0
 RGMII_REF_CLK
 Text GLabel 10150 2650 2    50   Output ~ 0
 ETH_INT_N
@@ -666,4 +666,6 @@ Wire Wire Line
 	2625 1875 2625 1800
 Wire Wire Line
 	2625 2225 2625 2075
+Text GLabel 8650 1350 0    50   Output ~ 0
+RGMII_RX_CLK
 $EndSCHEMATC
