@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /media/internal/FPGA/ulx4m/ulx4m.sch)
-    (date "srijeda, 08. lipnja 2022. 12:33:11 CEST")
+    (date "utorak, 21. lipnja 2022. 14:23:37 CEST")
     (tool "Eeschema 5.1.9+dfsg1-1~bpo10+1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -1854,7 +1854,7 @@
       (sheetpath (names /serdes/) (tstamps /58DA7327/))
       (tstamp 651DE45E))
     (comp (ref C79)
-      (value C_4u7_0402)
+      (value 470n)
       (footprint Capacitor_SMD:C_0402_1005Metric)
       (fields
         (field (name MPN) GRM155R61A475MEAAD)
@@ -1864,7 +1864,7 @@
       (sheetpath (names /DDR3/) (tstamps /61E7DB84/))
       (tstamp 5FF7656D))
     (comp (ref C80)
-      (value C_470n_0402)
+      (value 470n)
       (footprint Capacitor_SMD:C_0402_1005Metric)
       (fields
         (field (name MPN) C1005X5R1E474M050BB)
@@ -1874,7 +1874,7 @@
       (sheetpath (names /DDR3/) (tstamps /61E7DB84/))
       (tstamp 602089A9))
     (comp (ref C82)
-      (value C_470n_0402)
+      (value 470n)
       (footprint Capacitor_SMD:C_0402_1005Metric)
       (fields
         (field (name MPN) C1005X5R1E474M050BB)
@@ -1884,7 +1884,7 @@
       (sheetpath (names /DDR3/) (tstamps /61E7DB84/))
       (tstamp 60249CE3))
     (comp (ref C84)
-      (value C_470n_0402)
+      (value 470n)
       (footprint Capacitor_SMD:C_0402_1005Metric)
       (fields
         (field (name MPN) C1005X5R1E474M050BB)
@@ -1894,7 +1894,7 @@
       (sheetpath (names /DDR3/) (tstamps /61E7DB84/))
       (tstamp 6024B512))
     (comp (ref C86)
-      (value C_470n_0402)
+      (value 470n)
       (footprint Capacitor_SMD:C_0402_1005Metric)
       (fields
         (field (name MPN) C1005X5R1E474M050BB)
@@ -1904,7 +1904,7 @@
       (sheetpath (names /DDR3/) (tstamps /61E7DB84/))
       (tstamp 6024B51B))
     (comp (ref C89)
-      (value C_470n_0402)
+      (value 470n)
       (footprint Capacitor_SMD:C_0402_1005Metric)
       (fields
         (field (name MPN) C1005X5R1E474M050BB)
@@ -1914,7 +1914,7 @@
       (sheetpath (names /DDR3/) (tstamps /61E7DB84/))
       (tstamp 602CE8EA))
     (comp (ref C91)
-      (value C_470n_0402)
+      (value 470n)
       (footprint Capacitor_SMD:C_0402_1005Metric)
       (fields
         (field (name MPN) C1005X5R1E474M050BB)
@@ -1924,7 +1924,7 @@
       (sheetpath (names /DDR3/) (tstamps /61E7DB84/))
       (tstamp 602CE8F3))
     (comp (ref C81)
-      (value C_470n_0402)
+      (value 470n)
       (footprint Capacitor_SMD:C_0402_1005Metric)
       (fields
         (field (name MPN) C1005X5R1E474M050BB)
@@ -1934,7 +1934,7 @@
       (sheetpath (names /DDR3/) (tstamps /61E7DB84/))
       (tstamp 6039C7B4))
     (comp (ref C83)
-      (value C_470n_0402)
+      (value 470n)
       (footprint Capacitor_SMD:C_0402_1005Metric)
       (fields
         (field (name MPN) C1005X5R1E474M050BB)
@@ -1944,7 +1944,7 @@
       (sheetpath (names /DDR3/) (tstamps /61E7DB84/))
       (tstamp 6039C7BE))
     (comp (ref C85)
-      (value C_470n_0402)
+      (value 470n)
       (footprint Capacitor_SMD:C_0402_1005Metric)
       (fields
         (field (name MPN) C1005X5R1E474M050BB)
@@ -1954,7 +1954,7 @@
       (sheetpath (names /DDR3/) (tstamps /61E7DB84/))
       (tstamp 6039C7C8))
     (comp (ref C87)
-      (value C_470n_0402)
+      (value 470n)
       (footprint Capacitor_SMD:C_0402_1005Metric)
       (fields
         (field (name MPN) C1005X5R1E474M050BB)
@@ -1964,7 +1964,7 @@
       (sheetpath (names /DDR3/) (tstamps /61E7DB84/))
       (tstamp 6039C7D1))
     (comp (ref C90)
-      (value C_470n_0402)
+      (value 470n)
       (footprint Capacitor_SMD:C_0402_1005Metric)
       (fields
         (field (name MPN) C1005X5R1E474M050BB)
@@ -1974,7 +1974,7 @@
       (sheetpath (names /DDR3/) (tstamps /61E7DB84/))
       (tstamp 6039C7DC))
     (comp (ref C92)
-      (value C_470n_0402)
+      (value 470n)
       (footprint Capacitor_SMD:C_0402_1005Metric)
       (fields
         (field (name MPN) C1005X5R1E474M050BB)
@@ -1984,7 +1984,7 @@
       (sheetpath (names /DDR3/) (tstamps /61E7DB84/))
       (tstamp 6039C7E5))
     (comp (ref C88)
-      (value C_100n_0402)
+      (value 100n)
       (footprint Capacitor_SMD:C_0402_1005Metric)
       (fields
         (field (name MPN) 0402X104K6R3CT)
@@ -1994,7 +1994,7 @@
       (sheetpath (names /DDR3/) (tstamps /61E7DB84/))
       (tstamp 6053AE48))
     (comp (ref C93)
-      (value C_100n_0402)
+      (value 100n)
       (footprint Capacitor_SMD:C_0402_1005Metric)
       (fields
         (field (name MPN) 0402X104K6R3CT)
@@ -2004,7 +2004,7 @@
       (sheetpath (names /DDR3/) (tstamps /61E7DB84/))
       (tstamp 605C067B))
     (comp (ref R81)
-      (value R_240R_0402)
+      (value 240R)
       (footprint Resistor_SMD:R_0402_1005Metric)
       (fields
         (field (name MPN) ERJ2GEJ241X)
@@ -2041,7 +2041,7 @@
       (sheetpath (names /DDR3/) (tstamps /61E7DB84/))
       (tstamp 60901E0D))
     (comp (ref C197)
-      (value C_10u_0402)
+      (value 10u)
       (fields
         (field (name MPN) GRM155R60J106ME44D)
         (field (name Manufacturer) MURATA)
@@ -2050,7 +2050,7 @@
       (sheetpath (names /DDR3/) (tstamps /61E7DB84/))
       (tstamp 609F6659))
     (comp (ref R78)
-      (value R_10k_0402)
+      (value 10K)
       (fields
         (field (name MPN) CRCW040210K0FKEDHP)
         (field (name Manufacturer) VISHAY)
@@ -2059,7 +2059,7 @@
       (sheetpath (names /DDR3/) (tstamps /61E7DB84/))
       (tstamp 609FEB6C))
     (comp (ref C198)
-      (value C_10u_0402)
+      (value 10u)
       (fields
         (field (name MPN) GRM155R60J106ME44D)
         (field (name Manufacturer) MURATA)
@@ -2068,7 +2068,7 @@
       (sheetpath (names /DDR3/) (tstamps /61E7DB84/))
       (tstamp 60AA5580))
     (comp (ref C199)
-      (value C_10u_0402)
+      (value 10u)
       (fields
         (field (name MPN) GRM155R60J106ME44D)
         (field (name Manufacturer) MURATA)
@@ -2077,7 +2077,7 @@
       (sheetpath (names /DDR3/) (tstamps /61E7DB84/))
       (tstamp 60AA58C9))
     (comp (ref C202)
-      (value C_100n_0402)
+      (value 100n)
       (fields
         (field (name MPN) 0402X104K6R3CT)
         (field (name Manufacturer) Walsin)
@@ -2086,7 +2086,7 @@
       (sheetpath (names /DDR3/) (tstamps /61E7DB84/))
       (tstamp 60AEFC4F))
     (comp (ref R79)
-      (value R_10k_0402)
+      (value 10K)
       (fields
         (field (name MPN) CRCW040210K0FKEDHP)
         (field (name Manufacturer) VISHAY)
@@ -2095,7 +2095,7 @@
       (sheetpath (names /DDR3/) (tstamps /61E7DB84/))
       (tstamp 614307C1))
     (comp (ref R80)
-      (value R_10k_0402)
+      (value 10K)
       (fields
         (field (name MPN) CRCW040210K0FKEDHP)
         (field (name Manufacturer) VISHAY)
@@ -2104,7 +2104,7 @@
       (sheetpath (names /DDR3/) (tstamps /61E7DB84/))
       (tstamp 617AC3E8))
     (comp (ref C78)
-      (value C_10u_0402)
+      (value 10u)
       (footprint Capacitor_SMD:C_0402_1005Metric)
       (fields
         (field (name MPN) GRM155R60J106ME44D)
@@ -2114,7 +2114,7 @@
       (sheetpath (names /DDR3/) (tstamps /61E7DB84/))
       (tstamp 619622A2))
     (comp (ref C240)
-      (value C_100n_0402)
+      (value 100n)
       (fields
         (field (name MPN) 0402X104K6R3CT)
         (field (name Manufacturer) Walsin)
@@ -2123,7 +2123,7 @@
       (sheetpath (names /DDR3/) (tstamps /61E7DB84/))
       (tstamp 628665BB))
     (comp (ref C200)
-      (value C_100n_0402)
+      (value 100n)
       (fields
         (field (name MPN) 0402X104K6R3CT)
         (field (name Manufacturer) Walsin)
@@ -2132,7 +2132,7 @@
       (sheetpath (names /DDR3/) (tstamps /61E7DB84/))
       (tstamp 62867A2A))
     (comp (ref C201)
-      (value C_100n_0402)
+      (value 100n)
       (fields
         (field (name MPN) 0402X104K6R3CT)
         (field (name Manufacturer) Walsin)
@@ -2141,7 +2141,7 @@
       (sheetpath (names /DDR3/) (tstamps /61E7DB84/))
       (tstamp 62867ED9))
     (comp (ref C94)
-      (value C_100n_0402)
+      (value 100n)
       (footprint Capacitor_SMD:C_0402_1005Metric)
       (fields
         (field (name MPN) 0402X104K6R3CT)
@@ -2162,7 +2162,7 @@
       (sheetpath (names /DDR3/) (tstamps /61E7DB84/))
       (tstamp 63F37552))
     (comp (ref R82)
-      (value R_51R_0402)
+      (value 51R)
       (footprint Resistor_SMD:R_0402_1005Metric)
       (fields
         (field (name MPN) RC0402FR-0751RL)
@@ -2172,7 +2172,7 @@
       (sheetpath (names /DDR3/) (tstamps /61E7DB84/))
       (tstamp 5FDB1089))
     (comp (ref R83)
-      (value R_51R_0402)
+      (value 51R)
       (footprint Resistor_SMD:R_0402_1005Metric)
       (fields
         (field (name MPN) RC0402FR-0751RL)
@@ -2182,7 +2182,7 @@
       (sheetpath (names /DDR3/) (tstamps /61E7DB84/))
       (tstamp 5FDB1711))
     (comp (ref C196)
-      (value C_1n_0402)
+      (value 1n)
       (fields
         (field (name MPN) CC0402KRX7R9BB102)
         (field (name Manufacturer) YAGEO)
@@ -2191,7 +2191,7 @@
       (sheetpath (names /DDR3/) (tstamps /61E7DB84/))
       (tstamp 6FB36477))
     (comp (ref R69)
-      (value R_10k_0402)
+      (value 1K)
       (footprint Resistor_SMD:R_0402_1005Metric)
       (fields
         (field (name MPN) CRCW040210K0FKEDHP)
@@ -2201,7 +2201,7 @@
       (sheetpath (names /DDR3/) (tstamps /61E7DB84/))
       (tstamp 6443B8E5))
     (comp (ref R68)
-      (value R_10k_0402)
+      (value 1K)
       (footprint Resistor_SMD:R_0402_1005Metric)
       (fields
         (field (name MPN) CRCW040210K0FKEDHP)
@@ -2211,7 +2211,7 @@
       (sheetpath (names /DDR3/) (tstamps /61E7DB84/))
       (tstamp 6443A58A))
     (comp (ref R66)
-      (value R_1k_0402)
+      (value 1k)
       (footprint Resistor_SMD:R_0402_1005Metric)
       (fields
         (field (name MPN) CR0402-FX-1001GLF)
@@ -2221,7 +2221,7 @@
       (sheetpath (names /ethernet/) (tstamps /633E0B89/))
       (tstamp 6065D128))
     (comp (ref C117)
-      (value C_4u7_0402)
+      (value 4u7)
       (footprint Capacitor_SMD:C_0402_1005Metric)
       (fields
         (field (name MPN) GRM155R61A475MEAAD)
@@ -2231,7 +2231,7 @@
       (sheetpath (names /ethernet/) (tstamps /633E0B89/))
       (tstamp 6068A781))
     (comp (ref C118)
-      (value C_470n_0402)
+      (value 470n)
       (footprint Capacitor_SMD:C_0402_1005Metric)
       (fields
         (field (name MPN) C1005X5R1E474M050BB)
@@ -2241,7 +2241,7 @@
       (sheetpath (names /ethernet/) (tstamps /633E0B89/))
       (tstamp 6068A78A))
     (comp (ref C119)
-      (value C_10n_0402)
+      (value 10n)
       (footprint Capacitor_SMD:C_0402_1005Metric)
       (fields
         (field (name MPN) 04025G103ZAT2A)
@@ -2251,7 +2251,7 @@
       (sheetpath (names /ethernet/) (tstamps /633E0B89/))
       (tstamp 6068A793))
     (comp (ref C121)
-      (value C_10n_0402)
+      (value 10n)
       (footprint Capacitor_SMD:C_0402_1005Metric)
       (fields
         (field (name MPN) 04025G103ZAT2A)
@@ -2261,7 +2261,7 @@
       (sheetpath (names /ethernet/) (tstamps /633E0B89/))
       (tstamp 6077D3DE))
     (comp (ref R67)
-      (value R_1k_0402)
+      (value 1k)
       (footprint Resistor_SMD:R_0402_1005Metric)
       (fields
         (field (name MPN) CR0402-FX-1001GLF)
@@ -2271,7 +2271,7 @@
       (sheetpath (names /ethernet/) (tstamps /633E0B89/))
       (tstamp 6065E29D))
     (comp (ref C123)
-      (value C_10n_0402)
+      (value 10n)
       (footprint Capacitor_SMD:C_0402_1005Metric)
       (fields
         (field (name MPN) 04025G103ZAT2A)
@@ -2281,7 +2281,7 @@
       (sheetpath (names /ethernet/) (tstamps /633E0B89/))
       (tstamp 6077F73A))
     (comp (ref C120)
-      (value C_4u7_0402)
+      (value 4u7)
       (footprint Capacitor_SMD:C_0402_1005Metric)
       (fields
         (field (name MPN) GRM155R61A475MEAAD)
@@ -2291,7 +2291,7 @@
       (sheetpath (names /ethernet/) (tstamps /633E0B89/))
       (tstamp 6077D7EB))
     (comp (ref C122)
-      (value C_100n_0402)
+      (value 100n)
       (footprint Capacitor_SMD:C_0402_1005Metric)
       (fields
         (field (name MPN) 0402X104K6R3CT)
@@ -2301,7 +2301,7 @@
       (sheetpath (names /ethernet/) (tstamps /633E0B89/))
       (tstamp 6068A79C))
     (comp (ref R53)
-      (value R_10k2_0402)
+      (value 10k2)
       (fields
         (field (name MPN) MCWR04X1022FTL)
         (field (name Manufacturer) "MULTICOMP PRO")
@@ -2310,7 +2310,7 @@
       (sheetpath (names /ethernet/) (tstamps /633E0B89/))
       (tstamp 60915E67))
     (comp (ref R54)
-      (value R_10k2_0402)
+      (value 10k2)
       (fields
         (field (name MPN) MCWR04X1022FTL)
         (field (name Manufacturer) "MULTICOMP PRO")
@@ -2319,7 +2319,7 @@
       (sheetpath (names /ethernet/) (tstamps /633E0B89/))
       (tstamp 60925ED7))
     (comp (ref R55)
-      (value R_10k2_0402)
+      (value 10k2)
       (fields
         (field (name MPN) MCWR04X1022FTL)
         (field (name Manufacturer) "MULTICOMP PRO")
@@ -2328,7 +2328,7 @@
       (sheetpath (names /ethernet/) (tstamps /633E0B89/))
       (tstamp 6092608C))
     (comp (ref R56)
-      (value R_10k2_0402)
+      (value 10k2)
       (fields
         (field (name MPN) MCWR04X1022FTL)
         (field (name Manufacturer) "MULTICOMP PRO")
@@ -2337,7 +2337,7 @@
       (sheetpath (names /ethernet/) (tstamps /633E0B89/))
       (tstamp 609262AD))
     (comp (ref R60)
-      (value R_10k2_0402)
+      (value 10k2)
       (fields
         (field (name MPN) MCWR04X1022FTL)
         (field (name Manufacturer) "MULTICOMP PRO")
@@ -2346,7 +2346,7 @@
       (sheetpath (names /ethernet/) (tstamps /633E0B89/))
       (tstamp 609328A9))
     (comp (ref R57)
-      (value R_10k2_0402)
+      (value 10k2)
       (fields
         (field (name MPN) MCWR04X1022FTL)
         (field (name Manufacturer) "MULTICOMP PRO")
@@ -2355,7 +2355,7 @@
       (sheetpath (names /ethernet/) (tstamps /633E0B89/))
       (tstamp 60932897))
     (comp (ref R62)
-      (value R_10k2_0402)
+      (value 10k2)
       (fields
         (field (name MPN) MCWR04X1022FTL)
         (field (name Manufacturer) "MULTICOMP PRO")
@@ -2364,7 +2364,7 @@
       (sheetpath (names /ethernet/) (tstamps /633E0B89/))
       (tstamp 60AFC097))
     (comp (ref R64)
-      (value R_10k2_0402)
+      (value 10k2)
       (fields
         (field (name MPN) MCWR04X1022FTL)
         (field (name Manufacturer) "MULTICOMP PRO")
@@ -2373,7 +2373,7 @@
       (sheetpath (names /ethernet/) (tstamps /633E0B89/))
       (tstamp 60AFC0C5))
     (comp (ref R63)
-      (value R_10k2_0402)
+      (value 10k2)
       (fields
         (field (name MPN) MCWR04X1022FTL)
         (field (name Manufacturer) "MULTICOMP PRO")
@@ -2382,7 +2382,7 @@
       (sheetpath (names /ethernet/) (tstamps /633E0B89/))
       (tstamp 60AFC0CE))
     (comp (ref C111)
-      (value C_10n_0402)
+      (value 10n)
       (footprint Capacitor_SMD:C_0402_1005Metric)
       (fields
         (field (name MPN) 04025G103ZAT2A)
@@ -2392,7 +2392,7 @@
       (sheetpath (names /ethernet/) (tstamps /633E0B89/))
       (tstamp 60C2C94C))
     (comp (ref C114)
-      (value C_10n_0402)
+      (value 10n)
       (footprint Capacitor_SMD:C_0402_1005Metric)
       (fields
         (field (name MPN) 04025G103ZAT2A)
@@ -2402,7 +2402,7 @@
       (sheetpath (names /ethernet/) (tstamps /633E0B89/))
       (tstamp 60C2C955))
     (comp (ref C106)
-      (value C_10n_0402)
+      (value 10n)
       (footprint Capacitor_SMD:C_0402_1005Metric)
       (fields
         (field (name MPN) 04025G103ZAT2A)
@@ -2412,7 +2412,7 @@
       (sheetpath (names /ethernet/) (tstamps /633E0B89/))
       (tstamp 60C36B29))
     (comp (ref C108)
-      (value C_10n_0402)
+      (value 10n)
       (footprint Capacitor_SMD:C_0402_1005Metric)
       (fields
         (field (name MPN) 04025G103ZAT2A)
@@ -2422,7 +2422,7 @@
       (sheetpath (names /ethernet/) (tstamps /633E0B89/))
       (tstamp 60C36B32))
     (comp (ref C112)
-      (value C_10n_0402)
+      (value 10n)
       (footprint Capacitor_SMD:C_0402_1005Metric)
       (fields
         (field (name MPN) 04025G103ZAT2A)
@@ -2432,7 +2432,7 @@
       (sheetpath (names /ethernet/) (tstamps /633E0B89/))
       (tstamp 60C407FC))
     (comp (ref C104)
-      (value C_10n_0402)
+      (value 10n)
       (footprint Capacitor_SMD:C_0402_1005Metric)
       (fields
         (field (name MPN) 04025G103ZAT2A)
@@ -2442,7 +2442,7 @@
       (sheetpath (names /ethernet/) (tstamps /633E0B89/))
       (tstamp 60C40805))
     (comp (ref C99)
-      (value C_4u7_0402)
+      (value 4u7)
       (footprint Capacitor_SMD:C_0402_1005Metric)
       (fields
         (field (name MPN) GRM155R61A475MEAAD)
@@ -2452,7 +2452,7 @@
       (sheetpath (names /ethernet/) (tstamps /633E0B89/))
       (tstamp 60C4C4DF))
     (comp (ref C100)
-      (value C_470n_0402)
+      (value 470n)
       (footprint Capacitor_SMD:C_0402_1005Metric)
       (fields
         (field (name MPN) C1005X5R1E474M050BB)
@@ -2462,7 +2462,7 @@
       (sheetpath (names /ethernet/) (tstamps /633E0B89/))
       (tstamp 60C4C4E8))
     (comp (ref C102)
-      (value C_470n_0402)
+      (value 470n)
       (footprint Capacitor_SMD:C_0402_1005Metric)
       (fields
         (field (name MPN) C1005X5R1E474M050BB)
@@ -2472,7 +2472,7 @@
       (sheetpath (names /ethernet/) (tstamps /633E0B89/))
       (tstamp 60C56DA4))
     (comp (ref C103)
-      (value C_470n_0402)
+      (value 470n)
       (footprint Capacitor_SMD:C_0402_1005Metric)
       (fields
         (field (name MPN) C1005X5R1E474M050BB)
@@ -2482,7 +2482,7 @@
       (sheetpath (names /ethernet/) (tstamps /633E0B89/))
       (tstamp 60C60639))
     (comp (ref C115)
-      (value C_10n_0402)
+      (value 10n)
       (footprint Capacitor_SMD:C_0402_1005Metric)
       (fields
         (field (name MPN) 04025G103ZAT2A)
@@ -2492,7 +2492,7 @@
       (sheetpath (names /ethernet/) (tstamps /633E0B89/))
       (tstamp 60C7D4A5))
     (comp (ref C109)
-      (value C_4u7_0402)
+      (value 4u7)
       (footprint Capacitor_SMD:C_0402_1005Metric)
       (fields
         (field (name MPN) GRM155R61A475MEAAD)
@@ -2502,7 +2502,7 @@
       (sheetpath (names /ethernet/) (tstamps /633E0B89/))
       (tstamp 60C7DA04))
     (comp (ref C105)
-      (value C_4u7_0402)
+      (value 4u7)
       (footprint Capacitor_SMD:C_0402_1005Metric)
       (fields
         (field (name MPN) GRM155R61A475MEAAD)
@@ -2512,7 +2512,7 @@
       (sheetpath (names /ethernet/) (tstamps /633E0B89/))
       (tstamp 60C821AD))
     (comp (ref C107)
-      (value C_470n_0402)
+      (value 470n)
       (footprint Capacitor_SMD:C_0402_1005Metric)
       (fields
         (field (name MPN) C1005X5R1E474M050BB)
@@ -2522,7 +2522,7 @@
       (sheetpath (names /ethernet/) (tstamps /633E0B89/))
       (tstamp 60C821B6))
     (comp (ref C113)
-      (value C_10n_0402)
+      (value 10n)
       (footprint Capacitor_SMD:C_0402_1005Metric)
       (fields
         (field (name MPN) 04025G103ZAT2A)
@@ -2532,7 +2532,7 @@
       (sheetpath (names /ethernet/) (tstamps /633E0B89/))
       (tstamp 60C8DDF2))
     (comp (ref C116)
-      (value C_10n_0402)
+      (value 10n)
       (footprint Capacitor_SMD:C_0402_1005Metric)
       (fields
         (field (name MPN) 04025G103ZAT2A)
@@ -2542,7 +2542,7 @@
       (sheetpath (names /ethernet/) (tstamps /633E0B89/))
       (tstamp 60C8DDFB))
     (comp (ref C110)
-      (value C_10n_0402)
+      (value 10n)
       (footprint Capacitor_SMD:C_0402_1005Metric)
       (fields
         (field (name MPN) 04025G103ZAT2A)
@@ -2592,7 +2592,7 @@
       (sheetpath (names /ethernet/) (tstamps /633E0B89/))
       (tstamp 61EAD8B2))
     (comp (ref R65)
-      (value R_12k1_0402)
+      (value 12k1)
       (footprint Resistor_SMD:R_0402_1005Metric)
       (fields
         (field (name MPN) MCWR04X1212FTL)
@@ -2602,7 +2602,7 @@
       (sheetpath (names /ethernet/) (tstamps /633E0B89/))
       (tstamp 61EC0E28))
     (comp (ref C101)
-      (value C_100n_0402)
+      (value 100n)
       (footprint Capacitor_SMD:C_0402_1005Metric)
       (fields
         (field (name MPN) 0402X104K6R3CT)
@@ -2612,7 +2612,7 @@
       (sheetpath (names /ethernet/) (tstamps /633E0B89/))
       (tstamp 60F539B7))
     (comp (ref R58)
-      (value R_4k7_0402)
+      (value 4k7)
       (footprint Resistor_SMD:R_0402_1005Metric)
       (fields
         (field (name MPN) ERJ2GEJ472X)
@@ -2622,7 +2622,7 @@
       (sheetpath (names /ethernet/) (tstamps /633E0B89/))
       (tstamp 61194AB7))
     (comp (ref R59)
-      (value R_10k2_0402)
+      (value 10k2)
       (fields
         (field (name MPN) MCWR04X1022FTL)
         (field (name Manufacturer) "MULTICOMP PRO")
@@ -2631,7 +2631,7 @@
       (sheetpath (names /ethernet/) (tstamps /633E0B89/))
       (tstamp 609328A0))
     (comp (ref R61)
-      (value R_2k2_0402)
+      (value 2k2)
       (fields
         (field (name MPN) RC0402FR-072K2L)
         (field (name Manufacturer) YAGEO)
@@ -2647,7 +2647,7 @@
       (sheetpath (names /ethernet/) (tstamps /633E0B89/))
       (tstamp 6074CE5C))
     (comp (ref C124)
-      (value C_10n_0402)
+      (value 10n)
       (footprint Capacitor_SMD:C_0402_1005Metric)
       (fields
         (field (name MPN) 04025G103ZAT2A)
@@ -2657,7 +2657,7 @@
       (sheetpath (names /ethernet/) (tstamps /633E0B89/))
       (tstamp 60751BFC))
     (comp (ref R71)
-      (value R_4k7_0402)
+      (value 4k7)
       (footprint Resistor_SMD:R_0402_1005Metric)
       (fields
         (field (name MPN) ERJ2GEJ472X)
