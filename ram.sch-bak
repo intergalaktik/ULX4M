@@ -255,108 +255,82 @@ F 3 "~" H 10925 4500 50  0001 C CNN
 	1    10925 4500
 	-1   0    0    1   
 $EndComp
-Text GLabel 8100 5100 2    50   Input ~ 0
-DDR3_A1
-Text GLabel 8100 2400 2    50   Input ~ 0
-DDR3_A2
-Text GLabel 6600 2900 0    50   Input ~ 0
-DDR3_A3
-Text GLabel 8100 2700 2    50   Input ~ 0
-DDR3_A4
-Text GLabel 8100 3900 2    50   Input ~ 0
-DDR3_A6
-Text GLabel 8100 3800 2    50   Input ~ 0
-DDR3_A7
-Text GLabel 6600 3100 0    50   Input ~ 0
-DDR3_A8
-Text GLabel 6600 4000 0    50   Input ~ 0
-DDR3_A9
-Text GLabel 6600 2500 0    50   Input ~ 0
-DDR3_A10
-Text GLabel 8100 2500 2    50   Input ~ 0
-DDR3_A11
-Text GLabel 8100 4800 2    50   Input ~ 0
-DDR3_A12
-Text GLabel 8100 4500 2    50   Input ~ 0
-DDR3_A14
-Text GLabel 6600 4400 0    50   Input ~ 0
-DDR3_BA0
-Text GLabel 6600 2700 0    50   Input ~ 0
-DDR3_BA1
-Text GLabel 6600 4300 0    50   Input ~ 0
-DDR3_BA2
-Text GLabel 6600 5300 0    50   Input ~ 0
-DDR3_CLK+
-Text GLabel 8100 5300 2    50   Input ~ 0
-DDR3_CLK-
-Text GLabel 6600 4500 0    50   Input ~ 0
-DDR3_CKE
-Text GLabel 8100 4000 2    50   Input ~ 0
-DDR3_RESET
-Text GLabel 6600 2600 0    50   Input ~ 0
-DDR3_CS
-Text GLabel 6600 2100 0    50   Input ~ 0
-DDR3_CAS
-Text GLabel 8100 4300 2    50   Input ~ 0
-DDR3_RAS
-Text GLabel 8100 2600 2    50   Input ~ 0
-DDR3_WE
-Text GLabel 6600 4100 0    50   Input ~ 0
-DDR3_ODT
-Text GLabel 8100 4600 2    50   BiDi ~ 0
-DDR3_DQ0
-Text GLabel 6600 5200 0    50   BiDi ~ 0
-DDR3_DQ1
-Text GLabel 6600 4600 0    50   BiDi ~ 0
-DDR3_DQ2
-Text GLabel 6600 5100 0    50   BiDi ~ 0
-DDR3_DQ3
-Text GLabel 8100 5000 2    50   BiDi ~ 0
-DDR3_DQ4
-Text GLabel 8100 5200 2    50   BiDi ~ 0
-DDR3_DQ5
-Text GLabel 6600 4800 0    50   BiDi ~ 0
-DDR3_DQ6
-Text GLabel 6600 4700 0    50   BiDi ~ 0
-DDR3_DQ7
-Text GLabel 8100 2200 2    50   BiDi ~ 0
-DDR3_DQ10
-Text GLabel 6600 2200 0    50   BiDi ~ 0
-DDR3_DQ11
-Text GLabel 6600 1900 0    50   BiDi ~ 0
-DDR3_DQ12
-Text GLabel 8100 2300 2    50   BiDi ~ 0
-DDR3_DQ14
-Text GLabel 8100 2100 2    50   BiDi ~ 0
-DDR3_DQ15
-Text GLabel 6600 3800 0    50   BiDi ~ 0
-DDR3_DM1
-Text GLabel 6600 4900 0    50   BiDi ~ 0
-DDR3_DQS0+
-Text GLabel 8100 4900 2    50   BiDi ~ 0
-DDR3_DQS0-
-Text GLabel 8100 4400 2    50   Input ~ 0
-DDR3_A15
-Text GLabel 6600 4200 0    50   Input ~ 0
-DDR3_A5
-Text GLabel 8100 4200 2    50   Input ~ 0
-DDR3_A13
-Text GLabel 6600 2400 0    50   BiDi ~ 0
-DDR3_DQ9
-Text GLabel 8100 1800 2    50   BiDi ~ 0
-DDR3_DQ13
-Text GLabel 8100 3100 2    50   BiDi ~ 0
-DDR3_DM0
-Text GLabel 6600 2300 0    50   Input ~ 0
-DDR3_VREF
-Text GLabel 8100 4700 2    50   Input ~ 0
-DDR3_VREF
-Text GLabel 6600 1800 0    50   BiDi ~ 0
-DDR3_DQ8
-Text GLabel 8100 2900 2    50   Input ~ 0
-DDR3_A0
-Text GLabel 6600 2000 0    50   BiDi ~ 0
-DDR3_DQS1+
-Text GLabel 8100 2000 2    50   BiDi ~ 0
-DDR3_DQS1-
+Text GLabel 8100 4800 2    60   Input ~ 0
+SDRAM_A12
+Text GLabel 6600 2600 0    60   Input ~ 0
+SDRAM_nCS
+Text GLabel 8100 2600 2    60   Input ~ 0
+SDRAM_nWE
+Text GLabel 6600 2100 0    60   Input ~ 0
+SDRAM_nCAS
+Text GLabel 8100 4300 2    60   Input ~ 0
+SDRAM_nRAS
+Text GLabel 6600 4500 0    60   Input ~ 0
+SDRAM_CKE
+Text GLabel 6600 5300 0    60   Input ~ 0
+SDRAM_CLK
+Text GLabel 6600 2700 0    60   Input ~ 0
+SDRAM_BA1
+Text GLabel 6600 4400 0    60   Input ~ 0
+SDRAM_BA0
+Text GLabel 8100 2500 2    60   Input ~ 0
+SDRAM_A11
+Text GLabel 6600 2500 0    60   Input ~ 0
+SDRAM_A10
+Text GLabel 6600 4000 0    60   Input ~ 0
+SDRAM_A9
+Text GLabel 6600 3100 0    60   Input ~ 0
+SDRAM_A8
+Text GLabel 8100 3800 2    60   Input ~ 0
+SDRAM_A7
+Text GLabel 8100 3900 2    60   Input ~ 0
+SDRAM_A6
+Text GLabel 6600 4200 0    60   Input ~ 0
+SDRAM_A5
+Text GLabel 8100 2700 2    60   Input ~ 0
+SDRAM_A4
+Text GLabel 6600 2900 0    60   Input ~ 0
+SDRAM_A3
+Text GLabel 8100 2400 2    60   Input ~ 0
+SDRAM_A2
+Text GLabel 8100 5100 2    60   Input ~ 0
+SDRAM_A1
+Text GLabel 8100 2900 2    60   Input ~ 0
+SDRAM_A0
+Text GLabel 6600 3800 0    60   Input ~ 0
+SDRAM_DQM1
+Text GLabel 8100 4600 2    60   Input ~ 0
+SDRAM_DQM0
+Text GLabel 8100 2100 2    60   Input ~ 0
+SDRAM_D15
+Text GLabel 8100 2300 2    60   Input ~ 0
+SDRAM_D14
+Text GLabel 8100 1800 2    60   Input ~ 0
+SDRAM_D13
+Text GLabel 6600 1900 0    60   Input ~ 0
+SDRAM_D12
+Text GLabel 6600 2200 0    60   Input ~ 0
+SDRAM_D11
+Text GLabel 8100 2200 2    60   Input ~ 0
+SDRAM_D10
+Text GLabel 6600 2400 0    60   Input ~ 0
+SDRAM_D9
+Text GLabel 6600 1800 0    60   Input ~ 0
+SDRAM_D8
+Text GLabel 6600 4700 0    60   Input ~ 0
+SDRAM_D7
+Text GLabel 6600 4800 0    60   Input ~ 0
+SDRAM_D6
+Text GLabel 8100 5200 2    60   Input ~ 0
+SDRAM_D5
+Text GLabel 8100 5000 2    60   Input ~ 0
+SDRAM_D4
+Text GLabel 6600 5100 0    60   Input ~ 0
+SDRAM_D3
+Text GLabel 6600 4600 0    60   Input ~ 0
+SDRAM_D2
+Text GLabel 6600 5200 0    60   Input ~ 0
+SDRAM_D1
+Text GLabel 8100 3100 2    60   Input ~ 0
+SDRAM_D0
 $EndSCHEMATC
