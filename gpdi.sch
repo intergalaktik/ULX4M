@@ -891,20 +891,12 @@ Wire Wire Line
 	3725 4650 3725 4725
 Wire Wire Line
 	3600 4650 3600 4725
-Text GLabel 4350 2400 2    60   Input ~ 0
-SD_D1
 Text GLabel 4350 2800 2    60   Input ~ 0
 SD_PWR_ON
 Text GLabel 2400 5450 0    60   Input ~ 0
 nEXTRST
-Text GLabel 2850 3400 0    60   Input ~ 0
-SCL0
-Text GLabel 4350 3400 2    60   Input ~ 0
-SDA0
 Text GLabel 4350 3000 2    60   Input ~ 0
 SD_D2
-Text GLabel 2850 2400 0    60   Input ~ 0
-Camera_GPIO
 Text GLabel 2850 2900 0    60   Input ~ 0
 SD_D0
 Text GLabel 4350 3300 2    60   Input ~ 0
