@@ -341,4 +341,10 @@ Text GLabel 8100 3800 2    60   Input ~ 0
 SDA0
 Text GLabel 6600 4000 0    60   Input ~ 0
 Camera_GPIO
+Text GLabel 8100 4200 2    60   Input ~ 0
+nEXTRST
+Text GLabel 6600 3900 0    60   Input ~ 0
+GLOBAL_EN
+Text GLabel 6600 3800 0    60   Input ~ 0
+RUN_PG
 $EndSCHEMATC
