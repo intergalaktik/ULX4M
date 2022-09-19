@@ -423,20 +423,10 @@ Text GLabel 10150 2150 2    60   Input ~ 0
 GPIO25
 Text GLabel 10150 2250 2    60   Input ~ 0
 GPIO18
-Text GLabel 10475 800  2    60   Input ~ 0
-GPIO15
 Text GLabel 8650 2150 0    60   Input ~ 0
 GPIO23
 Text GLabel 8650 2450 0    60   Input ~ 0
 GPIO24
-Text GLabel 10475 700  2    60   Input ~ 0
-GPIO14
-Text GLabel 10475 600  2    60   Input ~ 0
-GPIO4
-Text GLabel 10475 900  2    60   Input ~ 0
-GPIO3
-Text GLabel 10475 1000 2    60   Input ~ 0
-GPIO2
 Text GLabel 1375 2025 2    60   Input ~ 0
 USB_N
 Text GLabel 1375 2125 2    60   Input ~ 0

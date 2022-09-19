@@ -927,7 +927,7 @@ F 3 "" H 4950 5175 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	4950 5175 4950 4975
-Text Notes 4825 5550 1    60   ~ 0
+Text Notes 4825 6400 1    60   ~ 0
 CM4 needs to provide 3.3V to CM4 IO board
 Text GLabel 5475 2675 2    60   Input ~ 0
 SRX11P
@@ -953,44 +953,32 @@ Wire Wire Line
 	5300 2975 5475 2975
 Wire Wire Line
 	5475 3075 5300 3075
-Text GLabel 5325 3650 0    60   Input ~ 0
+Text GLabel 5100 3650 0    60   Input ~ 0
 GPIO15
-Text GLabel 5375 3650 2    60   Input ~ 0
+Text GLabel 5575 3650 2    60   Input ~ 0
 SD_CLK
-Wire Wire Line
-	5325 3650 5375 3650
-Text GLabel 5300 3750 0    60   Input ~ 0
+Text GLabel 5075 3750 0    60   Input ~ 0
 GPIO14
-Text GLabel 5375 3750 2    60   Input ~ 0
+Text GLabel 5575 3750 2    60   Input ~ 0
 SD_DAT3
-Wire Wire Line
-	5300 3750 5375 3750
-Text GLabel 5375 3850 2    60   Input ~ 0
+Text GLabel 5575 3850 2    60   Input ~ 0
 SD_DAT0
 Text GLabel 6600 4300 0    60   Input ~ 0
 SD_DAT1
-Text GLabel 5375 3950 2    60   Input ~ 0
+Text GLabel 5575 3950 2    60   Input ~ 0
 SD_DAT1
-Text GLabel 5375 4050 2    60   Input ~ 0
+Text GLabel 5575 4050 2    60   Input ~ 0
 SD_DAT2
-Text GLabel 5375 4150 2    60   Input ~ 0
+Text GLabel 5575 4150 2    60   Input ~ 0
 SD_CMD
-Text GLabel 5300 3850 0    60   Input ~ 0
+Text GLabel 5075 3850 0    60   Input ~ 0
 GPIO4
-Text GLabel 5300 3950 0    60   Input ~ 0
+Text GLabel 5075 3950 0    60   Input ~ 0
 GPIO3
-Text GLabel 5300 4050 0    60   Input ~ 0
+Text GLabel 5075 4050 0    60   Input ~ 0
 GPIO2
-Wire Wire Line
-	5300 3850 5375 3850
-Wire Wire Line
-	5375 3950 5300 3950
-Wire Wire Line
-	5300 4050 5375 4050
-Text GLabel 5300 4150 0    60   Input ~ 0
+Text GLabel 5075 4150 0    60   Input ~ 0
 GPIO27
-Wire Wire Line
-	5300 4150 5375 4150
 Text GLabel 2200 5350 0    60   Input ~ 0
 ETH_nLED3
 Text GLabel 2200 5800 0    60   Input ~ 0
@@ -1146,4 +1134,94 @@ F 3 "~" H 3700 1525 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3225 1525 3500 1525
+$Comp
+L Device:R_Small R68
+U 1 1 633966D4
+P 5300 3650
+F 0 "R68" V 5250 3800 50  0000 C CNN
+F 1 "0R" V 5300 3650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0201_0603Metric" H 5300 3650 50  0001 C CNN
+F 3 "~" H 5300 3650 50  0001 C CNN
+	1    5300 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R69
+U 1 1 63427B80
+P 5300 3750
+F 0 "R69" V 5250 3900 50  0000 C CNN
+F 1 "0R" V 5300 3750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0201_0603Metric" H 5300 3750 50  0001 C CNN
+F 3 "~" H 5300 3750 50  0001 C CNN
+	1    5300 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R72
+U 1 1 6342898A
+P 5300 3850
+F 0 "R72" V 5250 4000 50  0000 C CNN
+F 1 "0R" V 5300 3850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0201_0603Metric" H 5300 3850 50  0001 C CNN
+F 3 "~" H 5300 3850 50  0001 C CNN
+	1    5300 3850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R73
+U 1 1 6342967B
+P 5300 3950
+F 0 "R73" V 5250 4100 50  0000 C CNN
+F 1 "0R" V 5300 3950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0201_0603Metric" H 5300 3950 50  0001 C CNN
+F 3 "~" H 5300 3950 50  0001 C CNN
+	1    5300 3950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R74
+U 1 1 6342A441
+P 5300 4050
+F 0 "R74" V 5250 4200 50  0000 C CNN
+F 1 "0R" V 5300 4050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0201_0603Metric" H 5300 4050 50  0001 C CNN
+F 3 "~" H 5300 4050 50  0001 C CNN
+	1    5300 4050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R75
+U 1 1 6342B1FE
+P 5300 4150
+F 0 "R75" V 5250 4300 50  0000 C CNN
+F 1 "0R" V 5300 4150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0201_0603Metric" H 5300 4150 50  0001 C CNN
+F 3 "~" H 5300 4150 50  0001 C CNN
+	1    5300 4150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5400 3650 5575 3650
+Wire Wire Line
+	5400 3750 5575 3750
+Wire Wire Line
+	5400 3850 5575 3850
+Wire Wire Line
+	5400 3950 5575 3950
+Wire Wire Line
+	5400 4050 5575 4050
+Wire Wire Line
+	5400 4150 5575 4150
+Wire Wire Line
+	5100 3650 5200 3650
+Wire Wire Line
+	5075 3750 5200 3750
+Wire Wire Line
+	5075 3850 5200 3850
+Wire Wire Line
+	5075 3950 5200 3950
+Wire Wire Line
+	5075 4050 5200 4050
+Wire Wire Line
+	5075 4150 5200 4150
 $EndSCHEMATC

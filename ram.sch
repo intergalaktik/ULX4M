@@ -347,4 +347,14 @@ Text GLabel 6600 3900 0    60   Input ~ 0
 GLOBAL_EN
 Text GLabel 6600 3800 0    60   Input ~ 0
 RUN_PG
+Text GLabel 6600 4900 0    60   Input ~ 0
+GPIO15
+Text GLabel 6600 4800 0    60   Input ~ 0
+GPIO14
+Text GLabel 8100 4700 2    60   Input ~ 0
+GPIO4
+Text GLabel 8100 4800 2    60   Input ~ 0
+GPIO3
+Text GLabel 8100 4900 2    60   Input ~ 0
+GPIO2
 $EndSCHEMATC
