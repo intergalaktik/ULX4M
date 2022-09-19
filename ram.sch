@@ -357,4 +357,10 @@ Text GLabel 8100 4800 2    60   Input ~ 0
 GPIO3
 Text GLabel 8100 4900 2    60   Input ~ 0
 GPIO2
+Text GLabel 8100 4600 2    60   Input ~ 0
+GPIO27
+Text GLabel 6600 5000 0    60   Input ~ 0
+SW1
+Text GLabel 8100 1900 2    60   Input ~ 0
+SW2
 $EndSCHEMATC

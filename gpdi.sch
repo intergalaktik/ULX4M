@@ -899,10 +899,6 @@ Text GLabel 4350 3000 2    60   Input ~ 0
 SD_D2
 Text GLabel 2850 2900 0    60   Input ~ 0
 SD_D0
-Text GLabel 4350 3300 2    60   Input ~ 0
-SW1
-Text GLabel 2850 3300 0    60   Input ~ 0
-SW2
 $Comp
 L Switch:SW_DIP_x02 SW1
 U 1 1 6519BDE2

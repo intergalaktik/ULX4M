@@ -900,13 +900,13 @@ Text GLabel 5300 3075 0    60   Input ~ 0
 DSI1_C_P
 Text GLabel 5300 2975 0    60   Input ~ 0
 DSI1_C_N
-Text GLabel 5300 2875 0    60   Input ~ 0
+Text GLabel 5300 2650 0    60   Input ~ 0
 DSI1_D1_P
-Text GLabel 5300 2775 0    60   Input ~ 0
+Text GLabel 5300 2550 0    60   Input ~ 0
 DSI1_D1_N
-Text GLabel 5300 2675 0    60   Input ~ 0
+Text GLabel 5300 2325 0    60   Input ~ 0
 DSI1_D0_P
-Text GLabel 5300 2575 0    60   Input ~ 0
+Text GLabel 5300 2225 0    60   Input ~ 0
 DSI1_D0_N
 Text GLabel 3425 3850 2    60   Input ~ 0
 USB_FPGA_PULL_D+
@@ -929,30 +929,18 @@ Wire Wire Line
 	4950 5175 4950 4975
 Text Notes 4825 6400 1    60   ~ 0
 CM4 needs to provide 3.3V to CM4 IO board
-Text GLabel 5475 2675 2    60   Input ~ 0
+Text GLabel 4100 6425 2    60   Input ~ 0
 SRX11P
-Text GLabel 5475 2575 2    60   Input ~ 0
+Text GLabel 4100 6325 2    60   Input ~ 0
 SRX11N
-Text GLabel 5475 2875 2    60   Input ~ 0
+Text GLabel 4100 6625 2    60   Input ~ 0
 STX11P
-Text GLabel 5475 2775 2    60   Input ~ 0
+Text GLabel 4100 6525 2    60   Input ~ 0
 STX11N
-Text GLabel 5475 3075 2    60   Input ~ 0
+Text GLabel 4100 6825 2    60   Input ~ 0
 SRCLK1P
-Text GLabel 5475 2975 2    60   Input ~ 0
+Text GLabel 4100 6725 2    60   Input ~ 0
 SRCLK1N
-Wire Wire Line
-	5300 2575 5475 2575
-Wire Wire Line
-	5475 2675 5300 2675
-Wire Wire Line
-	5300 2775 5475 2775
-Wire Wire Line
-	5475 2875 5300 2875
-Wire Wire Line
-	5300 2975 5475 2975
-Wire Wire Line
-	5475 3075 5300 3075
 Text GLabel 5100 3650 0    60   Input ~ 0
 GPIO15
 Text GLabel 5575 3650 2    60   Input ~ 0
@@ -1134,78 +1122,6 @@ F 3 "~" H 3700 1525 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3225 1525 3500 1525
-$Comp
-L Device:R_Small R68
-U 1 1 633966D4
-P 5300 3650
-F 0 "R68" V 5250 3800 50  0000 C CNN
-F 1 "0R" V 5300 3650 50  0000 C CNN
-F 2 "Resistor_SMD:R_0201_0603Metric" H 5300 3650 50  0001 C CNN
-F 3 "~" H 5300 3650 50  0001 C CNN
-	1    5300 3650
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small R69
-U 1 1 63427B80
-P 5300 3750
-F 0 "R69" V 5250 3900 50  0000 C CNN
-F 1 "0R" V 5300 3750 50  0000 C CNN
-F 2 "Resistor_SMD:R_0201_0603Metric" H 5300 3750 50  0001 C CNN
-F 3 "~" H 5300 3750 50  0001 C CNN
-	1    5300 3750
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small R72
-U 1 1 6342898A
-P 5300 3850
-F 0 "R72" V 5250 4000 50  0000 C CNN
-F 1 "0R" V 5300 3850 50  0000 C CNN
-F 2 "Resistor_SMD:R_0201_0603Metric" H 5300 3850 50  0001 C CNN
-F 3 "~" H 5300 3850 50  0001 C CNN
-	1    5300 3850
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small R73
-U 1 1 6342967B
-P 5300 3950
-F 0 "R73" V 5250 4100 50  0000 C CNN
-F 1 "0R" V 5300 3950 50  0000 C CNN
-F 2 "Resistor_SMD:R_0201_0603Metric" H 5300 3950 50  0001 C CNN
-F 3 "~" H 5300 3950 50  0001 C CNN
-	1    5300 3950
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small R74
-U 1 1 6342A441
-P 5300 4050
-F 0 "R74" V 5250 4200 50  0000 C CNN
-F 1 "0R" V 5300 4050 50  0000 C CNN
-F 2 "Resistor_SMD:R_0201_0603Metric" H 5300 4050 50  0001 C CNN
-F 3 "~" H 5300 4050 50  0001 C CNN
-	1    5300 4050
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small R75
-U 1 1 6342B1FE
-P 5300 4150
-F 0 "R75" V 5250 4300 50  0000 C CNN
-F 1 "0R" V 5300 4150 50  0000 C CNN
-F 2 "Resistor_SMD:R_0201_0603Metric" H 5300 4150 50  0001 C CNN
-F 3 "~" H 5300 4150 50  0001 C CNN
-	1    5300 4150
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	5400 3650 5575 3650
-Wire Wire Line
-	5400 3750 5575 3750
-Wire Wire Line
-	5400 3850 5575 3850
 Wire Wire Line
 	5400 3950 5575 3950
 Wire Wire Line
@@ -1213,15 +1129,84 @@ Wire Wire Line
 Wire Wire Line
 	5400 4150 5575 4150
 Wire Wire Line
-	5100 3650 5200 3650
-Wire Wire Line
-	5075 3750 5200 3750
-Wire Wire Line
-	5075 3850 5200 3850
-Wire Wire Line
 	5075 3950 5200 3950
 Wire Wire Line
 	5075 4050 5200 4050
 Wire Wire Line
 	5075 4150 5200 4150
+Wire Wire Line
+	5075 3850 5200 3850
+Wire Wire Line
+	5400 3850 5575 3850
+Wire Wire Line
+	5075 3750 5200 3750
+Wire Wire Line
+	5400 3750 5575 3750
+Wire Wire Line
+	5100 3650 5200 3650
+Wire Wire Line
+	5400 3650 5575 3650
+Text GLabel 3900 3075 0    60   Input ~ 0
+DSI1_C_P
+Text GLabel 3900 2975 0    60   Input ~ 0
+DSI1_C_N
+Text GLabel 4100 3075 2    60   Input ~ 0
+DSI0_C_P
+Text GLabel 4100 2975 2    60   Input ~ 0
+DSI0_C_N
+Wire Wire Line
+	3900 2975 4100 2975
+Wire Wire Line
+	4100 3075 3900 3075
+Text GLabel 3950 2825 0    60   Input ~ 0
+DSI1_D0_P
+Text GLabel 3950 2725 0    60   Input ~ 0
+DSI1_D0_N
+Text GLabel 3950 2550 0    60   Input ~ 0
+DSI1_D1_P
+Text GLabel 3950 2450 0    60   Input ~ 0
+DSI1_D1_N
+Text GLabel 4100 2825 2    60   Input ~ 0
+DSI0_D0_P
+Text GLabel 4100 2725 2    60   Input ~ 0
+DSI0_D0_N
+Text GLabel 4100 2550 2    60   Input ~ 0
+DSI0_D1_P
+Text GLabel 4100 2450 2    60   Input ~ 0
+DSI0_D1_N
+Wire Wire Line
+	3950 2450 4100 2450
+Wire Wire Line
+	4100 2550 3950 2550
+Wire Wire Line
+	3950 2725 4100 2725
+Wire Wire Line
+	4100 2825 3950 2825
+$Comp
+L Connector_Generic:Conn_01x07 J5
+U 1 1 63CD0255
+P 3250 6525
+F 0 "J5" H 3168 6000 50  0000 C CNN
+F 1 "SerDes" H 3168 6091 50  0000 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x07_P1.00mm_Vertical" H 3250 6525 50  0001 C CNN
+F 3 "~" H 3250 6525 50  0001 C CNN
+	1    3250 6525
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3450 6625 4100 6625
+Wire Wire Line
+	3450 6525 4100 6525
+Wire Wire Line
+	3450 6425 4100 6425
+Wire Wire Line
+	3450 6325 4100 6325
+Wire Wire Line
+	3450 6725 4100 6725
+Wire Wire Line
+	3450 6825 4100 6825
+Text GLabel 4100 6225 2    60   Input ~ 0
+GND
+Wire Wire Line
+	4100 6225 3450 6225
 $EndSCHEMATC
