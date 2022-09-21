@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 11
 Title "ULX4M-LS"
-Date "2021-11-05"
-Rev "0.0.2"
+Date "2022-09-21"
+Rev "0.0.3"
 Comp "Intergalaktik d.o.o."
 Comment1 "Root sheet"
 Comment2 "License: CERN-OHL-S v2"

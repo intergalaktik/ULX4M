@@ -21,4 +21,5 @@
   (lib (name VSC8530XMW-04)(type Legacy)(uri ${KIPRJMOD}/footprints/network/VSC8530XMW-04/VSC8530XMW-04.lib)(options "")(descr ""))
   (lib (name MT41K256M16TW-107_P)(type Legacy)(uri ${KIPRJMOD}/footprints/ddr3/MT41K256M16TW-107_P/MT41K256M16TW-107_P.lib)(options "")(descr ""))
   (lib (name ecp5-dc-scm)(type Legacy)(uri ${KIPRJMOD}/footprints/ddr3/AS4C256M16D3/ecp5-dc-scm.lib)(options "")(descr ""))
+  (lib (name Hanrun)(type Legacy)(uri ${KIPRJMOD}/footprints/ethernet/Hanrun.lib)(options "")(descr ""))
 )

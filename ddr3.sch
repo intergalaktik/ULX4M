@@ -5,8 +5,8 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 10 11
 Title "DDR3"
-Date ""
-Rev "1.0.3"
+Date "2022-09-21"
+Rev "0.0.3"
 Comp ""
 Comment1 "Reference - ecp5-dc-scm"
 Comment2 "Apache License 2.0"

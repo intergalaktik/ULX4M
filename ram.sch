@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 7 11
 Title "ULX4M"
-Date "2021-11-08"
-Rev "0.0.2"
+Date "2022-09-21"
+Rev "0.0.3"
 Comp "Intergalaktik d.o.o."
 Comment1 "SDRAM memory"
 Comment2 "License: CERN-OHL-S v2"

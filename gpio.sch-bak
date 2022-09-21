@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 11
 Title "ULX3S"
-Date ""
-Rev "1.0.2"
+Date "2022-09-21"
+Rev "0.0.3"
 Comp "EMARD"
 Comment1 "GPIO 2.54 mm connectors"
 Comment2 "License: CERN-OHL-S v2"
@@ -929,17 +929,17 @@ Wire Wire Line
 	4950 5175 4950 4975
 Text Notes 4825 6400 1    60   ~ 0
 CM4 needs to provide 3.3V to CM4 IO board
-Text GLabel 4100 6425 2    60   Input ~ 0
+Text GLabel 3450 6325 2    60   Input ~ 0
 SRX11P
-Text GLabel 4100 6325 2    60   Input ~ 0
+Text GLabel 3450 6425 2    60   Input ~ 0
 SRX11N
-Text GLabel 4100 6625 2    60   Input ~ 0
+Text GLabel 3450 6525 2    60   Input ~ 0
 STX11P
-Text GLabel 4100 6525 2    60   Input ~ 0
+Text GLabel 3450 6625 2    60   Input ~ 0
 STX11N
-Text GLabel 4100 6825 2    60   Input ~ 0
+Text GLabel 3450 6725 2    60   Input ~ 0
 SRCLK1P
-Text GLabel 4100 6725 2    60   Input ~ 0
+Text GLabel 3450 6825 2    60   Input ~ 0
 SRCLK1N
 Text GLabel 5100 3650 0    60   Input ~ 0
 GPIO15
@@ -1193,20 +1193,6 @@ F 3 "~" H 3250 6525 50  0001 C CNN
 	1    3250 6525
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	3450 6625 4100 6625
-Wire Wire Line
-	3450 6525 4100 6525
-Wire Wire Line
-	3450 6425 4100 6425
-Wire Wire Line
-	3450 6325 4100 6325
-Wire Wire Line
-	3450 6725 4100 6725
-Wire Wire Line
-	3450 6825 4100 6825
-Text GLabel 4100 6225 2    60   Input ~ 0
+Text GLabel 3450 6225 2    60   Input ~ 0
 GND
-Wire Wire Line
-	4100 6225 3450 6225
 $EndSCHEMATC

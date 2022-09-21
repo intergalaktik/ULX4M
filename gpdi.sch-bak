@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 11
 Title "ULX3S"
-Date ""
-Rev "1.0.5"
+Date "2022-09-21"
+Rev "0.0.3"
 Comp "EMARD"
 Comment1 "General Purpose Differential Interface"
 Comment2 "License: CERN-OHL-S v2"
