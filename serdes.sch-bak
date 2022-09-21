@@ -3,10 +3,10 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 11 11
+Sheet 9 11
 Title "ULX3S"
-Date ""
-Rev "1.0.3"
+Date "2022-09-21"
+Rev "0.0.3"
 Comp "EMARD"
 Comment1 "serdes"
 Comment2 "License: CERN-OHL-S v2"
@@ -673,46 +673,23 @@ Text GLabel 10350 2450 2    60   Input ~ 0
 ETH_0N
 Text GLabel 10350 2350 2    60   Input ~ 0
 ETH_0P
-Text Label 5550 4775 3    60   ~ 0
+Text Label 7025 4625 0    60   ~ 0
 S_7_P
-Text Label 5450 4775 3    60   ~ 0
+Text Label 7025 4525 0    60   ~ 0
 S_7_N
-$Comp
-L Device:Antenna_Dipole AE?
-U 1 1 61A9CB12
-P 5450 4500
-AR Path="/58D6D447/61A9CB12" Ref="AE?"  Part="1" 
-AR Path="/58DA7327/61A9CB12" Ref="TX1"  Part="1" 
-F 0 "TX1" H 5530 4489 50  0000 L CNN
-F 1 "Antenna" V 5600 4075 50  0000 L CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical" H 5450 4500 50  0001 C CNN
-F 3 "~" H 5450 4500 50  0001 C CNN
-	1    5450 4500
-	1    0    0    -1  
-$EndComp
-Text Label 6150 4775 3    60   ~ 0
+Text Label 7025 4825 0    60   ~ 0
 S_5_P
-Text Label 6050 4775 3    60   ~ 0
+Text Label 7025 4725 0    60   ~ 0
 S_5_N
 $Comp
-L Device:Antenna_Dipole AE?
-U 1 1 61C0795C
-P 6050 4500
-AR Path="/58D6D447/61C0795C" Ref="AE?"  Part="1" 
-AR Path="/58DA7327/61C0795C" Ref="RX1"  Part="1" 
-F 0 "RX1" H 6130 4489 50  0000 L CNN
-F 1 "Antenna" V 6225 4075 50  0000 L CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical" H 6050 4500 50  0001 C CNN
-F 3 "~" H 6050 4500 50  0001 C CNN
-	1    6050 4500
+L Connector:Conn_01x04_Male J4
+U 1 1 651DE45E
+P 6825 4625
+F 0 "J4" H 6950 4950 50  0000 C CNN
+F 1 "Antenna" H 6950 4850 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 6825 4625 50  0001 C CNN
+F 3 "~" H 6825 4625 50  0001 C CNN
+	1    6825 4625
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6150 4700 6150 4775
-Wire Wire Line
-	6050 4700 6050 4775
-Wire Wire Line
-	5550 4700 5550 4775
-Wire Wire Line
-	5450 4700 5450 4775
 $EndSCHEMATC

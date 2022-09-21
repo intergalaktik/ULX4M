@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 6 11
 Title "ULX3S"
-Date ""
-Rev "1.0.10"
+Date "2022-09-21"
+Rev "0.0.3"
 Comp "EMARD"
 Comment1 "USB serial and JTAG"
 Comment2 "License: CERN-OHL-S v2"
@@ -166,7 +166,7 @@ Text Notes 750  6050 0    60   ~ 0
 Deviation from USB specification in\npulldowns for BOM simplificaton.\nWith series diode, correct value R63 R64 \nshould be 12k but 15k is used.
 Text Notes 1100 3600 0    60   ~ 0
 US2_ID to RTC\non "power" sheet
-Text GLabel 8650 2250 0    60   Input ~ 0
+Text GLabel 7900 2250 0    60   Input ~ 0
 USER_PROGRAMN
 NoConn ~ 8650 2950
 Wire Wire Line
@@ -186,32 +186,10 @@ USB_P
 Wire Wire Line
 	1700 3200 1300 3200
 $Comp
-L Device:R_Small R1
-U 1 1 615BB539
-P 1750 3000
-F 0 "R1" V 1800 2850 50  0000 C CNN
-F 1 "27" V 1750 3000 39  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 1750 3000 50  0001 C CNN
-F 3 "~" H 1750 3000 50  0001 C CNN
-	1    1750 3000
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R_Small R2
-U 1 1 615CC93A
-P 1750 3100
-F 0 "R2" V 1800 2950 50  0000 C CNN
-F 1 "27" V 1750 3100 39  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 1750 3100 50  0001 C CNN
-F 3 "~" H 1750 3100 50  0001 C CNN
-	1    1750 3100
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:D_Small D5
+L Device:D_Small D11
 U 1 1 61604281
 P 1950 4850
-F 0 "D5" H 1750 4750 50  0000 C CNN
+F 0 "D11" H 1750 4750 50  0000 C CNN
 F 1 "1N914" H 1950 4750 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-323" V 1950 4850 50  0001 C CNN
 F 3 "~" V 1950 4850 50  0001 C CNN
@@ -219,26 +197,15 @@ F 3 "~" V 1950 4850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D4
+L Device:D_Small D10
 U 1 1 6160522B
 P 1950 4700
-F 0 "D4" H 2150 4600 50  0000 C CNN
+F 0 "D10" H 2150 4600 50  0000 C CNN
 F 1 "1N914" H 1950 4584 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-323" V 1950 4700 50  0001 C CNN
 F 3 "~" V 1950 4700 50  0001 C CNN
 	1    1950 4700
 	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R_Small R4
-U 1 1 616B187F
-P 2250 4700
-F 0 "R4" V 2300 4550 50  0000 C CNN
-F 1 "1k1" V 2250 4700 39  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 2250 4700 50  0001 C CNN
-F 3 "~" H 2250 4700 50  0001 C CNN
-	1    2250 4700
-	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R_Small R5
@@ -272,10 +239,10 @@ Wire Wire Line
 	2450 4850 2750 4850
 Connection ~ 2450 4850
 $Comp
-L Device:D_Small D7
+L Device:D_Small D13
 U 1 1 616B7C2B
 P 2000 5450
-F 0 "D7" H 1800 5350 50  0000 C CNN
+F 0 "D13" H 1800 5350 50  0000 C CNN
 F 1 "1N914" H 2000 5350 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-323" V 2000 5450 50  0001 C CNN
 F 3 "~" V 2000 5450 50  0001 C CNN
@@ -283,10 +250,10 @@ F 3 "~" V 2000 5450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D6
+L Device:D_Small D12
 U 1 1 616B7CCD
 P 2000 5300
-F 0 "D6" H 2200 5200 50  0000 C CNN
+F 0 "D12" H 2200 5200 50  0000 C CNN
 F 1 "1N914" H 2000 5184 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-323" V 2000 5300 50  0001 C CNN
 F 3 "~" V 2000 5300 50  0001 C CNN
@@ -298,7 +265,7 @@ L Device:R_Small R6
 U 1 1 616B7CD7
 P 2300 5300
 F 0 "R6" V 2350 5150 50  0000 C CNN
-F 1 "1k1" V 2300 5300 39  0000 C CNN
+F 1 "1k" V 2300 5300 39  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 2300 5300 50  0001 C CNN
 F 3 "~" H 2300 5300 50  0001 C CNN
 	1    2300 5300
@@ -349,7 +316,7 @@ U 1 1 611DE8D2
 P 7250 5400
 F 0 "J3" H 7300 5717 50  0000 C CNN
 F 1 "JTAG" H 7300 5626 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical" H 7250 5400 50  0001 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_2x03_P1.00mm_Vertical_SMD" H 7250 5400 50  0001 C CNN
 F 3 "~" H 7250 5400 50  0001 C CNN
 	1    7250 5400
 	1    0    0    -1  
@@ -392,29 +359,21 @@ Wire Wire Line
 	7550 5400 7600 5400
 Wire Wire Line
 	7550 5500 7600 5500
-Text GLabel 9600 5150 0    60   Input ~ 0
+Text GLabel 9150 5850 0    60   Input ~ 0
 JTAG_TDI
-Text GLabel 9600 5250 0    60   Input ~ 0
+Text GLabel 9150 5950 0    60   Input ~ 0
 JTAG_TMS
-Text GLabel 9600 5350 0    60   Input ~ 0
+Text GLabel 9150 6050 0    60   Input ~ 0
 JTAG_TCK
-Text GLabel 9600 5450 0    60   Input ~ 0
+Text GLabel 9150 6150 0    60   Input ~ 0
 JTAG_TDO
-Text GLabel 9700 5450 2    60   Input ~ 0
+Text GLabel 9650 6150 2    60   Input ~ 0
 GPIO16
-Wire Wire Line
-	9600 5150 9700 5150
-Wire Wire Line
-	9700 5250 9600 5250
-Text GLabel 9700 5350 2    60   Input ~ 0
+Text GLabel 9650 6050 2    60   Input ~ 0
 GPIO20
-Wire Wire Line
-	9600 5350 9700 5350
-Wire Wire Line
-	9700 5450 9600 5450
-Text GLabel 9700 5250 2    60   Input ~ 0
+Text GLabel 9650 5950 2    60   Input ~ 0
 GPIO21
-Text GLabel 9700 5150 2    60   Input ~ 0
+Text GLabel 9650 5850 2    60   Input ~ 0
 GPIO12
 Text GLabel 5250 5100 0    60   Input ~ 0
 SD_D2
@@ -456,20 +415,10 @@ Text GLabel 10150 2150 2    60   Input ~ 0
 GPIO25
 Text GLabel 10150 2250 2    60   Input ~ 0
 GPIO18
-Text GLabel 8225 1350 0    60   Input ~ 0
-GPIO15
 Text GLabel 8650 2150 0    60   Input ~ 0
 GPIO23
 Text GLabel 8650 2450 0    60   Input ~ 0
 GPIO24
-Text GLabel 8275 1950 0    60   Input ~ 0
-GPIO14
-Text GLabel 8275 2050 0    60   Input ~ 0
-GPIO4
-Text GLabel 10475 900  2    60   Input ~ 0
-GPIO3
-Text GLabel 10600 1750 2    60   Input ~ 0
-GPIO2
 Text GLabel 1375 2025 2    60   Input ~ 0
 USB_N
 Text GLabel 1375 2125 2    60   Input ~ 0
@@ -479,12 +428,12 @@ USB_OTG_ID
 $Comp
 L power:GND #PWR0113
 U 1 1 61CF3ABC
-P 875 2525
-F 0 "#PWR0113" H 875 2275 50  0001 C CNN
-F 1 "GND" H 875 2375 50  0000 C CNN
-F 2 "" H 875 2525 50  0001 C CNN
-F 3 "" H 875 2525 50  0001 C CNN
-	1    875  2525
+P 575 2525
+F 0 "#PWR0113" H 575 2275 50  0001 C CNN
+F 1 "GND" H 575 2375 50  0000 C CNN
+F 2 "" H 575 2525 50  0001 C CNN
+F 3 "" H 575 2525 50  0001 C CNN
+	1    575  2525
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -499,15 +448,7 @@ F 3 "" H 1325 2525 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1275 2325 1325 2325
-Wire Wire Line
 	1325 2325 1325 2525
-Wire Wire Line
-	1275 2225 1375 2225
-Wire Wire Line
-	1375 2125 1275 2125
-Wire Wire Line
-	1275 2025 1375 2025
 $Comp
 L power:+5V #PWR?
 U 1 1 61D2FC87
@@ -521,8 +462,6 @@ F 3 "" H 1400 1775 60  0000 C CNN
 	1    1400 1775
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	1275 1925 1400 1925
 Wire Wire Line
 	1400 1925 1400 1775
 $Comp
@@ -588,31 +527,164 @@ $EndComp
 $Comp
 L Device:R_Small R19
 U 1 1 618ED2BD
-P 1175 2225
-F 0 "R19" V 1225 2075 50  0000 C CNN
-F 1 "4k7" V 1175 2225 39  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 1175 2225 50  0001 C CNN
-F 3 "~" H 1175 2225 50  0001 C CNN
-	1    1175 2225
-	0    -1   -1   0   
+P 2625 1975
+F 0 "R19" V 2675 1825 50  0000 C CNN
+F 1 "4k7" V 2625 1975 39  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 2625 1975 50  0001 C CNN
+F 3 "~" H 2625 1975 50  0001 C CNN
+	1    2625 1975
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3V3 #PWR08
 U 1 1 619019AA
-P 975 2225
-F 0 "#PWR08" H 975 2075 50  0001 C CNN
-F 1 "+3V3" H 975 2365 50  0000 C CNN
-F 2 "" H 975 2225 50  0001 C CNN
-F 3 "" H 975 2225 50  0001 C CNN
-	1    975  2225
-	0    -1   -1   0   
+P 2625 2225
+F 0 "#PWR08" H 2625 2075 50  0001 C CNN
+F 1 "+3V3" H 2625 2365 50  0000 C CNN
+F 2 "" H 2625 2225 50  0001 C CNN
+F 3 "" H 2625 2225 50  0001 C CNN
+	1    2625 2225
+	-1   0    0    1   
+$EndComp
+Text GLabel 10150 1950 2    60   Input ~ 0
+GPIO9
+Text GLabel 10150 1450 2    60   Input ~ 0
+BTN3
+Text GLabel 8650 1750 0    60   Input ~ 0
+ID_SD
+Text GLabel 8650 1550 0    60   Input ~ 0
+ID_SC
+Text GLabel 8650 2650 0    60   Input ~ 0
+GPIO11
+Text GLabel 10150 2450 2    60   Input ~ 0
+GPIO22
+Text GLabel 10150 1650 2    50   Input ~ 0
+ETH_MDC
+Text GLabel 10150 1850 2    50   Output ~ 0
+RGMII_RX_DV
+Text GLabel 8650 1350 0    50   Output ~ 0
+RGMII_REF_CLK
+Text GLabel 6125 3475 2    50   Output ~ 0
+ETH_INT_N
+Text GLabel 8650 1850 0    50   Output ~ 0
+RGMII_RXD1
+Text GLabel 10150 1750 2    50   Output ~ 0
+RGMII_RXD0
+Text GLabel 8650 1650 0    50   Input ~ 0
+RGMII_TXD1
+Text GLabel 10150 2050 2    50   Input ~ 0
+RGMII_TXD0
+Text GLabel 10150 2550 2    60   Input ~ 0
+GPIO5
+Text GLabel 10150 1550 2    50   Input ~ 0
+RGMII_TX_EN
+Text GLabel 8650 2050 0    60   Input ~ 0
+GPIO10
+$Comp
+L usb_otg:USB_OTG P1
+U 1 1 65056ABD
+P 675 2125
+F 0 "P1" V 250 2047 50  0000 C CNN
+F 1 "USB_OTG" V 341 2047 50  0000 C CNN
+F 2 "usb_otg:USB-MICRO-B-FCI-10118192-0001LF" V 625 2025 50  0001 C CNN
+F 3 "" V 625 2025 50  0000 C CNN
+	1    675  2125
+	0    -1   1    0   
 $EndComp
 Wire Wire Line
-	975  2225 1075 2225
-Text GLabel 10375 1450 2    60   Input ~ 0
-PCIe_CLK_nREQ
+	975  2125 1375 2125
 Wire Wire Line
-	10150 1450 10375 1450
-Text GLabel 10150 2650 2    60   Input ~ 0
-GPIO9
+	975  2025 1375 2025
+Wire Wire Line
+	975  1925 1400 1925
+Wire Wire Line
+	975  2325 1325 2325
+Wire Wire Line
+	975  2225 1375 2225
+Text GLabel 2625 1800 1    60   Input ~ 0
+USB_OTG_ID
+Wire Wire Line
+	2625 1875 2625 1800
+Wire Wire Line
+	2625 2225 2625 2075
+Text GLabel 6525 3375 0    50   Output ~ 0
+RGMII_RX_CLK
+$Comp
+L Device:R_Small R4
+U 1 1 616B187F
+P 2250 4700
+F 0 "R4" V 2300 4550 50  0000 C CNN
+F 1 "1k" V 2250 4700 39  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 2250 4700 50  0001 C CNN
+F 3 "~" H 2250 4700 50  0001 C CNN
+	1    2250 4700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R2
+U 1 1 615CC93A
+P 1750 3100
+F 0 "R2" V 1800 2950 50  0000 C CNN
+F 1 "27R" V 1750 3100 39  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 1750 3100 50  0001 C CNN
+F 3 "~" H 1750 3100 50  0001 C CNN
+	1    1750 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R1
+U 1 1 615BB539
+P 1750 3000
+F 0 "R1" V 1800 2850 50  0000 C CNN
+F 1 "27R" V 1750 3000 39  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 1750 3000 50  0001 C CNN
+F 3 "~" H 1750 3000 50  0001 C CNN
+	1    1750 3000
+	0    -1   -1   0   
+$EndComp
+Text GLabel 6050 3575 2    50   Output ~ 0
+RGMII_RXD3
+Text GLabel 6650 3900 0    50   Input ~ 0
+RGMII_TXD2
+Text GLabel 6575 3675 0    50   Input ~ 0
+RGMII_TXD3
+Text GLabel 6600 3775 0    50   Output ~ 0
+RGMII_RXD2
+Text GLabel 10825 2350 2    60   Input ~ 0
+GPIO12
+Text GLabel 7950 1950 0    60   Input ~ 0
+GPIO21
+Text Label 8000 1950 0    60   ~ 0
+TMS
+Text Label 10600 2350 0    60   ~ 0
+TDI
+Text GLabel 7900 2350 0    60   Input ~ 0
+GPIO20
+Text Label 7975 2350 0    60   ~ 0
+TCK
+Text GLabel 7925 2550 0    60   Input ~ 0
+GPIO16
+Text Label 8000 2550 0    60   ~ 0
+TDO
+Wire Wire Line
+	7950 1950 8650 1950
+Wire Wire Line
+	7925 2550 8650 2550
+Wire Wire Line
+	10150 2350 10825 2350
+Wire Wire Line
+	7900 2350 8650 2350
+Wire Wire Line
+	7900 2250 8650 2250
+$Comp
+L Connector_Generic:Conn_02x04_Odd_Even J6
+U 1 1 64CCAF42
+P 9350 5950
+F 0 "J6" H 9400 6267 50  0000 C CNN
+F 1 "GPIO>>JTAG" H 9400 6176 50  0000 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_2x04_P1.00mm_Vertical" H 9350 5950 50  0001 C CNN
+F 3 "~" H 9350 5950 50  0001 C CNN
+	1    9350 5950
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

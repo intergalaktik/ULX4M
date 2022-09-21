@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 11
 Title "ULX3S"
-Date ""
-Rev "1.0.2"
+Date "2022-09-21"
+Rev "0.0.3"
 Comp "EMARD"
 Comment1 "GPIO 2.54 mm connectors"
 Comment2 "License: CERN-OHL-S v2"
@@ -900,13 +900,13 @@ Text GLabel 5300 3075 0    60   Input ~ 0
 DSI1_C_P
 Text GLabel 5300 2975 0    60   Input ~ 0
 DSI1_C_N
-Text GLabel 5300 2875 0    60   Input ~ 0
+Text GLabel 5300 2650 0    60   Input ~ 0
 DSI1_D1_P
-Text GLabel 5300 2775 0    60   Input ~ 0
+Text GLabel 5300 2550 0    60   Input ~ 0
 DSI1_D1_N
-Text GLabel 5300 2675 0    60   Input ~ 0
+Text GLabel 5300 2325 0    60   Input ~ 0
 DSI1_D0_P
-Text GLabel 5300 2575 0    60   Input ~ 0
+Text GLabel 5300 2225 0    60   Input ~ 0
 DSI1_D0_N
 Text GLabel 3425 3850 2    60   Input ~ 0
 USB_FPGA_PULL_D+
@@ -927,154 +927,46 @@ F 3 "" H 4950 5175 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	4950 5175 4950 4975
-Text Notes 4825 5550 1    60   ~ 0
+Text Notes 4825 6400 1    60   ~ 0
 CM4 needs to provide 3.3V to CM4 IO board
-Text GLabel 5475 2675 2    60   Input ~ 0
+Text GLabel 3450 6325 2    60   Input ~ 0
 SRX11P
-Text GLabel 5475 2575 2    60   Input ~ 0
+Text GLabel 3450 6425 2    60   Input ~ 0
 SRX11N
-Text GLabel 5475 2875 2    60   Input ~ 0
+Text GLabel 3450 6525 2    60   Input ~ 0
 STX11P
-Text GLabel 5475 2775 2    60   Input ~ 0
+Text GLabel 3450 6625 2    60   Input ~ 0
 STX11N
-Text GLabel 5475 3075 2    60   Input ~ 0
+Text GLabel 3450 6725 2    60   Input ~ 0
 SRCLK1P
-Text GLabel 5475 2975 2    60   Input ~ 0
+Text GLabel 3450 6825 2    60   Input ~ 0
 SRCLK1N
-Wire Wire Line
-	5300 2575 5475 2575
-Wire Wire Line
-	5475 2675 5300 2675
-Wire Wire Line
-	5300 2775 5475 2775
-Wire Wire Line
-	5475 2875 5300 2875
-Wire Wire Line
-	5300 2975 5475 2975
-Wire Wire Line
-	5475 3075 5300 3075
-Text GLabel 5325 3650 0    60   Input ~ 0
+Text GLabel 5100 3650 0    60   Input ~ 0
 GPIO15
-Text GLabel 5375 3650 2    60   Input ~ 0
+Text GLabel 5575 3650 2    60   Input ~ 0
 SD_CLK
-Wire Wire Line
-	5325 3650 5375 3650
-Text GLabel 5300 3750 0    60   Input ~ 0
+Text GLabel 5075 3750 0    60   Input ~ 0
 GPIO14
-Text GLabel 5375 3750 2    60   Input ~ 0
+Text GLabel 5575 3750 2    60   Input ~ 0
 SD_DAT3
-Wire Wire Line
-	5300 3750 5375 3750
-Text GLabel 5375 3850 2    60   Input ~ 0
+Text GLabel 5575 3850 2    60   Input ~ 0
 SD_DAT0
 Text GLabel 6600 4300 0    60   Input ~ 0
 SD_DAT1
-Text GLabel 5375 3950 2    60   Input ~ 0
+Text GLabel 5575 3950 2    60   Input ~ 0
 SD_DAT1
-Text GLabel 5375 4050 2    60   Input ~ 0
+Text GLabel 5575 4050 2    60   Input ~ 0
 SD_DAT2
-Text GLabel 5375 4150 2    60   Input ~ 0
+Text GLabel 5575 4150 2    60   Input ~ 0
 SD_CMD
-Text GLabel 5300 3850 0    60   Input ~ 0
+Text GLabel 5075 3850 0    60   Input ~ 0
 GPIO4
-Text GLabel 5300 3950 0    60   Input ~ 0
+Text GLabel 5075 3950 0    60   Input ~ 0
 GPIO3
-Text GLabel 5300 4050 0    60   Input ~ 0
+Text GLabel 5075 4050 0    60   Input ~ 0
 GPIO2
-Wire Wire Line
-	5300 3850 5375 3850
-Wire Wire Line
-	5375 3950 5300 3950
-Wire Wire Line
-	5300 4050 5375 4050
-Text GLabel 5300 4150 0    60   Input ~ 0
+Text GLabel 5075 4150 0    60   Input ~ 0
 GPIO27
-Wire Wire Line
-	5300 4150 5375 4150
-Text GLabel 2900 6400 0    60   Input ~ 0
-SDA0
-Text GLabel 2900 6500 0    60   Input ~ 0
-SCL0
-Text GLabel 2175 7325 0    60   Input ~ 0
-DSI1_D2_N
-Text GLabel 2175 7425 0    60   Input ~ 0
-DSI1_D2_P
-Text GLabel 2175 7625 0    60   Input ~ 0
-DSI1_D3_N
-Text GLabel 2175 7525 0    60   Input ~ 0
-DSI1_D3_P
-Text GLabel 2125 6500 0    60   Input ~ 0
-CAM1_D1_P
-Text GLabel 2125 6400 0    60   Input ~ 0
-CAM1_D1_N
-Text GLabel 2125 7100 0    60   Input ~ 0
-CAM1_D3_P
-Text GLabel 2125 7000 0    60   Input ~ 0
-CAM1_D3_N
-Text GLabel 2125 6900 0    60   Input ~ 0
-CAM1_D2_P
-Text GLabel 2125 6800 0    60   Input ~ 0
-CAM1_D2_N
-Text GLabel 2125 6700 0    60   Input ~ 0
-CAM1_C_P
-Text GLabel 2125 6600 0    60   Input ~ 0
-CAM1_C_N
-Text GLabel 2125 6300 0    60   Input ~ 0
-CAM1_D0_P
-Text GLabel 2125 6200 0    60   Input ~ 0
-CAM1_D0_N
-Text GLabel 1000 7050 0    60   Input ~ 0
-GPIO21
-Text GLabel 1000 6950 0    60   Input ~ 0
-GPIO20
-Text GLabel 1000 6550 0    60   Input ~ 0
-GPIO16
-Text GLabel 1000 6150 0    60   Input ~ 0
-GPIO12
-Text GLabel 2900 7100 0    60   Input ~ 0
-GPIO7
-Text GLabel 2900 7200 0    60   Input ~ 0
-GPIO8
-Text GLabel 1000 7450 0    60   Input ~ 0
-GPIO25
-Text GLabel 1000 7350 0    60   Input ~ 0
-GPIO24
-Text GLabel 1000 7250 0    60   Input ~ 0
-GPIO23
-Text GLabel 1000 6750 0    60   Input ~ 0
-GPIO18
-Text GLabel 1000 6450 0    60   Input ~ 0
-GPIO15
-Text GLabel 1000 6350 0    60   Input ~ 0
-GPIO14
-Text GLabel 2900 6600 0    60   Input ~ 0
-GPIO2
-Text GLabel 2900 6700 0    60   Input ~ 0
-GPIO3
-Text GLabel 2900 6800 0    60   Input ~ 0
-GPIO4
-Text GLabel 1000 6650 0    60   Input ~ 0
-GPIO17
-Text GLabel 1000 7650 0    60   Input ~ 0
-GPIO27
-Text GLabel 1000 7150 0    60   Input ~ 0
-GPIO22
-Text GLabel 1000 5950 0    60   Input ~ 0
-GPIO10
-Text GLabel 2900 7300 0    60   Input ~ 0
-GPIO9
-Text GLabel 1000 6050 0    60   Input ~ 0
-GPIO11
-Text GLabel 2900 6900 0    60   Input ~ 0
-GPIO5
-Text GLabel 2900 7000 0    60   Input ~ 0
-GPIO6
-Text GLabel 1000 6250 0    60   Input ~ 0
-GPIO13
-Text GLabel 1000 6850 0    60   Input ~ 0
-GPIO19
-Text GLabel 1000 7550 0    60   Input ~ 0
-GPIO26
 Text GLabel 2200 5350 0    60   Input ~ 0
 ETH_nLED3
 Text GLabel 2200 5800 0    60   Input ~ 0
@@ -1123,7 +1015,7 @@ AR Path="/58D6BF46/625E5FDB" Ref="R?"  Part="1"
 AR Path="/58D686D9/625E5FDB" Ref="R?"  Part="1" 
 AR Path="/56AC389C/625E5FDB" Ref="R21"  Part="1" 
 F 0 "R21" V 1400 3250 50  0000 C CNN
-F 1 "220" V 1325 3250 39  0000 C CNN
+F 1 "300" V 1275 3375 39  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 1325 3250 50  0001 C CNN
 F 3 "~" H 1325 3250 50  0001 C CNN
 	1    1325 3250
@@ -1131,10 +1023,8 @@ F 3 "~" H 1325 3250 50  0001 C CNN
 $EndComp
 Text GLabel 1725 1025 0    60   Input ~ 0
 PCIe_nRST
-Text Label 1950 3250 2    60   ~ 0
+Text Label 1900 3250 2    60   ~ 0
 CAM0_D0_LP
-Wire Wire Line
-	1425 3250 1925 3250
 Wire Wire Line
 	1150 3250 1225 3250
 Text GLabel 3425 4250 2    60   Input ~ 0
@@ -1146,17 +1036,15 @@ USB_FPGA_D+
 Text GLabel 3225 1925 2    60   Input ~ 0
 USB_FPGA_D-
 Text GLabel 1925 3650 0    60   Input ~ 0
-LED2
-Text GLabel 3425 4050 2    60   Input ~ 0
 LED3
 Text GLabel 1925 3450 0    60   Input ~ 0
 LED0
 Text GLabel 3425 3450 2    60   Input ~ 0
 LED1
 Text GLabel 1925 3950 0    60   Input ~ 0
-USB_FPGA_PULL_D+
+USB_FPGA_D+
 Text GLabel 3425 3950 2    60   Input ~ 0
-USB_FPGA_PULL_D-
+USB_FPGA_D-
 Text GLabel 1825 4750 0    60   Input ~ 0
 CAM1_C_P
 Text GLabel 3500 4750 2    60   Input ~ 0
@@ -1173,4 +1061,138 @@ Text GLabel 1925 3750 0    60   Input ~ 0
 CAM1_D1_P
 Text GLabel 3425 3750 2    60   Input ~ 0
 CAM1_D1_N
+Text GLabel 1725 925  0    60   Input ~ 0
+PCIe_CLK_nREQ
+Text GLabel 3425 3650 2    60   Input ~ 0
+LED7
+Text GLabel 3425 4350 2    60   Input ~ 0
+LED6
+Text GLabel 1925 4050 0    60   Input ~ 0
+LED2
+Text GLabel 3425 4050 2    60   Input ~ 0
+LED4
+Text GLabel 1925 4350 0    60   Input ~ 0
+LED5
+Wire Wire Line
+	1425 3250 1925 3250
+Text GLabel 3425 4450 2    60   Input ~ 0
+GPIO17
+Text GLabel 1925 4550 0    50   Input ~ 0
+RGMII_TX_CLK
+Text GLabel 1725 1825 0    50   BiDi ~ 0
+ETH_MDIO
+Text GLabel 3425 4550 2    50   Input ~ 0
+ETH_~RESET
+$Comp
+L Connector:TestPoint_Small TP_E9
+U 1 1 620EDA38
+P 3600 1225
+F 0 "TP_E9" H 3648 1271 50  0000 L CNN
+F 1 "E9" H 3648 1180 50  0000 L CNN
+F 2 "ecp5-dc-scm:Testpoint_smd_1mm" H 3800 1225 50  0001 C CNN
+F 3 "~" H 3800 1225 50  0001 C CNN
+	1    3600 1225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3225 1225 3600 1225
+$Comp
+L Connector:TestPoint_Small TP_E8
+U 1 1 6218A56E
+P 1400 1525
+F 0 "TP_E8" H 1550 1525 50  0000 L CNN
+F 1 "E8" H 1448 1480 50  0000 L CNN
+F 2 "ecp5-dc-scm:Testpoint_smd_1mm" H 1600 1525 50  0001 C CNN
+F 3 "~" H 1600 1525 50  0001 C CNN
+	1    1400 1525
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1400 1525 1725 1525
+$Comp
+L Connector:TestPoint_Small TP_D8
+U 1 1 621D986C
+P 3500 1525
+F 0 "TP_D8" H 3650 1525 50  0000 L CNN
+F 1 "D8" H 3548 1480 50  0000 L CNN
+F 2 "ecp5-dc-scm:Testpoint_smd_1mm" H 3700 1525 50  0001 C CNN
+F 3 "~" H 3700 1525 50  0001 C CNN
+	1    3500 1525
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3225 1525 3500 1525
+Wire Wire Line
+	5400 3950 5575 3950
+Wire Wire Line
+	5400 4050 5575 4050
+Wire Wire Line
+	5400 4150 5575 4150
+Wire Wire Line
+	5075 3950 5200 3950
+Wire Wire Line
+	5075 4050 5200 4050
+Wire Wire Line
+	5075 4150 5200 4150
+Wire Wire Line
+	5075 3850 5200 3850
+Wire Wire Line
+	5400 3850 5575 3850
+Wire Wire Line
+	5075 3750 5200 3750
+Wire Wire Line
+	5400 3750 5575 3750
+Wire Wire Line
+	5100 3650 5200 3650
+Wire Wire Line
+	5400 3650 5575 3650
+Text GLabel 3900 3075 0    60   Input ~ 0
+DSI1_C_P
+Text GLabel 3900 2975 0    60   Input ~ 0
+DSI1_C_N
+Text GLabel 4100 3075 2    60   Input ~ 0
+DSI0_C_P
+Text GLabel 4100 2975 2    60   Input ~ 0
+DSI0_C_N
+Wire Wire Line
+	3900 2975 4100 2975
+Wire Wire Line
+	4100 3075 3900 3075
+Text GLabel 3950 2825 0    60   Input ~ 0
+DSI1_D0_P
+Text GLabel 3950 2725 0    60   Input ~ 0
+DSI1_D0_N
+Text GLabel 3950 2550 0    60   Input ~ 0
+DSI1_D1_P
+Text GLabel 3950 2450 0    60   Input ~ 0
+DSI1_D1_N
+Text GLabel 4100 2825 2    60   Input ~ 0
+DSI0_D0_P
+Text GLabel 4100 2725 2    60   Input ~ 0
+DSI0_D0_N
+Text GLabel 4100 2550 2    60   Input ~ 0
+DSI0_D1_P
+Text GLabel 4100 2450 2    60   Input ~ 0
+DSI0_D1_N
+Wire Wire Line
+	3950 2450 4100 2450
+Wire Wire Line
+	4100 2550 3950 2550
+Wire Wire Line
+	3950 2725 4100 2725
+Wire Wire Line
+	4100 2825 3950 2825
+$Comp
+L Connector_Generic:Conn_01x07 J5
+U 1 1 63CD0255
+P 3250 6525
+F 0 "J5" H 3168 6000 50  0000 C CNN
+F 1 "SerDes" H 3168 6091 50  0000 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x07_P1.00mm_Vertical" H 3250 6525 50  0001 C CNN
+F 3 "~" H 3250 6525 50  0001 C CNN
+	1    3250 6525
+	-1   0    0    1   
+$EndComp
+Text GLabel 3450 6225 2    60   Input ~ 0
+GND
 $EndSCHEMATC

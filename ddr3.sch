@@ -1,0 +1,440 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 10 11
+Title "DDR3"
+Date "2022-09-21"
+Rev "0.0.3"
+Comp ""
+Comment1 "Reference - ecp5-dc-scm"
+Comment2 "Apache License 2.0"
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:C C?
+U 1 1 6325C046
+P 7900 7100
+AR Path="/6316A495/6325C046" Ref="C?"  Part="1" 
+AR Path="/58D6D507/6325C046" Ref="C?"  Part="1" 
+AR Path="/61E7DB84/6325C046" Ref="C78"  Part="1" 
+F 0 "C78" H 7925 7200 50  0000 L CNN
+F 1 "2.2uF" H 7925 7000 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7938 6950 50  0001 C CNN
+F 3 "" H 7900 7100 50  0000 C CNN
+	1    7900 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6325C04C
+P 7900 7250
+AR Path="/6316A495/6325C04C" Ref="#PWR?"  Part="1" 
+AR Path="/58D6D507/6325C04C" Ref="#PWR?"  Part="1" 
+AR Path="/61E7DB84/6325C04C" Ref="#PWR041"  Part="1" 
+F 0 "#PWR041" H 7900 7000 50  0001 C CNN
+F 1 "GND" H 7900 7100 50  0000 C CNN
+F 2 "" H 7900 7250 50  0000 C CNN
+F 3 "" H 7900 7250 50  0000 C CNN
+	1    7900 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 6325C052
+P 7900 6950
+AR Path="/6316A495/6325C052" Ref="#PWR?"  Part="1" 
+AR Path="/58D6D507/6325C052" Ref="#PWR?"  Part="1" 
+AR Path="/61E7DB84/6325C052" Ref="#PWR033"  Part="1" 
+F 0 "#PWR033" H 7900 6800 50  0001 C CNN
+F 1 "+3V3" H 7900 7090 50  0000 C CNN
+F 2 "" H 7900 6950 50  0000 C CNN
+F 3 "" H 7900 6950 50  0000 C CNN
+	1    7900 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 6325C059
+P 8450 7100
+AR Path="/6316A495/6325C059" Ref="C?"  Part="1" 
+AR Path="/58D6D507/6325C059" Ref="C?"  Part="1" 
+AR Path="/61E7DB84/6325C059" Ref="C79"  Part="1" 
+F 0 "C79" H 8475 7200 50  0000 L CNN
+F 1 "22nF" H 8475 7000 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 8488 6950 50  0001 C CNN
+F 3 "" H 8450 7100 50  0000 C CNN
+F 4 "CX0603MRX7R8BB223" H 8450 7100 50  0001 C CNN "MPN"
+	1    8450 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6325C05F
+P 8450 7250
+AR Path="/6316A495/6325C05F" Ref="#PWR?"  Part="1" 
+AR Path="/58D6D507/6325C05F" Ref="#PWR?"  Part="1" 
+AR Path="/61E7DB84/6325C05F" Ref="#PWR082"  Part="1" 
+F 0 "#PWR082" H 8450 7000 50  0001 C CNN
+F 1 "GND" H 8450 7100 50  0000 C CNN
+F 2 "" H 8450 7250 50  0000 C CNN
+F 3 "" H 8450 7250 50  0000 C CNN
+	1    8450 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 6325C065
+P 8450 6950
+AR Path="/6316A495/6325C065" Ref="#PWR?"  Part="1" 
+AR Path="/58D6D507/6325C065" Ref="#PWR?"  Part="1" 
+AR Path="/61E7DB84/6325C065" Ref="#PWR081"  Part="1" 
+F 0 "#PWR081" H 8450 6800 50  0001 C CNN
+F 1 "+3V3" H 8450 7090 50  0000 C CNN
+F 2 "" H 8450 6950 50  0000 C CNN
+F 3 "" H 8450 6950 50  0000 C CNN
+	1    8450 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 6325C06C
+P 8750 7100
+AR Path="/6316A495/6325C06C" Ref="C?"  Part="1" 
+AR Path="/58D6D507/6325C06C" Ref="C?"  Part="1" 
+AR Path="/61E7DB84/6325C06C" Ref="C80"  Part="1" 
+F 0 "C80" H 8775 7200 50  0000 L CNN
+F 1 "22nF" H 8775 7000 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 8788 6950 50  0001 C CNN
+F 3 "" H 8750 7100 50  0000 C CNN
+F 4 "CX0603MRX7R8BB223" H 8750 7100 50  0001 C CNN "MPN"
+	1    8750 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6325C072
+P 8750 7250
+AR Path="/6316A495/6325C072" Ref="#PWR?"  Part="1" 
+AR Path="/58D6D507/6325C072" Ref="#PWR?"  Part="1" 
+AR Path="/61E7DB84/6325C072" Ref="#PWR085"  Part="1" 
+F 0 "#PWR085" H 8750 7000 50  0001 C CNN
+F 1 "GND" H 8750 7100 50  0000 C CNN
+F 2 "" H 8750 7250 50  0000 C CNN
+F 3 "" H 8750 7250 50  0000 C CNN
+	1    8750 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 6325C078
+P 8750 6950
+AR Path="/6316A495/6325C078" Ref="#PWR?"  Part="1" 
+AR Path="/58D6D507/6325C078" Ref="#PWR?"  Part="1" 
+AR Path="/61E7DB84/6325C078" Ref="#PWR084"  Part="1" 
+F 0 "#PWR084" H 8750 6800 50  0001 C CNN
+F 1 "+3V3" H 8750 7090 50  0000 C CNN
+F 2 "" H 8750 6950 50  0000 C CNN
+F 3 "" H 8750 6950 50  0000 C CNN
+	1    8750 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 6325C07F
+P 9050 7100
+AR Path="/6316A495/6325C07F" Ref="C?"  Part="1" 
+AR Path="/58D6D507/6325C07F" Ref="C?"  Part="1" 
+AR Path="/61E7DB84/6325C07F" Ref="C81"  Part="1" 
+F 0 "C81" H 9075 7200 50  0000 L CNN
+F 1 "22nF" H 9075 7000 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 9088 6950 50  0001 C CNN
+F 3 "" H 9050 7100 50  0000 C CNN
+F 4 "CX0603MRX7R8BB223" H 9050 7100 50  0001 C CNN "MPN"
+	1    9050 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6325C085
+P 9050 7250
+AR Path="/6316A495/6325C085" Ref="#PWR?"  Part="1" 
+AR Path="/58D6D507/6325C085" Ref="#PWR?"  Part="1" 
+AR Path="/61E7DB84/6325C085" Ref="#PWR087"  Part="1" 
+F 0 "#PWR087" H 9050 7000 50  0001 C CNN
+F 1 "GND" H 9050 7100 50  0000 C CNN
+F 2 "" H 9050 7250 50  0000 C CNN
+F 3 "" H 9050 7250 50  0000 C CNN
+	1    9050 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 6325C08B
+P 9050 6950
+AR Path="/6316A495/6325C08B" Ref="#PWR?"  Part="1" 
+AR Path="/58D6D507/6325C08B" Ref="#PWR?"  Part="1" 
+AR Path="/61E7DB84/6325C08B" Ref="#PWR086"  Part="1" 
+F 0 "#PWR086" H 9050 6800 50  0001 C CNN
+F 1 "+3V3" H 9050 7090 50  0000 C CNN
+F 2 "" H 9050 6950 50  0000 C CNN
+F 3 "" H 9050 6950 50  0000 C CNN
+	1    9050 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 6325C092
+P 9350 7100
+AR Path="/6316A495/6325C092" Ref="C?"  Part="1" 
+AR Path="/58D6D507/6325C092" Ref="C?"  Part="1" 
+AR Path="/61E7DB84/6325C092" Ref="C82"  Part="1" 
+F 0 "C82" H 9375 7200 50  0000 L CNN
+F 1 "22nF" H 9375 7000 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 9388 6950 50  0001 C CNN
+F 3 "" H 9350 7100 50  0000 C CNN
+F 4 "CX0603MRX7R8BB223" H 9350 7100 50  0001 C CNN "MPN"
+	1    9350 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6325C098
+P 9350 7250
+AR Path="/6316A495/6325C098" Ref="#PWR?"  Part="1" 
+AR Path="/58D6D507/6325C098" Ref="#PWR?"  Part="1" 
+AR Path="/61E7DB84/6325C098" Ref="#PWR091"  Part="1" 
+F 0 "#PWR091" H 9350 7000 50  0001 C CNN
+F 1 "GND" H 9350 7100 50  0000 C CNN
+F 2 "" H 9350 7250 50  0000 C CNN
+F 3 "" H 9350 7250 50  0000 C CNN
+	1    9350 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 6325C09E
+P 9350 6950
+AR Path="/6316A495/6325C09E" Ref="#PWR?"  Part="1" 
+AR Path="/58D6D507/6325C09E" Ref="#PWR?"  Part="1" 
+AR Path="/61E7DB84/6325C09E" Ref="#PWR090"  Part="1" 
+F 0 "#PWR090" H 9350 6800 50  0001 C CNN
+F 1 "+3V3" H 9350 7090 50  0000 C CNN
+F 2 "" H 9350 6950 50  0000 C CNN
+F 3 "" H 9350 6950 50  0000 C CNN
+	1    9350 6950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7925 5875 7925 5975
+Wire Wire Line
+	7925 5975 8025 5975
+Wire Wire Line
+	8125 5975 8125 5875
+Wire Wire Line
+	8025 5875 8025 5975
+Wire Wire Line
+	8225 5875 8225 5975
+Wire Wire Line
+	8225 5975 8325 5975
+Wire Wire Line
+	8525 5975 8525 5875
+Wire Wire Line
+	8325 5875 8325 5975
+Wire Wire Line
+	8425 5875 8425 5975
+$Comp
+L power:GND #PWR?
+U 1 1 6325C0AD
+P 8025 6075
+AR Path="/6316A495/6325C0AD" Ref="#PWR?"  Part="1" 
+AR Path="/58D6D507/6325C0AD" Ref="#PWR?"  Part="1" 
+AR Path="/61E7DB84/6325C0AD" Ref="#PWR043"  Part="1" 
+F 0 "#PWR043" H 8025 5825 50  0001 C CNN
+F 1 "GND" H 8025 5925 50  0000 C CNN
+F 2 "" H 8025 6075 50  0000 C CNN
+F 3 "" H 8025 6075 50  0000 C CNN
+	1    8025 6075
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6325C0B3
+P 8325 6075
+AR Path="/6316A495/6325C0B3" Ref="#PWR?"  Part="1" 
+AR Path="/58D6D507/6325C0B3" Ref="#PWR?"  Part="1" 
+AR Path="/61E7DB84/6325C0B3" Ref="#PWR063"  Part="1" 
+F 0 "#PWR063" H 8325 5825 50  0001 C CNN
+F 1 "GND" H 8325 5925 50  0000 C CNN
+F 2 "" H 8325 6075 50  0000 C CNN
+F 3 "" H 8325 6075 50  0000 C CNN
+	1    8325 6075
+	1    0    0    -1  
+$EndComp
+Connection ~ 8025 5975
+Wire Wire Line
+	8025 5975 8125 5975
+Wire Wire Line
+	8025 5975 8025 6075
+Connection ~ 8325 5975
+Wire Wire Line
+	8325 5975 8425 5975
+Wire Wire Line
+	8325 5975 8325 6075
+Connection ~ 8425 5975
+Wire Wire Line
+	8425 5975 8525 5975
+$Comp
+L mt48lc16m16a2tg:IS42S16320D-6BLI U?
+U 1 1 6325C0C1
+P 8225 4575
+AR Path="/6316A495/6325C0C1" Ref="U?"  Part="1" 
+AR Path="/58D6D507/6325C0C1" Ref="U?"  Part="1" 
+AR Path="/61E7DB84/6325C0C1" Ref="U2"  Part="1" 
+F 0 "U2" H 7625 5775 50  0000 C CNN
+F 1 "IS42S16320D-6BLI" H 8975 3375 50  0000 C CNN
+F 2 "IS42S16320D:IS42S16320D-6BLI" H 8225 4575 50  0001 C CIN
+F 3 "" H 8225 4325 50  0001 C CNN
+	1    8225 4575
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8025 3175 8025 3275
+Wire Wire Line
+	8025 3175 8125 3175
+Wire Wire Line
+	8325 3175 8325 3275
+Text GLabel 7425 4725 0    60   Input ~ 0
+SDRAM_A12
+Text GLabel 7425 5625 0    60   Input ~ 0
+SDRAM_nCS
+Text GLabel 7425 5475 0    60   Input ~ 0
+SDRAM_nWE
+Text GLabel 7425 5375 0    60   Input ~ 0
+SDRAM_nCAS
+Text GLabel 7425 5275 0    60   Input ~ 0
+SDRAM_nRAS
+Text GLabel 7425 5175 0    60   Input ~ 0
+SDRAM_CKE
+Text GLabel 7425 5075 0    60   Input ~ 0
+SDRAM_CLK
+Text GLabel 7425 4925 0    60   Input ~ 0
+SDRAM_BA1
+Text GLabel 7425 4825 0    60   Input ~ 0
+SDRAM_BA0
+Text GLabel 7425 4625 0    60   Input ~ 0
+SDRAM_A11
+Text GLabel 7425 4525 0    60   Input ~ 0
+SDRAM_A10
+Text GLabel 7425 4425 0    60   Input ~ 0
+SDRAM_A9
+Text GLabel 7425 4325 0    60   Input ~ 0
+SDRAM_A8
+Text GLabel 7425 4225 0    60   Input ~ 0
+SDRAM_A7
+Text GLabel 7425 4125 0    60   Input ~ 0
+SDRAM_A6
+Text GLabel 7425 4025 0    60   Input ~ 0
+SDRAM_A5
+Text GLabel 7425 3925 0    60   Input ~ 0
+SDRAM_A4
+Text GLabel 7425 3825 0    60   Input ~ 0
+SDRAM_A3
+Text GLabel 7425 3725 0    60   Input ~ 0
+SDRAM_A2
+Text GLabel 7425 3625 0    60   Input ~ 0
+SDRAM_A1
+Text GLabel 7425 3525 0    60   Input ~ 0
+SDRAM_A0
+Text GLabel 9025 5375 2    60   Input ~ 0
+SDRAM_DQM1
+Text GLabel 9025 5275 2    60   Input ~ 0
+SDRAM_DQM0
+Text GLabel 9025 4925 2    60   Input ~ 0
+SDRAM_D15
+Text GLabel 9025 5025 2    60   Input ~ 0
+SDRAM_D14
+Text GLabel 9025 4825 2    60   Input ~ 0
+SDRAM_D13
+Text GLabel 9025 4725 2    60   Input ~ 0
+SDRAM_D12
+Text GLabel 9025 4625 2    60   Input ~ 0
+SDRAM_D11
+Text GLabel 9025 4525 2    60   Input ~ 0
+SDRAM_D10
+Text GLabel 9025 4425 2    60   Input ~ 0
+SDRAM_D9
+Text GLabel 9025 4325 2    60   Input ~ 0
+SDRAM_D8
+Text GLabel 9025 4225 2    60   Input ~ 0
+SDRAM_D7
+Text GLabel 9025 4125 2    60   Input ~ 0
+SDRAM_D6
+Text GLabel 9025 4025 2    60   Input ~ 0
+SDRAM_D5
+Text GLabel 9025 3925 2    60   Input ~ 0
+SDRAM_D4
+Text GLabel 9025 3825 2    60   Input ~ 0
+SDRAM_D3
+Text GLabel 9025 3725 2    60   Input ~ 0
+SDRAM_D2
+Text GLabel 9025 3625 2    60   Input ~ 0
+SDRAM_D1
+Text GLabel 9025 3525 2    60   Input ~ 0
+SDRAM_D0
+$Comp
+L power:+3V3 #PWR?
+U 1 1 6325C0F1
+P 8325 3075
+AR Path="/6316A495/6325C0F1" Ref="#PWR?"  Part="1" 
+AR Path="/58D6D507/6325C0F1" Ref="#PWR?"  Part="1" 
+AR Path="/61E7DB84/6325C0F1" Ref="#PWR044"  Part="1" 
+F 0 "#PWR044" H 8325 2925 50  0001 C CNN
+F 1 "+3V3" H 8325 3215 50  0000 C CNN
+F 2 "" H 8325 3075 50  0000 C CNN
+F 3 "" H 8325 3075 50  0000 C CNN
+	1    8325 3075
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 6325C0F7
+P 8025 3075
+AR Path="/6316A495/6325C0F7" Ref="#PWR?"  Part="1" 
+AR Path="/58D6D507/6325C0F7" Ref="#PWR?"  Part="1" 
+AR Path="/61E7DB84/6325C0F7" Ref="#PWR042"  Part="1" 
+F 0 "#PWR042" H 8025 2925 50  0001 C CNN
+F 1 "+3V3" H 8025 3215 50  0000 C CNN
+F 2 "" H 8025 3075 50  0000 C CNN
+F 3 "" H 8025 3075 50  0000 C CNN
+	1    8025 3075
+	1    0    0    -1  
+$EndComp
+Connection ~ 8025 3175
+Wire Wire Line
+	8025 3075 8025 3175
+Wire Wire Line
+	8125 3175 8125 3275
+Wire Wire Line
+	7925 3175 8025 3175
+Wire Wire Line
+	7925 3275 7925 3175
+Wire Wire Line
+	8425 3175 8525 3175
+Wire Wire Line
+	8325 3175 8425 3175
+Connection ~ 8425 3175
+Wire Wire Line
+	8425 3275 8425 3175
+Connection ~ 8325 3175
+Wire Wire Line
+	8325 3075 8325 3175
+Wire Wire Line
+	8525 3175 8525 3275
+Wire Wire Line
+	8225 3175 8325 3175
+Wire Wire Line
+	8225 3275 8225 3175
+$EndSCHEMATC

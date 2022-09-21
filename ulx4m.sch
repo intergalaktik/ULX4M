@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 11
 Title "ULX4M-LS"
-Date "2021-11-05"
-Rev "0.0.2"
+Date "2022-09-21"
+Rev "0.0.3"
 Comp "Intergalaktik d.o.o."
 Comment1 "Root sheet"
 Comment2 "License: CERN-OHL-S v2"
@@ -46,22 +46,10 @@ F0 "usb" 60
 F1 "usb.sch" 60
 $EndSheet
 $Sheet
-S 9550 5900 750  450 
-U 58D6D447
-F0 "wifi" 60
-F1 "wifi.sch" 60
-$EndSheet
-$Sheet
 S 9550 5250 750  450 
 U 58D6D507
 F0 "ram" 60
 F1 "ram.sch" 60
-$EndSheet
-$Sheet
-S 8700 5900 750  450 
-U 58D82BD0
-F0 "analog" 60
-F1 "analog.sch" 60
 $EndSheet
 $Sheet
 S 10400 5900 750  450 
@@ -183,6 +171,84 @@ F 1 "Logo_Open_Hardware_Small" H 8475 6650 50  0001 C CNN
 F 2 "" H 8475 6875 50  0001 C CNN
 F 3 "~" H 8475 6875 50  0001 C CNN
 	1    8475 6875
+	1    0    0    -1  
+$EndComp
+$Sheet
+S 9550 5900 500  450 
+U 61E7DB84
+F0 "DDR3" 60
+F1 "ddr3.sch" 60
+$EndSheet
+$Sheet
+S 8700 5900 500  425 
+U 633E0B89
+F0 "ethernet" 60
+F1 "ethernet.sch" 60
+$EndSheet
+$Comp
+L Mechanical:Fiducial FI1
+U 1 1 6306AAC5
+P 6750 7150
+F 0 "FI1" H 6835 7196 50  0000 L CNN
+F 1 "Fi" H 6835 7105 50  0000 L CNN
+F 2 "Fiducial:Fiducial_0.5mm_Mask1mm" H 6750 7150 50  0001 C CNN
+F 3 "~" H 6750 7150 50  0001 C CNN
+	1    6750 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FI2
+U 1 1 6306AFDE
+P 6750 7325
+F 0 "FI2" H 6835 7371 50  0000 L CNN
+F 1 "Fi" H 6835 7280 50  0000 L CNN
+F 2 "Fiducial:Fiducial_0.5mm_Mask1mm" H 6750 7325 50  0001 C CNN
+F 3 "~" H 6750 7325 50  0001 C CNN
+	1    6750 7325
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FI3
+U 1 1 6306C005
+P 6750 7500
+F 0 "FI3" H 6835 7546 50  0000 L CNN
+F 1 "Fi" H 6835 7455 50  0000 L CNN
+F 2 "Fiducial:Fiducial_0.5mm_Mask1mm" H 6750 7500 50  0001 C CNN
+F 3 "~" H 6750 7500 50  0001 C CNN
+	1    6750 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FI4
+U 1 1 63079398
+P 6450 7150
+F 0 "FI4" H 6535 7196 50  0000 L CNN
+F 1 "Fi" H 6535 7105 50  0000 L CNN
+F 2 "Fiducial:Fiducial_0.5mm_Mask1mm" H 6450 7150 50  0001 C CNN
+F 3 "~" H 6450 7150 50  0001 C CNN
+	1    6450 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FI5
+U 1 1 630796CF
+P 6450 7325
+F 0 "FI5" H 6535 7371 50  0000 L CNN
+F 1 "Fi" H 6535 7280 50  0000 L CNN
+F 2 "Fiducial:Fiducial_0.5mm_Mask1mm" H 6450 7325 50  0001 C CNN
+F 3 "~" H 6450 7325 50  0001 C CNN
+	1    6450 7325
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FI6
+U 1 1 63079865
+P 6450 7500
+F 0 "FI6" H 6535 7546 50  0000 L CNN
+F 1 "Fi" H 6535 7455 50  0000 L CNN
+F 2 "Fiducial:Fiducial_0.5mm_Mask1mm" H 6450 7500 50  0001 C CNN
+F 3 "~" H 6450 7500 50  0001 C CNN
+	1    6450 7500
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
