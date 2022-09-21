@@ -359,21 +359,21 @@ Wire Wire Line
 	7550 5400 7600 5400
 Wire Wire Line
 	7550 5500 7600 5500
-Text GLabel 9125 5150 0    60   Input ~ 0
+Text GLabel 9150 5850 0    60   Input ~ 0
 JTAG_TDI
-Text GLabel 9125 5250 0    60   Input ~ 0
+Text GLabel 9150 5950 0    60   Input ~ 0
 JTAG_TMS
-Text GLabel 9125 5350 0    60   Input ~ 0
+Text GLabel 9150 6050 0    60   Input ~ 0
 JTAG_TCK
-Text GLabel 9125 5450 0    60   Input ~ 0
+Text GLabel 9150 6150 0    60   Input ~ 0
 JTAG_TDO
-Text GLabel 9700 5450 2    60   Input ~ 0
+Text GLabel 9650 6150 2    60   Input ~ 0
 GPIO16
-Text GLabel 9700 5350 2    60   Input ~ 0
+Text GLabel 9650 6050 2    60   Input ~ 0
 GPIO20
-Text GLabel 9700 5250 2    60   Input ~ 0
+Text GLabel 9650 5950 2    60   Input ~ 0
 GPIO21
-Text GLabel 9700 5150 2    60   Input ~ 0
+Text GLabel 9650 5850 2    60   Input ~ 0
 GPIO12
 Text GLabel 5250 5100 0    60   Input ~ 0
 SD_D2
@@ -564,7 +564,7 @@ Text GLabel 10150 1850 2    50   Output ~ 0
 RGMII_RX_DV
 Text GLabel 8650 1350 0    50   Output ~ 0
 RGMII_REF_CLK
-Text GLabel 6925 1575 2    50   Output ~ 0
+Text GLabel 6125 3475 2    50   Output ~ 0
 ETH_INT_N
 Text GLabel 8650 1850 0    50   Output ~ 0
 RGMII_RXD1
@@ -607,7 +607,7 @@ Wire Wire Line
 	2625 1875 2625 1800
 Wire Wire Line
 	2625 2225 2625 2075
-Text GLabel 7325 1475 0    50   Output ~ 0
+Text GLabel 6525 3375 0    50   Output ~ 0
 RGMII_RX_CLK
 $Comp
 L Device:R_Small R4
@@ -642,74 +642,14 @@ F 3 "~" H 1750 3000 50  0001 C CNN
 	1    1750 3000
 	0    -1   -1   0   
 $EndComp
-Text GLabel 6850 1675 2    50   Output ~ 0
+Text GLabel 6050 3575 2    50   Output ~ 0
 RGMII_RXD3
-Text GLabel 7450 2000 0    50   Input ~ 0
+Text GLabel 6650 3900 0    50   Input ~ 0
 RGMII_TXD2
-Text GLabel 7375 1775 0    50   Input ~ 0
+Text GLabel 6575 3675 0    50   Input ~ 0
 RGMII_TXD3
-Text GLabel 7400 1875 0    50   Output ~ 0
+Text GLabel 6600 3775 0    50   Output ~ 0
 RGMII_RXD2
-$Comp
-L Device:R_Small R64
-U 1 1 648C922E
-P 9400 5150
-F 0 "R64" V 9450 4975 50  0000 C CNN
-F 1 "0R" V 9400 5150 50  0000 C CNN
-F 2 "Resistor_SMD:R_0201_0603Metric" H 9400 5150 50  0001 C CNN
-F 3 "~" H 9400 5150 50  0001 C CNN
-	1    9400 5150
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small R65
-U 1 1 64928528
-P 9400 5350
-F 0 "R65" V 9450 5175 50  0000 C CNN
-F 1 "0R" V 9400 5350 50  0000 C CNN
-F 2 "Resistor_SMD:R_0201_0603Metric" H 9400 5350 50  0001 C CNN
-F 3 "~" H 9400 5350 50  0001 C CNN
-	1    9400 5350
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small R66
-U 1 1 649432D8
-P 9400 5450
-F 0 "R66" V 9450 5275 50  0000 C CNN
-F 1 "0R" V 9400 5450 50  0000 C CNN
-F 2 "Resistor_SMD:R_0201_0603Metric" H 9400 5450 50  0001 C CNN
-F 3 "~" H 9400 5450 50  0001 C CNN
-	1    9400 5450
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small R67
-U 1 1 64976EC1
-P 9400 5250
-F 0 "R67" V 9450 5075 50  0000 C CNN
-F 1 "0R" V 9400 5250 50  0000 C CNN
-F 2 "Resistor_SMD:R_0201_0603Metric" H 9400 5250 50  0001 C CNN
-F 3 "~" H 9400 5250 50  0001 C CNN
-	1    9400 5250
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	9125 5150 9300 5150
-Wire Wire Line
-	9125 5250 9300 5250
-Wire Wire Line
-	9125 5350 9300 5350
-Wire Wire Line
-	9125 5450 9300 5450
-Wire Wire Line
-	9500 5150 9700 5150
-Wire Wire Line
-	9500 5250 9700 5250
-Wire Wire Line
-	9500 5350 9700 5350
-Wire Wire Line
-	9500 5450 9700 5450
 Text GLabel 10825 2350 2    60   Input ~ 0
 GPIO12
 Text GLabel 7950 1950 0    60   Input ~ 0
@@ -736,4 +676,15 @@ Wire Wire Line
 	7900 2350 8650 2350
 Wire Wire Line
 	7900 2250 8650 2250
+$Comp
+L Connector_Generic:Conn_02x04_Odd_Even J6
+U 1 1 64CCAF42
+P 9350 5950
+F 0 "J6" H 9400 6267 50  0000 C CNN
+F 1 "GPIO>>JTAG" H 9400 6176 50  0000 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_2x04_P1.00mm_Vertical" H 9350 5950 50  0001 C CNN
+F 3 "~" H 9350 5950 50  0001 C CNN
+	1    9350 5950
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
