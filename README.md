@@ -6,8 +6,8 @@ Successor of [ULX2S](http://github.com/emard/ulx2s).
 
 3D preview
 
-![TOP](/pic/ULX4M-LD_top_v001.png)
-![BOTTOM](/pic/ULX4M-LD_bottom_v001.png)
+![TOP](/pic/ULX4M-LD_top_v002.png)
+![BOTTOM](/pic/ULX4M-LD_bottom_v002.png)
 ![Layers_v001](/pic/6_layer_PCB.png)
 
 [Schematics](/doc/schematics.pdf) and PCB KiCAD 5 PCB editor:
@@ -22,7 +22,7 @@ FPGA: Lattice ECP5 [LFE5U-85F-6BG381C](http://www.latticesemi.com/~/media/Lattic
 
 LFE5UM-85F-8BG381C
 
-MT41K256M16TW-107 512Mb DDR3
+MT41K256M16TW-107 512MB DDR3
 
 W25Q128JVSIM NOR Flash spiFlash, 3V, 128M-bit, 4Kb Uniform Sector
 
@@ -38,9 +38,9 @@ USB (bootloader)
 
 ### Periferals
 
-- [x] 2 lane MIPI CSI camera port  CAM0 and CAM1
+- [x] 2 lane CSI camera port  CAM0 and CAM1
 
-- [x] 2 lane MIPI DSI display port DISP0 (fake differential)
+- [x] 2 lane DSI display port DISP0 (fake differential)
 
 - [x] SerDes pair connected to second DSI connector DISP1
 
