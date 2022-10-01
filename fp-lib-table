@@ -38,4 +38,5 @@
   (lib (name MT41K256M16TW-107_P)(type Legacy)(uri ${KIPRJMOD}/footprints/ddr3/MT41K256M16TW-107_P/MT41K256M16TW-107_P.mod)(options "")(descr ""))
   (lib (name AS4C256M16D3)(type KiCad)(uri ${KIPRJMOD}/footprints/ddr3/AS4C256M16D3)(options "")(descr ""))
   (lib (name ecp5-dc-scm)(type KiCad)(uri ${KIPRJMOD}/footprints/ecp5-dc-scm)(options "")(descr ""))
+  (lib (name kicad)(type KiCad)(uri ${KIPRJMOD}/footprints/logo/kicad)(options "")(descr ""))
 )
