@@ -1,4 +1,4 @@
-18701313682007557
+18704789793170404
 AS4C256M16D3
 BGA-96_9.0x13.0mm_Layout2x3x16_P0.8mm
 BGA-96, http://www.mouser.com/ds/2/198/43-46TR16640B-81280BL-706483.pdf
@@ -51393,13 +51393,6 @@ heatsink
 0
 2
 1
-IS42S16320D
-IS42S16320D-6BLI
-BGA-90, http://www.issi.com/WW/pdf/42-45S32800J.pdf
-BGA-90
-0
-54
-54
 Inductor_SMD
 L_6.3x6.3_H3
 Choke, SMD, 6.3x6.3mm 3mm height
@@ -81598,6 +81591,27 @@ resistor handsolder
 0
 2
 2
+kicad
+kicad2_3_3mm
+
+
+0
+0
+0
+kicad
+kicad2_5mm
+
+
+0
+0
+0
+kicad
+kicad2_8mm
+
+
+0
+0
+0
 koncar
 koncar
 Imported from /tmp/koncar.svg
