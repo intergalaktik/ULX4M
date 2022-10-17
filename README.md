@@ -4,15 +4,15 @@
 Xtensible board release 3 with SDRAM,
 Successor of [ULX2S](http://github.com/emard/ulx2s).
 
-### ULX4M on TOFU carrier board
-
-![TOFU](/pic/ULX4M_TOFU.png)
-
 ### 3D preview
 
 ![TOP](/pic/ULX4M-LS_top_v003.png)
 ![BOTTOM](/pic/ULX4M-LS_bottom_v003.png)
 ![Layers_v001](/pic/6_layer_PCB.png)
+
+### Panel
+
+![Panel](/pic/ulx4m_ls_panel.png)
 
 [Schematics](/doc/schematics.pdf) and PCB KiCAD 5 PCB editor:
 
@@ -69,6 +69,10 @@ USB (bootloader)
 - [x] 8 LEDs
 
 * Only available if ECP5 SerDes chip is used
+
+### ULX4M on TOFU carrier board
+
+![TOFU](/pic/ULX4M_TOFU.png)
 
 ## References
 
