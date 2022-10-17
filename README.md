@@ -10,6 +10,10 @@ Successor of [ULX2S](http://github.com/emard/ulx2s).
 ![BOTTOM](/pic/ULX4M-LD_bottom_v002.png)
 ![Layers_v001](/pic/6_layer_PCB.png)
 
+### Panel
+
+![Panel](/pic/ulx4m_ld_panel.png)
+
 [Schematics](/doc/schematics.pdf) and PCB KiCAD 5 PCB editor:
 
     kicad ulx4m.pro
