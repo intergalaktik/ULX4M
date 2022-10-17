@@ -44,7 +44,9 @@ $(DESTINATION)/ulx4m-panel.kicad_pcb: $(DESTINATION)/ulx4m.kicad_pcb
     	--tabs 'fixed; width: 10mm' \
 		--cuts vcuts \
 		--framing 'railstb; width: 3mm; space: 2mm;' \
-		--fiducials '3fid; hoffset: 5mm; voffset: 1mm; coppersize: 1mm; opening: 2mm;' \
+		--fiducials '3fid; hoffset: 5mm; voffset: 1.5mm; coppersize: 1mm; opening: 2mm;' \
+		--tooling '4hole; hoffset: 2.5mm; voffset: 1.5mm; size: 1.5mm' \
+		--text 'simple; text: Intergalaktik d.o.o. ULX4M-LD v0.0.2 panelized with KiKit; anchor: mt; voffset: 1.5mm; hjustify: center; vjustify: center;' \
 		--post 'millradius: 1mm' \
 		$< $@
 
@@ -74,7 +76,7 @@ $(DESTINATION)/ulx4m-panel.kicad_pcb: $(DESTINATION)/ulx4m.kicad_pcb
 	$(KIKIT) export gerber $< $@
 
 %-gerber.zip: %-gerber
-	zip $@ *.*
+	zip $@ plot/panel/ulx4m-panel-gerber/*.*
 
 $(DESTINATION):
 	mkdir -p $(DESTINATION)
@@ -84,4 +86,6 @@ view: $(DESTINATION)/ulx4m-panel.kicad_pcb
 
 clean:
 	rm -f *~
-	#rm -rf $(DESTINATION)
+	rm -rf $(DESTINATION)
+	mkdir plot/panel
+	cp ulx4m.kicad_pcb plot/panel
