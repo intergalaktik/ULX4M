@@ -17,41 +17,35 @@ DESTINATION = plot/panel
 
 BOARDSFILES = $(addprefix $(DESTINATION)/, $(BOARDS:=.kicad_pcb))
 GERBERS = $(addprefix $(DESTINATION)/, $(BOARDS:=-panel-gerber))
-RAR = $(addprefix $(DESTINATION)/, $(BOARDS:=-panel-gerber.rar))
+ZIP = $(addprefix $(DESTINATION)/, $(BOARDS:=-panel-gerber.zip))
 KIKIT = ~/.local/bin/kikit
 
 # help panelizer locate board
 # this design has a single board
 # so area is oversized to include everything
-X_ORIGIN=83
-Y_ORIGIN=54
-X_SIZE=115
-Y_SIZE=70
+X_ORIGIN=94
+Y_ORIGIN=112
+X_SIZE=55
+Y_SIZE=40
 
-all: $(GERBERS) $(RAR)
+all: $(GERBERS) $(ZIP)
 
-$(DESTINATION)/ulx4m.kicad_pcb: ulx4m.kicad_pcb $(DESTINATION)
-	$(KIKIT) panelize extractboard \
-		--sourcearea $(X_ORIGIN) $(Y_ORIGIN) $(X_SIZE) $(Y_SIZE) \
-		$< $@
+#$(DESTINATION)/ulx4m.kicad_pcb: ulx4m.kicad_pcb $(DESTINATION)
+#	$(KIKIT) export gerber \
+#		$< $@
 
 # this is almost as what we need but
 # space should be cut more by radius to the left and right
 # currently cuts will leave "dents" at the edges.
 # workaround now is to have radius 0 instead of 2 mm
 $(DESTINATION)/ulx4m-panel.kicad_pcb: $(DESTINATION)/ulx4m.kicad_pcb
-	$(KIKIT) panelize grid      \
-		--gridsize  4 2     \
-		--space     9       \
-		--radius    0       \
-		--vtabs     0       \
-		--tabwidth  0       \
-		--vcuts             \
-		--railsLr   5       \
-		--railsTb   8       \
-		--fiducials 5 5 1 2 \
-		--tolerance 20      \
-		--copperfill        \
+	$(KIKIT) panelize      \
+		--layout 'grid;  rows: 2; cols: 2; space: 2mm'\    \
+    	--tabs 'fixed; width: 10mm' \
+		--cuts vcuts \
+		--framing 'railstb; width: 3mm; space: 2mm;' \
+		--fiducials '3fid; hoffset: 5mm; voffset: 1mm; coppersize: 1mm; opening: 2mm;' \
+		--post 'millradius: 1mm' \
 		$< $@
 
 # adding this will enlarge horizontal cuts
@@ -79,8 +73,8 @@ $(DESTINATION)/ulx4m-panel.kicad_pcb: $(DESTINATION)/ulx4m.kicad_pcb
 %-gerber: %.kicad_pcb
 	$(KIKIT) export gerber $< $@
 
-%-gerber.rar: %-gerber
-	rar a $@ $<
+%-gerber.zip: %-gerber
+	zip $@ *.*
 
 $(DESTINATION):
 	mkdir -p $(DESTINATION)
@@ -90,4 +84,4 @@ view: $(DESTINATION)/ulx4m-panel.kicad_pcb
 
 clean:
 	rm -f *~
-	rm -rf $(DESTINATION)
+	#rm -rf $(DESTINATION)
