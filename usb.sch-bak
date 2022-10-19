@@ -359,21 +359,21 @@ Wire Wire Line
 	7550 5400 7600 5400
 Wire Wire Line
 	7550 5500 7600 5500
-Text GLabel 9150 5850 0    60   Input ~ 0
-JTAG_TDI
-Text GLabel 9150 5950 0    60   Input ~ 0
-JTAG_TMS
-Text GLabel 9150 6050 0    60   Input ~ 0
-JTAG_TCK
-Text GLabel 9150 6150 0    60   Input ~ 0
-JTAG_TDO
-Text GLabel 9650 6150 2    60   Input ~ 0
-GPIO16
-Text GLabel 9650 6050 2    60   Input ~ 0
-GPIO20
 Text GLabel 9650 5950 2    60   Input ~ 0
-GPIO21
+JTAG_TDI
+Text GLabel 9650 6150 2    60   Input ~ 0
+JTAG_TMS
 Text GLabel 9650 5850 2    60   Input ~ 0
+JTAG_TCK
+Text GLabel 9650 6050 2    60   Input ~ 0
+JTAG_TDO
+Text GLabel 9150 6050 0    60   Input ~ 0
+GPIO16
+Text GLabel 9150 5850 0    60   Input ~ 0
+GPIO20
+Text GLabel 9150 6150 0    60   Input ~ 0
+GPIO21
+Text GLabel 9150 5950 0    60   Input ~ 0
 GPIO12
 Text GLabel 5250 5100 0    60   Input ~ 0
 SD_D2

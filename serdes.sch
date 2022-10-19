@@ -673,13 +673,13 @@ Text GLabel 10350 2450 2    60   Input ~ 0
 ETH_0N
 Text GLabel 10350 2350 2    60   Input ~ 0
 ETH_0P
-Text Label 7025 4625 0    60   ~ 0
+Text Label 7675 4625 0    60   ~ 0
 S_7_P
-Text Label 7025 4525 0    60   ~ 0
+Text Label 7675 4450 0    60   ~ 0
 S_7_N
-Text Label 7025 4825 0    60   ~ 0
+Text Label 7675 4975 0    60   ~ 0
 S_5_P
-Text Label 7025 4725 0    60   ~ 0
+Text Label 7675 4800 0    60   ~ 0
 S_5_N
 $Comp
 L Connector:Conn_01x04_Male J4
@@ -692,4 +692,92 @@ F 3 "~" H 6825 4625 50  0001 C CNN
 	1    6825 4625
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 63504806
+P 7300 4450
+AR Path="/58D686D9/63504806" Ref="C?"  Part="1" 
+AR Path="/58DA7327/63504806" Ref="C91"  Part="1" 
+F 0 "C91" V 7350 4350 50  0000 C CNN
+F 1 "22n" V 7250 4300 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0201_0603Metric" H 7300 4450 50  0001 C CNN
+F 3 "~" H 7300 4450 50  0001 C CNN
+	1    7300 4450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 635052CF
+P 7300 4625
+AR Path="/58D686D9/635052CF" Ref="C?"  Part="1" 
+AR Path="/58DA7327/635052CF" Ref="C92"  Part="1" 
+F 0 "C92" V 7350 4525 50  0000 C CNN
+F 1 "22n" V 7250 4475 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0201_0603Metric" H 7300 4625 50  0001 C CNN
+F 3 "~" H 7300 4625 50  0001 C CNN
+	1    7300 4625
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 63505C52
+P 7300 4800
+AR Path="/58D686D9/63505C52" Ref="C?"  Part="1" 
+AR Path="/58DA7327/63505C52" Ref="C93"  Part="1" 
+F 0 "C93" V 7350 4700 50  0000 C CNN
+F 1 "22n" V 7250 4650 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0201_0603Metric" H 7300 4800 50  0001 C CNN
+F 3 "~" H 7300 4800 50  0001 C CNN
+	1    7300 4800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 635066AE
+P 7300 4975
+AR Path="/58D686D9/635066AE" Ref="C?"  Part="1" 
+AR Path="/58DA7327/635066AE" Ref="C94"  Part="1" 
+F 0 "C94" V 7350 4875 50  0000 C CNN
+F 1 "22n" V 7250 4825 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0201_0603Metric" H 7300 4975 50  0001 C CNN
+F 3 "~" H 7300 4975 50  0001 C CNN
+	1    7300 4975
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7400 4450 7675 4450
+Wire Wire Line
+	7400 4625 7675 4625
+Wire Wire Line
+	7400 4800 7675 4800
+Wire Wire Line
+	7400 4975 7675 4975
+Wire Wire Line
+	7025 4525 7100 4525
+Wire Wire Line
+	7100 4525 7100 4450
+Wire Wire Line
+	7100 4450 7200 4450
+Wire Wire Line
+	7025 4625 7200 4625
+Wire Wire Line
+	7025 4725 7200 4725
+Wire Wire Line
+	7200 4725 7200 4800
+Wire Wire Line
+	7025 4825 7150 4825
+Wire Wire Line
+	7150 4825 7150 4975
+Wire Wire Line
+	7150 4975 7200 4975
+Text Label 7100 4450 0    60   ~ 0
+1N
+Text Label 7100 4625 0    60   ~ 0
+1P
+Text Label 7100 4725 0    60   ~ 0
+2N
+Text Label 7075 4825 0    60   ~ 0
+2P
+Text Notes 6550 5175 0    60   ~ 0
+Place shorts or caps for external antena experiments
 $EndSCHEMATC
