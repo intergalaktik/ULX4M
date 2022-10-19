@@ -673,13 +673,13 @@ Text GLabel 10350 2450 2    60   Input ~ 0
 ETH_0N
 Text GLabel 10350 2350 2    60   Input ~ 0
 ETH_0P
-Text Label 7025 4625 0    60   ~ 0
+Text Label 7900 4675 0    60   ~ 0
 S_7_P
-Text Label 7025 4525 0    60   ~ 0
+Text Label 7900 4575 0    60   ~ 0
 S_7_N
-Text Label 7025 4825 0    60   ~ 0
+Text Label 7900 4875 0    60   ~ 0
 S_5_P
-Text Label 7025 4725 0    60   ~ 0
+Text Label 7900 4775 0    60   ~ 0
 S_5_N
 $Comp
 L Connector:Conn_01x04_Male J4
@@ -692,4 +692,106 @@ F 3 "~" H 6825 4625 50  0001 C CNN
 	1    6825 4625
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 6350E877
+P 7450 4450
+AR Path="/58D686D9/6350E877" Ref="C?"  Part="1" 
+AR Path="/58DA7327/6350E877" Ref="C?"  Part="1" 
+F 0 "C?" V 7500 4350 50  0000 C CNN
+F 1 "22n" V 7400 4300 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0201_0603Metric" H 7450 4450 50  0001 C CNN
+F 3 "~" H 7450 4450 50  0001 C CNN
+	1    7450 4450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 6350FD45
+P 7450 4600
+AR Path="/58D686D9/6350FD45" Ref="C?"  Part="1" 
+AR Path="/58DA7327/6350FD45" Ref="C?"  Part="1" 
+F 0 "C?" V 7500 4500 50  0000 C CNN
+F 1 "22n" V 7400 4450 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0201_0603Metric" H 7450 4600 50  0001 C CNN
+F 3 "~" H 7450 4600 50  0001 C CNN
+	1    7450 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 63513BA5
+P 7450 4750
+AR Path="/58D686D9/63513BA5" Ref="C?"  Part="1" 
+AR Path="/58DA7327/63513BA5" Ref="C?"  Part="1" 
+F 0 "C?" V 7500 4650 50  0000 C CNN
+F 1 "22n" V 7400 4600 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0201_0603Metric" H 7450 4750 50  0001 C CNN
+F 3 "~" H 7450 4750 50  0001 C CNN
+	1    7450 4750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 63514512
+P 7450 4900
+AR Path="/58D686D9/63514512" Ref="C?"  Part="1" 
+AR Path="/58DA7327/63514512" Ref="C?"  Part="1" 
+F 0 "C?" V 7500 4800 50  0000 C CNN
+F 1 "22n" V 7400 4750 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0201_0603Metric" H 7450 4900 50  0001 C CNN
+F 3 "~" H 7450 4900 50  0001 C CNN
+	1    7450 4900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7175 4525 7175 4450
+Wire Wire Line
+	7175 4450 7350 4450
+Wire Wire Line
+	7025 4525 7175 4525
+Wire Wire Line
+	7025 4625 7175 4625
+Wire Wire Line
+	7175 4625 7175 4600
+Wire Wire Line
+	7175 4600 7350 4600
+Wire Wire Line
+	7025 4725 7350 4725
+Wire Wire Line
+	7350 4725 7350 4750
+Wire Wire Line
+	7025 4825 7350 4825
+Wire Wire Line
+	7350 4825 7350 4900
+Text Label 7175 4450 0    60   ~ 0
+1N
+Text Label 7175 4600 0    60   ~ 0
+1P
+Text Label 7175 4725 0    60   ~ 0
+2N
+Text Label 7175 4825 0    60   ~ 0
+2P
+Wire Wire Line
+	7550 4450 7900 4450
+Wire Wire Line
+	7900 4450 7900 4575
+Wire Wire Line
+	7550 4600 7775 4600
+Wire Wire Line
+	7775 4600 7775 4675
+Wire Wire Line
+	7775 4675 7900 4675
+Wire Wire Line
+	7550 4750 7775 4750
+Wire Wire Line
+	7775 4750 7775 4775
+Wire Wire Line
+	7775 4775 7900 4775
+Wire Wire Line
+	7550 4900 7775 4900
+Wire Wire Line
+	7775 4900 7775 4875
+Wire Wire Line
+	7775 4875 7900 4875
 $EndSCHEMATC
