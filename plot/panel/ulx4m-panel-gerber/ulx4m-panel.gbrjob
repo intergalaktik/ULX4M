@@ -1,0 +1,193 @@
+{
+  "Header":
+  {
+    "GenerationSoftware":
+    {
+      "Vendor":      "KiCad",
+      "Application": "Pcbnew",
+      "Version":     "5.1.9+dfsg1-1+deb11u1"
+    },
+    "CreationDate":  "2022-10-19T12:30:35+02:00"
+  },
+  "GeneralSpecs":
+  {
+    "ProjectId":
+    {
+      "Name": "ulx4m-panel",
+      "GUID": "756c7834-6d2d-4706-916e-656c2e6b6963",
+      "Revision": "v0.0.3"
+    },
+    "Size":
+    {
+      "X": 112.320,
+      "Y": 92.100
+    },
+    "LayerNumber": 6,
+    "BoardThickness":  1.600
+  },
+  "DesignRules":
+  [
+    {
+      "Layers": "Outer",
+      "PadToPad":  0.127,
+      "PadToTrack":  0.127,
+      "TrackToTrack":  0.127,
+      "MinLineWidth":  0.127,
+      "TrackToRegion":  0.127,
+      "RegionToRegion":  0.127
+    },
+    {
+      "Layers": "Inner",
+      "PadToPad":  0.127,
+      "PadToTrack":  0.127,
+      "TrackToTrack":  0.127,
+      "MinLineWidth":  0.127,
+      "TrackToRegion":  0.127,
+      "RegionToRegion":  0.127
+    }
+  ],
+  "FilesAttributes":
+  [
+    {
+      "Path":  "ulx4m-panel-CuTop.gtl",
+      "FileFunction":  "Copper,L1,Top",
+      "FilePolarity":  "Positive"
+    },
+    {
+      "Path":  "ulx4m-panel-CuBottom.gbl",
+      "FileFunction":  "Copper,L6,Bot",
+      "FilePolarity":  "Positive"
+    },
+    {
+      "Path":  "ulx4m-panel-PasteBottom.gbp",
+      "FileFunction":  "SolderPaste,Bot",
+      "FilePolarity":  "Positive"
+    },
+    {
+      "Path":  "ulx4m-panel-PasteTop.gtp",
+      "FileFunction":  "SolderPaste,Top",
+      "FilePolarity":  "Positive"
+    },
+    {
+      "Path":  "ulx4m-panel-SilkTop.gto",
+      "FileFunction":  "Legend,Top",
+      "FilePolarity":  "Positive"
+    },
+    {
+      "Path":  "ulx4m-panel-SilkBottom.gbo",
+      "FileFunction":  "Legend,Bot",
+      "FilePolarity":  "Positive"
+    },
+    {
+      "Path":  "ulx4m-panel-MaskBottom.gbs",
+      "FileFunction":  "SolderMask,Bot",
+      "FilePolarity":  "Negative"
+    },
+    {
+      "Path":  "ulx4m-panel-MaskTop.gts",
+      "FileFunction":  "SolderMask,Top",
+      "FilePolarity":  "Negative"
+    },
+    {
+      "Path":  "ulx4m-panel-EdgeCuts.gm1",
+      "FileFunction":  "Profile",
+      "FilePolarity":  "Positive"
+    },
+    {
+      "Path":  "ulx4m-panel-inner1.g2",
+      "FileFunction":  "Copper,L2,Inr",
+      "FilePolarity":  "Positive"
+    },
+    {
+      "Path":  "ulx4m-panel-inner2.g3",
+      "FileFunction":  "Copper,L3,Inr",
+      "FilePolarity":  "Positive"
+    },
+    {
+      "Path":  "ulx4m-panel-inner3.g4",
+      "FileFunction":  "Copper,L4,Inr",
+      "FilePolarity":  "Positive"
+    },
+    {
+      "Path":  "ulx4m-panel-inner4.g5",
+      "FileFunction":  "Copper,L5,Inr",
+      "FilePolarity":  "Positive"
+    }
+  ],
+  "MaterialStackup":
+  [
+    {
+      "Type":  "Legend",
+      "Notes":  "Layer F.SilkS"
+    },
+    {
+      "Type":  "SolderPaste",
+      "Notes":  "Layer F.Paste"
+    },
+    {
+      "Type":  "SolderMask",
+      "Notes":  "Layer F.Mask"
+    },
+    {
+      "Type":  "Copper",
+      "Notes":  "Layer F.Cu"
+    },
+    {
+      "Type":  "Dielectric",
+      "Material":  "FR4",
+      "Notes":  "Layers L1/L2"
+    },
+    {
+      "Type":  "Copper",
+      "Notes":  "Layer In1.Cu"
+    },
+    {
+      "Type":  "Dielectric",
+      "Material":  "FR4",
+      "Notes":  "Layers L2/L3"
+    },
+    {
+      "Type":  "Copper",
+      "Notes":  "Layer In2.Cu"
+    },
+    {
+      "Type":  "Dielectric",
+      "Material":  "FR4",
+      "Notes":  "Layers L3/L4"
+    },
+    {
+      "Type":  "Copper",
+      "Notes":  "Layer In3.Cu"
+    },
+    {
+      "Type":  "Dielectric",
+      "Material":  "FR4",
+      "Notes":  "Layers L4/L5"
+    },
+    {
+      "Type":  "Copper",
+      "Notes":  "Layer In4.Cu"
+    },
+    {
+      "Type":  "Dielectric",
+      "Material":  "FR4",
+      "Notes":  "Layers L5/L6"
+    },
+    {
+      "Type":  "Copper",
+      "Notes":  "Layer B.Cu"
+    },
+    {
+      "Type":  "SolderMask",
+      "Notes":  "Layer B.Mask"
+    },
+    {
+      "Type":  "SolderPaste",
+      "Notes":  "Layer B.Paste"
+    },
+    {
+      "Type":  "Legend",
+      "Notes":  "Layer B.SilkS"
+    }
+  ]
+}
