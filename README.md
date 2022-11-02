@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2016 2016 Goran Mahovlic, <goran.mahovlic@gmail.com> et al.
+
+SPDX-License-Identifier: CERN-OHL-S-2.0
+-->
+
 # ULX4M-LS PCB
 
 [ULX4M] = University digital Logic Learning Xtensible board release 4 Moduler successor of [ULX3S](http://radiona.org/ulx3s) = [University digital Logic](https://www.fer.unizg.hr/en/course/diglog) Learning
