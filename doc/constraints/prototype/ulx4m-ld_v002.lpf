@@ -488,7 +488,7 @@ IOBUF PORT "dsiRX1_dp[1]" DIFFRESISTOR=100 IO_TYPE=LVDS;
 
 ## PROGRAMN (reload bitstream from FLASH, exit from bootloader)
 # PCB v2.0.5 and higher
-LOCATE COMP "user_programn" SITE "M4";
+LOCATE COMP "user_programn" SITE "E8";
 IOBUF  PORT "user_programn" PULLMODE=UP IO_TYPE=LVCMOS33 DRIVE=4;
 
 ## SHUTDOWN "power", "ram" sheet (connected from PCB v1.7.5)
