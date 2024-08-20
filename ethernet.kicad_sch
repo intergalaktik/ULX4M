@@ -1403,6 +1403,12 @@
 		(uuid "1f83abe2-516c-41c9-9587-1dc75c1a0239")
 	)
 	(junction
+		(at 245.11 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2cf90e8c-2b8e-4581-9c5b-14deea59830c")
+	)
+	(junction
 		(at 225.425 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1433,6 +1439,12 @@
 		(uuid "4f75e857-908a-4fc1-85d2-88c54e5f4100")
 	)
 	(junction
+		(at 246.38 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "51f5a71a-d5bf-4958-b757-6c5363b6f21c")
+	)
+	(junction
 		(at 212.725 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1455,6 +1467,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b5544088-1784-4a7d-8c6a-0c7a41826309")
+	)
+	(junction
+		(at 247.65 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c0da06a6-0b7b-4c28-a9ad-8c493e78437b")
 	)
 	(junction
 		(at 187.325 113.03)
@@ -1495,6 +1513,26 @@
 	(no_connect
 		(at 164.465 166.37)
 		(uuid "3b5133ed-c9b0-4ff1-9e2f-1b41f5a86eb8")
+	)
+	(wire
+		(pts
+			(xy 250.19 124.46) (xy 250.19 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01f82b0f-1001-44bc-8a7a-e85a55cb9a6c")
+	)
+	(wire
+		(pts
+			(xy 246.38 113.03) (xy 246.38 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "058a4668-2bfe-4d8b-87d9-8891a9055761")
 	)
 	(wire
 		(pts
@@ -1638,6 +1676,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 116.84) (xy 242.57 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "299e84c7-d737-4dbe-9591-4989e52bb690")
+	)
+	(wire
+		(pts
 			(xy 202.565 140.97) (xy 212.725 140.97)
 		)
 		(stroke
@@ -1715,6 +1763,16 @@
 			(type default)
 		)
 		(uuid "4007cbaf-0091-4dc7-9a37-74d76756562e")
+	)
+	(wire
+		(pts
+			(xy 247.65 115.57) (xy 250.19 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "488bf762-a1f4-4f38-aa8b-47c7c73b41ec")
 	)
 	(wire
 		(pts
@@ -1848,6 +1906,26 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 115.57) (xy 245.11 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6755ebf6-d04a-404a-9b7f-be79bc082496")
+	)
+	(wire
+		(pts
+			(xy 242.57 124.46) (xy 242.57 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7296f53c-19a2-465c-b541-ee10597a272b")
+	)
+	(wire
+		(pts
 			(xy 182.245 114.3) (xy 203.835 114.3)
 		)
 		(stroke
@@ -1868,6 +1946,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 115.57) (xy 247.65 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74e5b28d-f821-4342-ba1a-cb8b95b7e919")
+	)
+	(wire
+		(pts
 			(xy 128.905 151.13) (xy 128.905 146.05)
 		)
 		(stroke
@@ -1885,6 +1973,16 @@
 			(type default)
 		)
 		(uuid "7cc583d6-651f-4fae-9719-8f22bd190f72")
+	)
+	(wire
+		(pts
+			(xy 245.11 115.57) (xy 246.38 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ccc0bcc-fcd0-46a7-a49a-4674e95f8836")
 	)
 	(wire
 		(pts
@@ -1978,6 +2076,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 124.46) (xy 247.65 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad5453ee-b102-4ab0-80ee-6c63c01d7ce8")
+	)
+	(wire
+		(pts
 			(xy 279.4 140.97) (xy 286.385 140.97)
 		)
 		(stroke
@@ -2018,6 +2126,26 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 115.57) (xy 247.65 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bae50231-e038-4eec-a8b0-2594a5915ef4")
+	)
+	(wire
+		(pts
+			(xy 250.19 115.57) (xy 250.19 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be34aa1b-3971-458a-8a33-e4125dd0f32b")
+	)
+	(wire
+		(pts
 			(xy 139.065 143.51) (xy 164.465 143.51)
 		)
 		(stroke
@@ -2025,6 +2153,16 @@
 			(type default)
 		)
 		(uuid "c0d13ef4-101e-46e6-9783-aeb13f1500c2")
+	)
+	(wire
+		(pts
+			(xy 245.11 124.46) (xy 245.11 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c45aac8a-2876-4c8f-93e5-e7c42ba54730")
 	)
 	(wire
 		(pts
@@ -2075,6 +2213,16 @@
 			(type default)
 		)
 		(uuid "d83491a9-7840-4215-b3af-5ac76895a407")
+	)
+	(wire
+		(pts
+			(xy 245.11 115.57) (xy 245.11 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dde6bc5a-70ba-4db6-ab20-b9ba9a799320")
 	)
 	(wire
 		(pts
@@ -2634,6 +2782,26 @@
 			)
 		)
 	)
+	(global_label "ETH_1P"
+		(shape input)
+		(at 245.11 129.54 270)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "7689ea25-6db1-4191-8afb-8bda77d46b67")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 245.11 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "RGMII_REF_CLK"
 		(shape output)
 		(at 161.925 158.75 180)
@@ -2686,6 +2854,26 @@
 		(uuid "8ae32e12-d93a-4b02-80a7-e1a1e65dc90a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 212.725 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ETH_1N"
+		(shape input)
+		(at 242.57 129.54 270)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "8ea130c7-29b2-4481-b19b-25c4eb733cc3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 242.57 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2774,6 +2962,26 @@
 			)
 		)
 	)
+	(global_label "ETH_0P"
+		(shape input)
+		(at 250.19 129.54 270)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "b34e5803-f8e8-431e-a81a-72103c9fe38a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 250.19 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ETH_nLED1"
 		(shape input)
 		(at 224.155 156.21 0)
@@ -2786,6 +2994,26 @@
 		(uuid "cd9b2822-10b6-439d-851b-4d2d300aac7a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 224.155 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ETH_0N"
+		(shape input)
+		(at 247.65 129.54 270)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "d2912ea5-cfa6-4dca-80ee-d46d4668a3ab")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 247.65 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4825,6 +5053,461 @@
 				)
 				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a/00000000-0000-0000-0000-0000633e0b89"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ecp5-dc-scm:R_1k_0402")
+		(at 245.11 120.65 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0d0b86a7-c0fc-4965-9b96-1ba46b45531f")
+		(property "Reference" "R66"
+			(at 246.38 126.365 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "300"
+			(at 241.3 120.65 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 250.19 115.57 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 245.11 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "BOURNS"
+			(at 255.27 115.57 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CR0402-FX-1001GLF"
+			(at 252.73 115.57 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Val" "75"
+			(at 245.11 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f979c2de-34f6-43f4-82d2-aa6204fbcbb1")
+		)
+		(pin "2"
+			(uuid "3b3a1589-461d-41d1-aa9a-e1d7215f8959")
+		)
+		(instances
+			(project "ulx4m"
+				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a/00000000-0000-0000-0000-0000633e0b89"
+					(reference "R66")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ecp5-dc-scm:R_1k_0402")
+		(at 247.65 120.65 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "60674ef8-3ed2-4b58-ad4b-1af926ef1a3d")
+		(property "Reference" "R65"
+			(at 248.92 126.365 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "300"
+			(at 243.84 120.65 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 252.73 115.57 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 247.65 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "BOURNS"
+			(at 257.81 115.57 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CR0402-FX-1001GLF"
+			(at 255.27 115.57 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Val" "75"
+			(at 247.65 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ce8458e1-5859-453d-acdd-56a7affea25b")
+		)
+		(pin "2"
+			(uuid "882bf25b-c528-459d-9f7e-a70eb3952c16")
+		)
+		(instances
+			(project "ulx4m"
+				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a/00000000-0000-0000-0000-0000633e0b89"
+					(reference "R65")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ecp5-dc-scm:R_1k_0402")
+		(at 242.57 120.65 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "78c2a2f8-6530-46e0-9158-d66a1eb09430")
+		(property "Reference" "R67"
+			(at 243.84 126.365 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "300"
+			(at 238.76 120.65 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 247.65 115.57 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 242.57 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 242.57 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "BOURNS"
+			(at 252.73 115.57 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CR0402-FX-1001GLF"
+			(at 250.19 115.57 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Val" "75"
+			(at 242.57 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3ceae0bb-69a0-48b9-95c2-7ef5d2941eec")
+		)
+		(pin "2"
+			(uuid "dde4e1a0-ad55-4eb7-bbd9-2a538bb6dfed")
+		)
+		(instances
+			(project "ulx4m"
+				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a/00000000-0000-0000-0000-0000633e0b89"
+					(reference "R67")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ecp5-dc-scm:R_1k_0402")
+		(at 250.19 120.65 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c198730a-1e9b-4425-b0d3-bdd587f13c1b")
+		(property "Reference" "R64"
+			(at 251.46 126.365 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "300"
+			(at 246.38 120.65 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 255.27 115.57 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.19 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 250.19 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "BOURNS"
+			(at 260.35 115.57 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CR0402-FX-1001GLF"
+			(at 257.81 115.57 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Val" "75"
+			(at 250.19 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8bbb8877-2643-4812-a034-f7152a4ae4f5")
+		)
+		(pin "2"
+			(uuid "8a6cc9f0-63b2-430b-9136-2f6c9f5b5ee8")
+		)
+		(instances
+			(project "ulx4m"
+				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a/00000000-0000-0000-0000-0000633e0b89"
+					(reference "R64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ulx4m-rescue:+3V3-power")
+		(at 246.38 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dab71b94-607d-42de-ae46-c599669795fd")
+		(property "Reference" "#PWR022"
+			(at 246.38 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 246.38 109.474 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 246.38 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "37667176-522e-447d-91e3-f66e7654e756")
+		)
+		(instances
+			(project "ulx4m"
+				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a/00000000-0000-0000-0000-0000633e0b89"
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)

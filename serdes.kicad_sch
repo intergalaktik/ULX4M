@@ -12303,7 +12303,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 106.68 91.44 90)
+		(at 100.33 110.49 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12311,7 +12311,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000614908cd")
 		(property "Reference" "C?"
-			(at 109.22 90.17 90)
+			(at 102.87 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12319,15 +12319,15 @@
 			)
 		)
 		(property "Value" "22n"
-			(at 110.49 92.71 90)
+			(at 104.14 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 106.68 91.44 0)
+		(property "Footprint" ""
+			(at 100.33 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12336,7 +12336,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 106.68 91.44 0)
+			(at 100.33 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12345,7 +12345,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 106.68 91.44 0)
+			(at 100.33 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12445,7 +12445,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 182.88 91.44 90)
+		(at 102.87 115.57 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12453,7 +12453,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000614921a7")
 		(property "Reference" "C?"
-			(at 185.42 90.17 90)
+			(at 105.41 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12461,15 +12461,15 @@
 			)
 		)
 		(property "Value" "22n"
-			(at 186.69 92.71 90)
+			(at 106.68 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 182.88 91.44 0)
+		(property "Footprint" ""
+			(at 102.87 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12478,7 +12478,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 182.88 91.44 0)
+			(at 102.87 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12487,7 +12487,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 182.88 91.44 0)
+			(at 102.87 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13084,7 +13084,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 90.17 88.9 90)
+		(at 95.25 114.3 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13092,7 +13092,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006164c18b")
 		(property "Reference" "C?"
-			(at 87.63 87.63 90)
+			(at 92.71 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13100,15 +13100,15 @@
 			)
 		)
 		(property "Value" "22n"
-			(at 87.63 90.17 90)
+			(at 92.71 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 90.17 88.9 0)
+		(property "Footprint" ""
+			(at 95.25 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13117,7 +13117,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 90.17 88.9 0)
+			(at 95.25 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13126,7 +13126,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 90.17 88.9 0)
+			(at 95.25 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13155,7 +13155,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 200.66 88.9 90)
+		(at 97.79 119.38 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13163,7 +13163,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000616792b8")
 		(property "Reference" "C?"
-			(at 203.2 87.63 90)
+			(at 100.33 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13171,15 +13171,15 @@
 			)
 		)
 		(property "Value" "22n"
-			(at 204.47 90.17 90)
+			(at 101.6 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 200.66 88.9 0)
+		(property "Footprint" ""
+			(at 97.79 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13188,7 +13188,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 200.66 88.9 0)
+			(at 97.79 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13197,7 +13197,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 200.66 88.9 0)
+			(at 97.79 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
