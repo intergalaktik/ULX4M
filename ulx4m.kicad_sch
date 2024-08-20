@@ -998,7 +998,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061cae62b")
-		(property "Reference" "#LOGO?"
+		(property "Reference" "#LOGO1"
 			(at 215.265 167.64 0)
 			(effects
 				(font

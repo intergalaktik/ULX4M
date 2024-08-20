@@ -1175,6 +1175,7 @@
 	)
 	(label "ALED2"
 		(at 120.65 74.93 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -1185,6 +1186,7 @@
 	)
 	(label "ALED5"
 		(at 119.38 98.425 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -1195,6 +1197,7 @@
 	)
 	(label "ALED1"
 		(at 120.65 69.85 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -1205,6 +1208,7 @@
 	)
 	(label "ALED3"
 		(at 120.65 80.01 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -1215,6 +1219,7 @@
 	)
 	(label "ALED4"
 		(at 119.38 93.345 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -1225,6 +1230,7 @@
 	)
 	(label "ALED7"
 		(at 119.38 108.585 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -1235,6 +1241,7 @@
 	)
 	(label "ALED6"
 		(at 119.38 103.505 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -1245,6 +1252,7 @@
 	)
 	(label "ALED0"
 		(at 120.65 64.77 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -1526,6 +1534,14 @@
 		)
 		(pin "1"
 			(uuid "97911a58-bd03-492b-a08b-08927278caa9")
+		)
+		(instances
+			(project ""
+				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a/00000000-0000-0000-0000-000058d6547c"
+					(reference "#PWR083")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2628,6 +2644,14 @@
 		(pin "1"
 			(uuid "da38f298-0dd4-4307-9f90-0abf54c0ede6")
 		)
+		(instances
+			(project ""
+				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a/00000000-0000-0000-0000-000058d6547c"
+					(reference "#PWR088")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "ulx4m-rescue:GND-power")
@@ -2682,6 +2706,14 @@
 		)
 		(pin "1"
 			(uuid "c2a903bb-e5f3-4f69-be47-cb1fea3da455")
+		)
+		(instances
+			(project ""
+				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a/00000000-0000-0000-0000-000058d6547c"
+					(reference "#PWR089")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2872,6 +2904,14 @@
 		)
 		(pin "1"
 			(uuid "bce7cfe7-01af-4c66-813a-d5b294fb2f2a")
+		)
+		(instances
+			(project ""
+				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a/00000000-0000-0000-0000-000058d6547c"
+					(reference "#PWR0112")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3971,6 +4011,14 @@
 		)
 		(pin "1"
 			(uuid "3de6effd-36b4-46c3-a0e4-94a9577fde5a")
+		)
+		(instances
+			(project ""
+				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a/00000000-0000-0000-0000-000058d6547c"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol

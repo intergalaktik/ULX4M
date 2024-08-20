@@ -14531,6 +14531,7 @@
 	)
 	(label "L2"
 		(at 220.98 113.03 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -14541,6 +14542,7 @@
 	)
 	(label "PWREN"
 		(at 177.8 119.38 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -14551,6 +14553,7 @@
 	)
 	(label "PWREN"
 		(at 176.53 88.9 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -14561,6 +14564,7 @@
 	)
 	(label "L1"
 		(at 220.98 82.55 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -14571,6 +14575,7 @@
 	)
 	(label "L4"
 		(at 113.03 169.545 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -14581,6 +14586,7 @@
 	)
 	(label "P1V1"
 		(at 240.03 78.74 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -14591,6 +14597,7 @@
 	)
 	(label "PWREN"
 		(at 177.8 149.86 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -14601,6 +14608,7 @@
 	)
 	(label "FB2"
 		(at 223.52 119.38 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -14611,6 +14619,7 @@
 	)
 	(label "FB3"
 		(at 223.52 149.86 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -14621,6 +14630,7 @@
 	)
 	(label "P2V5"
 		(at 240.03 109.22 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -14631,6 +14641,7 @@
 	)
 	(label "P3V3"
 		(at 240.03 139.7 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -14641,6 +14652,7 @@
 	)
 	(label "P1V35"
 		(at 132.08 165.735 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -14651,6 +14663,7 @@
 	)
 	(label "FB4"
 		(at 115.57 175.895 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -14661,6 +14674,7 @@
 	)
 	(label "L3"
 		(at 220.98 143.51 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -14671,6 +14685,7 @@
 	)
 	(label "PWREN"
 		(at 69.85 175.895 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -14681,6 +14696,7 @@
 	)
 	(label "FB1"
 		(at 223.52 88.9 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -14923,6 +14939,14 @@
 		(pin "1"
 			(uuid "2ed6e176-d4e8-458d-8b60-760496264377")
 		)
+		(instances
+			(project ""
+				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a/00000000-0000-0000-0000-000058d51cad"
+					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "ulx4m-rescue:GND-power")
@@ -14977,6 +15001,14 @@
 		)
 		(pin "1"
 			(uuid "648ea40b-db57-4110-ad80-84ccd743fb84")
+		)
+		(instances
+			(project ""
+				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a/00000000-0000-0000-0000-000058d51cad"
+					(reference "#PWR072")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -15033,6 +15065,14 @@
 		(pin "1"
 			(uuid "6a7bf14c-c2d9-4bcd-bc60-88947434298f")
 		)
+		(instances
+			(project ""
+				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a/00000000-0000-0000-0000-000058d51cad"
+					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "ulx4m-rescue:GND-power")
@@ -15087,6 +15127,14 @@
 		)
 		(pin "1"
 			(uuid "5494782a-614a-45ed-8975-b9493631dfee")
+		)
+		(instances
+			(project ""
+				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a/00000000-0000-0000-0000-000058d51cad"
+					(reference "#PWR066")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -15724,6 +15772,14 @@
 		(pin "1"
 			(uuid "e6ddcbd6-571f-4568-8ef3-4817ef4a189a")
 		)
+		(instances
+			(project ""
+				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a/00000000-0000-0000-0000-000058d51cad"
+					(reference "#PWR075")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -15923,6 +15979,14 @@
 		(pin "1"
 			(uuid "d01242e1-c3e6-4fe5-84d6-13fce69933de")
 		)
+		(instances
+			(project ""
+				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a/00000000-0000-0000-0000-000058d51cad"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "ulx4m-rescue:GND-power")
@@ -15977,6 +16041,14 @@
 		)
 		(pin "1"
 			(uuid "f38a5b25-1078-4447-b8f1-f262f3d5c023")
+		)
+		(instances
+			(project ""
+				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a/00000000-0000-0000-0000-000058d51cad"
+					(reference "#PWR074")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -16033,6 +16105,14 @@
 		(pin "1"
 			(uuid "a4d9195f-7a3a-4fee-8418-4d43d193900c")
 		)
+		(instances
+			(project ""
+				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a/00000000-0000-0000-0000-000058d51cad"
+					(reference "#PWR069")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "ulx4m-rescue:GND-power")
@@ -16087,6 +16167,14 @@
 		)
 		(pin "1"
 			(uuid "7df59058-80b7-4d55-9141-ebfedcdd0261")
+		)
+		(instances
+			(project ""
+				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a/00000000-0000-0000-0000-000058d51cad"
+					(reference "#PWR070")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -16508,6 +16596,14 @@
 		(pin "1"
 			(uuid "92d36914-0742-4c03-9655-9be918ab209d")
 		)
+		(instances
+			(project ""
+				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a/00000000-0000-0000-0000-000058d51cad"
+					(reference "#PWR077")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -16707,6 +16803,14 @@
 		(pin "1"
 			(uuid "3101f72b-513a-4084-822d-4566ea2855aa")
 		)
+		(instances
+			(project ""
+				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a/00000000-0000-0000-0000-000058d51cad"
+					(reference "#PWR080")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "ulx4m-rescue:GND-power")
@@ -16761,6 +16865,14 @@
 		)
 		(pin "1"
 			(uuid "74283c5d-83d5-42f4-9913-d05b937d238f")
+		)
+		(instances
+			(project ""
+				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a/00000000-0000-0000-0000-000058d51cad"
+					(reference "#PWR073")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -16817,6 +16929,14 @@
 		(pin "1"
 			(uuid "5153cc71-24c7-4755-af21-10168135bbd8")
 		)
+		(instances
+			(project ""
+				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a/00000000-0000-0000-0000-000058d51cad"
+					(reference "#PWR067")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "ulx4m-rescue:GND-power")
@@ -16871,6 +16991,14 @@
 		)
 		(pin "1"
 			(uuid "f3030f4d-29d1-4c9a-ad79-a09d2552aa5a")
+		)
+		(instances
+			(project ""
+				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a/00000000-0000-0000-0000-000058d51cad"
+					(reference "#PWR068")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -17288,6 +17416,14 @@
 		(pin "1"
 			(uuid "93f3c8bc-3c5f-4f14-9bce-015b60ecbb34")
 		)
+		(instances
+			(project ""
+				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a/00000000-0000-0000-0000-000058d51cad"
+					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -17487,6 +17623,14 @@
 		(pin "1"
 			(uuid "93e7f1d6-72c5-406d-bf3a-ed6c8e21dfc9")
 		)
+		(instances
+			(project ""
+				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a/00000000-0000-0000-0000-000058d51cad"
+					(reference "#PWR079")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "ulx4m-rescue:+2V5-power")
@@ -17542,6 +17686,14 @@
 		(pin "1"
 			(uuid "77b2d3e4-04c1-4a1e-a53a-1701045ae75f")
 		)
+		(instances
+			(project ""
+				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a/00000000-0000-0000-0000-000058d51cad"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "ulx4m-rescue:+3V3-power")
@@ -17596,6 +17748,14 @@
 		)
 		(pin "1"
 			(uuid "e47bffb1-a032-4095-8c8b-b6dee6ab89ac")
+		)
+		(instances
+			(project ""
+				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a/00000000-0000-0000-0000-000058d51cad"
+					(reference "#PWR064")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -17730,6 +17890,14 @@
 		)
 		(pin "1"
 			(uuid "c9a173f6-ab4c-401b-8d17-d31558e17184")
+		)
+		(instances
+			(project ""
+				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a/00000000-0000-0000-0000-000058d51cad"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -19765,6 +19933,14 @@
 		(pin "1"
 			(uuid "1050e03c-b0a3-4b59-bd31-93d453c3d27f")
 		)
+		(instances
+			(project ""
+				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a/00000000-0000-0000-0000-000058d51cad"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "ulx4m-rescue:+1V1-power")
@@ -19821,6 +19997,14 @@
 		)
 		(pin "1"
 			(uuid "762fbcb4-3215-4c10-add2-6b0c0ec4168c")
+		)
+		(instances
+			(project ""
+				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a/00000000-0000-0000-0000-000058d51cad"
+					(reference "#PWR078")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -20048,6 +20232,14 @@
 		(pin "1"
 			(uuid "31d403d5-5286-409e-949c-a0a25deda1c6")
 		)
+		(instances
+			(project ""
+				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a/00000000-0000-0000-0000-000058d51cad"
+					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "ulx4m-rescue:+3V3-power")
@@ -20102,6 +20294,14 @@
 		)
 		(pin "1"
 			(uuid "1657f2fd-7834-4839-8ea0-d0c632d88798")
+		)
+		(instances
+			(project ""
+				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a/00000000-0000-0000-0000-000058d51cad"
+					(reference "#PWR053")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -20238,6 +20438,14 @@
 		)
 		(pin "1"
 			(uuid "edad53d8-a71a-4d4e-b4af-8b1ad8854630")
+		)
+		(instances
+			(project ""
+				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a/00000000-0000-0000-0000-000058d51cad"
+					(reference "#PWR061")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -20384,6 +20592,14 @@
 		(pin "1"
 			(uuid "b041d470-5e8e-4c0d-b54d-bca0e1cf0eb0")
 		)
+		(instances
+			(project ""
+				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a/00000000-0000-0000-0000-000058d51cad"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -20529,6 +20745,14 @@
 		(pin "1"
 			(uuid "c14cd594-4884-4157-86c9-7c912c67e3d7")
 		)
+		(instances
+			(project ""
+				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a/00000000-0000-0000-0000-000058d51cad"
+					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "ulx4m-rescue:+1V1-power")
@@ -20586,6 +20810,14 @@
 		(pin "1"
 			(uuid "47442471-d6cd-4711-94a1-5078799ec47d")
 		)
+		(instances
+			(project ""
+				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a/00000000-0000-0000-0000-000058d51cad"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "ulx4m-rescue:+1V1-power")
@@ -20642,6 +20874,14 @@
 		)
 		(pin "1"
 			(uuid "1f3fd850-b1e1-4db2-a820-918f8782ea06")
+		)
+		(instances
+			(project ""
+				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a/00000000-0000-0000-0000-000058d51cad"
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -20779,6 +21019,14 @@
 		(pin "1"
 			(uuid "ef9a4ee4-36bd-49e9-81a2-096a05ffcaf5")
 		)
+		(instances
+			(project ""
+				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a/00000000-0000-0000-0000-000058d51cad"
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -20789,7 +21037,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a5fc402")
-		(property "Reference" "C39"
+		(property "Reference" "C30"
 			(at 146.685 99.06 0)
 			(effects
 				(font
@@ -20915,6 +21163,14 @@
 		(pin "1"
 			(uuid "230c5cd9-3803-468b-9593-78218b6119ab")
 		)
+		(instances
+			(project ""
+				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a/00000000-0000-0000-0000-000058d51cad"
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "ulx4m-rescue:+2V5-power")
@@ -20969,6 +21225,14 @@
 		)
 		(pin "1"
 			(uuid "1346ea65-02cc-40d0-ba40-25dd17536ab2")
+		)
+		(instances
+			(project ""
+				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a/00000000-0000-0000-0000-000058d51cad"
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -21025,6 +21289,14 @@
 		(pin "1"
 			(uuid "e0b40f0b-873d-4fb3-b200-8fa60eeb4bd6")
 		)
+		(instances
+			(project ""
+				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a/00000000-0000-0000-0000-000058d51cad"
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "ulx4m-rescue:+3V3-power")
@@ -21079,6 +21351,14 @@
 		)
 		(pin "1"
 			(uuid "2c04403b-d3ce-4d44-b1d9-6ccc982e49f9")
+		)
+		(instances
+			(project ""
+				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a/00000000-0000-0000-0000-000058d51cad"
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -21135,6 +21415,14 @@
 		(pin "1"
 			(uuid "b3667b28-5ed0-42f9-b48d-0c66b2703d53")
 		)
+		(instances
+			(project ""
+				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a/00000000-0000-0000-0000-000058d51cad"
+					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -21145,7 +21433,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a5feea6")
-		(property "Reference" "C14"
+		(property "Reference" "C31"
 			(at 146.685 118.11 0)
 			(effects
 				(font
@@ -21226,7 +21514,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a6007f1")
-		(property "Reference" "C13"
+		(property "Reference" "C32"
 			(at 100.33 133.985 0)
 			(effects
 				(font
@@ -21352,6 +21640,14 @@
 		(pin "1"
 			(uuid "00766572-f3b5-4ffb-9a55-27c35271d272")
 		)
+		(instances
+			(project ""
+				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a/00000000-0000-0000-0000-000058d51cad"
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "ulx4m-rescue:+3V3-power")
@@ -21406,6 +21702,14 @@
 		)
 		(pin "1"
 			(uuid "f56f3632-cb0b-4b30-bb6a-aee416e99e75")
+		)
+		(instances
+			(project ""
+				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a/00000000-0000-0000-0000-000058d51cad"
+					(reference "#PWR046")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -21834,6 +22138,14 @@
 		(pin "1"
 			(uuid "845139d0-1881-440c-96bd-9b9c675838a9")
 		)
+		(instances
+			(project ""
+				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a/00000000-0000-0000-0000-000058d51cad"
+					(reference "#PWR071")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -21844,7 +22156,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005ab6b7b8")
-		(property "Reference" "C38"
+		(property "Reference" "C47"
 			(at 27.305 38.1 0)
 			(effects
 				(font
@@ -21969,6 +22281,14 @@
 		)
 		(pin "1"
 			(uuid "644efea5-4e26-4954-8513-ea76d192c136")
+		)
+		(instances
+			(project ""
+				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a/00000000-0000-0000-0000-000058d51cad"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -22106,6 +22426,14 @@
 		(pin "1"
 			(uuid "f45756ea-344d-4f14-b0a6-64f846138838")
 		)
+		(instances
+			(project ""
+				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a/00000000-0000-0000-0000-000058d51cad"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "ulx4m-rescue:+3V3-power")
@@ -22161,6 +22489,14 @@
 		(pin "1"
 			(uuid "1ea3fd5f-9aad-4c65-add6-d2149e2f84a2")
 		)
+		(instances
+			(project ""
+				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a/00000000-0000-0000-0000-000058d51cad"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "ulx4m-rescue:GND-power")
@@ -22215,6 +22551,14 @@
 		)
 		(pin "1"
 			(uuid "daf19e78-0e7b-4be0-8da4-7f79fbe6bed7")
+		)
+		(instances
+			(project ""
+				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a/00000000-0000-0000-0000-000058d51cad"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -22352,6 +22696,14 @@
 		(pin "1"
 			(uuid "1597a56a-3c69-4abc-ad63-57e1549e72d7")
 		)
+		(instances
+			(project ""
+				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a/00000000-0000-0000-0000-000058d51cad"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "ulx4m-rescue:GND-power")
@@ -22406,6 +22758,14 @@
 		)
 		(pin "1"
 			(uuid "20c5531f-b8f1-4c8f-9f46-5c941859da92")
+		)
+		(instances
+			(project ""
+				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a/00000000-0000-0000-0000-000058d51cad"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -22543,6 +22903,14 @@
 		(pin "1"
 			(uuid "5d04c122-e385-4f1f-812a-33d0bad23bbd")
 		)
+		(instances
+			(project ""
+				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a/00000000-0000-0000-0000-000058d51cad"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -22678,6 +23046,14 @@
 		)
 		(pin "1"
 			(uuid "df1cec63-6d4d-4d31-89b1-d50517cf8343")
+		)
+		(instances
+			(project ""
+				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a/00000000-0000-0000-0000-000058d51cad"
+					(reference "#PWR062")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -23034,6 +23410,14 @@
 		(pin "1"
 			(uuid "87c7f917-ea8d-44e5-a2f1-842761716bec")
 		)
+		(instances
+			(project ""
+				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a/00000000-0000-0000-0000-000058d51cad"
+					(reference "#PWR0169")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "ulx4m-rescue:+3V3-power")
@@ -23090,6 +23474,14 @@
 		)
 		(pin "1"
 			(uuid "68d4f6ba-e7f1-4a7a-a6ca-3ab944d9c141")
+		)
+		(instances
+			(project ""
+				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a/00000000-0000-0000-0000-000058d51cad"
+					(reference "#PWR0170")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -23512,7 +23904,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005b5fc348")
-		(property "Reference" "C60"
+		(property "Reference" "C?"
 			(at 49.53 102.235 90)
 			(effects
 				(font
@@ -23629,6 +24021,14 @@
 		(pin "1"
 			(uuid "55146034-9116-413a-ab60-7cb600ae7cfd")
 		)
+		(instances
+			(project ""
+				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a/00000000-0000-0000-0000-000058d51cad"
+					(reference "#PWR0174")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -23639,7 +24039,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061da59cf")
-		(property "Reference" "RC2"
+		(property "Reference" "RB?"
 			(at 243.205 101.092 90)
 			(effects
 				(font
@@ -23772,7 +24172,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061e2f041")
-		(property "Reference" "RC1"
+		(property "Reference" "RC?"
 			(at 236.728 93.98 90)
 			(effects
 				(font
@@ -23950,6 +24350,14 @@
 		(pin "1"
 			(uuid "1ddf98b5-4fef-43de-9d38-0da737c88115")
 		)
+		(instances
+			(project ""
+				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a/00000000-0000-0000-0000-000058d51cad"
+					(reference "#PWR0106")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "ulx4m-rescue:+5V-power")
@@ -24004,6 +24412,14 @@
 		)
 		(pin "1"
 			(uuid "85448158-cbaf-4492-a091-0932dd2a0d87")
+		)
+		(instances
+			(project ""
+				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a/00000000-0000-0000-0000-000058d51cad"
+					(reference "#PWR0107")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -24060,6 +24476,14 @@
 		(pin "1"
 			(uuid "da20952e-8163-495c-8acb-462cc5a230e6")
 		)
+		(instances
+			(project ""
+				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a/00000000-0000-0000-0000-000058d51cad"
+					(reference "#PWR0108")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "ulx4m-rescue:GND-power")
@@ -24114,6 +24538,14 @@
 		)
 		(pin "1"
 			(uuid "a4836ab5-2d07-41e9-8e26-fc4b7681a199")
+		)
+		(instances
+			(project ""
+				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a/00000000-0000-0000-0000-000058d51cad"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -24170,6 +24602,14 @@
 		(pin "1"
 			(uuid "fe6910fd-8fc4-40ad-8a0d-03ae2c1ac9f2")
 		)
+		(instances
+			(project ""
+				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a/00000000-0000-0000-0000-000058d51cad"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "ulx4m-rescue:GND-power")
@@ -24225,6 +24665,14 @@
 		(pin "1"
 			(uuid "96ef5d70-de99-47dd-9f0e-951f521c884f")
 		)
+		(instances
+			(project ""
+				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a/00000000-0000-0000-0000-000058d51cad"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -24235,7 +24683,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000620c0c31")
-		(property "Reference" "C76"
+		(property "Reference" "C?"
 			(at 80.645 178.435 0)
 			(effects
 				(font
@@ -24316,7 +24764,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000620c0c3b")
-		(property "Reference" "C77"
+		(property "Reference" "C?"
 			(at 123.825 168.275 0)
 			(effects
 				(font
@@ -24388,7 +24836,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000620c0c45")
-		(property "Reference" "RA4"
+		(property "Reference" "RA?"
 			(at 132.842 170.815 90)
 			(effects
 				(font
@@ -24458,7 +24906,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000620c0c57")
-		(property "Reference" "RB4"
+		(property "Reference" "RB?"
 			(at 135.89 177.927 90)
 			(effects
 				(font
@@ -24645,6 +25093,14 @@
 		(pin "1"
 			(uuid "4d4af7d9-cb58-4e43-b72c-a32ab723db4c")
 		)
+		(instances
+			(project ""
+				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a/00000000-0000-0000-0000-000058d51cad"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -24655,7 +25111,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000620c0c6b")
-		(property "Reference" "C95"
+		(property "Reference" "C?"
 			(at 141.605 168.275 0)
 			(effects
 				(font
@@ -24727,7 +25183,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000620c0c75")
-		(property "Reference" "C96"
+		(property "Reference" "C?"
 			(at 150.495 168.275 0)
 			(effects
 				(font
@@ -24799,7 +25255,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000620c0ca5")
-		(property "Reference" "C98"
+		(property "Reference" "C?"
 			(at 168.275 168.275 0)
 			(effects
 				(font
@@ -24871,7 +25327,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000620c0cb1")
-		(property "Reference" "C97"
+		(property "Reference" "C?"
 			(at 159.385 168.275 0)
 			(effects
 				(font
@@ -25210,6 +25666,14 @@
 		(pin "1"
 			(uuid "95c9b4ab-7f54-4f3c-b6e7-42b1f99e5803")
 		)
+		(instances
+			(project ""
+				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a/00000000-0000-0000-0000-000058d51cad"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "ulx4m-rescue:+1V35-power")
@@ -25267,6 +25731,14 @@
 		(pin "1"
 			(uuid "36463328-8f56-42f8-a22d-90743943036d")
 		)
+		(instances
+			(project ""
+				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a/00000000-0000-0000-0000-000058d51cad"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "ulx4m-rescue:+1V35-power")
@@ -25323,6 +25795,14 @@
 		)
 		(pin "1"
 			(uuid "351a6197-bc64-4a46-89f2-51d021b49e65")
+		)
+		(instances
+			(project ""
+				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a/00000000-0000-0000-0000-000058d51cad"
+					(reference "#PWR0146")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -25513,6 +25993,14 @@
 		(pin "1"
 			(uuid "c968adee-c910-4633-b3f3-cf571816b953")
 		)
+		(instances
+			(project ""
+				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a/00000000-0000-0000-0000-000058d51cad"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "ulx4m-rescue:+3V3-power")
@@ -25567,6 +26055,14 @@
 		)
 		(pin "1"
 			(uuid "ba51fb93-b807-4351-a86d-05386afd038e")
+		)
+		(instances
+			(project ""
+				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a/00000000-0000-0000-0000-000058d51cad"
+					(reference "#PWR0116")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -25625,6 +26121,14 @@
 		(pin "1"
 			(uuid "2e04c3cc-bde0-470c-8a03-0a6ada0269ee")
 		)
+		(instances
+			(project ""
+				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a/00000000-0000-0000-0000-000058d51cad"
+					(reference "#PWR0143")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "ulx4m-rescue:+1V35-power")
@@ -25681,6 +26185,14 @@
 		)
 		(pin "1"
 			(uuid "d6a1dc6b-6381-4c4a-b92a-a0ad3f8ee7cc")
+		)
+		(instances
+			(project ""
+				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a/00000000-0000-0000-0000-000058d51cad"
+					(reference "#PWR0144")
+					(unit 1)
+				)
+			)
 		)
 	)
 )
