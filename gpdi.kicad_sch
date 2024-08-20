@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "ULX3S")
-		(date "2022-09-21")
-		(rev "0.0.3")
+		(date "2024-08-20")
+		(rev "0.0.4")
 		(company "EMARD")
 		(comment 1 "General Purpose Differential Interface")
 		(comment 2 "License: CERN-OHL-S v2")

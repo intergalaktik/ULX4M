@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "ULX4M-LS")
-		(date "2022-09-21")
-		(rev "0.0.3")
+		(date "2024-08-20")
+		(rev "0.0.4")
 		(company "Intergalaktik d.o.o.")
 		(comment 1 "Root sheet")
 		(comment 2 "License: CERN-OHL-S v2")

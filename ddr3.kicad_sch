@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "DDR3")
-		(date "2022-09-21")
-		(rev "0.0.3")
+		(date "2024-08-20")
+		(rev "0.0.4")
 		(comment 1 "Reference - ecp5-dc-scm")
 		(comment 2 "Apache License 2.0")
 	)
