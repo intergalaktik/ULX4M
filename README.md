@@ -12,8 +12,8 @@ Successor of [ULX2S](http://github.com/emard/ulx2s).
 
 ### 3D preview
 
-![TOP](/pic/ULX4M-LS_top_v003.png)
-![BOTTOM](/pic/ULX4M-LS_bottom_v003.png)
+![TOP](/pic/ULX4M-LS_top_v004.png)
+![BOTTOM](/pic/ULX4M-LS_bottom_v004.png)
 ![Layers_v001](/pic/6_layer_PCB.png)
 
 ### Panel
