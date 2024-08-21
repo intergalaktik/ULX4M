@@ -787,13 +787,13 @@
 		(uuid "2885a16a-7352-4b5f-975f-d15b6bb1b344")
 	)
 	(junction
-		(at 60.96 74.93)
+		(at 39.37 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3ff79ce8-b3e8-4b4e-82d4-a3bd9d51a382")
 	)
 	(junction
-		(at 60.96 80.01)
+		(at 39.37 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5d5895c6-3fe8-4dd8-9dad-2794f9954886")
@@ -824,7 +824,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 74.93) (xy 60.96 74.93)
+			(xy 36.83 74.93) (xy 39.37 74.93)
 		)
 		(stroke
 			(width 0)
@@ -834,7 +834,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 85.725) (xy 60.96 85.725)
+			(xy 46.99 85.09) (xy 39.37 85.09)
 		)
 		(stroke
 			(width 0)
@@ -844,7 +844,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 74.93) (xy 68.58 74.93)
+			(xy 39.37 74.93) (xy 46.99 74.93)
 		)
 		(stroke
 			(width 0)
@@ -914,7 +914,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 74.93) (xy 60.96 80.01)
+			(xy 39.37 74.93) (xy 39.37 80.01)
 		)
 		(stroke
 			(width 0)
@@ -934,7 +934,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 80.01) (xy 85.09 80.01)
+			(xy 57.15 80.01) (xy 71.12 80.01)
 		)
 		(stroke
 			(width 0)
@@ -944,7 +944,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 74.93) (xy 50.8 74.93)
+			(xy 25.4 74.93) (xy 29.21 74.93)
 		)
 		(stroke
 			(width 0)
@@ -964,7 +964,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 85.725) (xy 85.09 85.725)
+			(xy 57.15 85.09) (xy 71.12 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1004,7 +1004,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 85.725) (xy 60.96 80.01)
+			(xy 39.37 85.09) (xy 39.37 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1094,7 +1094,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 80.01) (xy 68.58 80.01)
+			(xy 39.37 80.01) (xy 46.99 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1144,7 +1144,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 74.93) (xy 85.09 74.93)
+			(xy 57.15 74.93) (xy 71.12 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1195,6 +1195,17 @@
 		)
 		(uuid "038d4694-29ac-4df8-8ae5-50bcc4edb108")
 	)
+	(label "BTN2"
+		(at 60.96 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "3db531b5-954f-4e06-bbfd-5d211ea860a7")
+	)
 	(label "ALED1"
 		(at 120.65 69.85 0)
 		(fields_autoplaced yes)
@@ -1228,6 +1239,17 @@
 		)
 		(uuid "95012ec3-8fa9-4dca-a47c-f9d0cd3494cc")
 	)
+	(label "BTN1"
+		(at 60.96 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "962c21f1-26b7-4a27-a803-92ac374da3cd")
+	)
 	(label "ALED7"
 		(at 119.38 108.585 0)
 		(fields_autoplaced yes)
@@ -1238,6 +1260,17 @@
 			(justify left bottom)
 		)
 		(uuid "a1c9ccf6-2acb-49c4-b905-c0be38758889")
+	)
+	(label "BTN3"
+		(at 60.96 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "bb3f9483-698f-456d-ade5-e19b6261f478")
 	)
 	(label "ALED6"
 		(at 119.38 103.505 0)
@@ -1283,7 +1316,7 @@
 	)
 	(global_label "BTN1"
 		(shape input)
-		(at 85.09 74.93 0)
+		(at 71.12 74.93 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -1292,7 +1325,7 @@
 		)
 		(uuid "06ea1ab8-9c5e-44d3-82cb-e4b004cdec8e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 85.09 74.93 0)
+			(at 71.12 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1443,7 +1476,7 @@
 	)
 	(global_label "BTN2"
 		(shape input)
-		(at 85.09 80.01 0)
+		(at 71.12 80.01 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -1452,7 +1485,7 @@
 		)
 		(uuid "ebdce747-6547-4857-be6b-494cc2e66f56")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 85.09 80.01 0)
+			(at 71.12 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1463,7 +1496,7 @@
 	)
 	(global_label "BTN3"
 		(shape input)
-		(at 85.09 85.725 0)
+		(at 71.12 85.09 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -1472,7 +1505,7 @@
 		)
 		(uuid "ed1c14c5-5eea-4382-9839-3c34f7d15ea6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 85.09 85.725 0)
+			(at 71.12 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2718,7 +2751,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 73.66 74.93 0)
+		(at 52.07 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2726,7 +2759,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006256b27f")
 		(property "Reference" "BTN1"
-			(at 78.74 73.66 0)
+			(at 57.15 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2734,7 +2767,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 66.04 73.66 0)
+			(at 44.45 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2742,7 +2775,7 @@
 			)
 		)
 		(property "Footprint" "Switch_EVPAA:Switch_EVPAA"
-			(at 73.66 69.85 0)
+			(at 52.07 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2751,7 +2784,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.in/datasheet/2/315/PANA_S_A0001791376_1-2560543.pdf"
-			(at 73.66 69.85 0)
+			(at 52.07 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2760,7 +2793,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 73.66 74.93 0)
+			(at 52.07 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2769,7 +2802,7 @@
 			)
 		)
 		(property "Mouser" "https://www.mouser.in/ProductDetail/Panasonic/EVP-AA302K?qs=qvwOHSmaRMmnf4H35tvzww=="
-			(at 73.66 74.93 0)
+			(at 52.07 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2778,7 +2811,7 @@
 			)
 		)
 		(property "DigiKey" "https://www.digikey.com/en/products/detail/panasonic-electronic-components/EVP-AA302K/2810555"
-			(at 73.66 74.93 0)
+			(at 52.07 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2792,10 +2825,18 @@
 		(pin "2"
 			(uuid "7c9ced5a-a8f5-45a2-b711-034a766c4086")
 		)
+		(instances
+			(project ""
+				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a/00000000-0000-0000-0000-000058d6547c"
+					(reference "BTN1")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 54.61 74.93 270)
+		(at 33.02 74.93 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2803,7 +2844,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000625797f0")
 		(property "Reference" "R18"
-			(at 54.61 76.962 90)
+			(at 33.02 76.962 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2811,7 +2852,7 @@
 			)
 		)
 		(property "Value" "300"
-			(at 54.61 74.93 90)
+			(at 33.02 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2819,7 +2860,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 54.61 73.152 90)
+			(at 33.02 73.152 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2828,7 +2869,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 74.93 0)
+			(at 33.02 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2836,7 +2877,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 54.61 74.93 0)
+			(at 33.02 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2853,7 +2894,7 @@
 	)
 	(symbol
 		(lib_id "ulx4m-rescue:+3V3-power")
-		(at 46.99 74.93 90)
+		(at 25.4 74.93 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2861,7 +2902,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006257d2aa")
 		(property "Reference" "#PWR0112"
-			(at 50.8 74.93 0)
+			(at 29.21 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2870,7 +2911,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 43.434 74.93 0)
+			(at 21.844 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2878,7 +2919,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 46.99 74.93 0)
+			(at 25.4 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2886,7 +2927,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 74.93 0)
+			(at 25.4 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2894,7 +2935,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 46.99 74.93 0)
+			(at 25.4 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2916,7 +2957,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 73.66 80.01 0)
+		(at 52.07 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2924,7 +2965,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006258110e")
 		(property "Reference" "BTN2"
-			(at 78.74 78.74 0)
+			(at 57.15 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2932,7 +2973,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 66.04 78.74 0)
+			(at 44.45 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2940,7 +2981,7 @@
 			)
 		)
 		(property "Footprint" "Switch_EVPAA:Switch_EVPAA"
-			(at 73.66 74.93 0)
+			(at 52.07 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2949,7 +2990,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.in/datasheet/2/315/PANA_S_A0001791376_1-2560543.pdf"
-			(at 73.66 74.93 0)
+			(at 52.07 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2958,7 +2999,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 73.66 80.01 0)
+			(at 52.07 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2967,7 +3008,7 @@
 			)
 		)
 		(property "Mouser" "https://www.mouser.in/ProductDetail/Panasonic/EVP-AA302K?qs=qvwOHSmaRMmnf4H35tvzww=="
-			(at 73.66 80.01 0)
+			(at 52.07 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2976,7 +3017,7 @@
 			)
 		)
 		(property "DigiKey" "https://www.digikey.com/en/products/detail/panasonic-electronic-components/EVP-AA302K/2810555"
-			(at 73.66 80.01 0)
+			(at 52.07 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4023,7 +4064,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 73.66 85.725 0)
+		(at 52.07 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4031,7 +4072,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000628c84d7")
 		(property "Reference" "BTN3"
-			(at 78.74 84.455 0)
+			(at 57.15 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4039,7 +4080,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 66.04 84.455 0)
+			(at 44.45 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4047,7 +4088,7 @@
 			)
 		)
 		(property "Footprint" "Switch_EVPAA:Switch_EVPAA"
-			(at 73.66 80.645 0)
+			(at 52.07 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4056,7 +4097,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.in/datasheet/2/315/PANA_S_A0001791376_1-2560543.pdf"
-			(at 73.66 80.645 0)
+			(at 52.07 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4065,7 +4106,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 73.66 85.725 0)
+			(at 52.07 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4074,7 +4115,7 @@
 			)
 		)
 		(property "Mouser" "https://www.mouser.in/ProductDetail/Panasonic/EVP-AA302K?qs=qvwOHSmaRMmnf4H35tvzww=="
-			(at 73.66 85.725 0)
+			(at 52.07 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4083,7 +4124,7 @@
 			)
 		)
 		(property "DigiKey" "https://www.digikey.com/en/products/detail/panasonic-electronic-components/EVP-AA302K/2810555"
-			(at 73.66 85.725 0)
+			(at 52.07 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)

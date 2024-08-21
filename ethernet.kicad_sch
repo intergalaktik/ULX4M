@@ -2358,6 +2358,17 @@
 		)
 		(uuid "1e003993-35dc-4824-9ecf-e4985555fcd9")
 	)
+	(label "ETH_11"
+		(at 157.48 146.05 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "2254a34f-5d77-4d43-b4c8-13e7c38ab966")
+	)
 	(label "MDIO"
 		(at 286.385 138.43 0)
 		(fields_autoplaced yes)
@@ -2479,6 +2490,17 @@
 		)
 		(uuid "607a2963-f90b-483c-b78e-bf22fb7b58f9")
 	)
+	(label "ETH_7"
+		(at 160.02 140.97 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "76014888-0b30-4abd-8c69-f336667330e6")
+	)
 	(label "MDIO"
 		(at 164.465 148.59 180)
 		(fields_autoplaced yes)
@@ -2534,6 +2556,17 @@
 		)
 		(uuid "a4d09ea4-b530-4ec4-9ac4-031630f092ca")
 	)
+	(label "ETH_8"
+		(at 160.02 138.43 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "a644b2b4-6d53-4406-9cf2-abe416e1c4de")
+	)
 	(label "TXD1"
 		(at 164.465 133.35 180)
 		(fields_autoplaced yes)
@@ -2544,6 +2577,17 @@
 			(justify right bottom)
 		)
 		(uuid "b0330f7d-9887-4adf-bd82-4550abc408c6")
+	)
+	(label "ETH_10"
+		(at 157.48 143.51 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "d0142b66-08be-4f5a-9bea-b498a1ad938e")
 	)
 	(label "ACTLED"
 		(at 226.06 167.64 0)
@@ -4277,7 +4321,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006081887b")
 		(property "Reference" "R60"
-			(at 161.29 139.7 90)
+			(at 156.718 140.208 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4285,10 +4329,10 @@
 			)
 		)
 		(property "Value" "10R"
-			(at 161.29 137.16 90)
+			(at 156.718 138.43 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 			)
 		)
@@ -4336,7 +4380,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060818b72")
 		(property "Reference" "R56"
-			(at 150.495 142.24 90)
+			(at 146.558 139.446 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4344,10 +4388,10 @@
 			)
 		)
 		(property "Value" "10R"
-			(at 151.13 139.7 90)
+			(at 146.558 140.97 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 			)
 		)
